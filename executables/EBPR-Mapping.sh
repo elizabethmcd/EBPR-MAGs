@@ -18,7 +18,7 @@ mkdir mappingResults
 
 # Programs
 tar -xvzf BBMap_38.07.tar.gz
-tar -xvzf samtools-1.8.tar.gz
+tar -xvzf samtools.tar.gz
 
 # Copy over assembly and metagenomic read files from Gluster and decompress
 
