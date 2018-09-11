@@ -4,7 +4,7 @@
 universe = vanilla
 log = EBPRmapping_$(Cluster).log
 error = EBPRmapping_$(Cluster)_$(Process).err
-requirements = (Target.HasGluster == true)
+requirements = (OpSys == "LINUX") && (Target.HasGluster == true)
 
 # Exectuables
 executable = executables/EBPR-Mapping.sh
