@@ -4,9 +4,9 @@ These series of workflows demonstrate how to extract, refine, and utilize metage
 
 ## Dependencies 
 
-- BBMap 
-- Samtools 
-- MetaBAT 
+- [BBMap](https://sourceforge.net/projects/bbmap/) 
+- [Samtools](http://www.htslib.org/download/) 
+- [MetaBAT](https://bitbucket.org/berkeleylab/metabat) 
 - ANI Calculator 
 - Anvi'o
 
