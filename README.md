@@ -51,5 +51,33 @@ You will now have a new zipped folder of samtools that has been installed on CHT
 
 ### Binning with MetaBAT
 
+We will bin using MetaBAT and will use the handy dandy docker container for MetaBAT. The MetaBAT pipeline is run as such: 
 
+```
+runMetaBat.sh <options> assembly.fasta sample1.bam sample2.bam [....]
+```
+
+Where for each assembly of contigs, we are calculating the depths of reads mapped from each sample. The arguments thus need to be changed for every assembly, and then all the samples mapped to that assembly. For CHTC to queue from a list of file paths, I believe you have to manually enter the arguments for transfer/running the binning process. Additionally MetaBAT might need python 2.7, therefore python will have to be manually installed on CHTC using an interactive submission. First download python 2.7 from [here](https://www.python.org/downloads/release/python-2715/) and move the tarball to your home directory of CHTC. After submitting the submission script with `condor_submit -i Python-CHTC-install.sub` do the following: 
+
+```
+mkdir python
+tar -xzf Python-2.7.15.tgz
+cd Python-2.7.15
+./configure --prefix=$(pwd)/../python
+make
+make install
+cd ..
+ls python
+ls python/bin
+export PATH=$(pwd)/python/bin:$PATH
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+pip install numpy
+pip install pandas
+tar -czvf python.tar.gz python/
+
+```
+We can also use the Docker version of MetaBAT, so that should work without this, but now we have the python installation in case pandas is needed in the future. 
+
+The script `makeBinningCombos.py` will manually make a text file to queue from, but you can also use bash to call assembly ID's from the BAM files in order to bin the corresponding samples based on their differential coverage of mapped reads to the particular assembly. Either way will work, and having a nice python 2.7 installation will be handy at some point. 
 
