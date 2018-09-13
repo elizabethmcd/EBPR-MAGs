@@ -20,5 +20,5 @@ jgi_summarize_bam_contig_depths --outputDepth $refbase-depth.txt *.bam
 # Run metabat
 metabat2 -i $refbase.a.fna -a $refbase-depth.txt -o $refbase-EBPR-bins/bin
 
-# Move directory back to Gluster 
-cp -r $refbase-EBPR-bins/ /mnt/gluster/emcdaniel/
+# Zip up
+tar -cvf $refbase-EBPR-bins.tar.gz $refbase-EBPR-bins/

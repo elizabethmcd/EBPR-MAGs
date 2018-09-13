@@ -81,3 +81,17 @@ We can also use the Docker version of MetaBAT, so that should work without this,
 
 The script `makeBinningCombos.py` will manually make a text file to queue from, but you can also use bash to call assembly ID's from the BAM files in order to bin the corresponding samples based on their differential coverage of mapped reads to the particular assembly. Either way will work, and having a nice python 2.7 installation will be handy at some point. 
 
+## To Write:
+
+### Quality Check 
+
+### Inspecting Best Bins from Multiple Samples using ANI Comparisons 
+
+### Quality Check 
+
+### Map Metagenomic Reads to all Bins 
+
+### Manually Refine Bins with Anvi'o 
+
+### Reassemble Bins with Long Reads 
+
