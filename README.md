@@ -91,6 +91,10 @@ To run CheckM, we will use Sarah Steven's Docker image and submission scripts fo
 
 ### Inspecting Best Bins from Multiple Samples using ANI Comparisons 
 
+To compare similar bins among the different binning efforts, we will use ANI comparisons to group them into similar bins, and then based off of completion/redundancy estimates, can start to pick the "best" ones. For each of the 11 time points, there are approximately 35-50 bins. We need to do pairwise ANI comparisons for all of the bins to find the similar ones. First rename all of the bins in each of the bin directories with the `makeANIcombos.sh` script. This will append the assembly name the specific bins came from for doing ANI comparisons. This will also need to be pairwise within a sample to know if there are similar organisms within the same time point. 
+
+To schedule mass ANI comparisons on CHTC, we will use Sarah Stevens' [DAG pipeline](https://github.com/sstevens2/ani_compare_dag) for this. The important part is that ANI comparisons can only be run on the nucleotide coding regions and not tRNA/rRNA, so we have to perform gene calling with Prodigal to only get the coding sequences.
+
 ### Co-Assembly with SPAdes
 
 So far we have only worked with single assemblies from each timepoint. This will work well for abundant organisms, especially those with a lot of strain variation (i.e. Accumulibacter). However since we are trying to extract as many high quality bins as possible, having a co-assembly will help these efforts. These single assemblies were done with SPAdes, and not the metaSPAdes version, done at the JGI. We will try to co-assemble with SPAdes as well. This will need to be done on CHTC on one of the high memory nodes. To install: 
@@ -119,10 +123,12 @@ To run the assembly, we need to use one of the high memory nodes at CHTC, which 
 
 ```
 
+Then run the `spades-assembly.sub` submission script, which will run the assembly on a high memory node. Even on a high memory node, this should take some time. Additionally, with this dataset we might have to test with metaSPAdes, although other EBPR people have gotten decent results co-assembling with normal SPAdes. 
+
 ### Check Assembly Quality 
 
 ## To Write:
-### Quality Check 
+### Quality Check of Selected Bins and Bins from Co-Assembly 
 
 ### Map Metagenomic Reads to all Bins 
 

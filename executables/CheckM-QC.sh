@@ -17,5 +17,5 @@ length=$(awk -F', ' '{for(i=1;i<=NF;i++){if ($i ~ /Genome size/){print $i}}}' ou
 complete=$(awk -F', ' '{for(i=1;i<=NF;i++){if ($i ~ /Completeness/){print $i}}}' output/storage/bin_stats_ext.tsv | awk -F': ' '{print $2}')
 contamination=$(awk -F', ' '{for(i=1;i<=NF;i++){if ($i ~ /Contamination/){print $i}}}' output/storage/bin_stats_ext.tsv | awk -F': ' '{print $2}')
 
-mv output/ "${1%.*}"_checkm
-tar -czf "${1%.*}"_checkm.tgz "${1%.*}"_checkm/
+mv output/ $refbase_checkm
+tar -czf $refbase_checkm.tgz $refbase_checkm/

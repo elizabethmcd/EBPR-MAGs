@@ -25,7 +25,7 @@ transfer_input_files = $(binarchive)
 # Tell HTCondor what amount of compute resources
 #  each job will need on the computer where it runs.
 
-request_cpus = 1
+request_cpus = 4
 request_memory = 40GB
 request_disk = 12GB
 #
