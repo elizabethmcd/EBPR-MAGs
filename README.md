@@ -7,7 +7,9 @@ These series of workflows demonstrate how to extract, refine, and utilize metage
 - [BBMap](https://sourceforge.net/projects/bbmap/) 
 - [Samtools](http://www.htslib.org/download/) 
 - [MetaBAT](https://bitbucket.org/berkeleylab/metabat) 
+- CheckM
 - ANI Calculator 
+- [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
 - Anvi'o
 
 ### Filter Raw Metagenomic Sequences 
@@ -79,14 +81,47 @@ tar -czvf python.tar.gz python/
 ```
 We can also use the Docker version of MetaBAT, so that should work without this, but now we have the python installation in case pandas is needed in the future. 
 
-The script `makeBinningCombos.py` will manually make a text file to queue from, but you can also use bash to call assembly ID's from the BAM files in order to bin the corresponding samples based on their differential coverage of mapped reads to the particular assembly. Either way will work, and having a nice python 2.7 installation will be handy at some point. 
-
-## To Write:
+The script `makeBinningCombos.py` will manually make a text file to queue from, but you can also use bash to call assembly ID's from the BAM files in order to bin the corresponding samples based on their differential coverage of mapped reads to the particular assembly. Either way will work, and having a nice python 2.7 installation will be handy at some point. To use the pipeline, pull it down from Github with `git clone https://github.com/sstevens2/checkm-chtc-pipeline.git` into a folder on your home directory of CHTC. 
 
 ### Quality Check 
 
+There will be multiple quality check steps throughout this process, but it's good before any refinement or bin comparisons to have a high-level view of how good these bins are across assemblies/samples. We will use CheckM to assess the completeness and redundancy of the bins, and also get a sense of classifications based on marker genes.
+
+To run CheckM, we will use Sarah Steven's Docker image and submission scripts found [here](https://github.com/sstevens2/checkm-chtc-pipeline). The submission and executable scripts have been modified from Sarah's version to deal with multiple archives of bins to queue from a list of the archives instead of a list of bin fna files.  
+
 ### Inspecting Best Bins from Multiple Samples using ANI Comparisons 
 
+### Co-Assembly with SPAdes
+
+So far we have only worked with single assemblies from each timepoint. This will work well for abundant organisms, especially those with a lot of strain variation (i.e. Accumulibacter). However since we are trying to extract as many high quality bins as possible, having a co-assembly will help these efforts. These single assemblies were done with SPAdes, and not the metaSPAdes version, done at the JGI. We will try to co-assemble with SPAdes as well. This will need to be done on CHTC on one of the high memory nodes. To install: 
+
+```
+wget http://cab.spbu.ru/files/release3.12.0/SPAdes-3.12.0-Linux.tar.gz
+tar -xzf SPAdes-3.12.0-Linux.tar.gz
+```
+
+The binaries will be in `SPAdes-3.12.0-Linux/bin/` to run the assembly and transfer the input executable when running it. 
+
+To run the assembly, we need to use one of the high memory nodes at CHTC, which will change the submission script slightly. The input file to run the assembly is a YAML file: 
+
+```
+
+    [
+      
+      {
+        orientation: "fr",  
+        type: "paired-end",
+        interlaced reads: [
+            "2005-06-14-EBPR.qced.fastq","2007-09-17-EBPR.qced.fastq","2008-04-24-EBPR.qced.fastq","2009-02-02-EBPR.qced.fastq","2010-07-15-EBPR.qced.fastq","2010-10-04-EBPR.qced.fastq","2011-01-10-EBPR.qced.fastq","2012-01-23-EBPR.qced.fastq","2013-05-13-EBPR.qced.fastq","2013-05-23-EBPR.qced.fastq"
+        ]
+      }
+    ]
+
+```
+
+### Check Assembly Quality 
+
+## To Write:
 ### Quality Check 
 
 ### Map Metagenomic Reads to all Bins 
@@ -94,4 +129,12 @@ The script `makeBinningCombos.py` will manually make a text file to queue from, 
 ### Manually Refine Bins with Anvi'o 
 
 ### Reassemble Bins with Long Reads 
+
+### Classification and Phylogenetic Relationships 
+
+### Functional Annotation 
+
+### Incorporating Metatranscriptomic Datasets 
+
+### Metabolic Pathway Prediction 
 
