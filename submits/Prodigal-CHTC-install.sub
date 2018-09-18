@@ -1,0 +1,22 @@
+# Samtools Interactive Installation Submission 
+# Referencing http://chtc.cs.wisc.edu/inter-submit.shtml
+
+# logfile
+log = interactive.log
+
+# STD out
+output = process.out
+error = process.err
+
++IsBuildJob = true
+requirements = (OpSysMajorVer =?= 7) && ( IsBuildSlot == true )
+
+# Transfer for interactive installation 
+transfer_input_files = Prodigal.tar.gz
+
+# compute resources 
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+
+queue 

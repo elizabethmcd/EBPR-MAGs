@@ -5,6 +5,7 @@ archive=$1
 archbase=$(basename $1)
 tar -xvf $archbase
 refbase=$(basename $archbase .tar.gz)
+mkdir $refbase_checkm
 for filename in $refbase/*.fa; do cp $filename ${filename%.fa}.fna; done
 for filename in $refbase/*.fna; do cp $filename input/; done
 

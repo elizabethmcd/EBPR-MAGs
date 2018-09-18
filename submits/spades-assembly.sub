@@ -19,7 +19,7 @@ output = assembly_$(Cluster).out
 #  computer where each job runs.
 # should_transfer_files
 # when_to_transfer_output
-transfer_input_files = /home/emcdaniel/SPAdes-3.12.0-Linux/bin/spades.py
+transfer_input_files = /home/emcdaniel/SPAdes-3.12.0-Linux.tar.gz
 # transfer_output_files 
 #
 # Tell HTCondor what amount of compute resources

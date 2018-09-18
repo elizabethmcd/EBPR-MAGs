@@ -8,6 +8,7 @@ These series of workflows demonstrate how to extract, refine, and utilize metage
 - [Samtools](http://www.htslib.org/download/) 
 - [MetaBAT](https://bitbucket.org/berkeleylab/metabat) 
 - CheckM
+- [Prodigal](https://github.com/hyattpd/Prodigal)
 - ANI Calculator 
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
 - Anvi'o
@@ -94,6 +95,66 @@ To run CheckM, we will use Sarah Steven's Docker image and submission scripts fo
 To compare similar bins among the different binning efforts, we will use ANI comparisons to group them into similar bins, and then based off of completion/redundancy estimates, can start to pick the "best" ones. For each of the 11 time points, there are approximately 35-50 bins. We need to do pairwise ANI comparisons for all of the bins to find the similar ones. First rename all of the bins in each of the bin directories with the `makeANIcombos.sh` script. This will append the assembly name the specific bins came from for doing ANI comparisons. This will also need to be pairwise within a sample to know if there are similar organisms within the same time point. 
 
 To schedule mass ANI comparisons on CHTC, we will use Sarah Stevens' [DAG pipeline](https://github.com/sstevens2/ani_compare_dag) for this. The important part is that ANI comparisons can only be run on the nucleotide coding regions and not tRNA/rRNA, so we have to perform gene calling with Prodigal to only get the coding sequences.
+
+First make a file listing the directories of bins with the files ending in `.fna`, such as: 
+
+```
+/home/emcdaniel/EBPR-Bins-NUCS/3300009517
+/home/emcdaniel/EBPR-Bins-NUCS/3300026282
+/home/emcdaniel/EBPR-Bins-NUCS/3300026283
+/home/emcdaniel/EBPR-Bins-NUCS/3300026284
+/home/emcdaniel/EBPR-Bins-NUCS/3300026286
+/home/emcdaniel/EBPR-Bins-NUCS/3300026287
+/home/emcdaniel/EBPR-Bins-NUCS/3300026288
+/home/emcdaniel/EBPR-Bins-NUCS/3300026289
+/home/emcdaniel/EBPR-Bins-NUCS/3300026299
+/home/emcdaniel/EBPR-Bins-NUCS/3300026302
+/home/emcdaniel/EBPR-Bins-NUCS/3300026303
+```
+
+Then use Prodigal to create fna files for each bin only containing coding sequences, so each timepoint can be compared pairwise against all other bins only for the coding regions using the ANI comparison tool. Get Prodigal from [here](https://github.com/hyattpd/Prodigal). To install, do the following with an interactive job submission: 
+
+```
+git clone https://github.com/hyattpd/Prodigal.git
+tar -cvf Prodigal.tar.gz Prodigal/
+condor_submit -i Prodigal-CHTC-install.sub
+# in interactive session
+tar -xvf Prodigal.tar.gz
+mkdir prodigal
+cd Prodigal
+make install INSTALLDIR=../prodigal/
+cd ..
+tar -cvf prodigal.tar.gz prodigal/
+exit
+```
+Once you have the coding sequences for the bins, pairwise ANI comparisons can be run for all bins extracted from all time points. 
+
+First get the ANI calculator and unpack to your home folder of CHTC and clone the ANI DAG: 
+
+```
+wget https://ani.jgi-psf.org/download_files/ANIcalculator_v1.tgz
+tar -xzvf ANIcalculator_v1.tgz
+git clone https://github.com/sstevens2/ani_compare_dag.git
+```
+
+Then decompress the prodigal fna ran files and move the directories into the ANI DAG folder. For each bin directory, make a file listing the bins for each time point in this manner: 
+
+```
+for a in $(awk '{print $1}' list-of-files.txt); 
+    do for b in $(awk '{print $2}' list-of-files.txt); 
+        do echo $a-vs-$b | xargs -n1 | sort -u | xargs; 
+    done; 
+done > allcombos.txt
+```
+
+Then manually remove the duplicate lines of same-vs-same, because the ANI comparisons won't like performing those and it's a waste to run ANI comparisons within the same timepoint. The runAll by default can perform this as well. Make directories of each combination by: 
+
+```
+while read line;
+    do mkdir $line;
+done < allcombos.txt
+
+```
 
 ### Co-Assembly with SPAdes
 
