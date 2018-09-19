@@ -88,7 +88,7 @@ The script `makeBinningCombos.py` will manually make a text file to queue from, 
 
 There will be multiple quality check steps throughout this process, but it's good before any refinement or bin comparisons to have a high-level view of how good these bins are across assemblies/samples. We will use CheckM to assess the completeness and redundancy of the bins, and also get a sense of classifications based on marker genes.
 
-To run CheckM, we will use Sarah Steven's Docker image and submission scripts found [here](https://github.com/sstevens2/checkm-chtc-pipeline). The submission and executable scripts have been modified from Sarah's version to deal with multiple archives of bins to queue from a list of the archives instead of a list of bin fna files.  
+To run CheckM, we will use Sarah Steven's Docker image and submission scripts found [here](https://github.com/sstevens2/checkm-chtc-pipeline). Move all the bins to a references directory, but rename them before with the `makeANIcombos.sh` script, which will give each bin the name of the assembly timepoint it came from. Additionally, can also just do it this way for ANI comparisons by dumping all of the prodigal predicted genomes into one directory for all-v-all. However, then it will do comparisons within the same group, as in the same cmparisons of bins in a timepoint, so it will take a bit longer.   
 
 ### Inspecting Best Bins from Multiple Samples using ANI Comparisons 
 
@@ -156,6 +156,8 @@ done < allcombos.txt
 
 ```
 
+While it could be done this way, all the bins can just be dumped into one directory for all-v-all comparisons. That way less work is done for splitting things into different directories. This will also give comparisons for within a timepoint, but then we know if there are multiple "similar" organisms in a single timepoint. 
+
 ### Co-Assembly with SPAdes
 
 So far we have only worked with single assemblies from each timepoint. This will work well for abundant organisms, especially those with a lot of strain variation (i.e. Accumulibacter). However since we are trying to extract as many high quality bins as possible, having a co-assembly will help these efforts. These single assemblies were done with SPAdes, and not the metaSPAdes version, done at the JGI. We will try to co-assemble with SPAdes as well. This will need to be done on CHTC on one of the high memory nodes. To install: 
@@ -189,6 +191,9 @@ Then run the `spades-assembly.sub` submission script, which will run the assembl
 ### Check Assembly Quality 
 
 ## To Write:
+
+### Parsing ANI Comparisons and CheckM Estimates Across Time Points 
+
 ### Quality Check of Selected Bins and Bins from Co-Assembly 
 
 ### Map Metagenomic Reads to all Bins 
@@ -199,9 +204,16 @@ Then run the `spades-assembly.sub` submission script, which will run the assembl
 
 ### Classification and Phylogenetic Relationships 
 
+### Identifying Accumulibacter Bins
+
+- Check by ANI
+- Check by BLAST of _ppk1_ genes
+
 ### Functional Annotation 
 
 ### Incorporating Metatranscriptomic Datasets 
 
 ### Metabolic Pathway Prediction 
+
+### Putative Interactions
 

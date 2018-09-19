@@ -18,7 +18,7 @@ output = prodigal_$(Cluster).out
 #  computer where each job runs.
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
-transfer_input_files = $(binarchive),prodigal.tar.gz
+transfer_input_files = $(binarchive),software/prodigal.tar.gz
 #transfer_output_files = 
 #
 # Tell HTCondor what amount of compute resources

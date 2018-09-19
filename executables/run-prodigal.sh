@@ -6,7 +6,7 @@ base=$(basename $1)
 mkdir $base-NUCS
 cd $base
 for file in *.fna; do
-    ../prodigal/./prodigal -i $file -o ../$base-NUCS/$file-genes.fna;
+    ../prodigal/./prodigal -i $file -d ../$base-NUCS/$file-genes.fna;
 done
 
 cd ..
