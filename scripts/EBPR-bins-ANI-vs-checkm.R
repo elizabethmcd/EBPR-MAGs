@@ -35,4 +35,5 @@ greater90comp = full %>% filter(completeness1 > 90 | completeness2 > 90)
 identical = greater90comp %>% filter(ANI1 > 99 | ANI2 > 99)
 
 # write out file
-write.table(identical, file="identical-bins.txt", sep="\t")
+write.table(identical, file="identical-bins.txt", sep="\t", row.names=FALSE)
+  
