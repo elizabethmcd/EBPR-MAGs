@@ -2,15 +2,16 @@
 
 # Packages
 library(dplyr)
-args = commandArgs(trailingOnly=TRUE)
+library(data.table)
+library(igraph)
 
-options( warn = -1 )
-
+options( warn = -1 ) 
 # Read in datasets
-all_ani = read.delim(args[1], sep="\t", header=FALSE)
-checkm_results = read.delim(args[2], sep=' ', header=FALSE)
+all_ani = read.delim("results/EBPR-BINS.all.ani.out.cleaned", sep="\t", header=FALSE)
+checkm_results = read.delim("results/EBPR-bins-checkm-results.txt", sep=' ', header=FALSE)
 colnames(all_ani) = c("bin", "bin2", "ANI1", "ANI2", "AF1", "AF2")
 colnames(checkm_results) = c("bin", "classification", "size", "completeness", "redundancy")
+checkm_results$size = checkm_results$size/1000000
 
 # get rid of file extensions in all_ani file
 all_ani$bin = gsub(".fna-genes.fna", "", all_ani$bin)
@@ -34,7 +35,17 @@ greater90comp = full %>% filter(completeness1 > 90 | completeness2 > 90)
 # Parse out the identical ones
 identical = greater90comp %>% filter(ANI1 > 99 | ANI2 > 99)
 
-# write out file
-write.table(identical, file="results/identical-bins.txt", sep="\t", row.names=FALSE)
-write.csv(identical, file="results/identical-bins.csv", sep=",", row.names=FALSE)
-  
+# Parse between 95 and 97%, within the same species, but also need to look at within the same sample 
+actino = greater90comp %>% filter(classf1 == "'o__Actinomycetales'" & classf2 == "'o__Actinomycetales'")
+xantho = greater90comp %>% filter(classf1 == "'f__Xanthomonadaceae'" & classf2 == "'f__Xanthomonadaceae'")
+ctyo = greater90comp %>% filter(classf1 == "'o__Cytophagales'" & classf2 == "'o__Cytophagales'")
+
+# Generate a graph from the dataframe to get high matching sets - idea from Ben
+adjacency.graph = graph_from_data_frame(identical)
+HMS.ID = data.frame(paste("HMS.", clusters(adjacency.graph)$membership, sep=""), names(clusters(adjacency.graph)$membership), stringsAsFactors=FALSE)
+names(HMS.ID) = c("HMS", "bin")
+HMS.ID = HMS.ID %>% arrange(HMS)
+
+# write out files
+write.table(identical, file="identical-bins.txt", sep="\t", row.names=FALSE)
+write.csv(file="output.HMS", HMS.ID, row.names=FALSE)
