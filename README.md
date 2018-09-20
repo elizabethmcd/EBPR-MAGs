@@ -190,9 +190,22 @@ Then run the `spades-assembly.sub` submission script, which will run the assembl
 
 ### Check Assembly Quality 
 
-## To Write:
-
 ### Parsing ANI Comparisons and CheckM Estimates Across Time Points 
+
+In order to pick identical bins between timepoints, ANI comparisons and CheckM estimates will be leveraged. From the ANI and CheckM analyses, there should be two output files: the all.cleaned ANI file and the concatenated `lineage.txt` files for all CheckM runs of the bins. Using the Rscript `EBPR-bins-ANI-vs-checkm.R` by `Rscript EBPR-bins-ANI-vs-checkm.R anifile checkmfile` and you shoudl get an output of identical bins by the 99% ANI threshold and greater than .50 alignment fraction in one direction, and then can pick bins that way. 
+
+### N50 Stats
+
+In addition to picking bins by ANI/completion, in cases where it isn't clear which bin is best based off of ANI values, CheckM estimates, or genome size, use the N50 estimates. To do this, you need the `statswrapper.sh` script from the BBTools suite. Make a list of all bins, and make sure they are coded with their assembly timepoint from which they originated. Run the following: 
+
+```
+list=list-of-bins.txt
+while read "file"; do /Volumes/mcmahonlab/home/emcdaniel/Software/bbmap/statswrapper.sh in="$file"; done <"$list" > all-bins-stats.txt
+```
+
+This will create a tab-delimited file of stats for each bin, and can then be added to the master file for comparing identical bins and picking the "best" one. With the N50 stats, the Rscript can be run as follows: `Rscript scripts/EBPR-bins-ANI-vs-checkm.R results/EBPR-BINS.all.ani.out.cleaned results/EBPR-bins-checkm-results.txt results/all-bins-stats.txt`. With the order of the arguments being `anifile checkmfile statsfile`. Use these combinations to pcik the "best" bin in a high matching set. 
+
+## To Write:
 
 ### Quality Check of Selected Bins and Bins from Co-Assembly 
 
