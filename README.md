@@ -205,6 +205,15 @@ while read "file"; do /Volumes/mcmahonlab/home/emcdaniel/Software/bbmap/statswra
 
 This will create a tab-delimited file of stats for each bin, and can then be added to the master file for comparing identical bins and picking the "best" one. With the N50 stats, the Rscript can be run as follows: `Rscript scripts/EBPR-bins-ANI-vs-checkm.R results/EBPR-BINS.all.ani.out.cleaned results/EBPR-bins-checkm-results.txt results/all-bins-stats.txt`. With the order of the arguments being `anifile checkmfile statsfile`. Use these combinations to pcik the "best" bin in a high matching set. 
 
+Additionally for further quality control, the Rscript `checkm-get-less-50-complete.R` will output a liss of the .fna files/bins with less than 50% completeness to completely toss - which should've just been done before the ANI comparisons to lessen the amount of jobs and data to parse through. In a directory of all the bins together, move to `crap-bins` directory by: 
+
+```
+craplist=less-than-50-complete-bins.txt
+while read "file"; do mv $file ../crap-bins/; done <"$craplist" 
+```
+
+
+
 ## To Write:
 
 ### Quality Check of Selected Bins and Bins from Co-Assembly 
