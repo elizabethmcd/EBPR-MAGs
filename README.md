@@ -212,17 +212,25 @@ craplist=less-than-50-complete-bins.txt
 while read "file"; do mv $file ../crap-bins/; done <"$craplist" 
 ```
 
-
+Note: This can probably much easier be done with a bash script to identify less than 50% complete from the file and not make an intermediate file like this. Whatever, I always realize I could've used bash after I've done the thing.
+ 
+To manually pick bins, I'm about to do something very forbidden and not reproducible whatsoever - use Excel and highlight bins as I go along. This will help me keep track of comparisons and which ones to use. Then I will have to manually move things around as well. I'll figure out a best practice for this eventually. 
 
 ## To Write:
 
 ### Quality Check of Selected Bins and Bins from Co-Assembly 
 
+### Preliminary Classification
+
 ### Map Metagenomic Reads to all Bins 
+
+- Also compare assembly methods from my vs. Pancho's efforts
 
 ### Manually Refine Bins with Anvi'o 
 
 ### Reassemble Bins with Long Reads 
+
+- Have to find the accession numbers for raw reads
 
 ### Classification and Phylogenetic Relationships 
 
