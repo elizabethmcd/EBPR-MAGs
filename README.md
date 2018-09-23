@@ -214,7 +214,7 @@ while read "file"; do mv $file ../crap-bins/; done <"$craplist"
 
 Note: This can probably much easier be done with a bash script to identify less than 50% complete from the file and not make an intermediate file like this. Whatever, I always realize I could've used bash after I've done the thing.
  
-To manually pick bins, I'm about to do something very forbidden and not reproducible whatsoever - use Excel and highlight bins as I go along. This will help me keep track of comparisons and which ones to use. Then I will have to manually move things around as well. I'll figure out a best practice for this eventually. 
+Bins will have to be manually picked by identifying identical bins and choosing the best one based off of size, completeness, redundancy, and N50/L50 scores. Then the unique bins can be chosen by what is missing in the "identical" dataset. To be certain that you have dereplicated bins, re-run the ANI/CheckM steps on that subset and check the output. 
 
 ## To Write:
 
