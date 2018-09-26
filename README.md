@@ -179,7 +179,7 @@ To run the assembly, we need to use one of the high memory nodes at CHTC, which 
         orientation: "fr",  
         type: "paired-end",
         interlaced reads: [
-            "2005-06-14-EBPR.qced.fastq","2007-09-17-EBPR.qced.fastq","2008-04-24-EBPR.qced.fastq","2009-02-02-EBPR.qced.fastq","2010-07-15-EBPR.qced.fastq","2010-10-04-EBPR.qced.fastq","2011-01-10-EBPR.qced.fastq","2012-01-23-EBPR.qced.fastq","2013-05-13-EBPR.qced.fastq","2013-05-23-EBPR.qced.fastq"
+            "2005-06-14-EBPR.qced.fastq","2007-09-17-EBPR.qced.fastq","2008-04-24-EBPR.qced.fastq","2009-02-02-EBPR.qced.fastq","2010-07-15-EBPR.qced.fastq","2010-10-04-EBPR.qced.fastq","2011-01-10-EBPR.qced.fastq","2012-01-23-EBPR.qced.fastq","2013-05-13-EBPR.qced.fastq","2013-05-23-EBPR.qced.fastq", "2013-05-28-EPBR.qced.fastq"
         ]
       }
     ]
@@ -216,15 +216,19 @@ Note: This can probably much easier be done with a bash script to identify less 
  
 Bins will have to be manually picked by identifying identical bins and choosing the best one based off of size, completeness, redundancy, and N50/L50 scores. Then the unique bins can be chosen by what is missing in the "identical" dataset. To be certain that you have dereplicated bins, re-run the ANI/CheckM steps on that subset and check the output. 
 
-## To Write:
-
 ### Quality Check of Selected Bins and Bins from Co-Assembly 
+
+Re-run CheckM/ANI/N50stats and the corresponding R script to get the final statistics on the selected bins to make sure there are no duplicates and they are of high enough quality going forward. 
 
 ### Preliminary Classification
 
+- DAG to go through classifying contigs > bins, compared to GTDB-tk output
+
 ### Map Metagenomic Reads to all Bins 
 
-- Also compare assembly methods from my vs. Pancho's efforts
+Now we will map all the metagenomic reads to the extracted bins to make sure we have a representative set of the whole community and each time point since most of these bins weren't extracted from a coassembly binning strategy. 
+
+- Map reads, get coverage for all time points, split assemb # - vs - bin, key for assemb # and time point
 
 ### Manually Refine Bins with Anvi'o 
 
@@ -233,6 +237,8 @@ Bins will have to be manually picked by identifying identical bins and choosing 
 - Have to find the accession numbers for raw reads
 
 ### Classification and Phylogenetic Relationships 
+
+- GTDB, make docker image and test-run on condor
 
 ### Identifying Accumulibacter Bins
 

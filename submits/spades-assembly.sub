@@ -12,23 +12,23 @@ requirements = (OpSysMajorVer == 7) && (Target.HasGluster == true)
 # Specify your executable, arguments, and a file for HTCondor to store standard
 #  output.
 executable = executables/run-spades-assembly.sh
-# arguments = 
+# arguments =
 output = assembly_$(Cluster).out
 #
 # Specify that HTCondor should transfer files to and from the
 #  computer where each job runs.
 # should_transfer_files
 # when_to_transfer_output
-transfer_input_files = /home/emcdaniel/SPAdes-3.12.0-Linux.tar.gz
-# transfer_output_files 
+transfer_input_files = /home/emcdaniel/SPAdes-3.12.0-Linux.tar.gz,/home/emcdaniel/EBPR-reads-to-assemble.yaml
+# transfer_output_files
 #
 # Tell HTCondor what amount of compute resources
 #  each job will need on the computer where it runs.
 
-# Requesting a high memory node 
-request_cpus = 20
-request_memory = 300GB
+# Requesting a high memory node
+request_cpus = 16
+request_memory = 500GB
 request_disk = 1000GB
 
-# Not queuing because need to transfer and run all fastq files at same time for a coassembly 
+# Not queuing because need to transfer and run all fastq files at same time for a coassembly
 queue
