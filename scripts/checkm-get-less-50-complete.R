@@ -22,7 +22,10 @@ p2 <- p1 + theme_bw() + theme(legend.position="none")
 # Get a list of bins that are less than 50% complete to toss out of everything
 less50 <- lindf %>% filter(Completeness < 50.00)
 less50$Bin <- paste(less50$Bin, ".fna", sep="")
+greater90 = lindf %>% filter(Completeness > 90.00)
 final <- less50$Bin
 head(final)
 write.table(final, file="less-than-50-complete-bins.txt", sep="\t", row.names=FALSE, quote=FALSE)
+write.csv(greater90, file="greater-90-complete-bins.csv", row.names=FALSE, quote=FALSE)
+
 

@@ -238,6 +238,10 @@ Submit the submission script `mapMetasToRefs.sub`. This script will queue the jo
 
 ### Manually Refine Bins with Anvi'o 
 
+In order to make these bins as high of quality as possible, we will manually refine each bin in the de-duplicated set to make sure everything looks okay before scaffolding with PacBio reads. In order to do so, I will be roughly following the Anvi'o [Metagenomic Workflow](http://merenlab.org/2016/06/22/anvio-tutorial-v2/) to do so. Usually what Meren's lab recommends is performing a coassembly, mapping the reads back to the coassembly, and getting bins. This way you would input all sorted/indexed BAM files along with the contigs, and then also provide the bin collection saying which contigs ended up in which bins. Since I mapped each timepoint back to the individual assemblies, and de-replicated bins based on the "best" one in a particular timepoint, this scenario is a little different. I could take from the output of MetaBAT and only include the contigs that went into the bins I selected, but I forsee a couple of problems with the interactive interface since I had to manually pick bins. Instead, I will do it the opposite way, where instead of creating a contigs/profile database for the entire metagenome, and then using `anvi-refine` for each individual bin, I believe I can create contigs/profile databases for each individual bin. This would work by mapping all the metagenomic timepoint reads to each bin of contigs. Then I would have the sorted/indexed BAM files for each sample, and the contigs file for the bin. So in the interactive interface, I would be looking at the splits for a single bin, and not have to do the extra step of specifying which bin in the metagenomic workflow to refine, because I will have ~60 profile/contig databases to each individually sift through. To get the indexed/sorted BAM files, mapping jobs will be queued on CHTC by reference bin. 
+
+- Now that I think about it, I should combine this step with the above one, and just have multiple folders of the sorted/indexed BAM file, and the stats file for that reference bin over time. I will fix that later. 
+
 - Write CHTC workflow to queue by bin, map reads from all timepoints, bring back folder with mapped reads and genome bin file, run anvi'o pipeline to get contigs/profile databases to view each genome manually 
 
 ### Reassemble Bins with Long Reads 
@@ -274,3 +278,4 @@ Submit the submission script `mapMetasToRefs.sub`. This script will queue the jo
 
 ### Putative Interactions
 
+### Depositing Genome Drafts to Public Repository 
