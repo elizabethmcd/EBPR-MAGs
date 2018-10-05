@@ -1,10 +1,10 @@
 # Extracting Metagenome Assembled Genomes from EBPR Enrichment Reactor Time-Series 
 
-These series of workflows demonstrate how to extract, refine, and utilize metagenome assembled genomes (MAGs) from a metagenomic time-series of EBPR reactors. Most of the workflow was constructed to be run on a high-throughput computing system, specifically [CHTC at UW-Madison](http://chtc.cs.wisc.edu/). 
+This series of workflows demonstrate how to extract, refine, and utilize metagenome assembled genomes (MAGs) from a metagenomic time-series of EBPR reactors. Most of the workflow was constructed to be run on a high-throughput computing system, specifically [CHTC at UW-Madison](http://chtc.cs.wisc.edu/). 
 
 ## Dependencies 
 
-- [BBMap](https://sourceforge.net/projects/bbmap/) 
+- [BBTools Suite](https://sourceforge.net/projects/bbmap/) 
 - [Samtools](http://www.htslib.org/download/) 
 - [MetaBAT](https://bitbucket.org/berkeleylab/metabat) 
 - CheckM
@@ -190,6 +190,10 @@ Then run the `spades-assembly.sub` submission script, which will run the assembl
 
 ### Check Assembly Quality 
 
+To compare assemblies, use the program Quast for a preliminary look at the assembly statistics. The ultimate measure of assembly quality is number of reads mapping back to the assembly, but this is good for comparing different assembly methods at first. The usage for checking metagenomic assemblies is `./metaquast <contig-assemblies-to-report-on>`. Note that part of this tool uses BLAST, and can take quite a long time for two metagenomic assembly comparisons/statistics. I've only run this with 1 thread and very little memory, and it took over 2 hours to get past the BlastN step. Additionally, it calls references from the NCBI database, and then maps the contigs to the databases for assembly quality. Which seems to be a waste of time for just checking over and over again the quality of the co-assembly with different parameters, since I'm having to _de novo_ assemble everything anyways.  
+
+Additionally the N50 stats can probably just be calculated from the `statswrapper.sh` in the BBTool suite. So that's a better way to get a quick look at the N50 statistics 
+
 ### Parsing ANI Comparisons and CheckM Estimates Across Time Points 
 
 In order to pick identical bins between timepoints, ANI comparisons and CheckM estimates will be leveraged. From the ANI and CheckM analyses, there should be two output files: the all.cleaned ANI file and the concatenated `lineage.txt` files for all CheckM runs of the bins. Using the Rscript `EBPR-bins-ANI-vs-checkm.R` by `Rscript EBPR-bins-ANI-vs-checkm.R anifile checkmfile` and you should get an output of identical bins by the 99% ANI threshold and greater than .50 alignment fraction in one direction, and then can pick bins that way. 
@@ -218,27 +222,37 @@ Bins will have to be manually picked by identifying identical bins and choosing 
 
 ### Quality Check of Selected Bins and Bins from Co-Assembly 
 
-Re-run CheckM/ANI/N50stats and the corresponding R script to get the final statistics on the selected bins to make sure there are no duplicates and they are of high enough quality going forward. 
-
-### Preliminary Classification
-
-- DAG to go through classifying contigs > bins, compared to GTDB-tk output
+Re-run CheckM/ANI/N50stats and the corresponding R script to get the final statistics on the selected bins to make sure there are no duplicates and they are of high enough quality going forward. The CheckM/ANI/N50 steps are repeated until you are left with a non-redundant set of high-quality bins that you think comprise the community. The ultimate check if a set of bins truly represents the community is mapping back reads from all timepoints to the set of selected bins.
 
 ### Map Metagenomic Reads to all Bins 
 
 Now we will map all the metagenomic reads to the extracted bins to make sure we have a representative set of the whole community and each time point since most of these bins weren't extracted from a coassembly binning strategy. 
 
-- Map reads, get coverage for all time points, split assemb # - vs - bin, key for assemb # and time point
+From the directories in which the metagenomic reads reside: (Make sure don't have any other important metagenome Lists that you are overwriting)
+
+```
+ls $PWD/*.qced.fastq > ~/metagenomeList.txt
+```
+
+Submit the submission script `mapMetasToRefs.sub`. This script will queue the jobs by metagenomic timepoint, mapping the reads from that timepoint to all the reference genome bins. It will create sorted BAM files and depth files, from which statistics about coverage of reads mapping to each bin will be deposited in `YYYY-MM-DD-EBPR.coverage.txt` files, so each coverage file is split by timepoint as well. Which I'll decide later if I should've also qeued these jobs by reference genome instead so that the coverage files are split by bin and not by timepoint, and therefore easier to parse later. 
 
 ### Manually Refine Bins with Anvi'o 
+
+- Write CHTC workflow to queue by bin, map reads from all timepoints, bring back folder with mapped reads and genome bin file, run anvi'o pipeline to get contigs/profile databases to view each genome manually 
 
 ### Reassemble Bins with Long Reads 
 
 - Have to find the accession numbers for raw reads
+- 2018-10-03: PacBio filtered reads have been found, need to download and look at methods for hybrid assembly of short reads with long reads, or scaffolding the bins and not complete reassembly 
+
+### Preliminary Classification
+
+- DAG to go through classifying contigs > bins, compared to GTDB-tk output
 
 ### Classification and Phylogenetic Relationships 
 
 - GTDB, make docker image and test-run on condor
+- compare to classifications made through JGI pipeline
 
 ### Identifying Accumulibacter Bins
 
@@ -247,7 +261,14 @@ Now we will map all the metagenomic reads to the extracted bins to make sure we 
 
 ### Functional Annotation 
 
+- Prokka easy way 
+- GhostKOALA for KEGG modules, metabolic pathways
+- Others for interest in other annotations? 
+
 ### Incorporating Metatranscriptomic Datasets 
+
+- Filter, map, normalize
+- Get data output into pretty forms 
 
 ### Metabolic Pathway Prediction 
 
