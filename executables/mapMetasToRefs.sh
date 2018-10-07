@@ -3,15 +3,10 @@
 # Run mapping of short metagenomic reads to reference genomes, calculate statistics
 # Queues by metagenomic timepoint sample
 
-# Metareads
-meta=$1
-metabase=$(basename $1 .qced.fastq)
-
 # Setup 
 mkdir metagenomes
 mkdir refs
-resultsDir=$metabase-mappingResults 
-mkdir $resultsDir
+mkdir mappingResults 
 
 # Programs 
 tar -xvzf BBMap_38.07.tar.gz
@@ -25,24 +20,32 @@ export HOME=$(pwd)/home
 chmod u+x *.py
 
 # Copy over metagenomic reads and refined bin set
-cp $1 metagenomes/
-cp /mnt/gluster/emcdaniel/all-man-refined-bins/*.fna refs/.
+ref=$1
+cp $1 refs/
+refbase=$(basename $1 .fna)
+cp /mnt/gluster/emcdaniel/EBPR-Metagenomes/*.qced.fastq metagenomes/.
 
 # Perform mapping for every reference 
-for file in refs/*.fna; do
-    refbase=$(basename $file .fna);
-    bbmap/bbmap.sh ref=$file in=metagenomes/$meta outm=$resultsDir/$refbase-vs-$metabase.bam idtag minid=0.95 nodisk -Xmx48g;
+for file in metagenomes/*.qced.fastq; do
+    metabase=$(basename $file .qced.fastq);
+    bbmap/bbmap.sh ref=refs/$ref in=metagenomes/$file outm=mappingResults/$refbase-vs-$metabase.bam idtag minid=0.95 nodisk -Xmx48g;
 done 
 
 # Sorted BAM files
 for file in mappingResults/*.bam; do
-    ./samtools/bin/samtools sort $file -o $resultsDir/${file%.bam}.sorted.bam
+    ./samtools/bin/samtools sort $file -o mappingResults/${file%.bam}.sorted.bam
 
 # Get depth 
-for file in mappingResults/*.sorted.bam; do
+for file in $resultsDir/*.sorted.bam; do
     outname="${filename%.*}".depth;
-    samtools depth $file > $resultsDir/$outname;
+    ./samtools/bin/samtools depth $file > mappingResults/$outname;
 done 
+
+# Sorted, indexed BAM file
+for file in mappingResults/*.sorted.bam; do
+    outname="${filename%.*}".sorted.indexed.bam;
+    ./samtools/bin/samtools index $file > mappingResults/$outname;
+done
 
 # Reference lengths file 
 for file in refs/*.fna; do
@@ -56,15 +59,18 @@ for file in metagenomes/*.fastq; do
 done
 
 # Create stats file 
-for file in $resultsDir/*.depth; do
+for file in mappingResults/*.depth; do
     python calc-mapping-stats.py $file; 
 done
 
 # Bring back statistics, don't need the mapped results when just want depth/relative abundance/ANI/PID metrics
 # If need mapped reads in directories with bins, see the RefiningBins scripts/workflow
-cp coverage.txt /mnt/gluster/emcdaniel/.
+mkdir $refbase-results
+mv coverage.txt $refbase-results/
+mv mappingResults/*.sorted.index.bam $refbase-results/
+cp -r $refbase-results/ /mnt/gluster/emcdaniel/.
 
 # Cleanup
 rm *.py
 rm *.tar.gz
-rm -rf metagenomes/ refs/ $resultsDir
+rm -rf metagenomes/ refs/ $resultsDir/ $refbase-results/
