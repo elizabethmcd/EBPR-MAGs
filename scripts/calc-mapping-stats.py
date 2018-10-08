@@ -35,7 +35,7 @@ if __name__ == "__main__":
     metaReadsFile.close()
     
     # File empty if no reads recruited, otherwise not empty
-    outname = meta + ".coverage.txt"
+    outname = ref + ".coverage.txt"
     if os.stat(filename).st_size ==0:
         if os.path.exists(outname):
             with open(outname, "a") as outfile: 
