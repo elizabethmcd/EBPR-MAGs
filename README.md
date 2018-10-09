@@ -226,12 +226,13 @@ Re-run CheckM/ANI/N50stats and the corresponding R script to get the final stati
 
 ### Map Metagenomic Reads to all Bins 
 
-Now we will map all the metagenomic reads to the extracted bins to make sure we have a representative set of the whole community and each time point since most of these bins weren't extracted from a coassembly binning strategy. 
+Now we will map all the metagenomic reads to the extracted bins to make sure we have a representative set of the whole community and each time point since most of these bins weren't extracted from a coassembly binning strategy. Since CHTC only has 2/3 servers that can pull from Gluster AND have enough disk space (~500GB) to perform mapping by timepoint, every meta to reference mapping comparison will have to be split up into individual jobs. To set this up, we will run the `makeMappingCombos.py` script on a list of references and metagenomes like when mapping the metagenomes to the assemblies. This will also make the file output name much easier since the script does that as well. **Make sure you have enough disk/directory quota space on Gluster when transferring files back**. For example, 50 bins with 10 metagenomic time points is 500 jobs/tarballed directories to move back to Gluster with the coverage stats and sorted/indexed BAM file for that time point mapped to the specific bin. 
 
-From the directories in which the bins reside:
+From the directories in which the bins and QCed metagenomes reside: 
 
 ```
-ls $PWD/*.fna > ~/binsList.txt
+ls $PWD/*.fna > ~/refList.txt
+ls $PWD/*.qced.fastq > ~/metagenomeList.txt
 ```
 
 Submit the submission script `mapMetasToRefs.sub`. This script will queue the jobs by bin, mapping the reads fomr each timepoint to the particular bin. It will create sorted BAM files and depth files, from which statistics will be deposited in `refname.coverage.txt` on Gluster. Additionally in the folder for each reference genome will be the sorted, indexed BAM file for manually refining each bin using Anvi'o. 

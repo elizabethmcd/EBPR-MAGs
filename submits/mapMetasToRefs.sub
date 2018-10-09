@@ -19,7 +19,7 @@ transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz,/home/emcdani
 # Compute resources 
 request_cpus = 4
 request_memory = 50GB
-request_disk = 500GB
+request_disk = 50GB
 
 
-queue ref from /home/emcdaniel/binsList.txt
+queue ref,meta,outname from /home/emcdaniel/mappingCombos.txt

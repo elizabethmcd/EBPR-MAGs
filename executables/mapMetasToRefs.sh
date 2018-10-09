@@ -19,32 +19,33 @@ export PATH=$(pwd)/python/bin:$PATH
 export HOME=$(pwd)/home
 chmod u+x *.py
 
-# Copy over metagenomic reads and refined bin set
+# Copy over metagenomic timepoint and bin
 ref=$1
+meta=$2
+outname=$3
+refbase=$(basename $ref)
+metabase=$(basename $meta)
+refname=$(basename $ref .fna)
+metaname=$(basename $meta .qced.fastq)
 cp $1 refs/
-refbase=$(basename $1 .fna)
-cp /mnt/gluster/emcdaniel/EBPR-Metagenomes/*.qced.fastq metagenomes/.
+cp $2 metagenomes/
 
-# Perform mapping for every reference 
-for file in metagenomes/*.qced.fastq; do
-    metabase=$(basename $file .qced.fastq);
-    bbmap/bbmap.sh ref=refs/$ref in=metagenomes/$file outm=mappingResults/$refbase-vs-$metabase.bam idtag minid=0.95 nodisk -Xmx48g;
-done 
+# Perform mapping  
+bbmap/bbmap.sh ref=refs/$refbase in=metagenomes/$metabase outm=$outname idtag minid=0.95 nodisk -Xmx48g
 
 # Sorted BAM files
-for file in mappingResults/*.bam; do
-    ./samtools/bin/samtools sort $file -o mappingResults/${file%.bam}.sorted.bam
+./samtools/bin/samtools sort $outname -o mappingResults/${file%.bam}.sorted.bam
 
 # Get depth 
-for file in $resultsDir/*.sorted.bam; do
-    outname="${filename%.*}".depth;
-    ./samtools/bin/samtools depth $file > mappingResults/$outname;
+for file in mappingResults/*.sorted.bam; do
+    outdepth="${filename%.*}".depth;
+    ./samtools/bin/samtools depth $file > mappingResults/$outdepth;
 done 
 
 # Sorted, indexed BAM file
 for file in mappingResults/*.sorted.bam; do
-    outname="${filename%.*}".sorted.indexed.bam;
-    ./samtools/bin/samtools index $file > mappingResults/$outname;
+    outindex="${filename%.*}".sorted.indexed.bam;
+    ./samtools/bin/samtools index $file > mappingResults/$outindex;
 done
 
 # Reference lengths file 
@@ -63,14 +64,14 @@ for file in mappingResults/*.depth; do
     python calc-mapping-stats.py $file; 
 done
 
-# Bring back statistics, don't need the mapped results when just want depth/relative abundance/ANI/PID metrics
-# If need mapped reads in directories with bins, see the RefiningBins scripts/workflow
-mkdir $refbase-results
-mv coverage.txt $refbase-results/
-mv mappingResults/*.sorted.index.bam $refbase-results/
-cp -r $refbase-results/ /mnt/gluster/emcdaniel/.
+# Bring back statistics and the sorted/indexed BAM file, put into one directory, and zip to Gluster
+mkdir $refname-vs-$metaname
+mv *.coverage.txt $refname-vs-$metaname/
+mv mappingResults/*.sorted.index.bam $refname-vs-$metaname/
+tar -cvzf $refname-vs-$metaname.tar.gz $refname-vs-$metaname/
+cp $refname-vs-$metaname.tar.gz /mnt/gluster/emcdaniel/.
 
 # Cleanup
 rm *.py
 rm *.tar.gz
-rm -rf metagenomes/ refs/ $resultsDir/ $refbase-results/
+rm -rf metagenomes/ refs/ $refname-vs-$metaname* mappingResults/
