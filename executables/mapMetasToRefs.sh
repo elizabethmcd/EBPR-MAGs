@@ -71,9 +71,4 @@ mkdir $refname-vs-$metaname
 mv *.coverage.txt $refname-vs-$metaname/
 mv mappingResults/*.sorted.index.bam $refname-vs-$metaname/
 tar -cvzf $refname-vs-$metaname.tar.gz $refname-vs-$metaname/
-cp $refname-vs-$metaname.tar.gz /mnt/gluster/emcdaniel/.
-
-# Cleanup
-# rm *.py
-# rm *.tar.gz
-# rm -rf metagenomes/ refs/ $refname-vs-$metaname* mappingResults/
+cp $refname-vs-$metaname.tar.gz /mnt/gluster/emcdaniel/
