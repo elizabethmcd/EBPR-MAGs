@@ -28,11 +28,11 @@ if __name__ == "__main__":
     # Metagenomic reads
     metaReadsfile = open("metaReads.txt", "r")
     metareads = int()
-    for line in metaReadsFile:
+    for line in metaReadsfile:
         if meta in line:
             metareads = int(line.split(" ")[1].rstrip())
             break
-    metaReadsFile.close()
+    metaReadsfile.close()
     
     # File empty if no reads recruited, otherwise not empty
     outname = ref + ".coverage.txt"
