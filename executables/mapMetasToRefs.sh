@@ -59,7 +59,7 @@ cat refs/*.len > refGenomes.len
 
 # Metagenomic reads file 
 for file in metagenomes/*.fastq; do
-    awk '{s++}END{print FILENAME,s/4}' $filename >> metaReads.fastq.txt;
+    awk '{s++}END{print FILENAME,s/4}' $filename >> metaReads.txt;
 done
 
 # Create stats file 
