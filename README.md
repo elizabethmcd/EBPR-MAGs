@@ -235,7 +235,7 @@ ls $PWD/*.fna > ~/refList.txt
 ls $PWD/*.qced.fastq > ~/metagenomeList.txt
 ```
 
-Submit the submission script `mapMetasToRefs.sub`. This script will queue the jobs by bin, mapping the reads fomr each timepoint to the particular bin. It will create sorted BAM files and depth files, from which statistics will be deposited in `refname.coverage.txt` on Gluster. Additionally in the folder for each reference genome will be the sorted, indexed BAM file for manually refining each bin using Anvi'o. 
+From the home directory, run `makeMappingCombos.py`. Submit the submission script `mapMetasToRefs.sub`. This script will queue the job by timepoint vs bin, saving in each directory that timepoint-vs-bin's coverage statistics and sorted/index BAM file for refining with Anvi'o. 
 
 ### Manually Refine Bins with Anvi'o 
 

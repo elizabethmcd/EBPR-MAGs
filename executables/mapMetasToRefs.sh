@@ -34,7 +34,7 @@ cp $2 metagenomes/
 bbmap/bbmap.sh ref=refs/$refbase in=metagenomes/$metabase outm=$outname idtag minid=0.95 nodisk -Xmx48g
 
 # Sorted BAM files
-./samtools/bin/samtools sort $outname -o mappingResults/${file%.bam}.sorted.bam
+./samtools/bin/samtools sort $outname -o mappingResults/${file%.qced.bam}.sorted.bam
 
 # Get depth 
 for file in mappingResults/*.sorted.bam; do
@@ -72,6 +72,6 @@ tar -cvzf $refname-vs-$metaname.tar.gz $refname-vs-$metaname/
 cp $refname-vs-$metaname.tar.gz /mnt/gluster/emcdaniel/.
 
 # Cleanup
-rm *.py
-rm *.tar.gz
-rm -rf metagenomes/ refs/ $refname-vs-$metaname* mappingResults/
+# rm *.py
+# rm *.tar.gz
+# rm -rf metagenomes/ refs/ $refname-vs-$metaname* mappingResults/
