@@ -12,8 +12,8 @@ arguments = $(ref) $(meta) $(outname)
 output = EBPRmapping_$(Cluster).out
 
 # Transferring Files
-# should_transfer_files = YES
-# when_to_transfer_output = ON_EXIT
+# should_transfer_files = 
+# when_to_transfer_output = 
 transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz,/home/emcdaniel/software/samtools.tar.gz,scripts/calc-mapping-stats.py,scripts/countBases.py,/home/emcdaniel/python.tar.gz
 
 # Compute resources 
