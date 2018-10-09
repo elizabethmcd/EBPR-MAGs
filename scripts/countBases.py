@@ -18,4 +18,4 @@ if __name__ == "__main__":
             count = count + (len(line) - 1)
     outname = sys.argv[1] + ".len"
     with open(outname, "wt") as out:
-        out.write(sys.argv[1] + "\t" str(count) + "\n")
+        out.write(sys.argv[1] + "\t" + str(count) + "\n")

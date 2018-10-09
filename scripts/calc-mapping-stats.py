@@ -39,15 +39,18 @@ if __name__ == "__main__":
     if os.stat(filename).st_size ==0:
         if os.path.exists(outname):
             with open(outname, "a") as outfile: 
+                outfile.write(regCovLine.format(filename, ref, meta, metareads, "0", "0", refLength, "NA"))
+        else: 
+            with open(outname, "a") as outfile:
                 outfile.write(covFileHeader)
                 outfile.write(regCovLine.format(filename, ref, meta, metareads, "0", "0", refLength, "NA"))
-    else: 
+    else:
         depth_df = pd.read_table(filename, header=None)
         covCol = len(depth_df.columns) - 1 # last column number
         if os.path.exists(outname):
             with open(outname, "a") as outfile:
                 outfile.write(regCovLine.format(filename, ref, meta, metareads, depth_df[covCol].sum(), depth_df[covCol].count(), refLength, depth_df[covCol].sum() / float(refLength)))
-    else: 
-        with open(outname, "a") as outfile: 
-            outfile.write(covFileHeader)
-            outfile.write(regCovLine.format(filename, ref, meta, metareads, depth_df[covCol].sum(), depth_df[covCol].count(), refLength, depth_df[covCol].sum() / float(refLength)))
+        else: 
+            with open(outname, "a") as outfile: 
+                outfile.write(covFileHeader)
+                outfile.write(regCovLine.format(filename, ref, meta, metareads, depth_df[covCol].sum(), depth_df[covCol].count(), refLength, depth_df[covCol].sum() / float(refLength)))
