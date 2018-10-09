@@ -14,7 +14,7 @@ output = EBPRmapping_$(Cluster).out
 # Transferring Files
 # should_transfer_files = YES
 # when_to_transfer_output = ON_EXIT
-transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz,/home/emcdaniel/software/samtools-1.8.tar.gz,scripts/calc-mapping-stats.py,scripts/countBases.py,/home/emcdaniel/python.tar.gz
+transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz,/home/emcdaniel/software/samtools.tar.gz,scripts/calc-mapping-stats.py,scripts/countBases.py,/home/emcdaniel/python.tar.gz
 
 # Compute resources 
 request_cpus = 4
