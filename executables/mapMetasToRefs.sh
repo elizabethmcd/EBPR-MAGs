@@ -34,7 +34,9 @@ cp $2 metagenomes/
 bbmap/bbmap.sh ref=refs/$refbase in=metagenomes/$metabase outm=$outname idtag minid=0.95 nodisk -Xmx48g
 
 # Sorted BAM files
-./samtools/bin/samtools sort $outname -o mappingResults/${file%.qced.bam}.sorted.bam
+for file in mappingResults/*.qced.bam; do
+    outsort="${filename%.*}".sorted.bam;
+    ./samtools/bin/samtools sort $file -o mappingResults/$outsort;
 
 # Get depth 
 for file in mappingResults/*.sorted.bam; do
