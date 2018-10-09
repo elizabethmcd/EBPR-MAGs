@@ -35,19 +35,19 @@ bbmap/bbmap.sh ref=refs/$refbase in=metagenomes/$metabase outm=$outname idtag mi
 
 # Sorted BAM files
 for file in mappingResults/*.qced.bam; do
-    outsort="${filename%.*}".sorted.bam;
+    outsort=$(basename $file .qced.bam).sorted.bam;
     ./samtools/bin/samtools sort $file -o mappingResults/$outsort;
 done
 
 # Get depth 
 for file in mappingResults/*.sorted.bam; do
-    outdepth="${filename%.*}".depth;
+    outdepth=$(basename $file .sorted.bam).depth;
     ./samtools/bin/samtools depth $file > mappingResults/$outdepth;
 done 
 
 # Sorted, indexed BAM file
 for file in mappingResults/*.sorted.bam; do
-    outindex="${filename%.*}".sorted.indexed.bam;
+    outindex=$(basename $file .sorted.bam).sorted.indexed.bam;
     ./samtools/bin/samtools index $file > mappingResults/$outindex;
 done
 
