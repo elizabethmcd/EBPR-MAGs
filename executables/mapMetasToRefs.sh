@@ -37,6 +37,7 @@ bbmap/bbmap.sh ref=refs/$refbase in=metagenomes/$metabase outm=$outname idtag mi
 for file in mappingResults/*.qced.bam; do
     outsort="${filename%.*}".sorted.bam;
     ./samtools/bin/samtools sort $file -o mappingResults/$outsort;
+done
 
 # Get depth 
 for file in mappingResults/*.sorted.bam; do
@@ -72,3 +73,4 @@ mv *.coverage.txt $refname-vs-$metaname/
 mv mappingResults/*.sorted.index.bam $refname-vs-$metaname/
 tar -cvzf $refname-vs-$metaname.tar.gz $refname-vs-$metaname/
 cp $refname-vs-$metaname.tar.gz /mnt/gluster/emcdaniel/
+
