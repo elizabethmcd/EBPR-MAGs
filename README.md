@@ -12,6 +12,9 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - ANI Calculator 
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
 - Anvi'o
+- GTDBK-tk
+- Prokka
+- GhostKOALA
 
 ### Filter Raw Metagenomic Sequences 
 
@@ -239,9 +242,22 @@ From the home directory, run `makeMappingCombos.py`. Submit the submission scrip
 
 ### Manually Refine Bins with Anvi'o 
 
-In order to make these bins as high of quality as possible, we will manually refine each bin in the de-duplicated set to make sure everything looks okay before scaffolding with PacBio reads. In order to do so, I will be roughly following the Anvi'o [Metagenomic Workflow](http://merenlab.org/2016/06/22/anvio-tutorial-v2/) to do so. Usually what Meren's lab recommends is performing a coassembly, mapping the reads back to the coassembly, and getting bins. This way you would input all sorted/indexed BAM files along with the contigs, and then also provide the bin collection saying which contigs ended up in which bins. Since I mapped each timepoint back to the individual assemblies, and de-replicated bins based on the "best" one in a particular timepoint, this scenario is a little different. I could take from the output of MetaBAT and only include the contigs that went into the bins I selected, but I forsee a couple of problems with the interactive interface since I had to manually pick bins. Instead, I will do it the opposite way, where instead of creating a contigs/profile database for the entire metagenome, and then using `anvi-refine` for each individual bin, I believe I can create contigs/profile databases for each individual bin. Use the sorted/indexed BAM files output from the `mapMetasToRefs.sub` workflow. 
+In order to make these bins as high of quality as possible, we will manually refine each bin in the de-duplicated set to make sure everything looks okay before scaffolding with PacBio reads. In order to do so, I will be roughly following the Anvi'o [Metagenomic Workflow](http://merenlab.org/2016/06/22/anvio-tutorial-v2/). Usually what Meren's lab recommends is performing a coassembly, mapping the reads back to the coassembly, and getting bins. This way you would input all sorted/indexed BAM files along with the contigs, and then also provide the bin collection saying which contigs ended up in which bins. Since I mapped each timepoint back to the individual assemblies, and de-replicated bins based on the "best" one in a particular timepoint, this scenario is a little different. I could take from the output of MetaBAT and only include the contigs that went into the bins I selected, but I forsee a couple of problems with the interactive interface since I had to manually pick bins. Instead, I will do it the opposite way, where instead of creating a contigs/profile database for the entire metagenome, and then using `anvi-refine` for each individual bin, I believe I can create contigs/profile databases for each individual bin. Use the sorted/indexed BAM files output from the `mapMetasToRefs.sub` workflow. 
 
-### Reassemble Bins with Long Reads 
+Install Anvi'o on a VM/server with sudo access with `conda install -c bioconda -c conda-forge anvio diamond bwa` if you use Anaconda, like I usually do. Transfer all of the tarballed `ref-vs-meta` folder with the coverage/indexed BAM files from Gluster. Create a folder for each bin with: 
+
+```
+ls *-EBPR.tar.gz | awk -F- '{print $1"-"$2}' | uniq >> binsList.txt
+for dir in $(cat binsList.txt); do mkdir "$dir"; done
+for file in *-EBPR.tar.gz; do
+    name="${file%-vs*}";
+    mv $file $name/$file; 
+done
+```
+
+Concatentate each bin's coverage statistics file into one to get the coverage of that bin through all timepoints. That output file will be used to visualize coverage through time. The BAI files are used for refining each individual bin by having the information of mapped reads from each timepoint to the bin. 
+
+### Scaffolding with Long Reads  
 
 - Have to find the accession numbers for raw reads
 - 2018-10-03: PacBio filtered reads have been found, need to download and look at methods for hybrid assembly of short reads with long reads, or scaffolding the bins and not complete reassembly 
@@ -262,9 +278,9 @@ In order to make these bins as high of quality as possible, we will manually ref
 
 ### Functional Annotation 
 
-- Prokka easy way 
-- GhostKOALA for KEGG modules, metabolic pathways
-- Others for interest in other annotations? 
+- Prokka easy way, for having easy access to all files for a genome bin
+- GhostKOALA for KEGG modules, metabolic pathways, using in TcT manuscript 
+- 2018-10-09 Note: I had zero clue that GhostKOALA was a web server and you have to manually annotate a metagenome/genome bin ONE AT A TIME. Dagnabbit.  
 
 ### Incorporating Metatranscriptomic Datasets 
 
