@@ -244,7 +244,7 @@ From the home directory, run `makeMappingCombos.py`. Submit the submission scrip
 
 In order to make these bins as high of quality as possible, we will manually refine each bin in the de-duplicated set to make sure everything looks okay before scaffolding with PacBio reads. In order to do so, I will be roughly following the Anvi'o [Metagenomic Workflow](http://merenlab.org/2016/06/22/anvio-tutorial-v2/). Usually what Meren's lab recommends is performing a coassembly, mapping the reads back to the coassembly, and getting bins. This way you would input all sorted/indexed BAM files along with the contigs, and then also provide the bin collection saying which contigs ended up in which bins. Since I mapped each timepoint back to the individual assemblies, and de-replicated bins based on the "best" one in a particular timepoint, this scenario is a little different. I could take from the output of MetaBAT and only include the contigs that went into the bins I selected, but I forsee a couple of problems with the interactive interface since I had to manually pick bins. Instead, I will do it the opposite way, where instead of creating a contigs/profile database for the entire metagenome, and then using `anvi-refine` for each individual bin, I believe I can create contigs/profile databases for each individual bin. Use the sorted/indexed BAM files output from the `mapMetasToRefs.sub` workflow. 
 
-Install Anvi'o on a VM/server with sudo access with `conda install -c bioconda -c conda-forge anvio diamond bwa` if you use Anaconda, like I usually do. Transfer all of the tarballed `ref-vs-meta` folder with the coverage/indexed BAM files from Gluster. Create a folder for each bin with: 
+Install Anvi'o on a VM/server with sudo access with `conda install -c bioconda -c conda-forge anvio=5.1.0 diamond bwa` if you use Anaconda, like I usually do (and make sure you are using python version 3.6+). Transfer all of the tarballed `ref-vs-meta` folder with the coverage/indexed BAM files from Gluster. Create a folder for each bin with: 
 
 ```
 ls *-EBPR.tar.gz | awk -F- '{print $1"-"$2}' | uniq >> binsList.txt
@@ -261,6 +261,22 @@ Concatentate each bin's coverage statistics file into one to get the coverage of
 for file in */*/*.coverage.txt; do
     name="${file%-vs*}"; 
     cat -- "$file" >> "${name}".coverage.txt; 
+done
+```
+
+Rename all bins files of contigs with the file extension `.fa`. Fix the fasta deflines with: 
+```
+for file in */*.fa; do
+    name="${file%.fa*}";
+    anvi-script-reformat-fasta $file -o $name-fixed.fa -l 0 --simplify-names;
+done
+```
+
+Create a contigs database for each bin.  
+```
+for file in */*-fixed.fa; do
+    name="${file%-fixed.fa*}";
+    anvi-gen-contigs-database -f $file -o $name-contigs.db;
 done
 ```
 
