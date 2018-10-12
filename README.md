@@ -257,6 +257,13 @@ done
 
 Concatentate each bin's coverage statistics file into one to get the coverage of that bin through all timepoints. That output file will be used to visualize coverage through time. The BAI files are used for refining each individual bin by having the information of mapped reads from each timepoint to the bin. 
 
+```
+for file in */*/*.coverage.txt; do
+    name="${file%-vs*}"; 
+    cat -- "$file" >> "${name}".coverage.txt; 
+done
+```
+
 ### Scaffolding with Long Reads  
 
 - Have to find the accession numbers for raw reads
