@@ -238,7 +238,7 @@ ls $PWD/*.fna > ~/refList.txt
 ls $PWD/*.qced.fastq > ~/metagenomeList.txt
 ```
 
-From the home directory, run `makeMappingCombos.py`. Submit the submission script `mapMetasToRefs.sub`. This script will queue the job by timepoint vs bin, saving in each directory that timepoint-vs-bin's coverage statistics and sorted/index BAM file for refining with Anvi'o. 
+From the home directory, run `makeMappingCombos.py`. Submit the submission script `mapMetasToRefs.sub`. This script will queue the job by timepoint vs bin, saving in each directory that timepoint-vs-bin's coverage statistics and the BAM files and corresponding sorted/indexed BAM file for refining with Anvi'o. 
 
 ### Manually Refine Bins with Anvi'o 
 
@@ -280,6 +280,36 @@ for file in */*-fixed.fa; do
 done
 ```
 
+Run HMMs stats on each of the contigs databases to check for single copy core genes:
+```
+for file in */*-contigs.db; do
+    anvi-run-hmms -c $file --num-threads 15; 
+done
+```
+
+We don't need to run functional annotation or import external functional annotations because we are refining the contigs based off of coverage from the metagenomic timepoints for each genome, and will work with functional annotations after the genomes are manually refined. Gene-level taxonomy from Kaiju or Centrifuge can also be imported, and might help with the manual refinement process. For now I will skip that and just base the refinement process off of checking coverage of contigs. 
+
+Profiling the BAM files: 
+
+```
+for file in */*.sorted.bam.bai; do 
+    name="${file%-vs*}"; 
+    base=$(basename $file); 
+    echo $base >> "${name}".samples.txt; 
+done
+```
+
+This will create a file in each bin folder of the mapped reads to the specific bin for each timepoint to profile the BAM files for that bin separately from. Make sure these BAM files are already sorted/indexed with samtools, or do it within Anvi'o. 
+
+```
+for sample in */*.samples.txt; do
+    contigName=$(basename $sample .samples.txt);
+    for BAM in `cat $sample`; do 
+        anvi-profile -i $contigName/$BAM -c $contigName/$contigName-contigs.db;
+    done
+done
+```
+
 ### Scaffolding with Long Reads  
 
 - Have to find the accession numbers for raw reads
@@ -315,3 +345,5 @@ done
 ### Putative Interactions
 
 ### Depositing Genome Drafts to Public Repository 
+
+- Open Science Framework for initial sharing with collaborators
