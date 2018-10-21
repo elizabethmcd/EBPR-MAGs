@@ -229,7 +229,7 @@ Re-run CheckM/ANI/N50stats and the corresponding R script to get the final stati
 
 ### Map Metagenomic Reads to all Bins 
 
-Now we will map all the metagenomic reads to the extracted bins to make sure we have a representative set of the whole community and each time point since most of these bins weren't extracted from a coassembly binning strategy. Since CHTC only has 2/3 servers that can pull from Gluster AND have enough disk space (~500GB) to perform mapping by timepoint, every meta to reference mapping comparison will have to be split up into individual jobs. To set this up, we will run the `makeMappingCombos.py` script on a list of references and metagenomes like when mapping the metagenomes to the assemblies. This will also make the file output name much easier since the script does that as well. **Make sure you have enough disk/directory quota space on Gluster when transferring files back**. For example, 50 bins with 10 metagenomic time points is 500 jobs/tarballed directories to move back to Gluster with the coverage stats and sorted/indexed BAM file for that time point mapped to the specific bin. 
+Now we will map all the metagenomic reads to the extracted bins to make sure we have a representative set of the whole community and each time point since most of these bins weren't extracted from a coassembly binning strategy. Since CHTC only has 2/3 servers that can pull from Gluster AND have enough disk space (~500GB) to perform mapping by timepoint, every meta to reference mapping comparison will have to be split up into individual jobs. To set this up, we will run the `makeMappingCombos.py` script on a list of references and metagenomes like when mapping the metagenomes to the assemblies. This will also make the file output name much easier since the script does that as well. **Make sure you have enough disk/directory quota space on Gluster when transferring files back**. For example, 50 bins with 10 metagenomic time points is 500 jobs/tarballed directories to move back to Gluster with the coverage stats and sorted/indexed BAM files for that time point mapped to the specific bin. 
 
 From the directories in which the bins and QCed metagenomes reside: 
 
@@ -238,7 +238,7 @@ ls $PWD/*.fna > ~/refList.txt
 ls $PWD/*.qced.fastq > ~/metagenomeList.txt
 ```
 
-From the home directory, run `makeMappingCombos.py`. Submit the submission script `mapMetasToRefs.sub`. This script will queue the job by timepoint vs bin, saving in each directory that timepoint-vs-bin's coverage statistics and the BAM files and corresponding sorted/indexed BAM file for refining with Anvi'o. 
+From the home directory, run `makeMappingCombos.py`. Submit the submission script `mapMetasToRefs.sub`. This script will queue the job by timepoint vs bin, saving in each directory that timepoint-vs-bin's coverage statistics and the sorted/indexed BAM files for refining with Anvi'o. 
 
 ### Manually Refine Bins with Anvi'o 
 
@@ -255,7 +255,7 @@ for file in *-EBPR.tar.gz; do
 done
 ```
 
-Concatentate each bin's coverage statistics file into one to get the coverage of that bin through all timepoints. That output file will be used to visualize coverage through time. The BAI files are used for refining each individual bin by having the information of mapped reads from each timepoint to the bin. 
+Concatentate each bin's coverage statistics file into one to get the coverage of that bin through all timepoints. That output file will be used to visualize coverage through time. The BAI files are used for refining each individual bin by having the information of mapped reads from each timepoint to the bin. Note, when dealing with multiple bins and large BAM files, the rest of these steps are probably best done individually folder by folder to 1) Not overwhelm the VM and 2) Keep track of where you are in the refinement process. But keep the coverage files for the end of the analysis.  
 
 ```
 for file in */*/*.coverage.txt; do
@@ -264,27 +264,25 @@ for file in */*/*.coverage.txt; do
 done
 ```
 
-Rename all bins files of contigs with the file extension `.fa`. Fix the fasta deflines with: 
+Rename all bins files of contigs with the file extension `.fa`. **Important Note**: Only reformat fasta files if you did so before mapping, because then the contig names for your contig database for the particular bin won't match the contig names within the mapping BAM file. For the most part, the names of the contigs and formatting of FASTA files might be ok without reformatting for these purposes. If not, reformat the fasta BIN files, and remap the metagenomic reads to each bin.
+
 ```
 for file in */*.fa; do
     name="${file%.fa*}";
     anvi-script-reformat-fasta $file -o $name-fixed.fa -l 0 --simplify-names;
 done
-```
+``` 
 
-Create a contigs database for each bin.  
+Create a contigs database for each bin. 
+
 ```
-for file in */*-fixed.fa; do
-    name="${file%-fixed.fa*}";
-    anvi-gen-contigs-database -f $file -o $name-contigs.db;
-done
+anvi-gen-contigs-database -f $BIN.fna -o $name-contigs.db
 ```
 
 Run HMMs stats on each of the contigs databases to check for single copy core genes:
+
 ```
-for file in */*-contigs.db; do
-    anvi-run-hmms -c $file --num-threads 15; 
-done
+anvi-run-hmms -c $file --num-threads 15
 ```
 
 We don't need to run functional annotation or import external functional annotations because we are refining the contigs based off of coverage from the metagenomic timepoints for each genome, and will work with functional annotations after the genomes are manually refined. Gene-level taxonomy from Kaiju or Centrifuge can also be imported, and might help with the manual refinement process. For now I will skip that and just base the refinement process off of checking coverage of contigs. 
@@ -299,15 +297,10 @@ for file in */*.sorted.bam.bai; do
 done
 ```
 
-This will create a file in each bin folder of the mapped reads to the specific bin for each timepoint to profile the BAM files for that bin separately from. Make sure these BAM files are already sorted/indexed with samtools, or do it within Anvi'o. 
+This will create a file in each bin folder of the mapped reads to the specific bin for each timepoint to profile the BAM files for that bin separately from. Make sure these BAM files are already sorted/indexed with samtools, or do it within Anvi'o. The minimum number of bases on the contigs will need to be changed due to splits issues, since we are looking at individual genome bins, and not the whole metagenome. 
 
 ```
-for sample in */*.samples.txt; do
-    contigName=$(basename $sample .samples.txt);
-    for BAM in `cat $sample`; do 
-        anvi-profile -i $contigName/$BAM -c $contigName/$contigName-contigs.db;
-    done
-done
+for file in *.qced.bam; do anvi-profile -i $file -c CONTIGDB -M 500; done
 ```
 
 ### Scaffolding with Long Reads  
@@ -337,8 +330,15 @@ done
 
 ### Incorporating Metatranscriptomic Datasets 
 
-- Filter, map, normalize
-- Get data output into pretty forms 
+#### Filter Metatranscriptomic Read
+
+#### rRNA Depletion 
+
+#### Competitively map Reads to Bins 
+
+#### Count reads and Normalize
+
+### TbasCO Incorporation of Metatranscriptomic Reads and KEGG Annotations 
 
 ### Metabolic Pathway Prediction 
 

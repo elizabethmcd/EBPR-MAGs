@@ -47,7 +47,6 @@ done
 
 # Sorted, indexed BAM file
 for file in mappingResults/*.sorted.bam; do
-    outindex=$(basename $file .sorted.bam).sorted.indexed.bam;
     ./samtools/bin/samtools index $file;
 done
 
@@ -70,7 +69,7 @@ done
 # Bring back statistics and the BAM files with sorted/indexed BAM file, put into one directory, and zip to Gluster
 mkdir $refname-vs-$metaname
 mv *.coverage.txt $refname-vs-$metaname/
-mv mappingResults/*.qced.bam $refname-vs-$metaname/
+mv mappingResults/*.sorted.bam $refname-vs-$metaname/
 mv mappingResults/*.sorted.bam.bai $refname-vs-$metaname/
 tar -cvzf $refname-vs-$metaname.tar.gz $refname-vs-$metaname/
 cp $refname-vs-$metaname.tar.gz /mnt/gluster/emcdaniel/
