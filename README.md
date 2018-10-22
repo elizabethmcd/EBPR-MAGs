@@ -258,7 +258,7 @@ done
 Concatentate each bin's coverage statistics file into one to get the coverage of that bin through all timepoints. That output file will be used to visualize coverage through time. The BAI files are used for refining each individual bin by having the information of mapped reads from each timepoint to the bin. Note, when dealing with multiple bins and large BAM files, the rest of these steps are probably best done individually folder by folder to 1) Not overwhelm the VM and 2) Keep track of where you are in the refinement process. But keep the coverage files for the end of the analysis.  
 
 ```
-for file in */*/*.coverage.txt; do
+for file in */*.coverage.txt; do
     name="${file%-vs*}"; 
     cat -- "$file" >> "${name}".coverage.txt; 
 done
@@ -300,8 +300,19 @@ done
 This will create a file in each bin folder of the mapped reads to the specific bin for each timepoint to profile the BAM files for that bin separately from. Make sure these BAM files are already sorted/indexed with samtools, or do it within Anvi'o. The minimum number of bases on the contigs will need to be changed due to splits issues, since we are looking at individual genome bins, and not the whole metagenome. 
 
 ```
-for file in *.qced.bam; do anvi-profile -i $file -c CONTIGDB -M 500; done
+for file in */*.sorted.bam; do anvi-profile -i $file -c CONTIGDB -M 500; done
 ```
+
+Merge the profile databases: 
+
+```
+# Example
+anvi-merge */*/PROFILE.db -o 3300009517-bin1-SAMPLES-MERGED -c 3300009517-bin.1-contigs.db
+```
+
+Note, Anvi'o doesn't like symbols other than '_' so replace names of samples/directories without '.' changed to underscores or no space. Since we are working one at a time with the single bins themselves and not the full metagenomic collection, do not import the binning results from MetaBAT. To load the interactive interface when working on a remote server, you need to login a specific way by running through an SSH tunnel. SSH like so: `ssh -L 8080:localhost:8080 meren@server.university.edu`. From where your samples merged profile database/contigs database is, run `anvi-interactive -p SAMPLES-MERGED/PROFILE.db -c contigs.db` for whatever your samples/contigs databases are named. Then on your local browser (preferably Chrome, and that's probably your only option), open `localhost:8080`. Thus, you have a workaround from going through the full metagenomic workflow and then doing `anvi-refine` on the select bins, although you are running the `profile` and `merge` steps multiple times to manually check the bins one by one. 
+
+When working with in the interactive interface, contigs will be hierarchically clustered, and it will be pretty easy to tell when the binner messed up and put contigs together than shouldn't be there based upon differentiall coverage profile of all the contigs. If you have an abberant contig that has a much different differential coverage profile than the other contigs in the bin, you know it needs to be removed from the bin. Once you are satisfied with the contigs you have selected in your manually curated bin, save the collection. I usually just save it as "default". Then summarize the collection with `anvi-summarize -p MERGED_PROFILE/PROFILE.db -c contigs.db -C CONCOCT -o MERGED_SUMMARY` or in our case `anvi-summarize -p MERGED_PROFILE/PROFILE.db -c contigs.db -C default -o refined_bin_name`. In the summary, there will be a `bin-name_contigs.fa` file, which will give the refined bin's contigs in FASTA format. There are a bunch of other statistics in the folder, but the most important is saving the manually refined contigs FASTA file somewhere. So now you have a manually refined bin that you can say you checked for uniform differential coverage, and not just go off of CheckM estimates. 
 
 ### Scaffolding with Long Reads  
 
