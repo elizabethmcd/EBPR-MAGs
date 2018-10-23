@@ -3,9 +3,10 @@
 # Perform anvio metagenomic workflow to get contig/profile DBs for sets of bins to refine
 
 # copy over bin directory, unpack everything 
-bin=$1
+file=$1
+tar -xzvf $file
+bin=$(basename $file .tar.gz)
 binName="${bin//./}"
-tar -xzvf $bin
 cd $bin
 for file in *.tar.gz; do
     tar -xzvf $file; 
