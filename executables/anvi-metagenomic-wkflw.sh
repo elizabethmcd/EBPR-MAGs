@@ -4,6 +4,9 @@
 
 # copy over bin directory, unpack everything 
 file=$1
+mkdir wd
+cp $file wd/
+cd wd
 tar -xzvf $file
 bin=$(basename $file .tar.gz)
 binName="${bin//./}"
