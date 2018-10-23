@@ -23,4 +23,4 @@ request_cpus = 2
 request_memory = 50GB
 request_disk = 100GB
 
-queue ref from /home/emcdaniel/EBPR-BINS-FOLDERS.txt
+queue bin from /home/emcdaniel/EBPR-BINS-FOLDERS.txt
