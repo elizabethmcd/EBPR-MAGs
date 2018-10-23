@@ -1,0 +1,26 @@
+# Anvio Metagenomic Workflow CHTC Submission Script
+# Uses the docker universe for anvio installation 
+
+# HTCondor Universe
+universe = docker 
+docker_image = meren/anvio:latest
+
+log = AnvioMetg_$(Cluster).log
+error = AnvioMetg_$(Cluster)_$(Process).err
+requirements = (OpSys == "LINUX") && (Target.HasGluster == true) && (OpSysMajorVer =?= 7)
+
+# Exectuables
+executable = executables/anvio-metagenomics-wklfw.sh
+arguments = $(bin)
+
+# Transferring Files
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+# transfer_input_files = 
+
+# Compute resources 
+request_cpus = 2
+request_memory = 50GB
+request_disk = 100GB
+
+queue ref from /home/emcdaniel/EBPR-BINS-FOLDERS.txt

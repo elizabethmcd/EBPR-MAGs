@@ -255,6 +255,23 @@ for file in *-EBPR.tar.gz; do
 done
 ```
 
+From the directory where your raw bins are, move those into the corresponding directories: 
+
+```
+for file in *.fna; do
+    name="${file%.fna*}";
+    mv $file $name/$file; 
+done
+```
+
+Or instead of doing the below, the submission script `Anvio-Metagenomics-Workflow.sub` uses the Docker installation of Anvi'o with CHTC to create contigs/profile databases for each bin for further refinement. Each tarball should be a bin archive, as was created above, with the `.fna` for the bin, and all the `*-EBPR.tar.gz` mapping files with the sorted/indexed BAM files from the previous step. This is all zipped together to fit on Gluster and be transferred as easily as possible. From where all the bin archives are: 
+
+```
+ls *.tar.gz > ~EBPR-BINS-FOLDERS.txt
+```
+
+The submission script will then queue by the specific bin, and bring back the contigs/profile DBs for visualizing in Anvi'o. All of those steps are described below if you wish to do so manually.
+
 Concatentate each bin's coverage statistics file into one to get the coverage of that bin through all timepoints. That output file will be used to visualize coverage through time. The BAI files are used for refining each individual bin by having the information of mapped reads from each timepoint to the bin. Note, when dealing with multiple bins and large BAM files, the rest of these steps are probably best done individually folder by folder to 1) Not overwhelm the VM and 2) Keep track of where you are in the refinement process. But keep the coverage files for the end of the analysis.  
 
 ```
@@ -304,7 +321,8 @@ Note, Anvi'o doesn't like symbols other than '_' so replace names of samples/dir
 
 When working with in the interactive interface, contigs will be hierarchically clustered, and it will be pretty easy to tell when the binner messed up and put contigs together than shouldn't be there based upon differentiall coverage profile of all the contigs. If you have an abberant contig that has a much different differential coverage profile than the other contigs in the bin, you know it needs to be removed from the bin. Once you are satisfied with the contigs you have selected in your manually curated bin, save the collection. I usually just save it as "default". Then summarize the collection with `anvi-summarize -p MERGED_PROFILE/PROFILE.db -c contigs.db -C CONCOCT -o MERGED_SUMMARY` or in our case `anvi-summarize -p MERGED_PROFILE/PROFILE.db -c contigs.db -C default -o refined_bin_name`. In the summary, there will be a `bin-name_contigs.fa` file, which will give the refined bin's contigs in FASTA format. There are a bunch of other statistics in the folder, but the most important is saving the manually refined contigs FASTA file somewhere. So now you have a manually refined bin that you can say you checked for uniform differential coverage, and not just go off of CheckM estimates. 
 
-- 2018-10-22: this process should really be turned into a series of CHTC jobs if I can get anvio to install there, and then can just be qeued by bin to make the contig/profile databases, transfer them over in order ot create an SSH tunnel. Technically, this really should work with an Anaconda python installation, and then install anvio stuff with `conda`
+- 2018-10-22: this process should really be turned into a series of CHTC jobs if I can get anvio to install there, and then can just be qeued by bin to make the contig/profile databases, transfer them over in order ot create an SSH tunnel. Technically, this really should work with an Anaconda python installation, and then install anvio stuff with `conda`. No use it with the docker version
+
 
 ### Scaffolding with Long Reads  
 
