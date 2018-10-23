@@ -1,0 +1,23 @@
+# Anaconda Interactive Installation Submission
+# Referencing http://chtc.cs.wisc.edu/inter-submit.shtml
+
+# logfile
+log = anaconda.log
+
+# STD out
+output = process.out
+error = process.err
+
++IsBuildJob = true
+requirements = (OpSysMajorVer =?= 7) && ( IsBuildSlot == true )
+
+# Transfer for interactive installation 
+transfer_input_files = Anaconda3-5.3.0-Linux-x86_64.sh
+
+# compute resources 
+request_cpus = 1
+request_memory = 1GB
+request_disk = 5GB
+
+queue 
+
