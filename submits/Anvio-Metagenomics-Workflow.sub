@@ -10,7 +10,7 @@ error = AnvioMetg_$(Cluster)_$(Process).err
 requirements = (OpSys == "LINUX") && (Target.HasGluster == true) && (OpSysMajorVer =?= 7)
 
 # Exectuables
-executable = executables/anvio-metagenomics-wklfw.sh
+executable = executables/anvi-metagenomic-wkflw.sh
 arguments = $(bin)
 
 # Transferring Files
