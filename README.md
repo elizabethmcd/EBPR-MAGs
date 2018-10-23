@@ -290,17 +290,7 @@ We don't need to run functional annotation or import external functional annotat
 Profiling the BAM files: 
 
 ```
-for file in */*.sorted.bam.bai; do 
-    name="${file%-vs*}"; 
-    base=$(basename $file); 
-    echo $base >> "${name}".samples.txt; 
-done
-```
-
-This will create a file in each bin folder of the mapped reads to the specific bin for each timepoint to profile the BAM files for that bin separately from. Make sure these BAM files are already sorted/indexed with samtools, or do it within Anvi'o. The minimum number of bases on the contigs will need to be changed due to splits issues, since we are looking at individual genome bins, and not the whole metagenome. 
-
-```
-for file in */*.sorted.bam; do anvi-profile -i $file -c CONTIGDB -M 500; done
+for file in */*.sorted.bam; do anvi-profile -i $file -c CONTIGDB -M 500 --num-threads 14; done
 ```
 
 Merge the profile databases: 
