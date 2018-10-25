@@ -321,9 +321,6 @@ Note, Anvi'o doesn't like symbols other than '_' so replace names of samples/dir
 
 When working with in the interactive interface, contigs will be hierarchically clustered, and it will be pretty easy to tell when the binner messed up and put contigs together than shouldn't be there based upon differentiall coverage profile of all the contigs. If you have an abberant contig that has a much different differential coverage profile than the other contigs in the bin, you know it needs to be removed from the bin. Once you are satisfied with the contigs you have selected in your manually curated bin, save the collection. I usually just save it as "default". Then summarize the collection with `anvi-summarize -p MERGED_PROFILE/PROFILE.db -c contigs.db -C CONCOCT -o MERGED_SUMMARY` or in our case `anvi-summarize -p MERGED_PROFILE/PROFILE.db -c contigs.db -C default -o refined_bin_name`. In the summary, there will be a `bin-name_contigs.fa` file, which will give the refined bin's contigs in FASTA format. There are a bunch of other statistics in the folder, but the most important is saving the manually refined contigs FASTA file somewhere. So now you have a manually refined bin that you can say you checked for uniform differential coverage, and not just go off of CheckM estimates. 
 
-- 2018-10-22: this process should really be turned into a series of CHTC jobs if I can get anvio to install there, and then can just be qeued by bin to make the contig/profile databases, transfer them over in order ot create an SSH tunnel. Technically, this really should work with an Anaconda python installation, and then install anvio stuff with `conda`. No use it with the docker version
-
-
 ### Scaffolding with Long Reads  
 
 - Have to find the accession numbers for raw reads
@@ -351,7 +348,7 @@ When working with in the interactive interface, contigs will be hierarchically c
 
 ### Incorporating Metatranscriptomic Datasets 
 
-#### Filter Metatranscriptomic Read
+#### Filter Metatranscriptomic Reads
 
 #### rRNA Depletion 
 
