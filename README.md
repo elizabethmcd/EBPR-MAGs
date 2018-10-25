@@ -264,7 +264,7 @@ for file in *.fna; do
 done
 ```
 
-Or instead of doing the below, the submission script `Anvio-Metagenomics-Workflow.sub` uses the Docker installation of Anvi'o with CHTC to create contigs/profile databases for each bin for further refinement. Each tarball should be a bin archive, as was created above, with the `.fna` for the bin, and all the `*-EBPR.tar.gz` mapping files with the sorted/indexed BAM files from the previous step. This is all zipped together to fit on Gluster and be transferred as easily as possible. From where all the bin archives are: 
+Or instead of doing the below, the submission script `Anvio-Metagenomics-Workflow.sub` uses the Docker installation of Anvi'o with CHTC to create contigs/profile databases for each bin for further refinement. Each tarball should be a bin archive, as was created above, with the `.fna` for the bin, and all the `*-EBPR.tar.gz` mapping files with the sorted/indexed BAM files from the previous step. This is all zipped together to fit on Gluster and be transferred as easily as possible. **Before doing any of this**, make sure that the Anvi'o installation versions that you have for the Docker version/VM conda installation match, or else you won't be able to visualize your profile/contig DBs. From where all the bin archives are: 
 
 ```
 ls $PWD/*.tar.gz > ~/EBPR-BINS-FOLDERS.txt
