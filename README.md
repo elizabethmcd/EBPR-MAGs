@@ -7,14 +7,18 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [BBTools Suite](https://sourceforge.net/projects/bbmap/) 
 - [Samtools](http://www.htslib.org/download/) 
 - [MetaBAT](https://bitbucket.org/berkeleylab/metabat) 
-- CheckM
+- [CheckM](https://github.com/Ecogenomics/CheckM/wiki)
 - [Prodigal](https://github.com/hyattpd/Prodigal)
-- ANI Calculator 
+- [ANI Calculator](http://enve-omics.ce.gatech.edu/ani/) 
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
-- Anvi'o
+- [Anvi'o](http://merenlab.org/software/anvio/)
+- [LINKS](https://github.com/bcgsc/LINKS)
+- [Fastp](https://github.com/OpenGene/fastp)
+- [SortMeRNA](https://github.com/biocore/sortmerna)
 - GTDBK-tk
-- Prokka
+- [Prokka](https://github.com/tseemann/prokka)
 - GhostKOALA
+- antiSMASH
 
 ### Filter Raw Metagenomic Sequences 
 
@@ -323,12 +327,14 @@ When working with in the interactive interface, contigs will be hierarchically c
 
 ### Scaffolding with Long Reads  
 
-- Have to find the accession numbers for raw reads
-- 2018-10-03: PacBio filtered reads have been found, need to download and look at methods for hybrid assembly of short reads with long reads, or scaffolding the bins and not complete reassembly 
+We will use PacBio reads sequenced from the 2013-05-23 sample date to scaffold the contigs for select bins. This may only work for a subset of the bins, since this was taken for only one sample. To do so, we will use LINKS, the Long Interval Nucleotide K-mer Scaffolder tool to scaffold the bins made of contigs binned from the short reads. 
 
-### Preliminary Classification
-
-- DAG to go through classifying contigs > bins, compared to GTDB-tk output
+```
+wget http://www.bcgsc.ca/platform/bioinfo/software/links/releases/1.8.6/links_v1-8-6.tar.gz
+gunzip links_v1-8-6.tar.gz
+tar -xvf links_v1-8-6.tar.gz
+``` 
+The executable is `LINKS` within the links_v1-8-6 archive. A typical run is `./links_v1.8.6/LINKS -f MAN-REFINED-BINS-DROP/3300009517-bin.1.fa -s reads.fof -b test.out` where the `.fof` file is a "file of files" listing the full path to the long reads, so it would look like `/home/emcdaniel/2013-05-23-PACBIO-qced.fastq`. So far this process works better than SOAPdenovo2's GapCloser. 
 
 ### Classification and Phylogenetic Relationships 
 
@@ -342,9 +348,14 @@ When working with in the interactive interface, contigs will be hierarchically c
 
 ### Functional Annotation 
 
-- Prokka easy way, for having easy access to all files for a genome bin
-- GhostKOALA for KEGG modules, metabolic pathways, using in TcT manuscript 
-- 2018-10-09 Note: I had zero clue that GhostKOALA was a web server and you have to manually annotate a metagenome/genome bin ONE AT A TIME. Dagnabbit.  
+There are several functional annotation programs/databases I will use for these sets of bins, all for different sets of purposes. Prokka is probably the easiest way to get functional annotation and all file formats for submitting to public repositories. To get KEGG modules for interests in metabolic pathways, annotations are made manually by submitting protein sequences one by one to [https://www.kegg.jp/ghostkoala/](). To get information about biosynthetic gene clusters (BGCs), I will use [antiSMASH](https://antismash.secondarymetabolites.org/) which is available both as an online portal for submitting jobs and through the command line, installed through conda/Docker etc. To run Prokka, install with `conda install -c conda-forge -c bioconda prokka`. These are all bacterial genomes, so run Prokka by: 
+
+```
+for file in *.fna; do 
+    N=$(basename $file .fna);
+    prokka --outdir $N --prefix $N --cpus 15 $file; 
+done
+```
 
 ### Incorporating Metatranscriptomic Datasets 
 
@@ -361,7 +372,3 @@ When working with in the interactive interface, contigs will be hierarchically c
 ### Metabolic Pathway Prediction 
 
 ### Putative Interactions
-
-### Depositing Genome Drafts to Public Repository 
-
-- Open Science Framework for initial sharing with collaborators
