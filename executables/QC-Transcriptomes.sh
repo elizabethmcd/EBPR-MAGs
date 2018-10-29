@@ -4,7 +4,7 @@
 mkdir transcriptomes
 cp $1 transcriptomes/
 cd transcriptomes/
-gunzip *.gz 
+tar -xzvf *.gz 
 file=$(basename $1 .tar.gz)
 name=$(basename $1 .fastq.tar.gz)
 cd ..
