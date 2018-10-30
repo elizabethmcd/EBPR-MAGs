@@ -15,7 +15,7 @@ wget http://opengene.org/fastp/fastp
 chmod a+x ./fastp
 
 # QC 
-./fastp -i transcriptomes/$file -o transcriptomes/$name.qced.fastq
+./fastp -i transcriptomes/$file -o transcriptomes/$name.qced.fastq --cut_by_quality3
 
 # Index databases 
 cd sortmerna-2.1b
@@ -27,8 +27,10 @@ cd sortmerna-2.1b
 
 # copy back to gluster
 cd ..
-tar -czvf $name-rRNA.tar.gz $name-rRNA/
-tar -czvf $name-nonrRNA.tar.gz $name-nonrRNA/
-cp $name-rRNA.tar.gz $name-nonrRNa.tar.gz /mnt/gluster/emcdaniel/
+tar -czvf $name-rRNA.tar.gz $name-rRNA.fastq 
+tar -czvf $name-nonrRNA.tar.gz $name-nonrRNA.fastq
+mkdir $name 
+mv $name-nonrRNA.tar.gz $name-rRNA.tar.gz fastp.html $name/
+cp -r $name/ /mnt/gluster/emcdaniel/
 
 
