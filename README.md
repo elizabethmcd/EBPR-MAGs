@@ -348,7 +348,7 @@ The executable is `LINKS` within the links_v1-8-6 archive. A typical run is `./l
 
 ### Functional Annotation 
 
-There are several functional annotation programs/databases I will use for these sets of bins, all for different sets of purposes. Prokka is probably the easiest way to get functional annotation and all file formats for submitting to public repositories. To get KEGG modules for interests in metabolic pathways, annotations are made manually by submitting protein sequences one by one to [https://www.kegg.jp/ghostkoala/](). To get information about biosynthetic gene clusters (BGCs), I will use [antiSMASH](https://antismash.secondarymetabolites.org/) which is available both as an online portal for submitting jobs and through the command line, installed through conda/Docker etc. To run Prokka, install with `conda install -c conda-forge -c bioconda prokka`. These are all bacterial genomes, so run Prokka by: 
+There are several functional annotation programs/databases I will use for these sets of bins, all for different sets of purposes. Prokka is probably the easiest way to get functional annotation and all file formats for submitting to public repositories. To get KEGG modules for interests in metabolic pathways, annotations are made manually by submitting protein sequences to [https://www.kegg.jp/ghostkoala/](). To get information about biosynthetic gene clusters (BGCs), I will use [antiSMASH](https://antismash.secondarymetabolites.org/) which is available both as an online portal for submitting jobs and through the command line, installed through conda/Docker etc. To run Prokka, install with `conda install -c conda-forge -c bioconda prokka`. These are all bacterial genomes, so run Prokka by: 
 
 ```
 for file in *.fna; do 
@@ -356,6 +356,17 @@ for file in *.fna; do
     prokka --outdir $N --prefix $N --cpus 15 $file; 
 done
 ```
+
+To annotate with the KEGG database using GhostKHOALA, concatentate all proteins for all bins into one file like so: 
+
+```
+for filename in */*.faa; 
+    do GENNAME=`basename ${filename%.faa}`; 
+    sed "s|^>|>${GENNAME}|" $filename; 
+done > all-ebpr-prots.faa
+```
+
+GhostKHOLA can take FAA files up to 300 MB in size for annotation at once, and the 58 bins' concatenated proteins file is much smaller than this. Therefore, the concatenated protein file has the genome bin the protein came from and the Prokka annotation in the header for KEGG assignments. 
 
 ### Incorporating Metatranscriptomic Datasets 
 
