@@ -1,20 +1,20 @@
-# QC Metatranscriptomes Submission Script
+# split fastq transcriptome files 
 
 # HTCondor Universe
 universe = vanilla
-log = QCmetaTranscriptomes_$(Cluster).log
-error = QCmetaTranscriptomes_$(Cluster)_$(Process).err
+log = splitfastq_$(Cluster).log
+error = splitfastq_$(Cluster)_$(Process).err
 requirements = (OpSys == "LINUX") && (Target.HasGluster == true) && (OpSysMajorVer =?= 7)
 
 # Exectuables
-executable = executables/QC-Transcriptomes.sh
+executable = executables/splitfastq.sh
 arguments = $(transcriptome)
-output = QCmetaTranscriptomes_$(Cluster).out
+output = splitfastq_$(Cluster).out
 
 # Transferring Files
 # should_transfer_files = YES
 # when_to_transfer_output = ON_EXIT
-# transfer_input_files = 
+transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz
 
 # Compute resources 
 request_cpus = 4

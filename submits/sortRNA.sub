@@ -1,20 +1,20 @@
-# QC Metatranscriptomes Submission Script
+# sortRNA
 
 # HTCondor Universe
 universe = vanilla
-log = QCmetaTranscriptomes_$(Cluster).log
-error = QCmetaTranscriptomes_$(Cluster)_$(Process).err
+log = sortRNA_$(Cluster).log
+error = sortRNA_$(Cluster)_$(Process).err
 requirements = (OpSys == "LINUX") && (Target.HasGluster == true) && (OpSysMajorVer =?= 7)
 
 # Exectuables
-executable = executables/QC-Transcriptomes.sh
+executable = executables/sortRNA.sh
 arguments = $(transcriptome)
-output = QCmetaTranscriptomes_$(Cluster).out
+output = sortRNA_$(Cluster).out
 
 # Transferring Files
 # should_transfer_files = YES
 # when_to_transfer_output = ON_EXIT
-# transfer_input_files = 
+transfer_input_files = /home/emcdaniel/software/sortmerna-2.1-linux-64-multithread.tar.gz
 
 # Compute resources 
 request_cpus = 4
