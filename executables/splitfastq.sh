@@ -11,7 +11,7 @@ name=$(basename $1 .qced.fastq.tar.gz)
 
 sed -i '/^$/d' $file
 maxreads=$((`wc -l < $name` / 8 - 1))
-startspoints=$(seq 0 500000 $maxreads)
+startpoints=$(seq 0 500000 $maxreads)
 
 for num in $startpoints;
     do endpoint=$(($num + 499999));
