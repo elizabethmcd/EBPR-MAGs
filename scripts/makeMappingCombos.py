@@ -16,4 +16,4 @@ with open('mappingCombos.txt', 'w') as outfile:
             refbase = os.path.splitext(os.path.basename(ref))[0]
             metabase = os.path.splitext(os.path.basename(meta))[0]
             outname = 'mappingResults/{0}-vs-{1}.bam'.format(refbase, metabase)
-            outfile.wrtie('{0}\t{1}\t{2}\n'.format(ref,meta,outname))
+            outfile.write('{0}\t{1}\t{2}\n'.format(ref,meta,outname))
