@@ -64,7 +64,7 @@ done
 # Bring back statistics and the BAM files with sorted/indexed BAM file, put into one directory, and zip to Gluster
 mkdir $refname-vs-$metaname
 mv *.coverage.txt $refname-vs-$metaname/
-tar -xzvf $refname-vs-$metaname.tar.gz $refname-vs-$metaname/
+tar -czvf $refname-vs-$metaname.tar.gz $refname-vs-$metaname/
 mv $refname-vs-$metaname.tar.gz /mnt/gluster/emcdaniel 
 
 rm */*.fastq
