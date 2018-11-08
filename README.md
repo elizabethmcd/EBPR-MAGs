@@ -15,10 +15,10 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [LINKS](https://github.com/bcgsc/LINKS)
 - [Fastp](https://github.com/OpenGene/fastp)
 - [SortMeRNA](https://github.com/biocore/sortmerna)
-- GTDBK-tk
+- [GTDBK-tk](https://github.com/Ecogenomics/GTDBTk)
 - [Prokka](https://github.com/tseemann/prokka)
-- GhostKOALA
-- antiSMASH
+- [GhostKOALA](https://www.kegg.jp/ghostkoala/)
+- [antiSMASH](https://antismash.secondarymetabolites.org/#!/start)
 
 ### Filter Raw Metagenomic Sequences 
 
@@ -193,7 +193,7 @@ To run the assembly, we need to use one of the high memory nodes at CHTC, which 
 
 ```
 
-Then run the `spades-assembly.sub` submission script, which will run the assembly on a high memory node. Even on a high memory node, this should take some time. Additionally, with this dataset we might have to test with metaSPAdes, although other EBPR people have gotten decent results co-assembling with normal SPAdes. 
+Then run the `spades-assembly.sub` submission script, which will run the assembly on a high memory node. Even on a high memory node, this should take some time. Additionally, with this dataset we might have to test with metaSPAdes, although other EBPR people have gotten decent results co-assembling with normal SPAdes. **Note:** This takes about a week to run on a high memory node at CHTC. 
 
 ### Check Assembly Quality 
 
@@ -340,6 +340,7 @@ The executable is `LINKS` within the links_v1-8-6 archive. A typical run is `./l
 
 - GTDB, make docker image and test-run on condor
 - compare to classifications made through JGI pipeline
+- Using Karthik's rpo marker genes 
 
 ### Identifying Accumulibacter Bins
 
@@ -368,17 +369,45 @@ done > all-ebpr-prots.faa
 
 GhostKHOLA can take FAA files up to 300 MB in size for annotation at once, and the 58 bins' concatenated proteins file is much smaller than this. Therefore, the concatenated protein file has the genome bin the protein came from and the Prokka annotation in the header for KEGG assignments. 
 
+To use antismash, use the generated genbank files from the Prokka output. Activate antismash with `activate source antismash` to open the virtual environment installation. A default run of antismash is `antismash <gbk file>`. I also want to run the additional parameters `--cluster-blast` and `--smcogs` to compare the idetified clusters against the antismash database, and also look for orthologous groups of the secondary metabolite clusters. For each predicted cluster, the output is a gbk file with the proteins for each part of the cluster. This will need to be fed through a genbank file parser to put into the final dataframe for annotations. When feeding the files into antismash, it will complain about the contig headers being too long and will change those. But for the purposes of giving the loci range and annotation/locus tag, this shouldn't matter. Copy all the genbank files for all bins to a central directory to run antismash as follows: 
+
+```
+for file in *.gbk; do
+    name=$(basename $file .gbk);
+    antismash $file --clusterblast --smcogs --outputfolder $name-antismash;
+done
+```
+
 ### Incorporating Metatranscriptomic Datasets 
 
 #### Filter Metatranscriptomic Reads
 
+Previously I would filter all metagenomic/metatranscriptomic reads with `BBDuk` as part of the BBtools suite. But [fastp](https://github.com/OpenGene/fastp) recently came out and I wanted to test it out. It's fast, and handles everything from adapter trimming to quality filtering by default. The submissions script `QC-Metatranscriptomes.sub` takes care of this, without any extra installation needed of fastp since the script pulls it down with `wget`. 
+
 #### rRNA Depletion 
+
+This step is very memory intensive, and takes a lot of time and computing resources to finish. We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. The program `sortmeRNA` will sort out the rRNA based on publicly available databases. The submission script `sortRNA.sub` will perform this on CHTC, and you will need to have downloaded the sortmeRNA.tar.gz tarball. However, even with a decent amount of memory and CPUs, the rRNA depletion doesn't complete before the max walltime of 72 hours. I also tried splitting up the fastq files with some success using Alex's GEODES scripts for doing so, but have decided to use one of the VMs for this since there are only 6 transcriptomic experiments and they aren't insanely large. You will need the shared library package `libgomp1` to run sortmeRNA. First index the reference database with: 
+
+```
+./indexdb_rna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:\./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db
+```
+
+Then for each metatranscriptome, run: 
+
+```
+for file in ../EBPR-Transcriptomes/*.qced.fastq; do 
+    name=$(basename $file .qced.fastq);
+    ./sortmerna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db --reads $file  --fastx --aligned ../$name-rRNA --other ../$name-nonrRNA --log -v -m 64 -a 14; 
+done
+```
+
+Note,this command assumes you have at the very least 14 CPUs and 64 GB of memory. In reality you want more than these parameters so you don't bog down your system. Technically, this can be run on one of the high memory nodes on CHTC, but that requires them manually submitting jobs. 
 
 #### Competitively map Reads to Bins 
 
 #### Count reads and Normalize
 
-### TbasCO Incorporation of Metatranscriptomic Reads and KEGG Annotations 
+### TbasCO Incorporation of Metatranscriptomic Reads and Various Annotations 
 
 ### Metabolic Pathway Prediction 
 
