@@ -62,7 +62,10 @@ for file in mappingResults/*.depth; do
 done
 
 # Bring back statistics and the BAM files with sorted/indexed BAM file, put into one directory, and zip to Gluster
-cp *.coverage.txt /mnt/gluster/emcdaniel/
+mkdir $refname-vs-$metaname
+mv *.coverage.txt $refname-vs-$metaname/
+tar -xzvf $refname-vs-$metaname.tar.gz $refname-vs-$metaname/
+mv $refname-vs-$metaname.tar.gz /mnt/gluster/emcdaniel 
 
-rm *.fastq
-rm *.bam 
+rm */*.fastq
+rm */*.bam 
