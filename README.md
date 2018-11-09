@@ -14,11 +14,14 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [Anvi'o](http://merenlab.org/software/anvio/)
 - [LINKS](https://github.com/bcgsc/LINKS)
 - [Fastp](https://github.com/OpenGene/fastp)
-- [SortMeRNA](https://github.com/biocore/sortmerna)
 - [GTDBK-tk](https://github.com/Ecogenomics/GTDBTk)
+- [FastTree](http://www.microbesonline.org/fasttree/)
+- [RaxML](https://sco.h-its.org/exelixis/software.html)
 - [Prokka](https://github.com/tseemann/prokka)
 - [GhostKOALA](https://www.kegg.jp/ghostkoala/)
 - [antiSMASH](https://antismash.secondarymetabolites.org/#!/start)
+- [SortMeRNA](https://github.com/biocore/sortmerna)
+- [HTSeq](https://htseq.readthedocs.io/en/release_0.10.0/)
 
 ### Filter Raw Metagenomic Sequences 
 
@@ -338,14 +341,12 @@ The executable is `LINKS` within the links_v1-8-6 archive. A typical run is `./l
 
 ### Classification and Phylogenetic Relationships 
 
-- GTDB, make docker image and test-run on condor
-- compare to classifications made through JGI pipeline
-- Using Karthik's rpo marker genes 
+Bins were classfied with the full classify workflow through EcoGenomics' tool GTDB-tk. This was run on the WEI servers because this wouldn't install/run correctly on the VMs and a docker situation in this instance isn't ideal because of the large database needed. From the output of GTDB-tk, the putative classifications are in the `gtdbtk.bac120.classification_pplacer.tsv` file and the multi-sequence alignment FASTA file for tree making is `gtdbtk.bac120.user_msa.fasta`. Use FastTree for a quick look, but make sure to use RaxML for the final tree since this is a tree of multiple single copy markers. 
 
 ### Identifying Accumulibacter Bins
 
 - Check by ANI
-- Check by BLAST of _ppk1_ genes
+- Check by BLAST of _ppk1_ genes for clade identification 
 
 ### Functional Annotation 
 
@@ -405,10 +406,16 @@ Note,this command assumes you have at the very least 14 CPUs and 64 GB of memory
 
 #### Competitively map Reads to Bins 
 
+To competitively map reads to all bins, concatentate the FNA files of all bins together. That way when mapping transcripts, the best hit at a certain identity threshold for that transcript is only taken account once for that best hit in the entire dataset. Use the non-rRNA transcriptomic reads for mapping. 
+
 #### Count reads and Normalize
+
+- HTSeq, update python CHTC installation
 
 ### TbasCO Incorporation of Metatranscriptomic Reads and Various Annotations 
 
 ### Metabolic Pathway Prediction 
+
+- Pathway Tools comparisons
 
 ### Putative Interactions
