@@ -406,11 +406,11 @@ Note,this command assumes you have at the very least 14 CPUs and 64 GB of memory
 
 #### Competitively map Reads to Bins 
 
-To competitively map reads to all bins, concatentate the FNA files of all bins together. That way when mapping transcripts, the best hit at a certain identity threshold for that transcript is only taken account once for that best hit in the entire dataset. Use the non-rRNA transcriptomic reads for mapping. 
+To competitively map reads to all bins, concatentate the FNA files of all bins together. That way when mapping transcripts, the best hit at a certain identity threshold for that transcript is only taken account once for that best hit in the entire dataset. Use the non-rRNA transcriptomic reads for mapping. Run the submission script `mapTranscriptsToRefs.sub` after you have created the `transcriptomeList.txt` directing where the files are on gluster of the nonrRNA.fastq tarballs to move to Gluster for analysis. This will return the sorted BAM files to feed into HTSeq. 
 
 #### Count reads and Normalize
 
-- HTSeq, update python CHTC installation
+To count the transcriptomic reads mapped, we will use HTSeq. This is a python package, so to use on CHTC make sure the python tarball installation that you setup has HTSeq and the dependencies installed with `pip install HTSeq`. 
 
 ### TbasCO Incorporation of Metatranscriptomic Reads and Various Annotations 
 

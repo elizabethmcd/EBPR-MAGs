@@ -30,7 +30,7 @@ cd ..
 cp /mnt/gluster/emcdaniel/all-ebpr-nucs.fna .
 
 # Perform mapping  
-bbmap/bbmap.sh ref=all-ebpr-nucs.fna in=transcriptomes/$tranbase outm=$tranname.bam idtag minid=0.95 nodisk -Xmx48g
+bbmap/bbmap.sh ref=all-ebpr-nucs.fna in=transcriptomes/$tranbase outm=mappingResults/$tranname.bam idtag minid=0.95 nodisk -Xmx48g
 
 # Sorted BAM files
 for file in mappingResults/*.bam; do

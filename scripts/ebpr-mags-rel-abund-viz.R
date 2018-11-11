@@ -64,18 +64,22 @@ phylaplot <- ggplot(ebpr_maned, aes(x=reorder(Bin,-Abundance), y=Abundance, fill
 relabund_prep = rownames_to_column(reltab, "meta")
 relhigh = gather(relabund_prep, key="meta", value="Bin")
 colnames(relhigh) = c("Bin", "Abundance")
-relhigh$meta = rep_len(samplenames, length.out=57)
-relhighnames = left_join(relhigh, taxonomy)
-relhigh.clean = separate(relhighnames, Taxonomy, into = c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), sep=";")
-relhigh.clean = as.data.frame(sapply(relhigh.clean, gsub, pattern="d__", replacement=""))
-relhigh.clean = as.data.frame(sapply(relhigh.clean, gsub, pattern="p__", replacement=""))
-relhigh.clean = as.data.frame(sapply(relhigh.clean, gsub, pattern="c__", replacement=""))
-relhigh.clean = as.data.frame(sapply(relhigh.clean, gsub, pattern="o__", replacement=""))
-relhigh.clean = as.data.frame(sapply(relhigh.clean, gsub, pattern="f__", replacement=""))
-relhigh.clean = as.data.frame(sapply(relhigh.clean, gsub, pattern="g__", replacement=""))
-relhigh.clean = as.data.frame(sapply(relhigh.clean, gsub, pattern="s__", replacement=""))
+ebpr_names = ebpr_maned %>% select("Bin", "Highest_Classf")
+relhighnames = left_join(relhigh, ebpr_names)
+write.csv(file="results/relative-abundance-time-series-table.csv", relhighnames)
 
-ebpr_manames = ebpr_maned %>% select(c("Bin", "Highest_Classf"))
-reltimetable = left_join(relhigh.clean, ebpr_manames)
+# relative abundance timeseries table 
+reltimetable = read.csv("results/relative-abundance-time-series-table.csv", header=TRUE)
+reltimetable$Abundance = as.numeric(as.character(reltimetable$Abundance))
+reltimetable$Bin = gsub("-", "", reltimetable$Bin)
+reltimetable = reltimetable %>% select(c("Bin", "Abundance", "Highest_Classf", "Sample"))
+
+# only accumulibacter
+accum = reltimetable %>% filter(Bin == "3300026282bin.4" | Bin == "3300026284bin.9")
+
+ggplot(accum, aes(x=Sample, y=Bin)) + geom_point(aes(colour=Highest_Classf, size=Abundance)) + theme(panel.background = element_rect(fill="white"), panel.grid.major=element_line(size=.5,colour="grey95", linetype="dotted"), panel.grid.minor=element_line(size=.5, colour="grey95", linetype="dotted"), axis.text.x=element_text(angle=60,size=10,vjust=.5), axis.text.y=element_text(size=7), axis.line=element_blank())
+
+ggplot(reltimetable, aes(x=meta, y=Bin)) + geom_point(aes(colour=Highest_Classf, size=Abundance)) + theme(panel.background = element_rect(fill="white"), panel.grid.major=element_line(size=.5,colour="grey95"), panel.grid.minor=element_line(size=.5, colour="grey95", linetype="dotted"), axis.text.x=element_text(angle=60,size=10,vjust=.5), axis.text.y=element_text(size=7), axis.line=element_blank())
+
 
 ggsave(filename="ebpr-rank-abundance-plot.png", plot=relabundplot, width=40, height=20, units=c("cm"))
