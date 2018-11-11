@@ -1,0 +1,25 @@
+# map transcriptomes to combined reference file
+
+# HTCondor Universe
+universe = vanilla
+log = mapTrascriptsToRefs_$(Cluster).log
+error = mapTranscriptsToRefs_$(Cluster)_$(Process).err
+requirements = (OpSys == "LINUX") && (Target.HasGluster == true) && (OpSysMajorVer =?= 7)
+
+# Exectuables
+executable = executables/mapTranscriptsToRefs.sh
+arguments = $(transcriptome)
+output = mapTranscriptsToRefs$(Cluster).out
+
+# Transferring Files
+# should_transfer_files = 
+# when_to_transfer_output = 
+transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz,/home/emcdaniel/software/samtools.tar.gz,/home/emcdaniel/python.tar.gz
+
+# Compute resources 
+request_cpus = 4
+request_memory = 5GB
+request_disk = 100GB
+
+
+queue transcriptome from transcriptomeList.txt
