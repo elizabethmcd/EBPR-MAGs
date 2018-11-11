@@ -22,4 +22,4 @@ request_memory = 5GB
 request_disk = 100GB
 
 
-queue transcriptome from transcriptomeList.txt
+queue transcriptome from /home/emcdaniel/transcriptomeList.txt
