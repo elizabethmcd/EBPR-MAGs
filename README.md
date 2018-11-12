@@ -345,8 +345,7 @@ Bins were classfied with the full classify workflow through EcoGenomics' tool GT
 
 ### Identifying Accumulibacter Bins
 
-- Check by ANI
-- Check by BLAST of _ppk1_ genes for clade identification 
+It's usually pretty clear from relative abundance measures in this case which bins are Accumulibacter. To specifically identify which clade they belong to, either perform ANI comparisons against the reference Accumulibacter genomes, as clade genomes by ANI are not similar by more than 85%. Or BLAST the _ppk1_ reference set of genes against the bins, as this is how clades are originally identified by. 
 
 ### Functional Annotation 
 
@@ -410,12 +409,50 @@ To competitively map reads to all bins, concatentate the FNA files of all bins t
 
 #### Count reads and Normalize
 
-To count the transcriptomic reads mapped, we will use HTSeq. This is a python package, so to use on CHTC make sure the python tarball installation that you setup has HTSeq and the dependencies installed with `pip install HTSeq`. 
+To count the transcriptomic reads mapped, we will use HTSeq. This is a python package, so to use on CHTC make sure the python tarball installation that you setup has HTSeq and the dependencies installed with `pip install HTSeq`. HTSeq requires as inputs the sorted BAM file of the mapped transcripts to all genomes, and a GTF file of the predicted genes. From my understanding, GTF format is the same as GFF version two, but most gene prediction software platforms output GFF version 3 now, such as Prodigal. The GFF utilities package with `gffread` can convert between these two file formats. Install with: 
+
+```
+  cd /some/build/dir
+  git clone https://github.com/gpertea/gclib
+  git clone https://github.com/gpertea/gffread
+  cd gffread
+  make release
+```
+
+Convert from gff3 to gtf with `gffread all-ebpr-genes.gff3 -o all-ebpr-genes.gtf`. HTSeq can be run from a python script or from the command line with `htseq-count`. Run the command with the intersection-strict mode for judging alignments as a counted mapped read to a gene or not, discussed [here](https://htseq.readthedocs.io/en/release_0.9.0/count.html). A typical htseq-count run is `htseq-count [options] <alignment_files> <gff_file>`. Therefore on each of the transcriptional experiments, run `htseq-count -m intersection-strict alignment.bam all-ebpr-genes.gtf`. Use the command `htseq-count -m intersection-strict -t CDS -i Parent B_15min_Anaerobic.sam all-ebpr-genes.gtf`. **Note:** There is a bug in my mapping scripts when returning sorted BAM files, and I had to re-sort them again before running htseq. It might be a specific version of samtools on CHTC that isn't updated, or something with my command. Additionally, HTSeq can take BAM files as the input if you change the file format with the `-f` flag, but it's nice to have the sorted BAM files. Run this on all the mapped SAM files for each transcriptional experiment: 
+
+```
+for file in *.sam; do 
+    name=$(basename $file .sam);
+    htseq-count -m intersection-strict -t CDS -i Parent $file all-ebpr-genes.gtf > $name-counts.txt;
+done
+```
+
+The locus tags names at this point don't include the genome name, which will need to be ammended for the cases of counting mapped reads and also annotations. To just get a cursory look of expression of bins, append the genome name for every locus tag with: 
+
+```
+for file in *-counts.txt; do
+    name=$(basename $file -counts.txt)
+    for locus in $(awk '{print $1}' $file); do
+        grep -w Parent=$locus all-ebpr-genes.gtf | awk '{print $1}'; 
+    done > $name-genomes.txt
+done
+```
 
 ### TbasCO Incorporation of Metatranscriptomic Reads and Various Annotations 
+
+- Parser for genbank files to combine all annotations from Prokka, KEGG, antismash - general genbank parser to create the annotation dataframe
 
 ### Metabolic Pathway Prediction 
 
 - Pathway Tools comparisons
 
 ### Putative Interactions
+
+- Interactions at transcriptional timepoints, also activity of certain members along the cycle
+- Simulating depth to understand how shallow can go and still get informative signal from low abundance members, and not just drowned out by Accumulibacter 
+
+## Immediate List: 
+
+- Fix locus tags names based on genome name appended with identifier 
+- Parser for genbank files > TbasCO incorporation

@@ -77,9 +77,10 @@ reltimetable = reltimetable %>% select(c("Bin", "Abundance", "Highest_Classf", "
 # only accumulibacter
 accum = reltimetable %>% filter(Bin == "3300026282bin.4" | Bin == "3300026284bin.9")
 
-ggplot(accum, aes(x=Sample, y=Bin)) + geom_point(aes(colour=Highest_Classf, size=Abundance)) + theme(panel.background = element_rect(fill="white"), panel.grid.major=element_line(size=.5,colour="grey95", linetype="dotted"), panel.grid.minor=element_line(size=.5, colour="grey95", linetype="dotted"), axis.text.x=element_text(angle=60,size=10,vjust=.5), axis.text.y=element_text(size=7), axis.line=element_blank())
+accum_rel = ggplot(accum, aes(x=Sample, y=Bin)) + geom_point(aes(colour=Highest_Classf, size=Abundance)) + theme(panel.background = element_rect(fill="white"), legend.key=element_blank(), panel.grid.major=element_line(size=.5,colour="grey95", linetype="dotted"), panel.grid.minor=element_line(size=.5, colour="grey95", linetype="dotted"), axis.text.x=element_text(angle=60,size=10,vjust=.5), axis.text.y=element_text(size=7), axis.line=element_blank())
 
-ggplot(reltimetable, aes(x=meta, y=Bin)) + geom_point(aes(colour=Highest_Classf, size=Abundance)) + theme(panel.background = element_rect(fill="white"), panel.grid.major=element_line(size=.5,colour="grey95"), panel.grid.minor=element_line(size=.5, colour="grey95", linetype="dotted"), axis.text.x=element_text(angle=60,size=10,vjust=.5), axis.text.y=element_text(size=7), axis.line=element_blank())
-
+fullset = ggplot(reltimetable, aes(x=Sample, y=Bin)) + geom_point(aes(colour=Highest_Classf, size=Abundance)) + theme(panel.background = element_rect(fill="white"), legend.key=element_blank(), panel.grid.major=element_line(size=.5,colour="grey95", linetype="dotted"), panel.grid.minor=element_line(size=.5, colour="grey95", linetype="dotted"), axis.text.x=element_text(angle=60,size=10,vjust=.5), axis.text.y=element_text(size=7), axis.line=element_blank())
 
 ggsave(filename="ebpr-rank-abundance-plot.png", plot=relabundplot, width=40, height=20, units=c("cm"))
+ggsave(filename="figs/accum-rel-abundance-bubble.png", plot=accum_rel, width=20, height=20, units=c("cm"))
+ggsave(filename="figs/ebpr-time-series-bubble.png", plot=fullset, width=40, height=20, units=c("cm"))
