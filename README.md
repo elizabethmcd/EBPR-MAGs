@@ -456,3 +456,4 @@ done
 
 - Fix locus tags names based on genome name appended with identifier 
 - Parser for genbank files > TbasCO incorporation
+- % of reads of bins mapped to total metagenomic reads
