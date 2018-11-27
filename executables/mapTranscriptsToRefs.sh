@@ -27,7 +27,7 @@ cp $1 transcriptomes/
 cd transcriptomes
 tar -xzvf *.gz
 cd ..
-cp /mnt/gluster/emcdaniel/all-ebpr-nucs.fna .
+cp /mnt/gluster/emcdaniel/all-ebpr-genes-formatted.fna .
 
 # Perform mapping  
 bbmap/bbmap.sh ref=all-ebpr-nucs.fna in=transcriptomes/$tranbase outm=mappingResults/$tranname.bam idtag minid=0.95 nodisk -Xmx48g
