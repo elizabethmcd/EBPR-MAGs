@@ -405,11 +405,17 @@ Note,this command assumes you have at the very least 14 CPUs and 64 GB of memory
 
 #### Competitively map Reads to Bins 
 
-To competitively map reads to all bins, concatentate the FNA files of all bins together. That way when mapping transcripts, the best hit at a certain identity threshold for that transcript is only taken account once for that best hit in the entire dataset. Use the non-rRNA transcriptomic reads for mapping. Run the submission script `mapTranscriptsToRefs.sub` after you have created the `transcriptomeList.txt` directing where the files are on gluster of the nonrRNA.fastq tarballs to move to Gluster for analysis. This will return the sorted BAM files to feed into HTSeq. 
+To competitively map reads to all bins, concatentate the predicted-genes FNA files of all bins together. To prep the fasta files for all bins, take the `.ffn` files from the output of Prokka so the annotations match what was used for KEGG and antismash analyses: 
 
-#### Count reads and Normalize
+```
+for filename in *.ffn; do GENNAME=`basename ${filename%.ffn}`; sed "s|^>|>${GENNAME}_|" $filename; done > all-ebpr-genes.fna
 
-To count the transcriptomic reads mapped, we will use HTSeq. This is a python package, so to use on CHTC make sure the python tarball installation that you setup has HTSeq and the dependencies installed with `pip install HTSeq`. HTSeq requires as inputs the sorted BAM file of the mapped transcripts to all genomes, and a GTF file of the predicted genes. From my understanding, GTF format is the same as GFF version two, but most gene prediction software platforms output GFF version 3 now, such as Prodigal. The GFF utilities package with `gffread` can convert between these two file formats. Install with: 
+sed 's/ .*//' all-ebpr-genes.fna > all-ebpr-genes-formatted.fna
+```
+
+That way when mapping transcripts, the best hit at a certain identity threshold for that transcript is only taken account once for that best hit in the entire dataset. Use the non-rRNA transcriptomic reads for mapping. Run the submission script `mapTranscriptsToRefs.sub` after you have created the `transcriptomeList.txt` directing where the files are on gluster of the nonrRNA.fastq tarballs to move to Gluster for analysis. This will return the sorted BAM files to feed into HTSeq. 
+
+For counting the mapped reads, htseq requires GTF format. To change the names of the locus tags to include the genome name in them, run the script `genbank-locus-tag-names-change.py` on all the genbank files for each bin, using `nohup -sh c "for file in */*.gbk; do python -W ignore genbank-locus-tag-names-change.py $locus; done" &`. Then convert from genbank to GFF3 using the BioPerl script `bp_genbank2gff3.pl` with the concatenated, modified genbank files: `bp_genbank2gff3.pl all-ebpr-genes-modified.gbk`. Then convert to GTF format from GFF3 with gffread. The GFF utilities package with `gffread` can convert between these two file formats. Install with: 
 
 ```
   cd /some/build/dir
@@ -418,8 +424,13 @@ To count the transcriptomic reads mapped, we will use HTSeq. This is a python pa
   cd gffread
   make release
 ```
+Convert from gff3 to gtf with `gffread all-ebpr-genes-modified.gff3 -o all-ebpr-genes.gtf`.
 
-Convert from gff3 to gtf with `gffread all-ebpr-genes.gff3 -o all-ebpr-genes.gtf`. HTSeq can be run from a python script or from the command line with `htseq-count`. Run the command with the intersection-strict mode for judging alignments as a counted mapped read to a gene or not, discussed [here](https://htseq.readthedocs.io/en/release_0.9.0/count.html). A typical htseq-count run is `htseq-count [options] <alignment_files> <gff_file>`. Therefore on each of the transcriptional experiments, run `htseq-count -m intersection-strict alignment.bam all-ebpr-genes.gtf`. Use the command `htseq-count -m intersection-strict -t CDS -i Parent B_15min_Anaerobic.sam all-ebpr-genes.gtf`. **Note:** There is a bug in my mapping scripts when returning sorted BAM files, and I had to re-sort them again before running htseq. It might be a specific version of samtools on CHTC that isn't updated, or something with my command. Additionally, HTSeq can take BAM files as the input if you change the file format with the `-f` flag, but it's nice to have the sorted BAM files. Run this on all the mapped SAM files for each transcriptional experiment: 
+#### Count reads and Normalize
+
+To count the transcriptomic reads mapped, we will use HTSeq. This is a python package, so to use on CHTC make sure the python tarball installation that you setup has HTSeq and the dependencies installed with `pip install HTSeq`. HTSeq requires as inputs the sorted BAM file of the mapped transcripts to all genomes, and a GTF file of the predicted genes. 
+
+Convert from gff3 to gtf with `gffread all-ebpr-genes.gff3 -o all-ebpr-genes.gtf`. HTSeq can be run from a python script or from the command line with `htseq-count`. Run the command with the intersection-strict mode for judging alignments as a counted mapped read to a gene or not, discussed [here](https://htseq.readthedocs.io/en/release_0.9.0/count.html). A typical htseq-count run is `htseq-count [options] <alignment_files> <gff_file>`. Therefore on each of the transcriptional experiments, run `htseq-count -m intersection-strict alignment.bam all-ebpr-genes.gtf`. Use the command `htseq-count -m intersection-strict -t CDS -i Parent B_15min_Anaerobic.sam all-ebpr-genes.gtf`, or the script `run-htseq.sh`:
 
 ```
 for file in *.sam; do 
@@ -454,6 +465,5 @@ done
 
 ## Immediate List: 
 
-- Fix locus tags names based on genome name appended with identifier 
 - Parser for genbank files > TbasCO incorporation
 - % of reads of bins mapped to total metagenomic reads
