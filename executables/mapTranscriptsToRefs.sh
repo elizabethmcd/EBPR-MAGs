@@ -27,20 +27,14 @@ cp $1 transcriptomes/
 cd transcriptomes
 tar -xzvf *.gz
 cd ..
-cp /mnt/gluster/emcdaniel/all-ebpr-nucs.fna .
+cp /mnt/gluster/emcdaniel/all-ebpr-genes-formatted.fna .
 
 # Perform mapping  
-bbmap/bbmap.sh ref=all-ebpr-nucs.fna in=transcriptomes/$tranbase outm=mappingResults/$tranname.bam idtag minid=0.95 nodisk -Xmx48g
-
-# Sorted BAM files
-for file in mappingResults/*.bam; do
-    outsort=$(basename $file .bam).sorted.bam;
-    ./samtools/bin/samtools sort $file -o mappingResults/$outsort;
-done
+bbmap/bbmap.sh ref=all-ebpr-genes-formatted.fna in=transcriptomes/$tranbase outm=mappingResults/$tranname.bam idtag minid=0.95 nodisk -Xmx48g
 
 # Move back to gluster
 mkdir $tranname
-mv mappingResults/*.sorted.bam $tranname
+mv mappingResults/*.bam $tranname
 tar -czvf $tranname.tar.gz $tranname
 cp $tranname.tar.gz /mnt/gluster/emcdaniel
 
