@@ -19,6 +19,6 @@ transfer_input_files = /home/emcdaniel/software/sortmerna-2.1-linux-64-multithre
 # Compute resources 
 request_cpus = 8
 request_memory = 100GB
-request_disk = 100GB
+request_disk = 150GB
 
 queue transcriptome from /home/emcdaniel/transcriptomeList.txt
