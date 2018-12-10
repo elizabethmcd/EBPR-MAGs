@@ -1,0 +1,76 @@
+# Metabolic Summaries of EBPR Community 
+library(tidyverse)
+library(reshape2)
+
+# Files
+ebpr_stats = read.table("refined-bins-derep-checkm-stats.txt", sep=" ", header=FALSE)
+ebpr_taxonomy = read.table("gtdbtk.bac120.classification_pplacer.txt", sep="\t", header=FALSE)
+ebpr_order = read.table("ebpr-tree-order.csv", sep=",", header=TRUE)
+highest_classf = read.table("ebpr-rank-abundance-classifications.csv", sep=",", header=TRUE)
+colnames(ebpr_stats) = c("bin", "classification", "size", "completion", "redundancy")
+colnames(ebpr_taxonomy) = c("bin", "full_classf")
+
+# Metabolic dataframes by function
+sulfur = read.table("ebpr-sulfur-markers.csv", sep=",", header=TRUE)
+methane = read.table("ebpr-methane-markers.csv", sep=",", header=TRUE)
+hydrogen = read.table("ebpr-hydrogen-markers.csv", sep=",", header=TRUE)
+carbon_fixation = read.table("ebpr-carbon-fixation-markers.csv", sep=",", header=TRUE)
+carbon_metabolism = read.table("ebpr-carbon-metabolism-markers.csv", sep=",", header=TRUE)
+oxygen = read.table("ebpr-oxygen-markers.csv", sep=",", header=TRUE)
+nitrogen = read.table("ebpr-nitrogen-markers.csv", sep=",", header=TRUE)
+misc = read.table("ebpr-misc-markers.csv", sep=",", header=TRUE)
+
+# Merge metadata
+ebpr_tree_order = left_join(ebpr_order, highest_classf)
+ebpr_metadata = subset(ebpr_tree_order, select=c(bin, Highest_Classf))
+colnames(ebpr_metadata) = c("genome", "classification")
+ebpr_names = subset(ebpr_metadata, select=c(genome))
+ebpr_names$genome = gsub("-", "_", ebpr_names$genome)
+ebpr_names$genome = factor(ebpr_names$genome, levels=ebpr_names$genome)
+
+# Merged metabolism files
+sulfur_names = left_join(ebpr_names, sulfur)
+methane_names = left_join(ebpr_names, methane)
+hydrogen_names = left_join(ebpr_names, hydrogen)
+carbon_fix_names = left_join(ebpr_names, carbon_fixation)
+carbon_names = left_join(ebpr_names, carbon_metabolism)
+oxygen_names = left_join(ebpr_names, oxygen)
+nitrogen_names = left_join(ebpr_names, nitrogen)
+misc_names = left_join(ebpr_names, misc)
+
+# Melt for plots
+sulfur.m = melt(sulfur_names, id.vars="genome")
+sulfur.m$genome = factor(sulfur.m$genome, levels= c('3300026302_bin.32', '3300009517_bin.12', '3300009517_bin.1' , '3300026289_bin.28', '3300009517_bin.30', '3300009517_bin.31', '3300026288_bin.30', '3300026288_bin.32', '3300026288_bin.15', '3300026283_bin.19', '3300026302_bin.27', '3300026303_bin.42' , '3300026283_bin.18', '3300026302_bin.24', '3300026288_bin.6', '3300026302_bin.62', '3300009517_bin.52', '3300009517_bin.7', '3300026303_bin.46', '3300026288_bin.43', '3300009517_bin.3', '3300026299_bin.22', '3300026284_bin.6', '3300026302_bin.47', '3300026303_bin.32', '3300026302_bin.59', '3300026299_bin.12', '3300026302_bin.46', '3300026282_bin.4', '3300026284_bin.9', '3300026302_bin.20', '3300009517_bin.42', '3300026288_bin.34', '3300026288_bin.23', '3300026302_bin.31', '3300009517_bin.13', '3300026302_bin.10', '3300026283_bin.28', '3300026287_bin.4', '3300026303_bin.38', '3300026289_bin.23', '3300026302_bin.25', '3300026289_bin.24', '3300026283_bin.21', '3300009517_bin.29', '3300026287_bin.17', '3300009517_bin.6', '3300026282_bin.5', '3300026287_bin.38', '3300026289_bin.41', '3300026287_bin.29', '3300026302_bin.61', '3300009517_bin.47', '3300026299_bin.49', '3300026288_bin.19', '3300026299_bin.26', '3300026289_bin.38'))
+methane.m = melt(methane_names, id.vars="genome")
+methane.m$genome = factor(methane.m$genome, levels= c('3300026302_bin.32', '3300009517_bin.12', '3300009517_bin.1' , '3300026289_bin.28', '3300009517_bin.30', '3300009517_bin.31', '3300026288_bin.30', '3300026288_bin.32', '3300026288_bin.15', '3300026283_bin.19', '3300026302_bin.27', '3300026303_bin.42' , '3300026283_bin.18', '3300026302_bin.24', '3300026288_bin.6', '3300026302_bin.62', '3300009517_bin.52', '3300009517_bin.7', '3300026303_bin.46', '3300026288_bin.43', '3300009517_bin.3', '3300026299_bin.22', '3300026284_bin.6', '3300026302_bin.47', '3300026303_bin.32', '3300026302_bin.59', '3300026299_bin.12', '3300026302_bin.46', '3300026282_bin.4', '3300026284_bin.9', '3300026302_bin.20', '3300009517_bin.42', '3300026288_bin.34', '3300026288_bin.23', '3300026302_bin.31', '3300009517_bin.13', '3300026302_bin.10', '3300026283_bin.28', '3300026287_bin.4', '3300026303_bin.38', '3300026289_bin.23', '3300026302_bin.25', '3300026289_bin.24', '3300026283_bin.21', '3300009517_bin.29', '3300026287_bin.17', '3300009517_bin.6', '3300026282_bin.5', '3300026287_bin.38', '3300026289_bin.41', '3300026287_bin.29', '3300026302_bin.61', '3300009517_bin.47', '3300026299_bin.49', '3300026288_bin.19', '3300026299_bin.26', '3300026289_bin.38'))
+hydrogen.m = melt(hydrogen_names, id.vars="genome")
+hydrogen.m$genome = factor(hydrogen.m$genome, levels= c('3300026302_bin.32', '3300009517_bin.12', '3300009517_bin.1' , '3300026289_bin.28', '3300009517_bin.30', '3300009517_bin.31', '3300026288_bin.30', '3300026288_bin.32', '3300026288_bin.15', '3300026283_bin.19', '3300026302_bin.27', '3300026303_bin.42' , '3300026283_bin.18', '3300026302_bin.24', '3300026288_bin.6', '3300026302_bin.62', '3300009517_bin.52', '3300009517_bin.7', '3300026303_bin.46', '3300026288_bin.43', '3300009517_bin.3', '3300026299_bin.22', '3300026284_bin.6', '3300026302_bin.47', '3300026303_bin.32', '3300026302_bin.59', '3300026299_bin.12', '3300026302_bin.46', '3300026282_bin.4', '3300026284_bin.9', '3300026302_bin.20', '3300009517_bin.42', '3300026288_bin.34', '3300026288_bin.23', '3300026302_bin.31', '3300009517_bin.13', '3300026302_bin.10', '3300026283_bin.28', '3300026287_bin.4', '3300026303_bin.38', '3300026289_bin.23', '3300026302_bin.25', '3300026289_bin.24', '3300026283_bin.21', '3300009517_bin.29', '3300026287_bin.17', '3300009517_bin.6', '3300026282_bin.5', '3300026287_bin.38', '3300026289_bin.41', '3300026287_bin.29', '3300026302_bin.61', '3300009517_bin.47', '3300026299_bin.49', '3300026288_bin.19', '3300026299_bin.26', '3300026289_bin.38'))
+carbon_fix.m = melt(carbon_fix_names, id.vars="genome")
+carbon_fix.m$genome = factor(carbon_fix.m$genome, levels= c('3300026302_bin.32', '3300009517_bin.12', '3300009517_bin.1' , '3300026289_bin.28', '3300009517_bin.30', '3300009517_bin.31', '3300026288_bin.30', '3300026288_bin.32', '3300026288_bin.15', '3300026283_bin.19', '3300026302_bin.27', '3300026303_bin.42' , '3300026283_bin.18', '3300026302_bin.24', '3300026288_bin.6', '3300026302_bin.62', '3300009517_bin.52', '3300009517_bin.7', '3300026303_bin.46', '3300026288_bin.43', '3300009517_bin.3', '3300026299_bin.22', '3300026284_bin.6', '3300026302_bin.47', '3300026303_bin.32', '3300026302_bin.59', '3300026299_bin.12', '3300026302_bin.46', '3300026282_bin.4', '3300026284_bin.9', '3300026302_bin.20', '3300009517_bin.42', '3300026288_bin.34', '3300026288_bin.23', '3300026302_bin.31', '3300009517_bin.13', '3300026302_bin.10', '3300026283_bin.28', '3300026287_bin.4', '3300026303_bin.38', '3300026289_bin.23', '3300026302_bin.25', '3300026289_bin.24', '3300026283_bin.21', '3300009517_bin.29', '3300026287_bin.17', '3300009517_bin.6', '3300026282_bin.5', '3300026287_bin.38', '3300026289_bin.41', '3300026287_bin.29', '3300026302_bin.61', '3300009517_bin.47', '3300026299_bin.49', '3300026288_bin.19', '3300026299_bin.26', '3300026289_bin.38'))
+carbon.m=melt(carbon_names, id.vars="genome")
+carbon.m$genome = factor(carbon.m$genome, levels= c('3300026302_bin.32', '3300009517_bin.12', '3300009517_bin.1' , '3300026289_bin.28', '3300009517_bin.30', '3300009517_bin.31', '3300026288_bin.30', '3300026288_bin.32', '3300026288_bin.15', '3300026283_bin.19', '3300026302_bin.27', '3300026303_bin.42' , '3300026283_bin.18', '3300026302_bin.24', '3300026288_bin.6', '3300026302_bin.62', '3300009517_bin.52', '3300009517_bin.7', '3300026303_bin.46', '3300026288_bin.43', '3300009517_bin.3', '3300026299_bin.22', '3300026284_bin.6', '3300026302_bin.47', '3300026303_bin.32', '3300026302_bin.59', '3300026299_bin.12', '3300026302_bin.46', '3300026282_bin.4', '3300026284_bin.9', '3300026302_bin.20', '3300009517_bin.42', '3300026288_bin.34', '3300026288_bin.23', '3300026302_bin.31', '3300009517_bin.13', '3300026302_bin.10', '3300026283_bin.28', '3300026287_bin.4', '3300026303_bin.38', '3300026289_bin.23', '3300026302_bin.25', '3300026289_bin.24', '3300026283_bin.21', '3300009517_bin.29', '3300026287_bin.17', '3300009517_bin.6', '3300026282_bin.5', '3300026287_bin.38', '3300026289_bin.41', '3300026287_bin.29', '3300026302_bin.61', '3300009517_bin.47', '3300026299_bin.49', '3300026288_bin.19', '3300026299_bin.26', '3300026289_bin.38'))
+oxygen.m=melt(oxygen_names, id.vars="genome")
+oxygen.m$genome = factor(oxygen.m$genome, levels= c('3300026302_bin.32', '3300009517_bin.12', '3300009517_bin.1' , '3300026289_bin.28', '3300009517_bin.30', '3300009517_bin.31', '3300026288_bin.30', '3300026288_bin.32', '3300026288_bin.15', '3300026283_bin.19', '3300026302_bin.27', '3300026303_bin.42' , '3300026283_bin.18', '3300026302_bin.24', '3300026288_bin.6', '3300026302_bin.62', '3300009517_bin.52', '3300009517_bin.7', '3300026303_bin.46', '3300026288_bin.43', '3300009517_bin.3', '3300026299_bin.22', '3300026284_bin.6', '3300026302_bin.47', '3300026303_bin.32', '3300026302_bin.59', '3300026299_bin.12', '3300026302_bin.46', '3300026282_bin.4', '3300026284_bin.9', '3300026302_bin.20', '3300009517_bin.42', '3300026288_bin.34', '3300026288_bin.23', '3300026302_bin.31', '3300009517_bin.13', '3300026302_bin.10', '3300026283_bin.28', '3300026287_bin.4', '3300026303_bin.38', '3300026289_bin.23', '3300026302_bin.25', '3300026289_bin.24', '3300026283_bin.21', '3300009517_bin.29', '3300026287_bin.17', '3300009517_bin.6', '3300026282_bin.5', '3300026287_bin.38', '3300026289_bin.41', '3300026287_bin.29', '3300026302_bin.61', '3300009517_bin.47', '3300026299_bin.49', '3300026288_bin.19', '3300026299_bin.26', '3300026289_bin.38'))
+nitrogen.m=melt(nitrogen_names, id.vars="genome")
+nitrogen.m$genome = factor(nitrogen.m$genome, levels= c('3300026302_bin.32', '3300009517_bin.12', '3300009517_bin.1' , '3300026289_bin.28', '3300009517_bin.30', '3300009517_bin.31', '3300026288_bin.30', '3300026288_bin.32', '3300026288_bin.15', '3300026283_bin.19', '3300026302_bin.27', '3300026303_bin.42' , '3300026283_bin.18', '3300026302_bin.24', '3300026288_bin.6', '3300026302_bin.62', '3300009517_bin.52', '3300009517_bin.7', '3300026303_bin.46', '3300026288_bin.43', '3300009517_bin.3', '3300026299_bin.22', '3300026284_bin.6', '3300026302_bin.47', '3300026303_bin.32', '3300026302_bin.59', '3300026299_bin.12', '3300026302_bin.46', '3300026282_bin.4', '3300026284_bin.9', '3300026302_bin.20', '3300009517_bin.42', '3300026288_bin.34', '3300026288_bin.23', '3300026302_bin.31', '3300009517_bin.13', '3300026302_bin.10', '3300026283_bin.28', '3300026287_bin.4', '3300026303_bin.38', '3300026289_bin.23', '3300026302_bin.25', '3300026289_bin.24', '3300026283_bin.21', '3300009517_bin.29', '3300026287_bin.17', '3300009517_bin.6', '3300026282_bin.5', '3300026287_bin.38', '3300026289_bin.41', '3300026287_bin.29', '3300026302_bin.61', '3300009517_bin.47', '3300026299_bin.49', '3300026288_bin.19', '3300026299_bin.26', '3300026289_bin.38'))
+misc.m=melt(misc_names,id.vars="genome")
+misc.m$genome = factor(misc.m$genome, levels= c('3300026302_bin.32', '3300009517_bin.12', '3300009517_bin.1' , '3300026289_bin.28', '3300009517_bin.30', '3300009517_bin.31', '3300026288_bin.30', '3300026288_bin.32', '3300026288_bin.15', '3300026283_bin.19', '3300026302_bin.27', '3300026303_bin.42' , '3300026283_bin.18', '3300026302_bin.24', '3300026288_bin.6', '3300026302_bin.62', '3300009517_bin.52', '3300009517_bin.7', '3300026303_bin.46', '3300026288_bin.43', '3300009517_bin.3', '3300026299_bin.22', '3300026284_bin.6', '3300026302_bin.47', '3300026303_bin.32', '3300026302_bin.59', '3300026299_bin.12', '3300026302_bin.46', '3300026282_bin.4', '3300026284_bin.9', '3300026302_bin.20', '3300009517_bin.42', '3300026288_bin.34', '3300026288_bin.23', '3300026302_bin.31', '3300009517_bin.13', '3300026302_bin.10', '3300026283_bin.28', '3300026287_bin.4', '3300026303_bin.38', '3300026289_bin.23', '3300026302_bin.25', '3300026289_bin.24', '3300026283_bin.21', '3300009517_bin.29', '3300026287_bin.17', '3300009517_bin.6', '3300026282_bin.5', '3300026287_bin.38', '3300026289_bin.41', '3300026287_bin.29', '3300026302_bin.61', '3300009517_bin.47', '3300026299_bin.49', '3300026288_bin.19', '3300026299_bin.26', '3300026289_bin.38'))
+
+# Heatmaps
+sulfur_plot = ggplot(sulfur.m, aes(x=variable, y=fct_rev(genome), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="purple4") + theme(axis.text.x= element_text(angle=85, hjust=1))
+methane_plot = ggplot(methane.m, aes(x=variable, y=fct_rev(genome), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="gray22") + theme(axis.text.x= element_text(angle=85, hjust=1))
+hydrogen_plot = ggplot(hydrogen.m, aes(x=variable, y=fct_rev(genome), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="dodgerblue4") + theme(axis.text.x= element_text(angle=85, hjust=1))
+carbon_fix_plot = ggplot(carbon_fix.m, aes(x=variable, y=fct_rev(genome), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="coral4") + theme(axis.text.x= element_text(angle=85, hjust=1))
+carbon_plot = ggplot(carbon.m, aes(x=variable, y=fct_rev(genome), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="darkmagenta") + theme(axis.text.x= element_text(angle=85, hjust=1))
+oxygen_plot = ggplot(oxygen.m, aes(x=variable, y=fct_rev(genome), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="lightseagreen") + theme(axis.text.x= element_text(angle=85, hjust=1))
+nitrogen_plot = ggplot(nitrogen.m, aes(x=variable, y=fct_rev(genome), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="goldenrod4") + theme(axis.text.x= element_text(angle=85, hjust=1))
+misc_plot = ggplot(misc.m, aes(x=variable, y=fct_rev(genome), fill=value)) + geom_tile(color="black") + scale_fill_gradient(low="white", high="mediumvioletred") + theme(axis.text.x= element_text(angle=85, hjust=1))
+
+ggsave("ebpr-sulfur-markers.png", sulfur_plot, height= 25, width = 10, units="cm")
+ggsave("ebpr-methane-markers.png", methane_plot, height=25, width=10, units="cm")
+ggsave("ebpr-hydrogen-markers.png", hydrogen_plot, height=25, width=10, units="cm")
+ggsave("ebpr-carbon-fix-markers.png", carbon_fix_plot, height=25, width=10, units="cm")
+ggsave("ebpr-carbon-met-markers.png", carbon_plot, height=25, width=10, units="cm")
+ggsave("ebpr-oxygen-markers.png", oxygen_plot, height=25, width=10, units="cm")
+ggsave("ebpr-nitrogen-markers.png", nitrogen_plot, height=25, width=15, units="cm")
+ggsave("ebpr-misc-markers.png", misc_plot, height=25, width=15, units="cm")

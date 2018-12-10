@@ -1,0 +1,24 @@
+# sortRNA
+
+# HTCondor Universe
+universe = vanilla
+log = qc_sortRNA_$(Cluster).log
+error = qc_sortRNA_$(Cluster)_$(Process).err
+requirements = (OpSys == "LINUX") && (Target.HasGluster == true) && (OpSysMajorVer =?= 7)
+
+# Exectuables
+executable = executables/QC-and-sortRNA.sh
+arguments = $(transcriptome)
+output = qc_sortRNA_$(Cluster).out
+
+# Transferring Files
+# should_transfer_files = YES
+# when_to_transfer_output = ON_EXIT
+transfer_input_files = /home/emcdaniel/software/sortmerna-2.1-linux-64-multithread.tar.gz
+
+# Compute resources 
+request_cpus = 8
+request_memory = 100GB
+request_disk = 100GB
+
+queue transcriptome from /home/emcdaniel/transcriptomeList.txt

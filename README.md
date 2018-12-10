@@ -395,8 +395,8 @@ This step is very memory intensive, and takes a lot of time and computing resour
 Then for each metatranscriptome, run: 
 
 ```
-for file in ../EBPR-Transcriptomes/*.qced.fastq; do 
-    name=$(basename $file .qced.fastq);
+for file in ../EBPR-Transcriptomes/*.fastq; do 
+    name=$(basename $file fastq);
     ./sortmerna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db --reads $file  --fastx --aligned ../$name-rRNA --other ../$name-nonrRNA --log -v -m 64 -a 14; 
 done
 ```
@@ -456,7 +456,7 @@ done
 
 ### Metabolic Pathway Prediction 
 
-- Pathway Tools comparisons
+For a high-level overview of metabolic capabilities, run the `metabolisHMM` package created for the MeHg project on these MAGs. 
 
 ### Putative Interactions
 
