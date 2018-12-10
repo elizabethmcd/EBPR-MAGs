@@ -401,7 +401,7 @@ for file in ../EBPR-Transcriptomes/*.fastq; do
 done
 ```
 
-Note,this command assumes you have at the very least 14 CPUs and 64 GB of memory. In reality you want more than these parameters so you don't bog down your system. Technically, this can be run on one of the high memory nodes on CHTC, but that requires them manually submitting jobs. 
+Note,this command assumes you have at the very least 14 CPUs and 64 GB of memory. In reality you want more than these parameters so you don't bog down your system. Technically, this can be run on one of the high memory nodes on CHTC, but that requires them manually submitting jobs. This step can also be ran with the QC step with `fastp` on CHTC with `QC-and-sort.sub` to only get back the non-rRNA filtered reads for mapping purposes. 
 
 #### Competitively map Reads to Bins 
 
@@ -456,7 +456,9 @@ done
 
 ### Metabolic Pathway Prediction 
 
-For a high-level overview of metabolic capabilities, run the `metabolisHMM` package created for the MeHg project on these MAGs. 
+For a high-level overview of metabolic capabilities, run the `metabolisHMM` package created for the MeHg project on these MAGs. For a more detailed curation of metabolic pathways, we will use [MetaPathways](http://hallam.microbiology.ubc.ca/MetaPathways/) for each genome bin to get predicted annotations against several databases (MetaCyc, KEGG, etc.). First the MetaPathways source tarball, Pathway Tools source, and database files need to be downloaded. The MetaPathways wiki provides the structure for the database files, but these need to be manually downloaded. For [Pathway Tools](http://bioinformatics.ai.sri.com/ptools/) you can download an academic license, which might take some time to process.
+
+Alternatively to look at the metabolic pathways one-by-one in a map viewer, the KEGG database has a mapping tool that takes KO terms and displays them on a metabolic map, and you can click through the different things it has. 
 
 ### Putative Interactions
 

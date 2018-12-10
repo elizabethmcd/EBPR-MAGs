@@ -2,13 +2,15 @@
 
 # setup files
 cp $1 .
-tar -xzvf *.gz 
+tran=$(basename $1)
 file=$(basename $1 .tar.gz)
 name=$(basename $1 .fastq.tar.gz)
+tar -xzf $tran
 
 # software setup
 wget http://opengene.org/fastp/fastp
 chmod a+x ./fastp
+tar -xzvf sortmerna-2.1-linux-64-multithread.tar.gz
 
 # QC 
 ./fastp -i $file -o $name.qced.fastq --cut_by_quality3
