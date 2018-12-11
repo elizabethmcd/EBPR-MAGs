@@ -1,7 +1,7 @@
 #! /bin/bash 
 
 # setup files
-cp $1 
+cp $1 .
 tran=$(basename $1)
 file=$(basename $1 .tar.gz)
 name=$(basename $1 .fastq.tar.gz)
