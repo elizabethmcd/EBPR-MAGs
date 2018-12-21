@@ -11,13 +11,6 @@ mkdir mappingResults
 # Programs 
 tar -xvzf BBMap_38.07.tar.gz
 tar -xvzf samtools.tar.gz
-tar -xvzf python.tar.gz
-
-# Python
-mkdir home
-export PATH=$(pwd)/python/bin:$PATH
-export HOME=$(pwd)/home
-chmod u+x *.py
 
 # Copy over metagenomic timepoint and bin
 transcriptome=$1
