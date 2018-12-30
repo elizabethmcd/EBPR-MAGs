@@ -14,7 +14,7 @@ output = reformatReads_$(Cluster).out
 # Transferring Files
 # should_transfer_files = YES
 # when_to_transfer_output = ON_EXIT
-transfer_input_files = software/BBMap_38.07.tar.gz
+transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz
 
 # Compute resources 
 request_cpus = 4
