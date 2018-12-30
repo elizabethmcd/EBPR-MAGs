@@ -21,4 +21,4 @@ request_cpus = 4
 request_memory = 10GB
 request_disk = 100GB
 
-queue meta from readsToreformat.txt
+queue meta from home/readsToreformat.txt
