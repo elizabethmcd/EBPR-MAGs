@@ -14,7 +14,7 @@ metabase=$(basename $meta .tar.gz)
 metarun=$(basename $meta .fastq.tar.gz)
 
 # Reformat reads 
-bbmap/reformat.sh in=trans/metabase out=trans/$metarun.fixed.fastq tossbrokenreads
+bbmap/reformat.sh in=trans/$metabase out=trans/$metarun.fixed.fastq tossbrokenreads
 
 # Copy back to gluster
 tar -czvf $metarun.fixed.fastq.tar.gz trans/$metarun.fixed.fastq.tar.gz

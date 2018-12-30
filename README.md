@@ -386,7 +386,7 @@ Previously I would filter all metagenomic/metatranscriptomic reads with `BBDuk` 
 
 #### rRNA Depletion 
 
-This step is very memory intensive, and takes a lot of time and computing resources to finish. We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. The program `sortmeRNA` will sort out the rRNA based on publicly available databases. The submission script `sortRNA.sub` will perform this on CHTC, and you will need to have downloaded the sortmeRNA.tar.gz tarball. However, even with a decent amount of memory and CPUs, the rRNA depletion doesn't complete before the max walltime of 72 hours. I also tried splitting up the fastq files with some success using Alex's GEODES scripts for doing so, but have decided to use one of the VMs for this since there are only 6 transcriptomic experiments and they aren't insanely large. You will need the shared library package `libgomp1` to run sortmeRNA. First index the reference database with: 
+This step is very memory intensive, and takes a lot of time and computing resources to finish. We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. The program `sortmeRNA` will sort out the rRNA based on publicly available databases. The submission script `sortRNA.sub` will perform this on CHTC, and you will need to have downloaded the sortmeRNA.tar.gz tarball. You will need the shared library package `libgomp1` to run sortmeRNA. First index the reference database with: 
 
 ```
 ./indexdb_rna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:\./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db
@@ -405,17 +405,11 @@ Note,this command assumes you have at the very least 14 CPUs and 64 GB of memory
 
 #### Competitively map Reads to Bins 
 
-To competitively map reads to all bins, concatentate the predicted-genes FNA files of all bins together. To prep the fasta files for all bins, take the `.ffn` files from the output of Prokka so the annotations match what was used for KEGG and antismash analyses: 
+The metatranscriptomic reads can alternatively be competitively mapped to the concatenated set of genome bins with an identity threshold cutoff. However, the program `bbsplit.sh` within the BBtools suite package will decide which reference genome the reads map to best, and then also outputs the aligned reads in SAM format individually for each genome. This is an extra step to ensure the best genome hit aligns to the metatranscriptomic read, and also the individual SAM files for each genome can be used for downstream analyses or other investigations just focussing on specific genomes and not the whole pile. 
 
-```
-for filename in *.ffn; do GENNAME=`basename ${filename%.ffn}`; sed "s|^>|>${GENNAME}_|" $filename; done > all-ebpr-genes.fna
+To first ensure there aren't any problems with mapping terminating randomly because of oddly formatted reads (or possibly corrupted down the line), run the `reformatReads.sub` job on all the metatranscriptomes. This will fix any issues by tossing broken reads that don't conform to having equal number of quality scores to number of bases for the read, which happens a couple of times in some of the files. 
 
-sed 's/ .*//' all-ebpr-genes.fna > all-ebpr-genes-formatted.fna
-```
-
-That way when mapping transcripts, the best hit at a certain identity threshold for that transcript is only taken account once for that best hit in the entire dataset. Use the non-rRNA transcriptomic reads for mapping. Run the submission script `mapTranscriptsToRefs.sub` after you have created the `transcriptomeList.txt` directing where the files are on gluster of the nonrRNA.fastq tarballs to move to Gluster for analysis. This will return the sorted BAM files to feed into HTSeq. 
-
-For counting the mapped reads, htseq requires GTF format. To change the names of the locus tags to include the genome name in them, run the script `genbank-locus-tag-names-change.py` on all the genbank files for each bin, using `nohup -sh c "for file in */*.gbk; do python -W ignore genbank-locus-tag-names-change.py $locus; done" &`. Then convert from genbank to GFF3 using the BioPerl script `bp_genbank2gff3.pl` with the concatenated, modified genbank files: `bp_genbank2gff3.pl all-ebpr-genes-modified.gbk`. Then convert to GTF format from GFF3 with gffread. The GFF utilities package with `gffread` can convert between these two file formats. Install with: 
+The GFF utilities package with `gffread` can convert between these two file formats. Install with: 
 
 ```
   cd /some/build/dir
