@@ -19,7 +19,7 @@ metarun=$(basename $metabase .fastq.tar.gz)
 bbmap/bbduk.sh in=trans/$metabase out=trans/$metarun.bbduk.qced.fastq qtrim=r trimq=10 maq=10
 
 # copy back to gluster
-tar -czvf $metarun.bbduk.qced.fastq.tar.gz $metarun.bbduk.qced.fastq
+tar -czvf $metarun.bbduk.qced.fastq.tar.gz trans/$metarun.bbduk.qced.fastq
 cp $metarun.bbduk.qced.fastq.tar.gz /mnt/gluster/emcdaniel/
 
 
