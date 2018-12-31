@@ -7,9 +7,9 @@ mkdir trans
 # Programs
 tar -xvzf BBMap_38.07.tar.gz
 
-# Copy over metatranscriptomic read files from Gluster and decompress
+# setup
 cp $1 trans/
-cd metagenomes
+cd trans
 tar -xzf $meta
 cd ..
 metabase=$(basename $1 .tar.gz)
