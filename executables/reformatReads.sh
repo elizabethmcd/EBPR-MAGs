@@ -17,5 +17,5 @@ metarun=$(basename $meta .fastq.tar.gz)
 bbmap/reformat.sh in=trans/$metabase out=trans/$metarun.fixed.fastq tossbrokenreads
 
 # Copy back to gluster
-tar -czvf $metarun.fixed.fastq.tar.gz trans/$metarun.fixed.fastq.tar.gz
+tar -czvf $metarun.fixed.fastq.tar.gz trans/$metarun.fixed.fastq
 cp $metarun.fixed.fastq.tar.gz /mnt/gluster/emcdaniel
