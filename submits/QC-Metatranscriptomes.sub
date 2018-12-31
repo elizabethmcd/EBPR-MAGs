@@ -18,7 +18,7 @@ output = QCmetaTranscriptomes_$(Cluster).out
 
 # Compute resources 
 request_cpus = 4
-request_memory = 50GB
+request_memory = 10GB
 request_disk = 100GB
 
 queue transcriptome from /home/emcdaniel/transcriptomeList.txt
