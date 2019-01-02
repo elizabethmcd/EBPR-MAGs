@@ -15,7 +15,7 @@ tar -xvzf samtools.tar.gz
 # Copy over metagenomic timepoint and bin
 transcriptome=$1
 tranbase=$(basename $transcriptome .tar.gz)
-tranname=$(basename $transcriptome _mRNA-nonrRNA.fastq.tar.gz)
+tranname=$(basename $transcriptome .fastq.bbduk.qced.fastq.tar.gz)
 cp $1 transcriptomes/
 cd transcriptomes
 tar -xzvf *.gz
