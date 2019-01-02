@@ -23,7 +23,7 @@ cd ..
 cp /mnt/gluster/emcdaniel/EBPR-Bins-NUCS/*.fna .
 
 # Perform mapping  
-bbmap/bbsplit.sh ref=3300026282-bin.4,3300026284-bin.9,3300026288-bin.43 in=transcriptomes/$tranbase basename=mappingResults/out_%.sam minratio=0.56 minhits=1 maxindel=16000
+bbmap/bbsplit.sh ref=3300026282-bin.4.fna,3300026284-bin.9.fna,3300026288-bin.43.fna in=transcriptomes/trans/$tranbase basename=mappingResults/out_%.sam minratio=0.56 minhits=1 maxindel=16000
 
 # Move back to gluster
 mkdir $tranname
