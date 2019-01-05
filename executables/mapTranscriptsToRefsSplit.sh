@@ -15,7 +15,7 @@ tar -xvzf samtools.tar.gz
 # Copy over metagenomic timepoint and bin
 transcriptome=$1
 tranbase=$(basename $transcriptome .tar.gz)
-tranname=$(basename $transcriptome .fastq.bbduk.qced.fastq.tar.gz)
+tranname=$(basename $transcriptome .fastq.bbduk.qced-nonrRNA.fastq.tar.gz)
 cp $1 transcriptomes/
 cd transcriptomes
 tar -xzvf *.gz
@@ -26,10 +26,10 @@ cp /mnt/gluster/emcdaniel/EBPR-Bins-NUCS/*.fna .
 bbmap/bbsplit.sh ref=3300026282-bin.4.fna,3300026284-bin.9.fna,3300026288-bin.43.fna in=transcriptomes/trans/$tranbase basename=mappingResults/out_%.sam minratio=0.56 minhits=1 maxindel=16000
 
 # Move back to gluster
-mkdir $tranname
-mv mappingResults/*.sam $tranname
-tar -czvf $tranname.tar.gz $tranname
-cp $tranname.tar.gz /mnt/gluster/emcdaniel
+mkdir $tranname-mapped
+mv mappingResults/*.sam $tranname-mapped
+tar -czvf $tranname-mapped.tar.gz $tranname-mapped
+cp $tranname-mapped.tar.gz /mnt/gluster/emcdaniel
 
 # cleanup 
 rm *.fna
