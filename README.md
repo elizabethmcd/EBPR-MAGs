@@ -13,7 +13,6 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
 - [Anvi'o](http://merenlab.org/software/anvio/)
 - [LINKS](https://github.com/bcgsc/LINKS)
-- [Fastp](https://github.com/OpenGene/fastp)
 - [GTDBK-tk](https://github.com/Ecogenomics/GTDBTk)
 - [FastTree](http://www.microbesonline.org/fasttree/)
 - [RaxML](https://sco.h-its.org/exelixis/software.html)
@@ -367,26 +366,28 @@ for filename in */*.faa;
 done > all-ebpr-prots.faa
 ```
 
-GhostKHOLA can take FAA files up to 300 MB in size for annotation at once, and the 58 bins' concatenated proteins file is much smaller than this. Therefore, the concatenated protein file has the genome bin the protein came from and the Prokka annotation in the header for KEGG assignments. 
+GhostKHOALA can take FAA files up to 300 MB in size for annotation at once, and the 58 bins' concatenated proteins file is much smaller than this. Therefore, the concatenated protein file has the genome bin the protein came from and the Prokka annotation in the header for KEGG assignments. 
 
 To use antismash, use the generated genbank files from the Prokka output. Activate antismash with `activate source antismash` to open the virtual environment installation. A default run of antismash is `antismash <gbk file>`. I also want to run the additional parameters `--cluster-blast` and `--smcogs` to compare the idetified clusters against the antismash database, and also look for orthologous groups of the secondary metabolite clusters. For each predicted cluster, the output is a gbk file with the proteins for each part of the cluster. This will need to be fed through a genbank file parser to put into the final dataframe for annotations. When feeding the files into antismash, it will complain about the contig headers being too long and will change those. But for the purposes of giving the loci range and annotation/locus tag, this shouldn't matter. Copy all the genbank files for all bins to a central directory to run antismash as follows: 
 
 ```
 for file in *.gbk; do
     name=$(basename $file .gbk);
-    antismash $file --clusterblast --smcogs --outputfolder $name-antismash;
+    antismash $file --clusterblast --smcogs --knownclusterblast --outputfolder $name-antismash;
 done
 ```
+
+Then for each genome, download the antismash output folder, and open the `index.html` file in a browser to interactively view the results for a first pass. 
 
 ### Incorporating Metatranscriptomic Datasets 
 
 #### Filter Metatranscriptomic Reads
 
-Previously I would filter all metagenomic/metatranscriptomic reads with `BBDuk` as part of the BBtools suite. But [fastp](https://github.com/OpenGene/fastp) recently came out and I wanted to test it out. It's fast, and handles everything from adapter trimming to quality filtering by default. The submissions script `QC-Metatranscriptomes.sub` takes care of this, without any extra installation needed of fastp since the script pulls it down with `wget`. 
+Filter the metatranscriptomic sequences from Ben Oyserman with BBDuk. `QC-Metatranscriptomes.sub` will do so and you need the BBTools suite as in with `bbmap`. 
 
 #### rRNA Depletion 
 
-This step is very memory intensive, and takes a lot of time and computing resources to finish. We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. The program `sortmeRNA` will sort out the rRNA based on publicly available databases. The submission script `sortRNA.sub` will perform this on CHTC, and you will need to have downloaded the sortmeRNA.tar.gz tarball. You will need the shared library package `libgomp1` to run sortmeRNA. First index the reference database with: 
+We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. The program `sortmeRNA` will sort out the rRNA based on publicly available databases. You will need sortmerna version 3.0.2, because previous versions have a lot of bugs in them that make for a giant headache at the mapping step. Install sortmerna with the instructions found [here](https://github.com/biocore/sortmerna). You will need the shared library packages `libgomp1` and `librocksdb-dev`. to run sortmeRNA. First index the reference database with: 
 
 ```
 ./indexdb_rna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:\./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db
@@ -395,13 +396,11 @@ This step is very memory intensive, and takes a lot of time and computing resour
 Then for each metatranscriptome, run: 
 
 ```
-for file in ../EBPR-Transcriptomes/*.fastq; do 
+for file in ../../EBPR-Transcriptomes/*.fastq; do 
     name=$(basename $file fastq);
-    ./sortmerna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db --reads $file  --fastx --aligned ../$name-rRNA --other ../$name-nonrRNA --log -v -m 64 -a 14; 
+    ./sortmerna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db --reads $file --fastx  --aligned ../$name-rRNA --other ../$name-nonrRNA --log -v -a 14; 
 done
 ```
-
-Note,this command assumes you have at the very least 14 CPUs and 64 GB of memory. In reality you want more than these parameters so you don't bog down your system. Technically, this can be run on one of the high memory nodes on CHTC, but that requires them manually submitting jobs. This step can also be ran with the QC step with `fastp` on CHTC with `QC-and-sort.sub` to only get back the non-rRNA filtered reads for mapping purposes. 
 
 #### Competitively map Reads to Bins 
 
