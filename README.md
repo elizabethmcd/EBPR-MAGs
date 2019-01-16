@@ -421,25 +421,14 @@ Convert from gff3 to gtf with `gffread all-ebpr-genes-modified.gff3 -o all-ebpr-
 
 #### Count reads and Normalize
 
-To count the transcriptomic reads mapped, we will use HTSeq. This is a python package, so to use on CHTC make sure the python tarball installation that you setup has HTSeq and the dependencies installed with `pip install HTSeq`. HTSeq requires as inputs the sorted BAM file of the mapped transcripts to all genomes, and a GTF file of the predicted genes. 
+To count the transcriptomic reads mapped, we will use HTSeq. HTSeq requires as inputs the sorted BAM files of the mapped transcripts, and a GTF file of predicted annoted genes for each genome. 
 
-Convert from gff3 to gtf with `gffread all-ebpr-genes.gff3 -o all-ebpr-genes.gtf`. HTSeq can be run from a python script or from the command line with `htseq-count`. Run the command with the intersection-strict mode for judging alignments as a counted mapped read to a gene or not, discussed [here](https://htseq.readthedocs.io/en/release_0.9.0/count.html). A typical htseq-count run is `htseq-count [options] <alignment_files> <gff_file>`. Therefore on each of the transcriptional experiments, run `htseq-count -m intersection-strict alignment.bam all-ebpr-genes.gtf`. Use the command `htseq-count -m intersection-strict -t CDS -i Parent B_15min_Anaerobic.sam all-ebpr-genes.gtf`, or the script `run-htseq.sh`:
+Convert from gff3 to gtf with `gffread bin.gff3 -o bin.gtf`. HTSeq can be run from a python script or from the command line with `htseq-count`. Run the command with the intersection-strict mode for judging alignments as a counted mapped read to a gene or not, discussed [here](https://htseq.readthedocs.io/en/release_0.9.0/count.html). A typical htseq-count run is `htseq-count [options] <alignment_files> <gff_file>`. Therefore on each of the transcriptional experiments, run `htseq-count -m intersection-strict alignment.bam all-ebpr-genes.gtf`. For each transcriptional experiment, `bbsort.sh` outputs mapped reads to the best hit for a genome. Therefore each GTF file needs to be matched up to the mappped reads to that genome for that transcriptonal experiment. Run this script for each of the transcriptional experiments:
 
 ```
 for file in *.sam; do 
     name=$(basename $file .sam);
-    htseq-count -m intersection-strict -t CDS -i Parent $file all-ebpr-genes.gtf > $name-counts.txt;
-done
-```
-
-The locus tags names at this point don't include the genome name, which will need to be ammended for the cases of counting mapped reads and also annotations. To just get a cursory look of expression of bins, append the genome name for every locus tag with: 
-
-```
-for file in *-counts.txt; do
-    name=$(basename $file -counts.txt)
-    for locus in $(awk '{print $1}' $file); do
-        grep -w Parent=$locus all-ebpr-genes.gtf | awk '{print $1}'; 
-    done > $name-genomes.txt
+    htseq-count -m intersection-strict -t CDS -i Parent $file /home/emcdaniel/EBPR-Bins/$name.gtf > $name-counts.txt;
 done
 ```
 
