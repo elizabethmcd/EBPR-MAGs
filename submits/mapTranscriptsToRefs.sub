@@ -14,11 +14,11 @@ output = mapTranscriptsToRefs$(Cluster).out
 # Transferring Files
 # should_transfer_files = 
 # when_to_transfer_output = 
-transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz,/home/emcdaniel/software/samtools.tar.gz,/home/emcdaniel/python.tar.gz
+transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz,/home/emcdaniel/software/samtools.tar.gz,/home/emcdaniel/software/python.tar.gz
 
 # Compute resources 
 request_cpus = 4
-request_memory = 5GB
+request_memory = 10GB
 request_disk = 100GB
 
 

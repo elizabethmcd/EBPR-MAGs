@@ -22,21 +22,21 @@ chmod u+x *.py
 # Copy over metagenomic timepoint and bin
 transcriptome=$1
 tranbase=$(basename $transcriptome .tar.gz)
-tranname=$(basename $transcriptome _mRNA-nonrRNA.fastq.tar.gz)
+tranname=$(basename $transcriptome .fastq.tar.gz)
 cp $1 transcriptomes/
 cd transcriptomes
 tar -xzvf *.gz
 cd ..
-cp /mnt/gluster/emcdaniel/all-ebpr-genes-formatted.fna .
+cp /mnt/gluster/emcdaniel/all-ebpr-genomes.fna .
 
 # Perform mapping  
-bbmap/bbmap.sh ref=all-ebpr-genes-formatted.fna in=transcriptomes/$tranbase outm=mappingResults/$tranname.bam idtag minid=0.95 nodisk -Xmx48g
+bbmap/bbmap.sh ref=all-ebpr-genomes.fna in=transcriptomes/$tranbase outm=mappingResults/$tranname.bam idtag minid=0.95 nodisk -Xmx48g
 
 # Move back to gluster
-mkdir $tranname
-mv mappingResults/*.bam $tranname
-tar -czvf $tranname.tar.gz $tranname
-cp $tranname.tar.gz /mnt/gluster/emcdaniel
+mkdir $tranname-mappingResults
+mv mappingResults/*.bam $tranname-mappingResults
+tar -czvf $tranname-mappingResults.tar.gz $tranname-mappingResults
+cp $tranname-mappingResults.tar.gz /mnt/gluster/emcdaniel
 
 # cleanup 
 rm *.fna
