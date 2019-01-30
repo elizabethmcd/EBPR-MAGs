@@ -19,7 +19,7 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [Prokka](https://github.com/tseemann/prokka)
 - [GhostKOALA](https://www.kegg.jp/ghostkoala/)
 - [antiSMASH](https://antismash.secondarymetabolites.org/#!/start)
-- [SortMeRNA](https://github.com/biocore/sortmerna)
+- [phyloflash](http://hrgv.github.io/phyloFlash/)
 - [HTSeq](https://htseq.readthedocs.io/en/release_0.10.0/)
 
 ### Filter Raw Metagenomic Sequences 
@@ -362,7 +362,7 @@ To annotate with the KEGG database using GhostKHOALA, concatentate all proteins 
 ```
 for filename in */*.faa; 
     do GENNAME=`basename ${filename%.faa}`; 
-    sed "s|^>|>${GENNAME}|" $filename; 
+    sed "s|^>|>${GENNAME}_|" $filename; 
 done > all-ebpr-prots.faa
 ```
 
@@ -383,24 +383,43 @@ Then for each genome, download the antismash output folder, and open the `index.
 
 #### Filter Metatranscriptomic Reads
 
-Filter the metatranscriptomic sequences from Ben Oyserman with BBDuk. `QC-Metatranscriptomes.sub` will do so and you need the BBTools suite as in with `bbmap`. 
+Filter the metatranscriptomic sequences pulled down from the NCBI SRA. If SRA paired-end formatting needs to be fixed or re-ordered, used the `reformat.sh` in bbtools prior to filtering or interleaving paired end files. `QC-Metatranscriptomes.sub` will quality filter the reads and remove adapters if you have the `adapters.fa` file from bbtools in the current directory.  
 
 #### rRNA Depletion 
 
-We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. The program `sortmeRNA` will sort out the rRNA based on publicly available databases. You will need sortmerna version 3.0.2, because previous versions have a lot of bugs in them that make for a giant headache at the mapping step. Install sortmerna with the instructions found [here](https://github.com/biocore/sortmerna). You will need the shared library packages `libgomp1` and `librocksdb-dev`. to run sortmeRNA. First index the reference database with: 
+We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. I've found a few issues with sortmeRNA, and not to mention it's pretty slow. Recently `phyloflash` came out to sort rRNA from metagenomes/metatranscriptomes, and claims to be faster/more intuitive. Installation instructions:  
 
 ```
-./indexdb_rna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:\./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db
+# phyloflash 
+wget https://github.com/HRGV/phyloFlash/archive/pf3.3b1.tar.gz
+tar -xzf pf3.3b1.tar.gz
+
+# bbtools - add to path
+wget http://downloads.sourceforge.net/project/bbmap/BBMap_35.34.tar.gz
+tar -xzvf BBMap_35.34.tar.gz 
+
+# spades - add to path
+wget http://cab.spbu.ru/files/release3.11.1/SPAdes-3.11.1-Linux.tar.gz
+tar -xzf SPAdes-3.11.1-Linux.tar.gz
+cd SPAdes-3.11.1-Linux/bin/
+
+# vsearch
+wget https://github.com/torognes/vsearch/archive/v2.10.4.tar.gz
+tar xzf v2.10.4.tar.gz
+cd vsearch-2.10.4
+./autogen.sh
+./configure
+make
+make install  # as root or sudo make install
+
+# check installation and dependencies of phyloflash from directory unzipped
+perl phyloFlash.pl -check_env
+
+# setup the rRNA database
+perl phyloFlash_makedb.pl --remote
 ```
 
-Then for each metatranscriptome, run: 
 
-```
-for file in ../../EBPR-Transcriptomes/*.fastq; do 
-    name=$(basename $file fastq);
-    ./sortmerna --ref ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:./rRNA_databases/silva-bac-23s-id98.fasta,./index/silva-bac-23s-db:./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:./rRNA_databases/silva-arc-23s-id98.fasta,./index/silva-arc-23s-db:./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db:./rRNA_databases/silva-euk-28s-id98.fasta,./index/silva-euk-28s:./rRNA_databases/rfam-5s-database-id98.fasta,./index/rfam-5s-db:./rRNA_databases/rfam-5.8s-database-id98.fasta,./index/rfam-5.8s-db --reads $file --fastx  --aligned ../$name-rRNA --other ../$name-nonrRNA --log -v -a 14; 
-done
-```
 
 #### Competitively map Reads to Bins 
 
@@ -432,6 +451,17 @@ for file in *.sam; do
 done
 ```
 
+After counting each bin for each timepoint, reformat the counts to: 
+
+```
+for file in *-counts.txt; do 
+    name=$(basename $file -counts.txt); 
+    head -n -5 $file > $name-reformatted-counts.txt; 
+done
+```
+
+And concatenate each timepoint's counts for all bins for each timepoint separately for normalization purposes. 
+
 ### TbasCO Incorporation of Metatranscriptomic Reads and Various Annotations 
 
 - Parser for genbank files to combine all annotations from Prokka, KEGG, antismash - general genbank parser to create the annotation dataframe
@@ -445,7 +475,6 @@ Alternatively to look at the metabolic pathways one-by-one in a map viewer, the 
 ### Putative Interactions
 
 - Interactions at transcriptional timepoints, also activity of certain members along the cycle
-- Simulating depth to understand how shallow can go and still get informative signal from low abundance members, and not just drowned out by Accumulibacter 
 
 ## Immediate List: 
 
