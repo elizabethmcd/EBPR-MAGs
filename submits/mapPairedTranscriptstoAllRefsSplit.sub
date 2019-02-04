@@ -22,4 +22,4 @@ request_memory = 40GB
 request_disk = 200GB
 
 
-queue r1,r2,transcriptome from pairedTranscriptomes.txt
+queue r1,r2,transcriptome from /home/emcdaniel/pairedTranscriptomes.txt
