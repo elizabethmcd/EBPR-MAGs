@@ -15,20 +15,23 @@ tar -xvzf samtools.tar.gz
 # Copy over metagenomic timepoint and bin
 r1=$1
 r2=$2
+r1base=$(basename $r1)
+r2base=$(basename $r2)
 tranname=$3
-r1base=$(basename $r1 .tar.gz)
-r2base=$(basename $r2 .tar.gz)
+r1file=$(basename $r1 .tar.gz)
+r2file=$(basename $r2 .tar.gz)
 r1name=$(basename $r1 .fixed.qced.fastq.tar.gz)
 r2name=$(basename $r2 .fixed.qced.fastq.tar.gz)
 cp $1 transcriptomes/
 cp $2 transcriptomes/
 cd transcriptomes
-tar -xzvf *.gz
+tar -xzvf $r1base
+tar -xzvf $r2base
 cd ..
 cp /mnt/gluster/emcdaniel/SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta .
 
 # Perform mapping  
-bbmap/bbsplit.sh ref=SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta in1=transcriptomes/$r1base in2=transcriptomes/$r2base basename=mappingResults/_out%.sam
+bbmap/bbsplit.sh ref=SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta in1=transcriptomes/$r1file in2=transcriptomes/$r2file basename=mappingResults/_out%.sam
 
 # Move back to gluster
 mkdir $tranname-ribosomal-mapped
