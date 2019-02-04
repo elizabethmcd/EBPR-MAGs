@@ -165,8 +165,6 @@ done < allcombos.txt
 
 ```
 
-While it could be done this way, all the bins can just be dumped into one directory for all-v-all comparisons. That way less work is done for splitting things into different directories. This will also give comparisons for within a timepoint, but then we know if there are multiple "similar" organisms in a single timepoint. 
-
 ### Co-Assembly with SPAdes
 
 So far we have only worked with single assemblies from each timepoint. This will work well for abundant organisms, especially those with a lot of strain variation (i.e. Accumulibacter). However since we are trying to extract as many high quality bins as possible, having a co-assembly will help these efforts. These single assemblies were done with SPAdes, and not the metaSPAdes version, done at the JGI. We will try to co-assemble with SPAdes as well. This will need to be done on CHTC on one of the high memory nodes. To install: 
@@ -387,38 +385,25 @@ Filter the metatranscriptomic sequences pulled down from the NCBI SRA. If SRA pa
 
 #### rRNA Depletion 
 
-We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. I've found a few issues with sortmeRNA, and not to mention it's pretty slow. Recently `phyloflash` came out to sort rRNA from metagenomes/metatranscriptomes, and claims to be faster/more intuitive. Installation instructions:  
+We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. There a quite a few bugs with popular rRNA removal programs such as sortmeRNA and phyloflash, so I've implemented my own pipeline for removing rRNA reads. Based on the SILVA database, for each sample map to the rRNA database with `mapTranscriptsToRibosomalDatabase.sub`. To submit jobs of R1 and R2 paired end reads along with the sample name, the queue file should look like:
 
 ```
-# phyloflash 
-wget https://github.com/HRGV/phyloFlash/archive/pf3.3b1.tar.gz
-tar -xzf pf3.3b1.tar.gz
-
-# bbtools - add to path
-wget http://downloads.sourceforge.net/project/bbmap/BBMap_35.34.tar.gz
-tar -xzvf BBMap_35.34.tar.gz 
-
-# spades - add to path
-wget http://cab.spbu.ru/files/release3.11.1/SPAdes-3.11.1-Linux.tar.gz
-tar -xzf SPAdes-3.11.1-Linux.tar.gz
-cd SPAdes-3.11.1-Linux/bin/
-
-# vsearch
-wget https://github.com/torognes/vsearch/archive/v2.10.4.tar.gz
-tar xzf v2.10.4.tar.gz
-cd vsearch-2.10.4
-./autogen.sh
-./configure
-make
-make install  # as root or sudo make install
-
-# check installation and dependencies of phyloflash from directory unzipped
-perl phyloFlash.pl -check_env
-
-# setup the rRNA database
-perl phyloFlash_makedb.pl --remote
+/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248415_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248415_2.fixed.qced.fastq.tar.gz,B_15min_Anaerobic
+/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248431_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248431_2.fixed.qced.fastq.tar.gz,D_52min_Anaerobic
+/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248463_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248463_2.fixed.qced.fastq.tar.gz,N_134min_Aerobic
+/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554570_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554570_2.fixed.qced.fastq.tar.gz,H_11min_Aerobic
+/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554572_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554572_2.fixed.qced.fastq.tar.gz,F_92min_Anaerobic
+/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554578_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554578_2.fixed.qced.fastq.tar.gz,J_51min_Aerobic
 ```
 
+This should give a mapped file of everything that hit with 85% identity to the ribosomal database. Then sort the reads into mapped and unmapped with samtools: 
+
+```
+samtools view -F4 sample.bam > sample.mapped.sam
+samtools view -f4 sample.bam > sample.unmapped.sam
+```
+This has to be sorted first for paired end files. 
+Convert to fastq with bedtools, and then use the unmapped reads for mapping to the genome bins with bbsplit.  
 
 
 #### Competitively map Reads to Bins 
