@@ -1,0 +1,25 @@
+# map split paired-end transcriptomes to all split references use bbsplit
+
+# HTCondor Universe
+universe = vanilla
+log = ribosomalTranscripts_$(Cluster).log
+error = ribosomalTranscripts_$(Cluster)_$(Process).err
+requirements = (OpSys == "LINUX") && (Target.HasGluster == true) && (OpSysMajorVer =?= 7)
+
+# Exectuables
+executable = executables/mapTranscriptsToRibosomalDatabase.sh
+arguments = $(r1) $(r2) $(transcriptome)
+output = ribosomalTranscripts$(Cluster).out
+
+# Transferring Files
+# should_transfer_files = 
+# when_to_transfer_output = 
+transfer_input_files = /home/emcdaniel/software/BBMap_38.07.tar.gz,/home/emcdaniel/software/samtools.tar.gz
+
+# Compute resources 
+request_cpus = 6
+request_memory = 40GB
+request_disk = 200GB
+
+
+queue r1,r2,transcriptome from /home/emcdaniel/pairedTranscriptomes.txt
