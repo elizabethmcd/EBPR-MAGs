@@ -31,11 +31,11 @@ cd ..
 cp /mnt/gluster/emcdaniel/SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta .
 
 # Perform mapping  
-bbmap/bbmap.sh ref=SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta in1=transcriptomes/$r1file in2=transcriptomes/$r2file outm=mappingResults/$tranname.sam -Xmx48g minid=0.98
+bbmap/bbmap.sh ref=SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta in1=transcriptomes/$r1file in2=transcriptomes/$r2file outm=mappingResults/$tranname.bam -Xmx48g minid=0.98
 
 # Move back to gluster
 mkdir $tranname-ribosomal-mapped
-mv mappingResults/*.sam $tranname-ribosomal-mapped
+mv mappingResults/*.bam $tranname-ribosomal-mapped
 tar -czvf $tranname-ribosomal-mapped.tar.gz $tranname-ribosomal-mapped
 cp $tranname-ribosomal-mapped.tar.gz /mnt/gluster/emcdaniel
 
