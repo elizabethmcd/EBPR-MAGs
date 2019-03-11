@@ -1,6 +1,6 @@
 # Extracting Metagenome Assembled Genomes from EBPR Enrichment Reactor Time-Series 
 
-This series of workflows demonstrate how to extract, refine, and utilize metagenome assembled genomes (MAGs) from a metagenomic time-series of EBPR reactors. Most of the workflow was constructed to be run on a high-throughput computing system, specifically [CHTC at UW-Madison](http://chtc.cs.wisc.edu/). 
+This series of workflows demonstrate how to extract, refine, and utilize metagenome assembled genomes (MAGs) from a metagenomic time-series of EBPR reactors. Most of the workflow was constructed to be run on a high-throughput computing system, specifically [CHTC at UW-Madison](http://chtc.cs.wisc.edu/). These steps describe the filtering, assembly, refinement, classification, and annotation steps of using metagenome assembled genomes, and using them for a metatranscriptomics analysis. 
 
 ## Dependencies 
 
@@ -12,15 +12,13 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [ANI Calculator](http://enve-omics.ce.gatech.edu/ani/) 
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
 - [Anvi'o](http://merenlab.org/software/anvio/)
-- [LINKS](https://github.com/bcgsc/LINKS)
 - [GTDBK-tk](https://github.com/Ecogenomics/GTDBTk)
 - [FastTree](http://www.microbesonline.org/fasttree/)
 - [RaxML](https://sco.h-its.org/exelixis/software.html)
 - [Prokka](https://github.com/tseemann/prokka)
 - [GhostKOALA](https://www.kegg.jp/ghostkoala/)
 - [antiSMASH](https://antismash.secondarymetabolites.org/#!/start)
-- [phyloflash](http://hrgv.github.io/phyloFlash/)
-- [HTSeq](https://htseq.readthedocs.io/en/release_0.10.0/)
+- [kallisto](https://pachterlab.github.io/kallisto/)
 
 ### Filter Raw Metagenomic Sequences 
 
@@ -325,17 +323,6 @@ Note, Anvi'o doesn't like symbols other than '_' so replace names of samples/dir
 
 When working with in the interactive interface, contigs will be hierarchically clustered, and it will be pretty easy to tell when the binner messed up and put contigs together than shouldn't be there based upon differentiall coverage profile of all the contigs. If you have an abberant contig that has a much different differential coverage profile than the other contigs in the bin, you know it needs to be removed from the bin. Once you are satisfied with the contigs you have selected in your manually curated bin, save the collection. I usually just save it as "default". Then summarize the collection with `anvi-summarize -p MERGED_PROFILE/PROFILE.db -c contigs.db -C CONCOCT -o MERGED_SUMMARY` or in our case `anvi-summarize -p MERGED_PROFILE/PROFILE.db -c contigs.db -C default -o refined_bin_name`. In the summary, there will be a `bin-name_contigs.fa` file, which will give the refined bin's contigs in FASTA format. There are a bunch of other statistics in the folder, but the most important is saving the manually refined contigs FASTA file somewhere. So now you have a manually refined bin that you can say you checked for uniform differential coverage, and not just go off of CheckM estimates. 
 
-### Scaffolding with Long Reads  
-
-We will use PacBio reads sequenced from the 2013-05-23 sample date to scaffold the contigs for select bins. This may only work for a subset of the bins, since this was taken for only one sample. To do so, we will use LINKS, the Long Interval Nucleotide K-mer Scaffolder tool to scaffold the bins made of contigs binned from the short reads. 
-
-```
-wget http://www.bcgsc.ca/platform/bioinfo/software/links/releases/1.8.6/links_v1-8-6.tar.gz
-gunzip links_v1-8-6.tar.gz
-tar -xvf links_v1-8-6.tar.gz
-``` 
-The executable is `LINKS` within the links_v1-8-6 archive. A typical run is `./links_v1.8.6/LINKS -f MAN-REFINED-BINS-DROP/3300009517-bin.1.fa -s reads.fof -b test.out` where the `.fof` file is a "file of files" listing the full path to the long reads, so it would look like `/home/emcdaniel/2013-05-23-PACBIO-qced.fastq`. So far this process works better than SOAPdenovo2's GapCloser. 
-
 ### Classification and Phylogenetic Relationships 
 
 Bins were classfied with the full classify workflow through EcoGenomics' tool GTDB-tk. This was run on the WEI servers because this wouldn't install/run correctly on the VMs and a docker situation in this instance isn't ideal because of the large database needed. From the output of GTDB-tk, the putative classifications are in the `gtdbtk.bac120.classification_pplacer.tsv` file and the multi-sequence alignment FASTA file for tree making is `gtdbtk.bac120.user_msa.fasta`. Use FastTree for a quick look, but make sure to use RaxML for the final tree since this is a tree of multiple single copy markers. 
@@ -379,89 +366,30 @@ Then for each genome, download the antismash output folder, and open the `index.
 
 ### Incorporating Metatranscriptomic Datasets 
 
-#### Filter Metatranscriptomic Reads
+The metatranscriptomics workflow approach I took goes through these steps: 
 
-Filter the metatranscriptomic sequences pulled down from the NCBI SRA. If SRA paired-end formatting needs to be fixed or re-ordered, used the `reformat.sh` in bbtools prior to filtering or interleaving paired end files. `QC-Metatranscriptomes.sub` will quality filter the reads and remove adapters if you have the `adapters.fa` file from bbtools in the current directory.  
+1. Manual removal of rRNA
+2. Psuedoalign and quantify reads with kallisto
+3. Parse genbank files to combine annotation sources
 
-#### rRNA Depletion 
+#### Manual removal of rRNA
 
-We want to deplete the samples of rRNA, because they are not informative for expression purposes, and make up most of the RNA in a sample, and basically are a waste of analysis. There a quite a few bugs with popular rRNA removal programs such as sortmeRNA and phyloflash, so I've implemented my own pipeline for removing rRNA reads. Based on the SILVA database, for each sample map to the rRNA database with `mapTranscriptsToRibosomalDatabase.sub`. To submit jobs of R1 and R2 paired end reads along with the sample name, the queue file should look like:
+1. Map reads with 80% identity to the SILVA database
+2. Sort the bam file with samtools
+3. Create FASTQ files from the sorted bam files with bedtools
+4. Create a list of read IDs that were identified as rRNA
+5. Filter out the rRNA reads with `filterbyname.sh`, part of the BBTools suite
 
-```
-/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248415_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248415_2.fixed.qced.fastq.tar.gz,B_15min_Anaerobic
-/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248431_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248431_2.fixed.qced.fastq.tar.gz,D_52min_Anaerobic
-/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248463_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRR5248463_2.fixed.qced.fastq.tar.gz,N_134min_Aerobic
-/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554570_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554570_2.fixed.qced.fastq.tar.gz,H_11min_Aerobic
-/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554572_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554572_2.fixed.qced.fastq.tar.gz,F_92min_Anaerobic
-/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554578_1.fixed.qced.fastq.tar.gz,/mnt/gluster/emcdaniel/EBPR-Transcriptomes/SRX2554578_2.fixed.qced.fastq.tar.gz,J_51min_Aerobic
-```
+These steps aren't super important, neither is the overall removal of rRNA, as this can be removed after mapping using the predicted ORFs/annotations. Additionally the index mapped to with kallisto could have just predicted ORFs/non-rRNA as predicted by barrnap (as part of Prokka), so you wouldn't have to waste time manually sorting out rRNA or using cumbersome software like `sortmeRNA`. 
 
-This should give a mapped file of everything that hit with 85% identity to the ribosomal database. Then sort the reads into mapped and unmapped with samtools: 
+#### Pseudoalignment and Quantification with Kallisto
 
-```
-samtools view -F4 sample.bam > sample.mapped.sam
-samtools view -f4 sample.bam > sample.unmapped.sam
-```
-This has to be sorted first for paired end files. 
-Convert to fastq with bedtools, and then use the unmapped reads for mapping to the genome bins with bbsplit.  
+First create a concatenated index of all predicted ORFs from all genomes with `kallisto index -i ebpr-orfs fastafile`. The headers for each predicted ORF should be the same as what will be in the genbank files to parse from for matching annotation purposes. A good format is `genomeID_orfID`. Then map/quantify with `kallisto quant -i index -o outdir fastqfiles`. This tool is very simple to use, and there are great libraries for parsing the outputs. 
 
+#### Parse Annotations and Output Files
 
-#### Competitively map Reads to Bins 
-
-The metatranscriptomic reads can alternatively be competitively mapped to the concatenated set of genome bins with an identity threshold cutoff. However, the program `bbsplit.sh` within the BBtools suite package will decide which reference genome the reads map to best, and then also outputs the aligned reads in SAM format individually for each genome. This is an extra step to ensure the best genome hit aligns to the metatranscriptomic read, and also the individual SAM files for each genome can be used for downstream analyses or other investigations just focussing on specific genomes and not the whole pile. 
-
-To first ensure there aren't any problems with mapping terminating randomly because of oddly formatted reads (or possibly corrupted down the line), run the `reformatReads.sub` job on all the metatranscriptomes. This will fix any issues by tossing broken reads that don't conform to having equal number of quality scores to number of bases for the read, which happens a couple of times in some of the files. 
-
-The GFF utilities package with `gffread` can convert between these two file formats. Install with: 
-
-```
-  cd /some/build/dir
-  git clone https://github.com/gpertea/gclib
-  git clone https://github.com/gpertea/gffread
-  cd gffread
-  make release
-```
-Convert from gff3 to gtf with `gffread all-ebpr-genes-modified.gff3 -o all-ebpr-genes.gtf`.
-
-#### Count reads and Normalize
-
-To count the transcriptomic reads mapped, we will use HTSeq. HTSeq requires as inputs the sorted BAM files of the mapped transcripts, and a GTF file of predicted annoted genes for each genome. 
-
-Convert from gff3 to gtf with `gffread bin.gff3 -o bin.gtf`. HTSeq can be run from a python script or from the command line with `htseq-count`. Run the command with the intersection-strict mode for judging alignments as a counted mapped read to a gene or not, discussed [here](https://htseq.readthedocs.io/en/release_0.9.0/count.html). A typical htseq-count run is `htseq-count [options] <alignment_files> <gff_file>`. Therefore on each of the transcriptional experiments, run `htseq-count -m intersection-strict alignment.bam all-ebpr-genes.gtf`. For each transcriptional experiment, `bbsort.sh` outputs mapped reads to the best hit for a genome. Therefore each GTF file needs to be matched up to the mappped reads to that genome for that transcriptonal experiment. Run this script for each of the transcriptional experiments:
-
-```
-for file in *.sam; do 
-    name=$(basename $file .sam);
-    htseq-count -m intersection-strict -t CDS -i Parent $file /home/emcdaniel/EBPR-Bins/$name.gtf > $name-counts.txt;
-done
-```
-
-After counting each bin for each timepoint, reformat the counts to: 
-
-```
-for file in *-counts.txt; do 
-    name=$(basename $file -counts.txt); 
-    head -n -5 $file > $name-reformatted-counts.txt; 
-done
-```
-
-And concatenate each timepoint's counts for all bins for each timepoint separately for normalization purposes. 
-
-### TbasCO Incorporation of Metatranscriptomic Reads and Various Annotations 
-
-- Parser for genbank files to combine all annotations from Prokka, KEGG, antismash - general genbank parser to create the annotation dataframe
-
-### Metabolic Pathway Prediction 
-
-For a high-level overview of metabolic capabilities, run the `metabolisHMM` package created for the MeHg project on these MAGs. For a more detailed curation of metabolic pathways, we will use [MetaPathways](http://hallam.microbiology.ubc.ca/MetaPathways/) for each genome bin to get predicted annotations against several databases (MetaCyc, KEGG, etc.). First the MetaPathways source tarball, Pathway Tools source, and database files need to be downloaded. The MetaPathways wiki provides the structure for the database files, but these need to be manually downloaded. For [Pathway Tools](http://bioinformatics.ai.sri.com/ptools/) you can download an academic license, which might take some time to process.
-
-Alternatively to look at the metabolic pathways one-by-one in a map viewer, the KEGG database has a mapping tool that takes KO terms and displays them on a metabolic map, and you can click through the different things it has. 
-
-### Putative Interactions
-
-- Interactions at transcriptional timepoints, also activity of certain members along the cycle
+To create a master file of annotations (Prokka for example), use the `genbank-annotation-parser.py`. The R script `ebpr-transcriptomes-kallisto-analyze.R` provides steps for combining mapping files with KEGG annotations, and parsing the results kallisto mapping files to create a master raw counts table.
 
 ## Immediate List: 
 
-- Parser for genbank files > TbasCO incorporation
 - % of reads of bins mapped to total metagenomic reads
