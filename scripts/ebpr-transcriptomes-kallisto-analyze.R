@@ -13,15 +13,24 @@ txi.kallisto <- tximport(files, type="kallisto", txOut = TRUE)
 counts <- as.data.frame(txi.kallisto)
 finalcounts <- rownames_to_column(counts, var="ID")
 counttable <- finalcounts[, c(1,8:13)]
-write_delim(counttable, "~/Desktop/kallisto_test.tsv", delim="\t")
+write_delim(counttable, "raw-data/ebpr-kallisto-raw-counts.tsv", delim="\t")
 
 # merge with KO annotations and metadata on genomes
-ko <- read.delim("~/Desktop/ebpr-ko-annotations.txt", sep="\t", header=FALSE)
-metadata <- read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/refined-bins-derep-checkm-stats.txt", header=FALSE, sep=" ")
-orfs <- read.delim("~/Desktop/ebpr-orfs.txt", header=FALSE, sep="\t")
-colnames(orfs) <- c("Genome", "orfs")
-colnames(ko) <- c("Genome", "ID", "KO")
-ko_counts <- left_join(counttable, ko)
+ko <- read.delim("raw-data/ebpr-significant-no-dups.txt", sep="\t", header=FALSE)
+count_names = read.delim("raw-data/ebpr-kallisto-raw-counts-names.txt", sep="\t", header=FALSE)
+colnames(count_names) = c("Genome", "ID", "counts1", "counts2", "counts3", "counts4", "counts5", "counts6")
+colnames(ko) <- c("ID", "KO", "Annotation")
+ko_counts <- left_join(count_names, ko)
+tbasco_input = ko_counts[,c(2,3:8,9,1)]
+colnames(tbasco_input) = c("Locus_tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6", "Annotation", "Bin")
+
+# output of annotations table for future searching, and table for input into tbasco
+write_delim(ko_counts, "results/ebpr-counts-annotations.csv", delim=",")
+write_delim(tbasco_input, "results/tbasco-input-table.csv", na="", delim=";")
+
+
+###########################################################
+# Everything below from previous ways of doing things as of 2019-04-23, but good to keep for future reference of manually looking at annotations and cutoffs
 sumCounts <- aggregate(ko_counts[2:7], list(ko_counts$Genome), sum)
 sumCounts$Mean <- rowMeans(sumCounts[,-1])
 colnames(sumCounts)[1] <- "Genome"
@@ -36,6 +45,7 @@ counts_all_annots <- left_join(prokka, ko_counts)
 ebpr_counts <- counts_all_annots[,c(1, 5:10, 12, 2:4, 11)]
 
 # determined cutoffs, create countTable with those above cutoff for downstream analysis
+## previously manually determined cutoffs, deprecated as of 2019-04-23, but keep for historical reasons
 above_cutoff <- c("3300009517-bin.1", "3300009517-bin.12", "3300009517-bin.13", "3300009517-bin.29", "3300009517-bin.3", "3300009517-bin.30", "3300009517-bin.31", "3300009517-bin.42", "3300009517-bin.47", "3300009517-bin.52", "3300009517-bin.6", "3300009517-bin.7", "3300026282-bin.4", "3300026283-bin.21", "3300026283-bin.28", "3300026284-bin.6", "3300026284-bin.9", "3300026287-bin.29", "3300026287-bin.4", "3300026288-bin.19", "3300026288-bin.32", "3300026288-bin.43", "3300026289-bin.24", "3300026289-bin.41", "3300026299-bin.22", "3300026299-bin.26", "3300026302-bin.10", "3300026302-bin.20", "3300026302-bin.25", "3300026302-bin.31", "3300026302-bin.32", "3300026302-bin.46", "3300026302-bin.47", "3300026302-bin.62", "3300026303-bin.42", "3300026303-bin.46")
 
 ebpr_above_cutoff <- ebpr_counts %>% filter(Genome %in% above_cutoff)
