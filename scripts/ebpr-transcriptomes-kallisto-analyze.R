@@ -15,7 +15,10 @@ finalcounts <- rownames_to_column(counts, var="ID")
 counttable <- finalcounts[, c(1,8:13)]
 colnames(counttable) <- c("Locus_Tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6")
 write_delim(counttable, "raw-data/ebpr-kallisto-raw-counts.tsv", delim="\t")
-
+#########################################################
+# DEPRACATED 2019-05-03
+# see merge-annots.R script for correct way
+########################################################
 # merge with KO annotations and metadata on genomes
 ko <- read.delim("raw-data/ebpr-significant-no-dups.txt", sep="\t", header=FALSE)
 count_names = read.delim("raw-data/ebpr-kallisto-raw-counts-names.txt", sep="\t", header=FALSE)

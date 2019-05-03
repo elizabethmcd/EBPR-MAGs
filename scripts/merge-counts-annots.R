@@ -1,21 +1,6 @@
 library(dplyr)
 
-main <- function() {
-  args <- commandArgs(trailingOnly = TRUE)
-  counts <- args[1]
-  annotation <- args[2]
-  output <- args[3]
-}
-
-
-mergeDatasets <- function(counts, annotation) {
-  countsFile <- read.csv(counts, header=TRUE, sep="\t")
-  annotFile <- read.csv(annotation, header=FALSE, sep="\t")
-  colnames(annotFile) <- c("Bin", "Locus_Tag", "Annotation")
-  rawTable <- left_join(countsFile, annotFile)
-  countsTable <- rawTable[,c(1:7,9,8)]
-  countsOfAnnotations <- aggregate(countsTable[8], list(countsTable$Annotation))
-}
+# merge counts and annotations
 
 countsFile = read.csv("raw-data/ebpr-raw-counts-names.tsv", header=FALSE, sep="\t")
 annotFile = read.csv("raw-data/ebpr-kofamAnnotations.txt", header=FALSE, sep="\t")
@@ -24,13 +9,31 @@ colnames(annotFile) <- c("Locus_Tag", "Annotation")
 rawTable <- left_join(countsFile, annotFile)
 countsTable <- rawTable[,c(2:8,9,1)]
 
-annotCounts <- rawTable %>% select(Bin, Annotation) %>% group_by(Bin) %>% mutate(Annotation.count = n()) %>% slice(1) %>% unique()
-naLines <- rawTable %>% filter(Bin == "")
-countsTable %>% select("Annotation") %>% unique %>% count()
-write.table(countsTable, "raw-data/2019-04-26-input-table.tsv", sep=";", row.names=FALSE, quote=FALSE)
+# check to see merged correctly 
+annotCounts <- countsTable %>% select(Bin, Annotation) %>% group_by(Bin) %>% mutate(Annotation.count = n()) %>% slice(1) %>% unique()
 
 
+# high mapping bins
 
+highList = c('3300009517-bin.1',
+             '3300009517-bin.12',
+             '3300009517-bin.13',
+             '3300009517-bin.3',
+             '3300009517-bin.31',
+             '3300009517-bin.42',
+             '3300009517-bin.47',
+             '3300009517-bin.6',
+             '3300026282-bin.4',
+             '3300026284-bin.9',
+             '3300026288-bin.43',
+             '3300026302-bin.10',
+             '3300026302-bin.32',
+             '3300026302-bin.46',
+             '3300026302-bin.62',
+             '3300026303-bin.42')
+highCovg = countsTable %>% filter(Bin %in% highList)
+HighannotCounts <- highCovg %>% select(Bin, Annotation) %>% group_by(Bin) %>% mutate(Annotation.count = n()) %>% slice(1) %>% unique()
 
-main()
-mergeDatasets()
+# save files
+write.table(countsTable, "raw-data/full-tbasco-input-table.tsv", sep=";", row.names=FALSE, quote=FALSE)
+write.table(highCovg, "raw-data/high-covg-tbasco-input-table.tsv", sep=";", row.names=FALSE, quote=FALSE)
