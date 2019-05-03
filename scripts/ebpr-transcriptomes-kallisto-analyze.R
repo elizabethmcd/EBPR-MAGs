@@ -13,6 +13,7 @@ txi.kallisto <- tximport(files, type="kallisto", txOut = TRUE)
 counts <- as.data.frame(txi.kallisto)
 finalcounts <- rownames_to_column(counts, var="ID")
 counttable <- finalcounts[, c(1,8:13)]
+colnames(counttable) <- c("Locus_Tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6")
 write_delim(counttable, "raw-data/ebpr-kallisto-raw-counts.tsv", delim="\t")
 
 # merge with KO annotations and metadata on genomes
@@ -24,9 +25,29 @@ ko_counts <- left_join(count_names, ko)
 tbasco_input = ko_counts[,c(2,3:8,9,1)]
 colnames(tbasco_input) = c("Locus_tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6", "Annotation", "Bin")
 
+# high coverage table
+highList = c('3300009517-bin.1',
+            '3300009517-bin.12',
+            '3300009517-bin.13',
+            '3300009517-bin.3',
+            '3300009517-bin.31',
+            '3300009517-bin.42',
+            '3300009517-bin.47',
+            '3300009517-bin.6',
+            '3300026282-bin.4',
+            '3300026284-bin.9',
+            '3300026288-bin.43',
+            '3300026302-bin.10',
+            '3300026302-bin.32',
+            '3300026302-bin.46',
+            '3300026302-bin.62',
+            '3300026303-bin.42')
+highCovg = tbasco_input %>% filter(Bin %in% highList)
+
 # output of annotations table for future searching, and table for input into tbasco
 write_delim(ko_counts, "results/ebpr-counts-annotations.csv", delim=",")
 write_delim(tbasco_input, "results/tbasco-input-table.csv", na="", delim=";")
+write_delim(highCovg, "results/high-covg-tbasco-input-table.csv", na="", delim=";")
 
 
 ###########################################################
