@@ -3,8 +3,8 @@ library(tidyverse)
 library(reshape2)
 
 # Files 
-covg = read.delim("results/EBPR-bins-final-mapped-clean.coverage.txt", sep="\t", header=FALSE)
-taxonomy = read.delim("results/gtdbtk.bac120.classification_pplacer.txt", sep="\t", header=FALSE)
+covg = read.delim("results/mapping/EBPR-bins-final-mapped-clean.coverage.txt", sep="\t", header=FALSE)
+taxonomy = read.delim("results/stats/gtdbtk.bac120.classification_pplacer.txt", sep="\t", header=FALSE)
 
 # cleanup coverage file to get relabund table
 covgprep = covg %>% select(c("V2", "V3", "V8"))
@@ -45,20 +45,42 @@ ebpr_cov = left_join(totalcov, taxtot)
 ebpr_ordered = ebpr[order(ebpr$Abundance, decreasing=T), ]
 ebpr_cov_ord = ebpr_cov[order(ebpr_cov$Abundance, decreasing=T), ]
 
+# get total reads for each sample
+totReads = read.table("results/mapping/metagenomic-sample-reads-totals.txt")
+colnames(totReads) = c("sample", "total_reads")
+reads = covg %>%  select(c("V2", "V3", "V5"))
+readsTable = as.data.frame(spread(reads, key="V2", value="V5", fill=0))
+colnames(readsTable)[1] = "sample"
+readTotals=left_join(readsTable, totReads)
+rownames(readTotals) = readTotals[,1]
+readTotals = subset(readTotals, select = -c(sample))
+readTotals$total_covered_bases = rowSums(readTotals[1:57])
+readTotals$total_bases = readTotals$total_reads * 150
+readTotals$percent_mapped = readTotals$total_covered_bases / readTotals$total_bases
+readTotals$percentIA = readTotals$`3300026282-bin.4` / readTotals$total_bases
+readTotals$percentIIA = readTotals$`3300026284-bin.9` / readTotals$total_bases
+readTotals$percentAccumulibacter = readTotals$percentIA + readTotals$percentIIA
+
+covtable = subset(covtable, select = -c(V3))
+
 # write out joined ebpr dataframe
 write.csv(file ="results/ebpr-rank-abundance-classifications.csv", ebpr)
 write.csv(file = "results/ebpr-rank-cov-classifications.csv", ebpr_cov_ord)
 
+# write out percentage mapped and total accumulibacter table
+write.csv(file="results/mapping/ebpr-percent-reads-mapped-total-accumulibacter.csv", readTotals)
+
 # read back in with manually changed classifications
-ebpr_maned = read.csv("results/ebpr-rank-abundance-classifications.csv", header=TRUE)
-ebpr_coved = read.csv("results/ebpr-rank-cov-classifications.csv", header=TRUE)
+ebpr_maned = read.csv("results/mapping/ebpr-rank-abundance-classifications.csv", header=TRUE)
+ebpr_coved = read.csv("results/mapping/ebpr-rank-cov-classifications.csv", header=TRUE)
 
 # plot rank abundance
-relabundplot <- ggplot(ebpr_maned, aes(x=reorder(Bin,-Abundance), y=Abundance, fill=Highest_Classf)) + geom_col() + labs(x="Genome", y="Average Abundance Across all 10 Samples") + theme_classic() + scale_fill_brewer(palette = "Paired") 
+relabundplot <- ggplot(ebpr_maned, aes(x=reorder(bin,-Abundance), y=Abundance, fill=Highest_Classf)) + geom_col() + labs(x="Genome", y="Average Abundance Across all 10 Samples") + theme_classic() + scale_fill_brewer(palette = "Paired") 
+relabundplot
 
-covplot <- ggplot(ebpr_coved, aes(x=reorder(Bin,-Abundance), y=Abundance, fill=Highest_Classf)) + geom_col() + labs(x="Genome", y="Average Abundance Across all 10 Samples") + theme_classic() + scale_fill_brewer(palette = "Paired")
+covplot <- ggplot(ebpr_coved, aes(x=reorder(Bin,-Abundance), y=Abundance, fill=Highest_Classf)) + geom_col() + labs(x="Genome", y="Average Coverage Across all 10 Samples") + theme_classic() + scale_fill_brewer(palette = "Paired")
 
-phylaplot <- ggplot(ebpr_maned, aes(x=reorder(Bin,-Abundance), y=Abundance, fill=Phylum)) + geom_col() + labs(x="Genome", y="Average Abundance Across all 10 Samples") + theme_classic() + scale_fill_brewer(palette = "Paired") 
+phylaplot <- ggplot(ebpr_maned, aes(x=reorder(bin,-Abundance), y=Abundance, fill=Phylum)) + geom_col() + labs(x="Genome", y="Average Abundance Across all 10 Samples") + theme_classic() + scale_fill_brewer(palette = "Paired") 
 
 # bubble plot of time series points
 relabund_prep = rownames_to_column(reltab, "meta")
