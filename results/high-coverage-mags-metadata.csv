@@ -1,0 +1,17 @@
+genome,Average_Abundance,Highest_Classification,Domain,Phylum,Class,Family,Genus,Species
+3300009517-bin.1,0.00264754,s_Leadbeterella,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,Leadbetterella
+3300009517-bin.12,0.004699544,s_Runella,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,Runella
+3300009517-bin.13,0.005026475,g_Burkholderiaceae,Bacteria,Proteobacteria,Gammaproteobacteria,Betaproteobacteriales,Burkholderiaceae,
+3300009517-bin.3,0.002651325,s_Tetrasphaera,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Dermatophilaceae,Tetrasphaera_A
+3300009517-bin.31,0.00222146,s_Flavobacterium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium
+3300009517-bin.42,0.001605095,s_Rubrivivax,Bacteria,Proteobacteria,Gammaproteobacteria,Betaproteobacteriales,Burkholderiaceae,Rubrivivax
+3300009517-bin.47,0.002022504,g_Rhodobacteraceae,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,UBA6273
+3300009517-bin.6,0.005365855,s_Aquidulcibacter,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,Aquidulcibacter
+3300026282-bin.4,0.280703923,Accumulibacter_IA,Bacteria,Proteobacteria,Gammaproteobacteria,Betaproteobacteriales,Rhodocyclaceae,Accumulibacter
+3300026284-bin.9,0.250217389,Accumulibacter_IIA,Bacteria,Proteobacteria,Gammaproteobacteria,Betaproteobacteriales,Rhodocyclaceae,Accumulibacter
+3300026288-bin.43,0.016976816,s_Tetrasphaera,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Dermatophilaceae,Tetrasphaera_A
+3300026302-bin.10,0.009098153,g_Burkholderiaceae,Bacteria,Proteobacteria,Gammaproteobacteria,Betaproteobacteriales,Burkholderiaceae,
+3300026302-bin.32,0.003821879,c_Bacteroidetes,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,
+3300026302-bin.46,0.019869968,s_Pseudoxanthomonas,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Pseudoxanthomonas_A
+3300026302-bin.62,0.010978241,g_Obscruibacteraceae,Bacteria,Cyanobacteriota,Vampirovibrionia,Obscuribacterales,Obscuribacteraceae,
+3300026303-bin.42,0.010665876,g_Chitinophagaceae,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,
