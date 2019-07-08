@@ -3,6 +3,7 @@ library(tximportData)
 library(readr)
 library(tibble)
 library(dplyr)
+library(ggplot2)
 
 # kallisto files
 dir <- "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/kallisto_results"
@@ -72,7 +73,7 @@ ebpr_counts <- counts_all_annots[,c(1, 5:10, 12, 2:4, 11)]
 ## previously manually determined cutoffs, deprecated as of 2019-04-23, but keep for historical reasons
 above_cutoff <- c("3300009517-bin.1", "3300009517-bin.12", "3300009517-bin.13", "3300009517-bin.29", "3300009517-bin.3", "3300009517-bin.30", "3300009517-bin.31", "3300009517-bin.42", "3300009517-bin.47", "3300009517-bin.52", "3300009517-bin.6", "3300009517-bin.7", "3300026282-bin.4", "3300026283-bin.21", "3300026283-bin.28", "3300026284-bin.6", "3300026284-bin.9", "3300026287-bin.29", "3300026287-bin.4", "3300026288-bin.19", "3300026288-bin.32", "3300026288-bin.43", "3300026289-bin.24", "3300026289-bin.41", "3300026299-bin.22", "3300026299-bin.26", "3300026302-bin.10", "3300026302-bin.20", "3300026302-bin.25", "3300026302-bin.31", "3300026302-bin.32", "3300026302-bin.46", "3300026302-bin.47", "3300026302-bin.62", "3300026303-bin.42", "3300026303-bin.46")
 
-ebpr_above_cutoff <- ebpr_counts %>% filter(Genome %in% above_cutoff)
+ebpr_above_cutoff <- counttable %>% filter(Genome %in% above_cutoff)
 ebpr_above_cutoff$size_kbp <- ebpr_above_cutoff$size_bp / 1000
 ebpr_above_cutoff$rpk1 <- ebpr_above_cutoff$counts.sample1 / ebpr_above_cutoff$size_kbp
 ebpr_above_cutoff$rpk2 <- ebpr_above_cutoff$counts.sample2 / ebpr_above_cutoff$size_kbp
