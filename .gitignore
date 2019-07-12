@@ -6,3 +6,5 @@ all-bins-coded/
 figs/
 .Rhistory
 .DS_Store
+EBPR-annotations/
+genomes/

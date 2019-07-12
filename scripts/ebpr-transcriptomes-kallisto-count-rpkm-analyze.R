@@ -106,5 +106,9 @@ colnames(counts_tpm)[8] <- "Locus_Tag"
 tpm_kos <- left_join(counts_tpm, annotFile)
 tpm_kos[1:6] <- round(tpm_kos[1:6], digits=3)
 
+# fix column names
+colnames(tpm_kos) <- c("Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6", "Bin", "Locus_Tag", "Annotation")
+tpm_kos <- tpm_kos[, c(8,1:6,9,7)]
+
 # export TPM normalized dataframe w/ KO annotations
 write.table(tpm_kos, "raw-data/tbasco-tables/2019-07-08-high-covg-tpm-normalized.tsv", sep=";", row.names=FALSE, quote=FALSE)
