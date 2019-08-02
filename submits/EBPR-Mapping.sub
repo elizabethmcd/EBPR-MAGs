@@ -14,15 +14,15 @@ output = EBPRmapping_$(Cluster).out
 # Transferring Files
 # should_transfer_files = YES
 # when_to_transfer_output = ON_EXIT
-transfer_input_files = software/BBMap_38.07.tar.gz,software/samtools-1.8.tar.gz
+transfer_input_files = /home/emcdanie/software/BBMap_38.07.tar.gz,/home/emcdaniel/software/samtools-1.8.tar.gz
 
 # Compute resources 
 request_cpus = 4
-request_memory = 50GB
+request_memory = 5GB
 request_disk = 50GB
 
 
-queue ref,meta,outname from mappingCombos.txt
+queue ref,meta,outname from /home/emcdaniel/mappingCombos.txt
 
 
 
