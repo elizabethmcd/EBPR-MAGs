@@ -11,12 +11,14 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [Prodigal](https://github.com/hyattpd/Prodigal)
 - [ANI Calculator](http://enve-omics.ce.gatech.edu/ani/) 
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
+- [OPERA-MS](https://github.com/CSB5/OPERA-MS)
 - [Anvi'o](http://merenlab.org/software/anvio/)
 - [GTDBK-tk](https://github.com/Ecogenomics/GTDBTk)
 - [FastTree](http://www.microbesonline.org/fasttree/)
 - [RaxML](https://sco.h-its.org/exelixis/software.html)
 - [Prokka](https://github.com/tseemann/prokka)
 - [GhostKOALA](https://www.kegg.jp/ghostkoala/)
+- [KofamKOALA](https://www.genome.jp/tools/kofamkoala/)
 - [antiSMASH](https://antismash.secondarymetabolites.org/#!/start)
 - [kallisto](https://pachterlab.github.io/kallisto/)
 
@@ -193,6 +195,39 @@ To run the assembly, we need to use one of the high memory nodes at CHTC, which 
 
 Then run the `spades-assembly.sub` submission script, which will run the assembly on a high memory node. Even on a high memory node, this should take some time. Additionally, with this dataset we might have to test with metaSPAdes, although other EBPR people have gotten decent results co-assembling with normal SPAdes. **Note:** This takes about a week to run on a high memory node at CHTC. 
 
+### Hybrid Assembly of Illumina short reads and PacBio long reads
+
+We have both Illumina sequencing (~10-13 Gb) and PacBio long reads for the 2013-05-23 sample date. I never really tried anything with the PacBio reads and I don't think anybody else in the lab did either. The software OPERA-MS was recently released for hybrid assembly of short + long reads for metagenomes, and is suppposedly better than IDBA-hybrid and SPAdes, and I dont' think metaSPAdes has hybrid assembly options yet. First, interleaved files have to be split up into R1 and R2 read files, which can be done with BBtools `reformat.sh`, with usage: 
+
+```
+Usage:  reformat.sh in=<file> out1=<outfile> out2=<outfile2>
+```
+
+In combination with the long reads, OPERA-MS can be run as: 
+
+```
+perl OPERA-MS.pl; 
+    --short-read1 2013-05-23-EBPR.R1.fastq; 
+    --short-read2 2013-05-23-EBPR.R2.fastq; 
+    --long-read 2013-05-23-PACBIO-qced.fastq; 
+    --out-dir RESULTS
+```
+
+A test run on one of the VMs with > 16 GB RAM finished this job in less than 24 hours with the following assembly statistics: 
+
+```
+[Thu Aug  1 16:07:55 2019]	Assembly stats
+Number of contigs: 255720
+Assembly size: 334183580 bp
+Max contig size: 603481 bp
+Contig(s) longer than 1Mbp: 0
+Contig(s) longer than 500kbp: 1
+Contig(s) longer than 100kbp: 218
+Contig N50: 3445 bp
+```
+
+The hybrid assembly can then be used for binning purposes, repeating the mapping and binning steps as described above, except for this won't be differential coverage based binning since this will only involved mapping of the 2013-05-23 short read metagenome to this assembly, and comparing the resulting bins to the single assembly from 2013-05-23 that was informed from differential coverage binning. This could also be used to perform manual binning with Anvi'o instead since it's 1 metagenome vs 1 assembly. 
+
 ### Check Assembly Quality 
 
 To compare assemblies, use the program Quast for a preliminary look at the assembly statistics. The ultimate measure of assembly quality is number of reads mapping back to the assembly, but this is good for comparing different assembly methods at first. The usage for checking metagenomic assemblies is `./metaquast <contig-assemblies-to-report-on>`. Note that part of this tool uses BLAST, and can take quite a long time for two metagenomic assembly comparisons/statistics. I've only run this with 1 thread and very little memory, and it took over 2 hours to get past the BlastN step. Additionally, it calls references from the NCBI database, and then maps the contigs to the databases for assembly quality. Which seems to be a waste of time for just checking over and over again the quality of the co-assembly with different parameters, since I'm having to _de novo_ assemble everything anyways.  
@@ -333,7 +368,11 @@ It's usually pretty clear from relative abundance measures in this case which bi
 
 ### Functional Annotation 
 
-There are several functional annotation programs/databases I will use for these sets of bins, all for different sets of purposes. Prokka is probably the easiest way to get functional annotation and all file formats for submitting to public repositories. To get KEGG modules for interests in metabolic pathways, annotations are made manually by submitting protein sequences to [https://www.kegg.jp/ghostkoala/](). To get information about biosynthetic gene clusters (BGCs), I will use [antiSMASH](https://antismash.secondarymetabolites.org/) which is available both as an online portal for submitting jobs and through the command line, installed through conda/Docker etc. To run Prokka, install with `conda install -c conda-forge -c bioconda prokka`. These are all bacterial genomes, so run Prokka by: 
+There are several functional annotation programs/databases I will use for these sets of bins, all for different sets of purposes. Prokka is probably the easiest way to get functional annotation and all file formats for submitting to public repositories. To get KEGG modules for interests in metabolic pathways, annotations are made manually by submitting protein sequences to [https://www.kegg.jp/ghostkoala/](). To get information about biosynthetic gene clusters (BGCs), I will use [antiSMASH](https://antismash.secondarymetabolites.org/) which is available both as an online portal for submitting jobs and through the command line, installed through conda/Docker etc. 
+
+_Prokka:_
+
+To run Prokka, install with `conda install -c conda-forge -c bioconda prokka`. These are all bacterial genomes, so run Prokka by: 
 
 ```
 for file in *.fna; do 
@@ -351,7 +390,29 @@ for filename in */*.faa;
 done > all-ebpr-prots.faa
 ```
 
-GhostKHOALA can take FAA files up to 300 MB in size for annotation at once, and the 58 bins' concatenated proteins file is much smaller than this. Therefore, the concatenated protein file has the genome bin the protein came from and the Prokka annotation in the header for KEGG assignments. 
+_GhostKOALA and KofamKOALA:_
+
+GhostKHOALA can take FAA files up to 300 MB in size for annotation at once, and the 58 bins' concatenated proteins file is much smaller than this. Therefore, the concatenated protein file has the genome bin the protein came from and the Prokka annotation in the header for KEGG assignments. Additionally, this concatenated set of proteins can be used to annotate with the KEGG database using KofamKOALA, which is an HMM-based way of performing annnotations. Download the pipeline and required profiles and ko_list from [here](https://www.genome.jp/tools/kofamkoala/), and run the program such as: 
+
+```
+./exec_annotation ~/EBPR/prots/all-ebpr-prots.faa;
+    -p profiles/; 
+    -k ko_list; 
+    -o ~/EBPR/prots/all-ebpr-prots-kofamkoala-annots.txt; 
+    --cpu 8;
+```
+
+What is nice about this pipeline and HMMs over the BLAST-based method that GhostKOALA annotates datasets with the KEGG database is that the output will give you confidence scores according to the threshold cutoff of each HMM and if the annotation for a certain protein is significant with a "*", from which you can parse out only the significant hits and non-duplicates (i.e. taking the annotation with the highest confidence score for a particular protein) with:
+
+```
+grep '*' all-ebpr-prots-kofamkoala-annots.txt | awk '{print $2"\t"$3"\t"$7" "$8" "$9" "$10" "$11" "$12" "$13" "$14}' > ebpr-kofamkoala-annots-sig-mod.txt
+sort -u -k1,1 ebpr-kofamkoala-annots-sig-mod.txt > ebpr-kofamkoala-annots-sig-mod-nodups.txt
+awk '{print $1"\t"$2}' ebpr-kofamkoala-annots-sig-mod-nodups.txt > ebpr-kofamkoala-annots-sig-mod-nodups-ko-list.txt
+```
+
+This will give you both a tab-delimited file of significant annotations, their scores and functional annotations, and then a list of each locus tag and KEGG identifier to use for downstream purposes, and is exactly the output that GhostKOALA gives, except without really knowing quantitatively why things were annotated the way they were. 
+
+_antiSMASH:_
 
 To use antismash, use the generated genbank files from the Prokka output. Activate antismash with `activate source antismash` to open the virtual environment installation. A default run of antismash is `antismash <gbk file>`. I also want to run the additional parameters `--cluster-blast` and `--smcogs` to compare the idetified clusters against the antismash database, and also look for orthologous groups of the secondary metabolite clusters. For each predicted cluster, the output is a gbk file with the proteins for each part of the cluster. This will need to be fed through a genbank file parser to put into the final dataframe for annotations. When feeding the files into antismash, it will complain about the contig headers being too long and will change those. But for the purposes of giving the loci range and annotation/locus tag, this shouldn't matter. Copy all the genbank files for all bins to a central directory to run antismash as follows: 
 
@@ -389,7 +450,3 @@ First create a concatenated index of all predicted ORFs from all genomes with `k
 #### Parse Annotations and Output Files
 
 To create a master file of annotations (Prokka for example), use the `genbank-annotation-parser.py`. The R script `ebpr-transcriptomes-kallisto-analyze.R` provides steps for combining mapping files with KEGG annotations, and parsing the results kallisto mapping files to create a master raw counts table.
-
-## Immediate List: 
-
-- % of reads of bins mapped to total metagenomic reads
