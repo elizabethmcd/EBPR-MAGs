@@ -7,11 +7,11 @@ docker_image = sstevens/checkm:latest
 
 log = chtc-checkm-all_$(Cluster).log
 error = chtc-checkm-all_$(Cluster)_$(Process).err
-requirements = (OpSysMajorVer == 7)
+requirements = (OpSysMajorVer == 7) && (Target.HasGluster == true)
 #
 # Specify your executable, arguments, and a file for HTCondor to store standard
 #  output.
-executable = executables/CheckM-QC.sh
+executable = executables/hybrid-assembly-checkm.sh
 arguments = $(binarchive)
 output = chtc-checkm-all_$(Cluster).out
 #
@@ -27,7 +27,6 @@ transfer_input_files = $(binarchive)
 
 request_cpus = 4
 request_memory = 40GB
-request_disk = 40GB
+request_disk = 20GB
 #
-# Tell HTCondor to run every fastq file in the provided list:
-queue binarchive from EBPR-Bins-Archives.txt
+queue
