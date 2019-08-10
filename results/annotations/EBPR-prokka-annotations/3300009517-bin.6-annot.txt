@@ -1,0 +1,2832 @@
+3300009517-bin.6_DGMFJBHF_00001	hypothetical protein	843	
+3300009517-bin.6_DGMFJBHF_00002	hypothetical protein	216	
+3300009517-bin.6_DGMFJBHF_00003	6-deoxy-6-sulfogluconolactonase	870	
+3300009517-bin.6_DGMFJBHF_00004	Kynurenine formamidase	801	kynB
+3300009517-bin.6_DGMFJBHF_00005	3-ketoacyl-CoA thiolase FadI	1209	fadI
+3300009517-bin.6_DGMFJBHF_00006	Long-chain-fatty-acid--CoA ligase FadD13	1557	
+3300009517-bin.6_DGMFJBHF_00007	Ribonuclease BN	951	rbn
+3300009517-bin.6_DGMFJBHF_00008	Pesticin receptor	2421	fyuA_1
+3300009517-bin.6_DGMFJBHF_00009	Tetracycline repressor protein class H	648	tetR
+3300009517-bin.6_DGMFJBHF_00010	Sensor protein FixL	1890	fixL
+3300009517-bin.6_DGMFJBHF_00011	putative signaling protein	1848	
+3300009517-bin.6_DGMFJBHF_00012	Autoinducer 2 sensor kinase/phosphatase LuxQ	1671	luxQ_1
+3300009517-bin.6_DGMFJBHF_00013	3-phosphoshikimate 1-carboxyvinyltransferase	1266	aroA
+3300009517-bin.6_DGMFJBHF_00014	hypothetical protein	306	
+3300009517-bin.6_DGMFJBHF_00015	Adenine deaminase	1011	
+3300009517-bin.6_DGMFJBHF_00016	hypothetical protein	423	
+3300009517-bin.6_DGMFJBHF_00017	Bifunctional NAD(P)H-hydrate repair enzyme Nnr	849	nnr
+3300009517-bin.6_DGMFJBHF_00018	tRNA1(Val) (adenine(37)-N6)-methyltransferase	858	yfiC
+3300009517-bin.6_DGMFJBHF_00019	Octaprenyl diphosphate synthase	1023	ispB
+3300009517-bin.6_DGMFJBHF_00020	putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase	1035	tagO
+3300009517-bin.6_DGMFJBHF_00021	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase	897	ispE
+3300009517-bin.6_DGMFJBHF_00022	hypothetical protein	1734	
+3300009517-bin.6_DGMFJBHF_00023	Electron transfer flavoprotein-ubiquinone oxidoreductase	1662	
+3300009517-bin.6_DGMFJBHF_00024	Type-4 uracil-DNA glycosylase	807	udg
+3300009517-bin.6_DGMFJBHF_00025	Soluble lytic murein transglycosylase	1692	slt_1
+3300009517-bin.6_DGMFJBHF_00026	hypothetical protein	930	
+3300009517-bin.6_DGMFJBHF_00027	Toxin HigB-2	312	higB-2
+3300009517-bin.6_DGMFJBHF_00028	Antitoxin HigA-2	294	higA-2
+3300009517-bin.6_DGMFJBHF_00029	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_00030	23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD	1230	rlmD
+3300009517-bin.6_DGMFJBHF_00031	2-ketogluconate reductase	927	
+3300009517-bin.6_DGMFJBHF_00032	Hydroxyacylglutathione hydrolase GloC	669	gloC_1
+3300009517-bin.6_DGMFJBHF_00033	Aminopeptidase YwaD	1332	ywaD_1
+3300009517-bin.6_DGMFJBHF_00034	UDP-N-acetylmuramate--L-alanine ligase	1407	murC
+3300009517-bin.6_DGMFJBHF_00035	UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	1092	murG
+3300009517-bin.6_DGMFJBHF_00036	putative peptidoglycan glycosyltransferase FtsW	1137	ftsW
+3300009517-bin.6_DGMFJBHF_00037	UDP-N-acetylmuramoylalanine--D-glutamate ligase	1440	murD
+3300009517-bin.6_DGMFJBHF_00038	Phospho-N-acetylmuramoyl-pentapeptide- transferase	1086	mraY
+3300009517-bin.6_DGMFJBHF_00039	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase	1401	murF
+3300009517-bin.6_DGMFJBHF_00040	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase	1470	murE
+3300009517-bin.6_DGMFJBHF_00041	putative peptidoglycan D,D-transpeptidase FtsI	1806	ftsI
+3300009517-bin.6_DGMFJBHF_00042	Cell division protein FtsL	381	ftsL
+3300009517-bin.6_DGMFJBHF_00043	Ribosomal RNA small subunit methyltransferase H	930	rsmH
+3300009517-bin.6_DGMFJBHF_00044	HTH-type transcriptional activator AmpR	873	ampR_1
+3300009517-bin.6_DGMFJBHF_00045	Beta-lactamase CTX-M-97	930	bla
+3300009517-bin.6_DGMFJBHF_00046	hypothetical protein	1056	
+3300009517-bin.6_DGMFJBHF_00047	Peptide methionine sulfoxide reductase MsrA	624	msrA_1
+3300009517-bin.6_DGMFJBHF_00048	Peptide methionine sulfoxide reductase MsrB	480	msrB_1
+3300009517-bin.6_DGMFJBHF_00049	Protein DipZ	1692	dipZ
+3300009517-bin.6_DGMFJBHF_00050	hypothetical protein	1416	
+3300009517-bin.6_DGMFJBHF_00051	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_00052	Outer membrane protein OmpV	759	ompV
+3300009517-bin.6_DGMFJBHF_00053	CRP-like cAMP-activated global transcriptional regulator	708	crp
+3300009517-bin.6_DGMFJBHF_00054	hypothetical protein	189	
+3300009517-bin.6_DGMFJBHF_00055	Adenylate cyclase 1	1407	cyaA_1
+3300009517-bin.6_DGMFJBHF_00056	50S ribosomal protein L13	477	rplM
+3300009517-bin.6_DGMFJBHF_00057	30S ribosomal protein S9	483	rpsI
+3300009517-bin.6_DGMFJBHF_00058	hypothetical protein	864	
+3300009517-bin.6_DGMFJBHF_00059	hypothetical protein	255	
+3300009517-bin.6_DGMFJBHF_00060	hypothetical protein	279	
+3300009517-bin.6_DGMFJBHF_00061	hypothetical protein	420	
+3300009517-bin.6_DGMFJBHF_00062	hypothetical protein	588	
+3300009517-bin.6_DGMFJBHF_00064	Protease 4	1812	sppA
+3300009517-bin.6_DGMFJBHF_00065	Colicin I receptor	2865	cirA_1
+3300009517-bin.6_DGMFJBHF_00066	Vitamin B12 transporter BtuB	2118	btuB_1
+3300009517-bin.6_DGMFJBHF_00067	Vitamin B12 transporter BtuB	765	btuB_2
+3300009517-bin.6_DGMFJBHF_00068	Vitamin B12 transporter BtuB	3075	btuB_3
+3300009517-bin.6_DGMFJBHF_00069	Dipeptidyl aminopeptidase BIII	2067	dapb3_1
+3300009517-bin.6_DGMFJBHF_00070	Periplasmic oligopeptide-binding protein	1632	oppA
+3300009517-bin.6_DGMFJBHF_00071	hypothetical protein	552	
+3300009517-bin.6_DGMFJBHF_00072	Oligopeptide transport system permease protein OppC	906	oppC
+3300009517-bin.6_DGMFJBHF_00073	Oligopeptide transport system permease protein OppB	930	oppB
+3300009517-bin.6_DGMFJBHF_00074	Biosynthetic peptidoglycan transglycosylase	795	mtgA
+3300009517-bin.6_DGMFJBHF_00075	Epoxyqueuosine reductase	1038	queG
+3300009517-bin.6_DGMFJBHF_00076	Stringent starvation protein A	675	sspA
+3300009517-bin.6_DGMFJBHF_00077	hypothetical protein	615	
+3300009517-bin.6_DGMFJBHF_00078	Sec translocon accessory complex subunit YajC	351	yajC
+3300009517-bin.6_DGMFJBHF_00079	Protein translocase subunit SecD	1644	secD
+3300009517-bin.6_DGMFJBHF_00080	Protein translocase subunit SecF	1029	secF
+3300009517-bin.6_DGMFJBHF_00081	hypothetical protein	639	
+3300009517-bin.6_DGMFJBHF_00082	hypothetical protein	1743	
+3300009517-bin.6_DGMFJBHF_00083	N-acetyl-gamma-glutamyl-phosphate reductase	1047	argC
+3300009517-bin.6_DGMFJBHF_00084	hypothetical protein	1827	
+3300009517-bin.6_DGMFJBHF_00085	tRNA-specific 2-thiouridylase MnmA	1200	mnmA
+3300009517-bin.6_DGMFJBHF_00086	HTH-type transcriptional repressor KstR2	588	kstR2
+3300009517-bin.6_DGMFJBHF_00087	hypothetical protein	285	
+3300009517-bin.6_DGMFJBHF_00088	DNA-3-methyladenine glycosylase 1	603	tag
+3300009517-bin.6_DGMFJBHF_00089	hypothetical protein	924	
+3300009517-bin.6_DGMFJBHF_00090	Flagellar hook-associated protein 1	2127	flgK
+3300009517-bin.6_DGMFJBHF_00091	hypothetical protein	1278	
+3300009517-bin.6_DGMFJBHF_00092	Basal-body rod modification protein FlgD	678	flgD
+3300009517-bin.6_DGMFJBHF_00093	Flagellar hook protein FlgE	1413	flgE
+3300009517-bin.6_DGMFJBHF_00094	hypothetical protein	270	
+3300009517-bin.6_DGMFJBHF_00095	Flagellar M-ring protein	1632	fliF
+3300009517-bin.6_DGMFJBHF_00096	Flagellar motor switch protein FliG	1008	fliG
+3300009517-bin.6_DGMFJBHF_00097	hypothetical protein	636	
+3300009517-bin.6_DGMFJBHF_00098	Flagellar motor switch protein FliN	348	fliN_1
+3300009517-bin.6_DGMFJBHF_00099	Regulatory protein AtoC	1398	atoC_1
+3300009517-bin.6_DGMFJBHF_00100	Flagellar biosynthesis protein FlhA	2118	flhA_1
+3300009517-bin.6_DGMFJBHF_00101	Signal recognition particle protein	1131	ffh_1
+3300009517-bin.6_DGMFJBHF_00102	PKHD-type hydroxylase	684	
+3300009517-bin.6_DGMFJBHF_00103	putative TonB-dependent receptor BfrD	2280	bfrD
+3300009517-bin.6_DGMFJBHF_00104	hypothetical protein	411	
+3300009517-bin.6_DGMFJBHF_00105	putative ATP synthase YscN	1329	yscN
+3300009517-bin.6_DGMFJBHF_00106	Cell cycle response regulator CtrA	696	ctrA
+3300009517-bin.6_DGMFJBHF_00107	hypothetical protein	1062	
+3300009517-bin.6_DGMFJBHF_00108	hypothetical protein	582	
+3300009517-bin.6_DGMFJBHF_00109	Peptide chain release factor RF1	1164	prfA
+3300009517-bin.6_DGMFJBHF_00110	hypothetical protein	480	
+3300009517-bin.6_DGMFJBHF_00111	50S ribosomal protein L28	291	rpmB
+3300009517-bin.6_DGMFJBHF_00112	hypothetical protein	348	
+3300009517-bin.6_DGMFJBHF_00113	hypothetical protein	1002	
+3300009517-bin.6_DGMFJBHF_00114	hypothetical protein	255	
+3300009517-bin.6_DGMFJBHF_00115	putative deoxycholate-binding periplasmic protein YgiS	1569	ygiS
+3300009517-bin.6_DGMFJBHF_00116	Carbamoyl-phosphate synthase small chain	1203	carA
+3300009517-bin.6_DGMFJBHF_00117	Membrane-bound lytic murein transglycosylase B	1227	mltB_1
+3300009517-bin.6_DGMFJBHF_00118	hypothetical protein	2025	
+3300009517-bin.6_DGMFJBHF_00119	hypothetical protein	222	
+3300009517-bin.6_DGMFJBHF_00120	hypothetical protein	414	
+3300009517-bin.6_DGMFJBHF_00121	Isoaspartyl peptidase	1974	iaaA
+3300009517-bin.6_DGMFJBHF_00122	Vitamin B12 transporter BtuB	2709	btuB_4
+3300009517-bin.6_DGMFJBHF_00123	N-substituted formamide deformylase	1773	nfdA
+3300009517-bin.6_DGMFJBHF_00124	hypothetical protein	510	
+3300009517-bin.6_DGMFJBHF_00125	putative FAD-linked oxidoreductase	1374	
+3300009517-bin.6_DGMFJBHF_00126	hypothetical protein	711	
+3300009517-bin.6_DGMFJBHF_00127	hypothetical protein	822	
+3300009517-bin.6_DGMFJBHF_00128	hypothetical protein	930	
+3300009517-bin.6_DGMFJBHF_00129	hypothetical protein	1440	
+3300009517-bin.6_DGMFJBHF_00130	Levodione reductase	759	lvr
+3300009517-bin.6_DGMFJBHF_00131	hypothetical protein	339	
+3300009517-bin.6_DGMFJBHF_00132	hypothetical protein	276	
+3300009517-bin.6_DGMFJBHF_00133	hypothetical protein	414	
+3300009517-bin.6_DGMFJBHF_00134	hypothetical protein	324	
+3300009517-bin.6_DGMFJBHF_00135	ATP phosphoribosyltransferase	681	hisG
+3300009517-bin.6_DGMFJBHF_00136	ATP phosphoribosyltransferase regulatory subunit	1098	hisZ
+3300009517-bin.6_DGMFJBHF_00137	Histidine--tRNA ligase	1494	hisS
+3300009517-bin.6_DGMFJBHF_00138	Peptidoglycan-binding protein ArfA	801	arfA_1
+3300009517-bin.6_DGMFJBHF_00139	Thiol:disulfide interchange protein DsbD	2064	dsbD
+3300009517-bin.6_DGMFJBHF_00140	hypothetical protein	453	
+3300009517-bin.6_DGMFJBHF_00141	hypothetical protein	798	
+3300009517-bin.6_DGMFJBHF_00142	hypothetical protein	2823	
+3300009517-bin.6_DGMFJBHF_00143	hypothetical protein	2826	
+3300009517-bin.6_DGMFJBHF_00144	ATM1-type heavy metal exporter	1845	atm1
+3300009517-bin.6_DGMFJBHF_00145	Ribosomal large subunit pseudouridine synthase D	1038	rluD
+3300009517-bin.6_DGMFJBHF_00146	Glutaredoxin 4	321	grxD
+3300009517-bin.6_DGMFJBHF_00147	hypothetical protein	1842	
+3300009517-bin.6_DGMFJBHF_00148	Dipeptidyl aminopeptidase BIII	1935	dapb3_2
+3300009517-bin.6_DGMFJBHF_00149	Cbb3-type cytochrome c oxidase subunit FixP	870	fixP
+3300009517-bin.6_DGMFJBHF_00150	hypothetical protein	195	
+3300009517-bin.6_DGMFJBHF_00151	hypothetical protein	744	
+3300009517-bin.6_DGMFJBHF_00152	Cytochrome c oxidase subunit 1, bacteroid	1665	fixN
+3300009517-bin.6_DGMFJBHF_00153	hypothetical protein	297	
+3300009517-bin.6_DGMFJBHF_00154	hypothetical protein	273	
+3300009517-bin.6_DGMFJBHF_00155	50S ribosomal protein L35	204	rpmI
+3300009517-bin.6_DGMFJBHF_00156	50S ribosomal protein L20	360	rplT
+3300009517-bin.6_DGMFJBHF_00157	Phenylalanine--tRNA ligase alpha subunit	1080	pheS
+3300009517-bin.6_DGMFJBHF_00158	Phenylalanine--tRNA ligase beta subunit	2379	pheT
+3300009517-bin.6_DGMFJBHF_00159	Putative fructokinase	900	gmuE
+3300009517-bin.6_DGMFJBHF_00160	Levanase	1437	sacC
+3300009517-bin.6_DGMFJBHF_00161	Flavin-dependent tryptophan halogenase RebH	1485	rebH_1
+3300009517-bin.6_DGMFJBHF_00162	Vitamin B12 transporter BtuB	2520	btuB_5
+3300009517-bin.6_DGMFJBHF_00163	hypothetical protein	1332	
+3300009517-bin.6_DGMFJBHF_00164	Ribose operon repressor	1020	rbsR_1
+3300009517-bin.6_DGMFJBHF_00165	Arabinose 5-phosphate isomerase KdsD	957	kdsD
+3300009517-bin.6_DGMFJBHF_00166	2-dehydro-3-deoxyphosphooctonate aldolase	843	kdsA
+3300009517-bin.6_DGMFJBHF_00167	Hemin import ATP-binding protein HmuV	753	hmuV
+3300009517-bin.6_DGMFJBHF_00168	Fe(3+) dicitrate transport system permease protein FecD	981	fecD
+3300009517-bin.6_DGMFJBHF_00169	Vitamin B12-binding protein	885	btuF
+3300009517-bin.6_DGMFJBHF_00170	Vitamin B12 transporter BtuB	1821	btuB_6
+3300009517-bin.6_DGMFJBHF_00171	16S rRNA endonuclease CdiA	330	cdiA_1
+3300009517-bin.6_DGMFJBHF_00172	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_00173	16S rRNA endonuclease CdiA	2325	cdiA_2
+3300009517-bin.6_DGMFJBHF_00174	hypothetical protein	381	
+3300009517-bin.6_DGMFJBHF_00175	16S rRNA endonuclease CdiA	16590	cdiA_3
+3300009517-bin.6_DGMFJBHF_00176	Hemolysin transporter protein ShlB	1719	shlB
+3300009517-bin.6_DGMFJBHF_00177	Phosphoglucosamine mutase	1347	glmM
+3300009517-bin.6_DGMFJBHF_00178	hypothetical protein	492	
+3300009517-bin.6_DGMFJBHF_00179	Carbamoyl-phosphate synthase large chain	3228	carB
+3300009517-bin.6_DGMFJBHF_00180	Transcription elongation factor GreA	474	greA
+3300009517-bin.6_DGMFJBHF_00181	hypothetical protein	966	
+3300009517-bin.6_DGMFJBHF_00182	Glucosaminate ammonia-lyase	1005	
+3300009517-bin.6_DGMFJBHF_00183	HTH-type transcriptional regulator DmlR	894	dmlR_1
+3300009517-bin.6_DGMFJBHF_00184	hypothetical protein	1248	
+3300009517-bin.6_DGMFJBHF_00185	hypothetical protein	825	
+3300009517-bin.6_DGMFJBHF_00186	Orotate phosphoribosyltransferase	807	pyrE_1
+3300009517-bin.6_DGMFJBHF_00187	hypothetical protein	852	
+3300009517-bin.6_DGMFJBHF_00188	hypothetical protein	924	
+3300009517-bin.6_DGMFJBHF_00189	Ribosomal large subunit pseudouridine synthase B	906	rluB_1
+3300009517-bin.6_DGMFJBHF_00190	hypothetical protein	459	
+3300009517-bin.6_DGMFJBHF_00191	Quercetin 2,3-dioxygenase	870	yhhW_1
+3300009517-bin.6_DGMFJBHF_00192	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_00193	hypothetical protein	558	
+3300009517-bin.6_DGMFJBHF_00194	hypothetical protein	411	
+3300009517-bin.6_DGMFJBHF_00195	Energy-dependent translational throttle protein EttA	1662	ettA
+3300009517-bin.6_DGMFJBHF_00196	Ribonuclease D	612	rnd_1
+3300009517-bin.6_DGMFJBHF_00197	hypothetical protein	858	
+3300009517-bin.6_DGMFJBHF_00198	Lipopolysaccharide export system protein LptA	531	lptA
+3300009517-bin.6_DGMFJBHF_00199	Lipopolysaccharide export system ATP-binding protein LptB	768	lptB
+3300009517-bin.6_DGMFJBHF_00200	RNA polymerase sigma-54 factor 2	1482	rpoN2
+3300009517-bin.6_DGMFJBHF_00201	Ribosome hibernation promotion factor	342	hpf
+3300009517-bin.6_DGMFJBHF_00202	Nitrogen regulatory protein	468	ptsN
+3300009517-bin.6_DGMFJBHF_00203	Flavin-dependent tryptophan halogenase RebH	1500	rebH_2
+3300009517-bin.6_DGMFJBHF_00204	Flavin-dependent tryptophan halogenase PrnA	1506	prnA_1
+3300009517-bin.6_DGMFJBHF_00205	Protein oar	3021	oar_1
+3300009517-bin.6_DGMFJBHF_00206	Lactoylglutathione lyase	468	gloA
+3300009517-bin.6_DGMFJBHF_00208	hypothetical protein	321	
+3300009517-bin.6_DGMFJBHF_00209	hypothetical protein	405	
+3300009517-bin.6_DGMFJBHF_00210	hypothetical protein	1557	
+3300009517-bin.6_DGMFJBHF_00211	hypothetical protein	798	
+3300009517-bin.6_DGMFJBHF_00212	hypothetical protein	576	
+3300009517-bin.6_DGMFJBHF_00213	hypothetical protein	885	
+3300009517-bin.6_DGMFJBHF_00214	hypothetical protein	279	
+3300009517-bin.6_DGMFJBHF_00215	hypothetical protein	372	
+3300009517-bin.6_DGMFJBHF_00216	hypothetical protein	1179	
+3300009517-bin.6_DGMFJBHF_00217	hypothetical protein	1920	
+3300009517-bin.6_DGMFJBHF_00218	hypothetical protein	906	
+3300009517-bin.6_DGMFJBHF_00219	hypothetical protein	2667	
+3300009517-bin.6_DGMFJBHF_00220	Putative DNA-binding proteinA	156	
+3300009517-bin.6_DGMFJBHF_00221	hypothetical protein	414	
+3300009517-bin.6_DGMFJBHF_00222	hypothetical protein	972	
+3300009517-bin.6_DGMFJBHF_00223	hypothetical protein	300	
+3300009517-bin.6_DGMFJBHF_00224	hypothetical protein	306	
+3300009517-bin.6_DGMFJBHF_00225	hypothetical protein	186	
+3300009517-bin.6_DGMFJBHF_00226	hypothetical protein	168	
+3300009517-bin.6_DGMFJBHF_00227	hypothetical protein	546	
+3300009517-bin.6_DGMFJBHF_00228	hypothetical protein	759	
+3300009517-bin.6_DGMFJBHF_00229	hypothetical protein	507	
+3300009517-bin.6_DGMFJBHF_00230	hypothetical protein	147	
+3300009517-bin.6_DGMFJBHF_00231	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_00232	hypothetical protein	948	
+3300009517-bin.6_DGMFJBHF_00233	hypothetical protein	1386	
+3300009517-bin.6_DGMFJBHF_00234	Glutamine transport ATP-binding protein GlnQ	642	glnQ
+3300009517-bin.6_DGMFJBHF_00235	Histidine transport system permease protein HisM	657	hisM
+3300009517-bin.6_DGMFJBHF_00236	putative histidine-binding protein	849	hisJ
+3300009517-bin.6_DGMFJBHF_00237	hypothetical protein	1290	
+3300009517-bin.6_DGMFJBHF_00238	hypothetical protein	378	
+3300009517-bin.6_DGMFJBHF_00239	hypothetical protein	219	
+3300009517-bin.6_DGMFJBHF_00240	Methyl-accepting chemotaxis protein McpP	1701	mcpP_1
+3300009517-bin.6_DGMFJBHF_00241	hypothetical protein	339	
+3300009517-bin.6_DGMFJBHF_00242	Deoxyuridine 5'-triphosphate nucleotidohydrolase	537	dut
+3300009517-bin.6_DGMFJBHF_00243	hypothetical protein	213	
+3300009517-bin.6_DGMFJBHF_00244	Competence protein ComM	1560	comM
+3300009517-bin.6_DGMFJBHF_00245	hypothetical protein	480	
+3300009517-bin.6_DGMFJBHF_00246	hypothetical protein	417	
+3300009517-bin.6_DGMFJBHF_00247	hypothetical protein	783	
+3300009517-bin.6_DGMFJBHF_00248	hypothetical protein	642	
+3300009517-bin.6_DGMFJBHF_00249	ECF RNA polymerase sigma factor SigF	534	sigF
+3300009517-bin.6_DGMFJBHF_00250	hypothetical protein	276	
+3300009517-bin.6_DGMFJBHF_00251	hypothetical protein	279	
+3300009517-bin.6_DGMFJBHF_00252	hypothetical protein	834	
+3300009517-bin.6_DGMFJBHF_00253	hypothetical protein	750	
+3300009517-bin.6_DGMFJBHF_00254	hypothetical protein	408	
+3300009517-bin.6_DGMFJBHF_00255	Glutathione synthetase	951	gshB
+3300009517-bin.6_DGMFJBHF_00256	hypothetical protein	387	
+3300009517-bin.6_DGMFJBHF_00257	HTH-type transcriptional activator RhaS	639	rhaS
+3300009517-bin.6_DGMFJBHF_00258	hypothetical protein	753	
+3300009517-bin.6_DGMFJBHF_00259	Putrescine--pyruvate aminotransferase	1386	spuC
+3300009517-bin.6_DGMFJBHF_00260	Dihydrofolate synthase/folylpolyglutamate synthase	1257	folC
+3300009517-bin.6_DGMFJBHF_00261	hypothetical protein	573	
+3300009517-bin.6_DGMFJBHF_00262	hypothetical protein	660	
+3300009517-bin.6_DGMFJBHF_00263	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta	855	accD
+3300009517-bin.6_DGMFJBHF_00264	Tryptophan synthase alpha chain	816	trpA
+3300009517-bin.6_DGMFJBHF_00265	Tryptophan synthase beta chain	1218	trpB
+3300009517-bin.6_DGMFJBHF_00266	N-(5'-phosphoribosyl)anthranilate isomerase	645	trpF
+3300009517-bin.6_DGMFJBHF_00267	Large-conductance mechanosensitive channel	414	mscL_1
+3300009517-bin.6_DGMFJBHF_00268	hypothetical protein	591	
+3300009517-bin.6_DGMFJBHF_00269	hypothetical protein	1008	
+3300009517-bin.6_DGMFJBHF_00270	NADP-dependent malic enzyme	2271	tme
+3300009517-bin.6_DGMFJBHF_00271	hypothetical protein	483	
+3300009517-bin.6_DGMFJBHF_00272	Secretory immunoglobulin A-binding protein EsiB	1608	esiB
+3300009517-bin.6_DGMFJBHF_00273	hypothetical protein	468	
+3300009517-bin.6_DGMFJBHF_00274	hypothetical protein	585	
+3300009517-bin.6_DGMFJBHF_00275	30S ribosomal protein S4	621	rpsD
+3300009517-bin.6_DGMFJBHF_00276	Inner membrane protein YbhL	753	ybhL
+3300009517-bin.6_DGMFJBHF_00277	Maleylpyruvate isomerase	633	nagL
+3300009517-bin.6_DGMFJBHF_00278	HTH-type transcriptional repressor NicR	441	nicR
+3300009517-bin.6_DGMFJBHF_00279	hypothetical protein	774	
+3300009517-bin.6_DGMFJBHF_00280	4-hydroxyphenylpyruvate dioxygenase	1092	hpd
+3300009517-bin.6_DGMFJBHF_00281	Metallothiol transferase FosB	531	fosB
+3300009517-bin.6_DGMFJBHF_00282	Acetoacetyl-CoA reductase	720	phaB
+3300009517-bin.6_DGMFJBHF_00283	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_00284	Malate dehydrogenase	963	mdh
+3300009517-bin.6_DGMFJBHF_00285	hypothetical protein	2112	
+3300009517-bin.6_DGMFJBHF_00286	hypothetical protein	435	
+3300009517-bin.6_DGMFJBHF_00287	hypothetical protein	537	
+3300009517-bin.6_DGMFJBHF_00288	hypothetical protein	255	
+3300009517-bin.6_DGMFJBHF_00289	Toluene-4-sulfonate monooxygenase system iron-sulfur subunit TsaM1	1101	tsaM1
+3300009517-bin.6_DGMFJBHF_00290	hypothetical protein	333	
+3300009517-bin.6_DGMFJBHF_00291	hypothetical protein	501	
+3300009517-bin.6_DGMFJBHF_00292	putative Ni/Fe-hydrogenase 1 B-type cytochrome subunit	978	hyaC
+3300009517-bin.6_DGMFJBHF_00293	Group 3 truncated hemoglobin ctb	420	ctb
+3300009517-bin.6_DGMFJBHF_00294	Disulfide-bond oxidoreductase YghU	702	yghU
+3300009517-bin.6_DGMFJBHF_00295	hypothetical protein	1773	
+3300009517-bin.6_DGMFJBHF_00296	Tryptophan--tRNA ligase	1035	trpS
+3300009517-bin.6_DGMFJBHF_00297	hypothetical protein	402	
+3300009517-bin.6_DGMFJBHF_00298	hypothetical protein	642	
+3300009517-bin.6_DGMFJBHF_00299	HTH-type transcriptional repressor ComR	600	comR_1
+3300009517-bin.6_DGMFJBHF_00300	ATP-dependent DNA helicase RecQ	1791	recQ
+3300009517-bin.6_DGMFJBHF_00301	hypothetical protein	1038	
+3300009517-bin.6_DGMFJBHF_00302	hypothetical protein	471	
+3300009517-bin.6_DGMFJBHF_00303	Fe/S biogenesis protein NfuA	567	nfuA
+3300009517-bin.6_DGMFJBHF_00304	hypothetical protein	1167	
+3300009517-bin.6_DGMFJBHF_00305	Sulfide-quinone reductase	1272	
+3300009517-bin.6_DGMFJBHF_00306	Outer membrane efflux protein BepC	1248	bepC
+3300009517-bin.6_DGMFJBHF_00307	hypothetical protein	204	
+3300009517-bin.6_DGMFJBHF_00308	putative adenylyltransferase/sulfurtransferase MoeZ	330	moeZ_1
+3300009517-bin.6_DGMFJBHF_00309	hypothetical protein	1179	
+3300009517-bin.6_DGMFJBHF_00310	Antibiotic efflux pump membrane transporter ArpB	3210	arpB
+3300009517-bin.6_DGMFJBHF_00311	hypothetical protein	1548	
+3300009517-bin.6_DGMFJBHF_00312	S-adenosylmethionine synthase	1191	metK
+3300009517-bin.6_DGMFJBHF_00313	ATP-dependent RecD-like DNA helicase	1503	recD2
+3300009517-bin.6_DGMFJBHF_00314	O-acetylserine sulfhydrylase	969	cysK1
+3300009517-bin.6_DGMFJBHF_00315	Transcriptional regulator SlyA	966	slyA_1
+3300009517-bin.6_DGMFJBHF_00316	Potassium channel	612	
+3300009517-bin.6_DGMFJBHF_00317	hypothetical protein	711	
+3300009517-bin.6_DGMFJBHF_00318	L-fucose-proton symporter	1254	fucP_1
+3300009517-bin.6_DGMFJBHF_00319	L-fucose-proton symporter	1353	fucP_2
+3300009517-bin.6_DGMFJBHF_00320	Glucuronoxylanase XynC	1461	xynC
+3300009517-bin.6_DGMFJBHF_00321	Flavin-dependent tryptophan halogenase RebH	1509	rebH_3
+3300009517-bin.6_DGMFJBHF_00322	Beta-glucosidase BoGH3B	2025	
+3300009517-bin.6_DGMFJBHF_00323	hypothetical protein	2859	
+3300009517-bin.6_DGMFJBHF_00324	Catabolite control protein A	1047	ccpA_1
+3300009517-bin.6_DGMFJBHF_00325	hypothetical protein	684	
+3300009517-bin.6_DGMFJBHF_00326	Ribosomal RNA large subunit methyltransferase I	900	rlmI
+3300009517-bin.6_DGMFJBHF_00327	23S rRNA (uridine(2479)-2'-O)-methyltransferase	831	aviRb
+3300009517-bin.6_DGMFJBHF_00328	Peptidoglycan-binding protein ArfA	786	arfA_2
+3300009517-bin.6_DGMFJBHF_00329	50S ribosomal protein L21	789	rplU_1
+3300009517-bin.6_DGMFJBHF_00330	hypothetical protein	471	
+3300009517-bin.6_DGMFJBHF_00331	Dihydrolipoyl dehydrogenase 3	1404	lpd3
+3300009517-bin.6_DGMFJBHF_00332	tRNA pseudouridine synthase A	753	truA
+3300009517-bin.6_DGMFJBHF_00333	Methionyl-tRNA formyltransferase	915	fmt
+3300009517-bin.6_DGMFJBHF_00334	hypothetical protein	1290	
+3300009517-bin.6_DGMFJBHF_00335	GDP-mannose pyrophosphatase NudK	579	nudK
+3300009517-bin.6_DGMFJBHF_00337	RNA polymerase-binding transcription factor CarD	522	carD
+3300009517-bin.6_DGMFJBHF_00338	Ferredoxin-2	342	fdxA
+3300009517-bin.6_DGMFJBHF_00339	hypothetical protein	1269	
+3300009517-bin.6_DGMFJBHF_00340	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_00341	Uridine kinase	642	udk
+3300009517-bin.6_DGMFJBHF_00342	hypothetical protein	369	
+3300009517-bin.6_DGMFJBHF_00343	Neutral endopeptidase	2055	pepO
+3300009517-bin.6_DGMFJBHF_00344	Serine/threonine exchanger SteT	1329	steT
+3300009517-bin.6_DGMFJBHF_00345	hypothetical protein	132	
+3300009517-bin.6_DGMFJBHF_00346	hypothetical protein	567	
+3300009517-bin.6_DGMFJBHF_00347	hypothetical protein	540	
+3300009517-bin.6_DGMFJBHF_00348	D-beta-hydroxybutyrate dehydrogenase	777	bdhA
+3300009517-bin.6_DGMFJBHF_00349	hypothetical protein	330	
+3300009517-bin.6_DGMFJBHF_00350	hypothetical protein	357	
+3300009517-bin.6_DGMFJBHF_00351	50S ribosomal protein L36	135	rpmJ
+3300009517-bin.6_DGMFJBHF_00352	Transcriptional regulator SlyA	393	slyA_2
+3300009517-bin.6_DGMFJBHF_00353	Dipeptidyl-peptidase 6	849	
+3300009517-bin.6_DGMFJBHF_00354	Cytochrome c-552	726	cycM
+3300009517-bin.6_DGMFJBHF_00355	8-amino-3,8-dideoxy-manno-octulosonate cytidylyltransferase	744	kdsB
+3300009517-bin.6_DGMFJBHF_00356	P-protein	855	pheA
+3300009517-bin.6_DGMFJBHF_00357	Phosphate-import ATP-binding protein PhnC	1917	phnC
+3300009517-bin.6_DGMFJBHF_00358	Phosphate-import permease protein PhnE	813	phnE
+3300009517-bin.6_DGMFJBHF_00359	Porin O	1233	oprO_1
+3300009517-bin.6_DGMFJBHF_00360	Protein SphX	1053	sphX_1
+3300009517-bin.6_DGMFJBHF_00361	Porin O	1233	oprO_2
+3300009517-bin.6_DGMFJBHF_00362	Protein SphX	1047	sphX_2
+3300009517-bin.6_DGMFJBHF_00363	Modulator of FtsH protease HflC	813	hflC
+3300009517-bin.6_DGMFJBHF_00364	Modulator of FtsH protease HflK	1098	hflK
+3300009517-bin.6_DGMFJBHF_00365	Dihydrofolate reductase type 3	534	dhfrIII
+3300009517-bin.6_DGMFJBHF_00366	Acetyl-CoA acetyltransferase	1161	thlA
+3300009517-bin.6_DGMFJBHF_00367	putative adenylyltransferase/sulfurtransferase MoeZ	750	moeZ_2
+3300009517-bin.6_DGMFJBHF_00368	hypothetical protein	516	
+3300009517-bin.6_DGMFJBHF_00369	hypothetical protein	402	
+3300009517-bin.6_DGMFJBHF_00370	hypothetical protein	480	
+3300009517-bin.6_DGMFJBHF_00371	Signal recognition particle receptor FtsY	1329	ftsY
+3300009517-bin.6_DGMFJBHF_00372	hypothetical protein	984	
+3300009517-bin.6_DGMFJBHF_00373	hypothetical protein	1824	
+3300009517-bin.6_DGMFJBHF_00374	hypothetical protein	1776	
+3300009517-bin.6_DGMFJBHF_00375	hypothetical protein	588	
+3300009517-bin.6_DGMFJBHF_00376	Bifunctional protein PutA	3126	putA
+3300009517-bin.6_DGMFJBHF_00377	GDP-mannose-dependent alpha-mannosyltransferase	1083	mgtA
+3300009517-bin.6_DGMFJBHF_00378	Murein DD-endopeptidase MepM	1293	mepM_1
+3300009517-bin.6_DGMFJBHF_00379	hypothetical protein	3699	
+3300009517-bin.6_DGMFJBHF_00380	Putative 8-oxo-dGTP diphosphatase 2	405	mutT2
+3300009517-bin.6_DGMFJBHF_00381	hypothetical protein	705	
+3300009517-bin.6_DGMFJBHF_00382	hypothetical protein	306	
+3300009517-bin.6_DGMFJBHF_00383	Colicin I receptor	2334	cirA_2
+3300009517-bin.6_DGMFJBHF_00384	3-phytase	1038	phy
+3300009517-bin.6_DGMFJBHF_00385	Aconitate hydratase B	2583	acnB
+3300009517-bin.6_DGMFJBHF_00386	hypothetical protein	1467	
+3300009517-bin.6_DGMFJBHF_00387	hypothetical protein	741	
+3300009517-bin.6_DGMFJBHF_00388	Protease HtpX	1167	htpX
+3300009517-bin.6_DGMFJBHF_00389	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]	1824	nodM
+3300009517-bin.6_DGMFJBHF_00390	Hypoxanthine phosphoribosyltransferase	516	hpt
+3300009517-bin.6_DGMFJBHF_00391	Formate--tetrahydrofolate ligase	1671	fhs
+3300009517-bin.6_DGMFJBHF_00392	hypothetical protein	1017	
+3300009517-bin.6_DGMFJBHF_00393	Cell division ATP-binding protein FtsE	783	ftsE
+3300009517-bin.6_DGMFJBHF_00394	hypothetical protein	936	
+3300009517-bin.6_DGMFJBHF_00395	hypothetical protein	663	
+3300009517-bin.6_DGMFJBHF_00396	1-acyl-sn-glycerol-3-phosphate acyltransferase	729	plsC
+3300009517-bin.6_DGMFJBHF_00397	hypothetical protein	918	
+3300009517-bin.6_DGMFJBHF_00398	50S ribosomal protein L21	312	rplU_2
+3300009517-bin.6_DGMFJBHF_00399	50S ribosomal protein L27	267	rpmA
+3300009517-bin.6_DGMFJBHF_00400	GTPase Obg/CgtA	1050	cgtA
+3300009517-bin.6_DGMFJBHF_00401	Glutamate 5-kinase	1116	proB
+3300009517-bin.6_DGMFJBHF_00402	hypothetical protein	753	
+3300009517-bin.6_DGMFJBHF_00403	Histidinol-phosphate aminotransferase	1083	hisC
+3300009517-bin.6_DGMFJBHF_00404	Cyclohexadienyl dehydrogenase	906	tyrC
+3300009517-bin.6_DGMFJBHF_00405	hypothetical protein	237	
+3300009517-bin.6_DGMFJBHF_00406	Transcriptional activator HlyU	336	hlyU_1
+3300009517-bin.6_DGMFJBHF_00407	hypothetical protein	684	
+3300009517-bin.6_DGMFJBHF_00408	hypothetical protein	1077	
+3300009517-bin.6_DGMFJBHF_00409	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_00410	GTP-binding protein TypA/BipA	1845	typA
+3300009517-bin.6_DGMFJBHF_00411	hypothetical protein	2682	
+3300009517-bin.6_DGMFJBHF_00412	hypothetical protein	438	
+3300009517-bin.6_DGMFJBHF_00413	hypothetical protein	462	
+3300009517-bin.6_DGMFJBHF_00414	Isonitrile hydratase	645	inhA
+3300009517-bin.6_DGMFJBHF_00415	Prolyl endopeptidase	2172	
+3300009517-bin.6_DGMFJBHF_00416	Intracellular septation protein	648	yciB
+3300009517-bin.6_DGMFJBHF_00417	Thiol-disulfide oxidoreductase ResA	537	resA_1
+3300009517-bin.6_DGMFJBHF_00418	HTH-type transcriptional repressor NanR	753	nanR
+3300009517-bin.6_DGMFJBHF_00419	Flavin-dependent monooxygenase, reductase subunit HsaB	504	hsaB
+3300009517-bin.6_DGMFJBHF_00420	Glutathione S-transferase YfcF	684	yfcF
+3300009517-bin.6_DGMFJBHF_00421	hypothetical protein	174	
+3300009517-bin.6_DGMFJBHF_00422	DNA polymerase I	2850	polA
+3300009517-bin.6_DGMFJBHF_00423	Aldose sugar dehydrogenase YliI	1122	yliI
+3300009517-bin.6_DGMFJBHF_00424	Aminodeoxychorismate synthase component 1	1749	pabB
+3300009517-bin.6_DGMFJBHF_00425	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_00426	Cysteine--tRNA ligase	1386	cysS
+3300009517-bin.6_DGMFJBHF_00427	GTP cyclohydrolase 1	615	folE
+3300009517-bin.6_DGMFJBHF_00428	hypothetical protein	735	
+3300009517-bin.6_DGMFJBHF_00429	Phosphoribosyl-AMP cyclohydrolase	387	hisI
+3300009517-bin.6_DGMFJBHF_00430	Cytochrome c biogenesis ATP-binding export protein CcmA	636	ccmA
+3300009517-bin.6_DGMFJBHF_00431	Heme exporter protein B	672	ccmB
+3300009517-bin.6_DGMFJBHF_00432	Flagellin	858	fliC_1
+3300009517-bin.6_DGMFJBHF_00433	Flagellin	855	fliC_2
+3300009517-bin.6_DGMFJBHF_00434	hypothetical protein	393	
+3300009517-bin.6_DGMFJBHF_00435	Flagellin	831	fliC_3
+3300009517-bin.6_DGMFJBHF_00436	Flagellin	831	fliC_4
+3300009517-bin.6_DGMFJBHF_00437	hypothetical protein	372	
+3300009517-bin.6_DGMFJBHF_00438	flagellum biosynthesis repressor protein FlbT	438	flbT
+3300009517-bin.6_DGMFJBHF_00439	hypothetical protein	846	
+3300009517-bin.6_DGMFJBHF_00440	Nucleoid occlusion factor SlmA	633	slmA_1
+3300009517-bin.6_DGMFJBHF_00441	FMN-dependent NADH-azoreductase	567	azoR
+3300009517-bin.6_DGMFJBHF_00442	hypothetical protein	546	
+3300009517-bin.6_DGMFJBHF_00443	hypothetical protein	147	
+3300009517-bin.6_DGMFJBHF_00444	Acetylornithine aminotransferase	1182	argD
+3300009517-bin.6_DGMFJBHF_00445	Ornithine carbamoyltransferase, anabolic	918	argF
+3300009517-bin.6_DGMFJBHF_00446	33 kDa chaperonin	924	hslO
+3300009517-bin.6_DGMFJBHF_00447	hypothetical protein	1089	
+3300009517-bin.6_DGMFJBHF_00448	hypothetical protein	942	
+3300009517-bin.6_DGMFJBHF_00449	hypothetical protein	99	
+3300009517-bin.6_DGMFJBHF_00450	L-methionine gamma-lyase	1278	mgl
+3300009517-bin.6_DGMFJBHF_00451	AMP nucleosidase	1452	amn
+3300009517-bin.6_DGMFJBHF_00452	hypothetical protein	756	
+3300009517-bin.6_DGMFJBHF_00453	Hydroxyacylglutathione hydrolase GloB	762	gloB
+3300009517-bin.6_DGMFJBHF_00454	hypothetical protein	747	
+3300009517-bin.6_DGMFJBHF_00455	Nitrogen regulatory protein P-II	345	glnB_1
+3300009517-bin.6_DGMFJBHF_00456	hypothetical protein	1113	
+3300009517-bin.6_DGMFJBHF_00457	Dodecaprenyl-phosphate galacturonate synthase	747	rgtE
+3300009517-bin.6_DGMFJBHF_00458	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_00459	N-acetylgalactosamine-6-phosphate deacetylase	1158	agaAII
+3300009517-bin.6_DGMFJBHF_00460	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]	1032	glmS
+3300009517-bin.6_DGMFJBHF_00461	N-acetylmuramic acid 6-phosphate etherase	894	murQ
+3300009517-bin.6_DGMFJBHF_00462	hypothetical protein	180	
+3300009517-bin.6_DGMFJBHF_00463	hypothetical protein	405	
+3300009517-bin.6_DGMFJBHF_00464	hypothetical protein	537	
+3300009517-bin.6_DGMFJBHF_00465	Aspartate-semialdehyde dehydrogenase 2	1023	asd2
+3300009517-bin.6_DGMFJBHF_00466	Orotidine 5'-phosphate decarboxylase	906	pyrF
+3300009517-bin.6_DGMFJBHF_00467	hypothetical protein	3069	
+3300009517-bin.6_DGMFJBHF_00468	ATP-dependent helicase/nuclease subunit A	3486	addA
+3300009517-bin.6_DGMFJBHF_00469	Thioredoxin	321	trxA_1
+3300009517-bin.6_DGMFJBHF_00470	PTS system mannose-specific EIIAB component	399	manX
+3300009517-bin.6_DGMFJBHF_00471	Phosphocarrier protein NPr	279	ptsO
+3300009517-bin.6_DGMFJBHF_00472	Phosphomannomutase/phosphoglucomutase	1521	algC
+3300009517-bin.6_DGMFJBHF_00473	Chemotaxis protein CheY	498	cheY_1
+3300009517-bin.6_DGMFJBHF_00474	Beta-monoglucosyldiacylglycerol synthase	1518	
+3300009517-bin.6_DGMFJBHF_00475	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_00476	Inner membrane protein YebE	660	yebE
+3300009517-bin.6_DGMFJBHF_00477	Pyruvate kinase	1419	ttuE
+3300009517-bin.6_DGMFJBHF_00478	Putative KHG/KDPG aldolase	630	eda
+3300009517-bin.6_DGMFJBHF_00479	Glucokinase	957	glk
+3300009517-bin.6_DGMFJBHF_00480	Phosphogluconate dehydratase	1818	edd
+3300009517-bin.6_DGMFJBHF_00481	6-phosphogluconolactonase	708	pgl
+3300009517-bin.6_DGMFJBHF_00482	Glucose-6-phosphate 1-dehydrogenase	1476	zwf
+3300009517-bin.6_DGMFJBHF_00483	Translocation and assembly module subunit TamA	1833	tamA
+3300009517-bin.6_DGMFJBHF_00484	Translocation and assembly module subunit TamB	4641	tamB
+3300009517-bin.6_DGMFJBHF_00485	Thermonuclease	486	nucH
+3300009517-bin.6_DGMFJBHF_00486	hypothetical protein	417	
+3300009517-bin.6_DGMFJBHF_00487	Phosphoglycerate kinase	1206	pgk
+3300009517-bin.6_DGMFJBHF_00488	Thiamine-phosphate synthase	627	thiE_1
+3300009517-bin.6_DGMFJBHF_00489	Localization factor PodJL	930	podJ_1
+3300009517-bin.6_DGMFJBHF_00490	Inositol-1-monophosphatase	777	suhB_1
+3300009517-bin.6_DGMFJBHF_00491	DNA helicase II	2334	uvrD
+3300009517-bin.6_DGMFJBHF_00492	hypothetical protein	390	
+3300009517-bin.6_DGMFJBHF_00493	hypothetical protein	204	
+3300009517-bin.6_DGMFJBHF_00494	hypothetical protein	189	
+3300009517-bin.6_DGMFJBHF_00495	Ribosomal large subunit pseudouridine synthase A	642	rluA
+3300009517-bin.6_DGMFJBHF_00496	hypothetical protein	558	
+3300009517-bin.6_DGMFJBHF_00497	hypothetical protein	657	
+3300009517-bin.6_DGMFJBHF_00498	ATP synthase subunit beta	1443	atpD
+3300009517-bin.6_DGMFJBHF_00499	ATP synthase gamma chain	888	atpG_1
+3300009517-bin.6_DGMFJBHF_00500	ATP synthase subunit alpha	1539	atpA
+3300009517-bin.6_DGMFJBHF_00501	ATP synthase subunit delta	537	atpH
+3300009517-bin.6_DGMFJBHF_00502	hypothetical protein	810	
+3300009517-bin.6_DGMFJBHF_00503	hypothetical protein	804	
+3300009517-bin.6_DGMFJBHF_00504	Cell division protein ZapE	1149	zapE
+3300009517-bin.6_DGMFJBHF_00505	Beta-lactamase hydrolase-like protein	411	blh
+3300009517-bin.6_DGMFJBHF_00506	tRNA N6-adenosine threonylcarbamoyltransferase	1089	tsaD
+3300009517-bin.6_DGMFJBHF_00507	Cob(I)yrinic acid a,c-diamide adenosyltransferase	570	
+3300009517-bin.6_DGMFJBHF_00508	hypothetical protein	789	
+3300009517-bin.6_DGMFJBHF_00509	hypothetical protein	204	
+3300009517-bin.6_DGMFJBHF_00510	hypothetical protein	1044	
+3300009517-bin.6_DGMFJBHF_00511	hypothetical protein	723	
+3300009517-bin.6_DGMFJBHF_00512	(2S)-methylsuccinyl-CoA dehydrogenase	1665	mcd
+3300009517-bin.6_DGMFJBHF_00513	putative signaling protein	1104	
+3300009517-bin.6_DGMFJBHF_00514	hypothetical protein	306	
+3300009517-bin.6_DGMFJBHF_00515	Dihydroorotate dehydrogenase (quinone)	1026	pyrD
+3300009517-bin.6_DGMFJBHF_00516	hypothetical protein	348	
+3300009517-bin.6_DGMFJBHF_00517	Lysine--tRNA ligase	1575	lysS
+3300009517-bin.6_DGMFJBHF_00518	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase	528	gpmA_1
+3300009517-bin.6_DGMFJBHF_00519	Transposon Tn10 TetC protein	612	tetC
+3300009517-bin.6_DGMFJBHF_00520	Chemotaxis protein CheY	894	cheY_2
+3300009517-bin.6_DGMFJBHF_00521	Homoserine O-acetyltransferase	1119	metXA_1
+3300009517-bin.6_DGMFJBHF_00522	Bifunctional methionine biosynthesis protein MetXA/MetW	606	metXA_2
+3300009517-bin.6_DGMFJBHF_00523	Endonuclease III	651	nth
+3300009517-bin.6_DGMFJBHF_00524	hypothetical protein	369	
+3300009517-bin.6_DGMFJBHF_00525	Elongation factor 4	1803	lepA
+3300009517-bin.6_DGMFJBHF_00526	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_00527	Recombination protein RecR	615	recR
+3300009517-bin.6_DGMFJBHF_00528	hypothetical protein	354	
+3300009517-bin.6_DGMFJBHF_00529	Ribosomal RNA small subunit methyltransferase I	906	rsmI
+3300009517-bin.6_DGMFJBHF_00530	Penicillin-binding protein activator LpoA	1275	lpoA
+3300009517-bin.6_DGMFJBHF_00531	Oxygen-independent coproporphyrinogen-III oxidase-like protein YqeR	1131	hemN_1
+3300009517-bin.6_DGMFJBHF_00532	dITP/XTP pyrophosphatase	600	
+3300009517-bin.6_DGMFJBHF_00533	hypothetical protein	522	
+3300009517-bin.6_DGMFJBHF_00534	hypothetical protein	228	
+3300009517-bin.6_DGMFJBHF_00535	Ribonuclease PH	720	rph
+3300009517-bin.6_DGMFJBHF_00536	hypothetical protein	609	
+3300009517-bin.6_DGMFJBHF_00537	Cycloserine biosynthesis protein DcsG	918	dcsG
+3300009517-bin.6_DGMFJBHF_00538	5-dehydro-2-deoxygluconokinase	993	iolC
+3300009517-bin.6_DGMFJBHF_00539	Protein RarD	876	rarD
+3300009517-bin.6_DGMFJBHF_00540	hypothetical protein	399	
+3300009517-bin.6_DGMFJBHF_00541	hypothetical protein	957	
+3300009517-bin.6_DGMFJBHF_00542	hypothetical protein	759	
+3300009517-bin.6_DGMFJBHF_00543	hypothetical protein	327	
+3300009517-bin.6_DGMFJBHF_00544	Carboxy-terminal processing protease CtpB	1194	ctpB
+3300009517-bin.6_DGMFJBHF_00545	hypothetical protein	1314	
+3300009517-bin.6_DGMFJBHF_00546	Fumarate hydratase class II	1392	fumC
+3300009517-bin.6_DGMFJBHF_00547	hypothetical protein	549	
+3300009517-bin.6_DGMFJBHF_00548	(R)-citramalyl-CoA lyase	891	ccl
+3300009517-bin.6_DGMFJBHF_00549	hypothetical protein	864	
+3300009517-bin.6_DGMFJBHF_00550	Glucan 1,4-alpha-glucosidase SusB	2040	susB
+3300009517-bin.6_DGMFJBHF_00551	putative HTH-type transcriptional repressor ExuR	1014	exuR_1
+3300009517-bin.6_DGMFJBHF_00552	Oligo-1,6-glucosidase 1	1617	malL
+3300009517-bin.6_DGMFJBHF_00553	Alpha-amylase	1758	amy
+3300009517-bin.6_DGMFJBHF_00554	hypothetical protein	699	
+3300009517-bin.6_DGMFJBHF_00555	Flavin-dependent tryptophan halogenase RebH	1512	rebH_4
+3300009517-bin.6_DGMFJBHF_00556	hypothetical protein	2793	
+3300009517-bin.6_DGMFJBHF_00557	hypothetical protein	1467	
+3300009517-bin.6_DGMFJBHF_00558	Alpha-amylase 2	1365	amyB
+3300009517-bin.6_DGMFJBHF_00559	hypothetical protein	825	
+3300009517-bin.6_DGMFJBHF_00560	hypothetical protein	462	
+3300009517-bin.6_DGMFJBHF_00561	Transcriptional activator protein LuxR	849	luxR
+3300009517-bin.6_DGMFJBHF_00562	hypothetical protein	219	
+3300009517-bin.6_DGMFJBHF_00563	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha	984	accA
+3300009517-bin.6_DGMFJBHF_00564	Sensory/regulatory protein RpfC	1806	rpfC_1
+3300009517-bin.6_DGMFJBHF_00565	ATP-dependent Clp protease proteolytic subunit	588	clpP_1
+3300009517-bin.6_DGMFJBHF_00566	hypothetical protein	327	
+3300009517-bin.6_DGMFJBHF_00567	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)	1113	ispG
+3300009517-bin.6_DGMFJBHF_00568	hypothetical protein	915	
+3300009517-bin.6_DGMFJBHF_00569	Phosphoenolpyruvate-dependent phosphotransferase system	2259	ptsP
+3300009517-bin.6_DGMFJBHF_00570	HTH-type transcriptional repressor NsrR	420	nsrR_1
+3300009517-bin.6_DGMFJBHF_00571	Protein YchQ	390	ychQ
+3300009517-bin.6_DGMFJBHF_00572	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_00573	Putative beta-lactamase HcpC	1416	hcpC_1
+3300009517-bin.6_DGMFJBHF_00574	Putative beta-lactamase HcpC	1446	hcpC_2
+3300009517-bin.6_DGMFJBHF_00575	Aspartate kinase Ask_LysC	1245	lysC
+3300009517-bin.6_DGMFJBHF_00576	Ubiquinone biosynthesis O-methyltransferase	738	ubiG
+3300009517-bin.6_DGMFJBHF_00577	Fructose-bisphosphate aldolase	1038	cbbA
+3300009517-bin.6_DGMFJBHF_00578	Transketolase 1	2007	tktA
+3300009517-bin.6_DGMFJBHF_00579	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_00580	Ribulose-phosphate 3-epimerase	690	rpe
+3300009517-bin.6_DGMFJBHF_00581	hypothetical protein	435	
+3300009517-bin.6_DGMFJBHF_00582	hypothetical protein	1218	
+3300009517-bin.6_DGMFJBHF_00583	putative transcriptional regulatory protein	741	
+3300009517-bin.6_DGMFJBHF_00584	putative protein YqgN	558	yqgN
+3300009517-bin.6_DGMFJBHF_00585	2',3'-cyclic-nucleotide 2'-phosphodiesterase	819	ymdB
+3300009517-bin.6_DGMFJBHF_00586	(R)-specific enoyl-CoA hydratase	792	phaJ_1
+3300009517-bin.6_DGMFJBHF_00587	Long-chain-fatty-acid--CoA ligase FadD13	1500	
+3300009517-bin.6_DGMFJBHF_00588	Nucleoid occlusion factor SlmA	612	slmA_2
+3300009517-bin.6_DGMFJBHF_00589	AB hydrolase superfamily protein YdjP	945	ydjP
+3300009517-bin.6_DGMFJBHF_00590	Ferrichrome outer membrane transporter/phage receptor	2229	fhuA_1
+3300009517-bin.6_DGMFJBHF_00591	putative L-galactonate transporter	1338	lgoT
+3300009517-bin.6_DGMFJBHF_00592	Iron-sulfur cluster carrier protein	1086	apbC
+3300009517-bin.6_DGMFJBHF_00593	Fe(2+) transporter FeoB	1830	feoB
+3300009517-bin.6_DGMFJBHF_00594	hypothetical protein	228	
+3300009517-bin.6_DGMFJBHF_00595	hypothetical protein	795	
+3300009517-bin.6_DGMFJBHF_00596	hypothetical protein	903	
+3300009517-bin.6_DGMFJBHF_00597	Flavodoxin FldP	570	fldP
+3300009517-bin.6_DGMFJBHF_00598	4,5-DOPA dioxygenase extradiol	792	ygiD
+3300009517-bin.6_DGMFJBHF_00599	HTH-type transcriptional regulator PgrR	882	pgrR
+3300009517-bin.6_DGMFJBHF_00600	Acyl-CoA thioesterase 2	870	tesB
+3300009517-bin.6_DGMFJBHF_00601	hypothetical protein	2337	
+3300009517-bin.6_DGMFJBHF_00602	hypothetical protein	1086	
+3300009517-bin.6_DGMFJBHF_00603	putative oxidoreductase	780	
+3300009517-bin.6_DGMFJBHF_00604	Threonine/homoserine exporter RhtA	885	rhtA
+3300009517-bin.6_DGMFJBHF_00605	Shikimate kinase	588	aroK_1
+3300009517-bin.6_DGMFJBHF_00606	Succinyl-diaminopimelate desuccinylase	1377	dapE_1
+3300009517-bin.6_DGMFJBHF_00607	hypothetical protein	534	
+3300009517-bin.6_DGMFJBHF_00608	hypothetical protein	501	
+3300009517-bin.6_DGMFJBHF_00609	hypothetical protein	573	
+3300009517-bin.6_DGMFJBHF_00610	hypothetical protein	423	
+3300009517-bin.6_DGMFJBHF_00611	Electron transfer flavoprotein subunit beta	747	etfB
+3300009517-bin.6_DGMFJBHF_00612	Electron transfer flavoprotein subunit alpha	924	etfA
+3300009517-bin.6_DGMFJBHF_00613	hypothetical protein	1095	
+3300009517-bin.6_DGMFJBHF_00614	6-aminohexanoate-dimer hydrolase	1176	nylB'_1
+3300009517-bin.6_DGMFJBHF_00615	hypothetical protein	423	
+3300009517-bin.6_DGMFJBHF_00616	putative glycosyltransferase	1197	
+3300009517-bin.6_DGMFJBHF_00617	3-isopropylmalate dehydrogenase	1068	leuB
+3300009517-bin.6_DGMFJBHF_00618	hypothetical protein	1068	
+3300009517-bin.6_DGMFJBHF_00619	hypothetical protein	138	
+3300009517-bin.6_DGMFJBHF_00620	hypothetical protein	216	
+3300009517-bin.6_DGMFJBHF_00621	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI	810	fabI
+3300009517-bin.6_DGMFJBHF_00622	hypothetical protein	243	
+3300009517-bin.6_DGMFJBHF_00623	hypothetical protein	495	
+3300009517-bin.6_DGMFJBHF_00624	DNA polymerase III PolC-type	591	polC
+3300009517-bin.6_DGMFJBHF_00625	Inward rectifier potassium channel Kirbac3.1	888	
+3300009517-bin.6_DGMFJBHF_00626	hypothetical protein	108	
+3300009517-bin.6_DGMFJBHF_00627	ATP-dependent protease ATPase subunit HslU	1299	hslU
+3300009517-bin.6_DGMFJBHF_00628	ATP-dependent protease subunit HslV	564	hslV
+3300009517-bin.6_DGMFJBHF_00629	hypothetical protein	1218	
+3300009517-bin.6_DGMFJBHF_00630	hypothetical protein	1206	
+3300009517-bin.6_DGMFJBHF_00631	putative signaling protein	1764	
+3300009517-bin.6_DGMFJBHF_00632	Imidazoleglycerol-phosphate dehydratase	588	hisB
+3300009517-bin.6_DGMFJBHF_00633	Imidazole glycerol phosphate synthase subunit HisH	627	hisH
+3300009517-bin.6_DGMFJBHF_00634	1-(5-phosphoribosyl)-5-[(5- phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase	726	hisA
+3300009517-bin.6_DGMFJBHF_00635	Imidazole glycerol phosphate synthase subunit HisF	777	hisF
+3300009517-bin.6_DGMFJBHF_00636	Phosphoribosyl-ATP pyrophosphatase	327	hisE
+3300009517-bin.6_DGMFJBHF_00637	putative N-acetyltransferase	570	
+3300009517-bin.6_DGMFJBHF_00638	UDP-N-acetylmuramate--L-alanyl-gamma-D-glutamyl- meso-2,6-diaminoheptandioate ligase	1413	mpl
+3300009517-bin.6_DGMFJBHF_00639	hypothetical protein	960	
+3300009517-bin.6_DGMFJBHF_00640	Succinyl-diaminopimelate desuccinylase	1140	dapE_2
+3300009517-bin.6_DGMFJBHF_00641	4-hydroxy-tetrahydrodipicolinate reductase	807	dapB
+3300009517-bin.6_DGMFJBHF_00642	AI-2 transport protein TqsA	1065	tqsA
+3300009517-bin.6_DGMFJBHF_00643	hypothetical protein	1524	
+3300009517-bin.6_DGMFJBHF_00644	Oxygen-independent coproporphyrinogen III oxidase	1332	hemN_2
+3300009517-bin.6_DGMFJBHF_00645	Glutathione-regulated potassium-efflux system protein KefC	1809	kefC
+3300009517-bin.6_DGMFJBHF_00646	hypothetical protein	321	
+3300009517-bin.6_DGMFJBHF_00647	hypothetical protein	864	
+3300009517-bin.6_DGMFJBHF_00648	NAD-specific glutamate dehydrogenase	4872	gdhB
+3300009517-bin.6_DGMFJBHF_00649	hypothetical protein	177	
+3300009517-bin.6_DGMFJBHF_00650	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_00651	hypothetical protein	663	
+3300009517-bin.6_DGMFJBHF_00652	putative GTP-binding protein YjiA	1011	yjiA
+3300009517-bin.6_DGMFJBHF_00653	DNA-binding protein HRL53	273	
+3300009517-bin.6_DGMFJBHF_00654	Threonylcarbamoyladenosine tRNA methylthiotransferase MtaB	1290	mtaB
+3300009517-bin.6_DGMFJBHF_00655	hypothetical protein	210	
+3300009517-bin.6_DGMFJBHF_00656	hypothetical protein	531	
+3300009517-bin.6_DGMFJBHF_00657	hypothetical protein	189	
+3300009517-bin.6_DGMFJBHF_00658	hypothetical protein	717	
+3300009517-bin.6_DGMFJBHF_00659	Phthiocerol/phenolphthiocerol synthesis polyketide synthase type I PpsC	963	ppsC
+3300009517-bin.6_DGMFJBHF_00660	Dipeptidyl aminopeptidase BIII	1992	dapb3_3
+3300009517-bin.6_DGMFJBHF_00661	3-succinoylsemialdehyde-pyridine dehydrogenase	1428	ald_1
+3300009517-bin.6_DGMFJBHF_00662	hypothetical protein	1182	
+3300009517-bin.6_DGMFJBHF_00663	hypothetical protein	441	
+3300009517-bin.6_DGMFJBHF_00664	hypothetical protein	687	
+3300009517-bin.6_DGMFJBHF_00665	NAD(P) transhydrogenase subunit beta	1404	pntB
+3300009517-bin.6_DGMFJBHF_00666	NAD(P) transhydrogenase subunit alpha	345	pntA
+3300009517-bin.6_DGMFJBHF_00667	NAD(P) transhydrogenase subunit alpha part 1	1137	pntAA
+3300009517-bin.6_DGMFJBHF_00668	hypothetical protein	114	
+3300009517-bin.6_DGMFJBHF_00669	Glutarate-semialdehyde dehydrogenase DavD	1446	davD
+3300009517-bin.6_DGMFJBHF_00670	Gamma-glutamylputrescine oxidoreductase	1197	puuB
+3300009517-bin.6_DGMFJBHF_00671	HTH-type transcriptional regulator McbR	672	mcbR
+3300009517-bin.6_DGMFJBHF_00672	Transcriptional regulatory protein BasR	642	basR
+3300009517-bin.6_DGMFJBHF_00673	hypothetical protein	519	
+3300009517-bin.6_DGMFJBHF_00674	Pyridoxal phosphate homeostasis protein	630	yggS
+3300009517-bin.6_DGMFJBHF_00675	Thiamine-phosphate synthase	573	thiE_2
+3300009517-bin.6_DGMFJBHF_00676	hypothetical protein	429	
+3300009517-bin.6_DGMFJBHF_00677	hypothetical protein	489	
+3300009517-bin.6_DGMFJBHF_00678	Leucine--tRNA ligase	2628	leuS
+3300009517-bin.6_DGMFJBHF_00679	hypothetical protein	492	
+3300009517-bin.6_DGMFJBHF_00680	hypothetical protein	1050	
+3300009517-bin.6_DGMFJBHF_00681	Chromosome-partitioning protein ParB	888	parB
+3300009517-bin.6_DGMFJBHF_00682	Chromosome partitioning protein ParA	807	parA
+3300009517-bin.6_DGMFJBHF_00683	Ribosomal RNA small subunit methyltransferase G	627	rsmG
+3300009517-bin.6_DGMFJBHF_00684	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG	1860	mnmG
+3300009517-bin.6_DGMFJBHF_00685	tRNA modification GTPase MnmE	1332	mnmE
+3300009517-bin.6_DGMFJBHF_00686	hypothetical protein	276	
+3300009517-bin.6_DGMFJBHF_00687	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_00688	Transcription termination factor Rho	1470	rho
+3300009517-bin.6_DGMFJBHF_00689	2-octaprenyl-6-methoxyphenol hydroxylase	1251	ubiH_1
+3300009517-bin.6_DGMFJBHF_00690	DNA translocase FtsK	2349	ftsK
+3300009517-bin.6_DGMFJBHF_00691	Outer-membrane lipoprotein carrier protein	642	lolA
+3300009517-bin.6_DGMFJBHF_00692	Endonuclease MutS2	588	mutS2
+3300009517-bin.6_DGMFJBHF_00693	Membrane-bound lytic murein transglycosylase A	1344	mltA
+3300009517-bin.6_DGMFJBHF_00694	hypothetical protein	648	
+3300009517-bin.6_DGMFJBHF_00695	Protein-export protein SecB	495	secB
+3300009517-bin.6_DGMFJBHF_00696	DNA polymerase III subunit epsilon	705	dnaQ
+3300009517-bin.6_DGMFJBHF_00697	Dephospho-CoA kinase	606	coaE
+3300009517-bin.6_DGMFJBHF_00698	Shikimate dehydrogenase (NADP(+))	858	aroE
+3300009517-bin.6_DGMFJBHF_00699	Septum formation protein Maf	615	maf
+3300009517-bin.6_DGMFJBHF_00700	Putative pyruvate, phosphate dikinase regulatory protein	831	yqfL
+3300009517-bin.6_DGMFJBHF_00701	Uroporphyrinogen decarboxylase	1032	hemE
+3300009517-bin.6_DGMFJBHF_00702	Ferrochelatase	960	hemH
+3300009517-bin.6_DGMFJBHF_00703	hypothetical protein	456	
+3300009517-bin.6_DGMFJBHF_00704	Bifunctional protein FolD protein	888	folD
+3300009517-bin.6_DGMFJBHF_00705	hypothetical protein	312	
+3300009517-bin.6_DGMFJBHF_00706	hypothetical protein	282	
+3300009517-bin.6_DGMFJBHF_00707	Phosphoenolpyruvate carboxylase	2766	ppc
+3300009517-bin.6_DGMFJBHF_00708	Spermidine/putrescine import ATP-binding protein PotA	1134	potA
+3300009517-bin.6_DGMFJBHF_00709	Inner membrane ABC transporter permease protein YdcV	840	ydcV
+3300009517-bin.6_DGMFJBHF_00710	Spermidine/putrescine transport system permease protein PotB	897	potB
+3300009517-bin.6_DGMFJBHF_00711	Spermidine-binding periplasmic protein SpuE	1164	spuE
+3300009517-bin.6_DGMFJBHF_00712	Gamma-glutamylputrescine synthetase PuuA	1395	puuA_1
+3300009517-bin.6_DGMFJBHF_00713	Gamma-glutamylputrescine synthetase PuuA	1377	puuA_2
+3300009517-bin.6_DGMFJBHF_00714	Glutamate-1-semialdehyde 2,1-aminomutase	1434	hemL
+3300009517-bin.6_DGMFJBHF_00715	Exodeoxyribonuclease III	816	xthA_1
+3300009517-bin.6_DGMFJBHF_00716	Leucine dehydrogenase	1044	ldh
+3300009517-bin.6_DGMFJBHF_00717	Carboxypeptidase G2	1263	cpg2_1
+3300009517-bin.6_DGMFJBHF_00718	Arginine N-succinyltransferase	1032	astA
+3300009517-bin.6_DGMFJBHF_00719	N-succinylglutamate 5-semialdehyde dehydrogenase	1458	astD
+3300009517-bin.6_DGMFJBHF_00720	hypothetical protein	903	
+3300009517-bin.6_DGMFJBHF_00721	hypothetical protein	630	
+3300009517-bin.6_DGMFJBHF_00722	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_00723	Beta-methylmalyl-CoA dehydratase	1071	mch
+3300009517-bin.6_DGMFJBHF_00724	putative malonic semialdehyde reductase RutE	594	rutE
+3300009517-bin.6_DGMFJBHF_00725	6'''-hydroxyparomomycin C oxidase	1566	livQ
+3300009517-bin.6_DGMFJBHF_00726	3-oxoacyl-[acyl-carrier-protein] reductase FabG	795	fabG_1
+3300009517-bin.6_DGMFJBHF_00727	Cypemycin N-terminal methyltransferase	675	cypM
+3300009517-bin.6_DGMFJBHF_00728	UTP--glucose-1-phosphate uridylyltransferase	873	gtaB
+3300009517-bin.6_DGMFJBHF_00729	N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase	981	wbbL_1
+3300009517-bin.6_DGMFJBHF_00730	Cation efflux system protein CusC	1455	cusC
+3300009517-bin.6_DGMFJBHF_00731	putative HTH-type transcriptional regulator YfiR	663	yfiR
+3300009517-bin.6_DGMFJBHF_00732	Efflux pump periplasmic linker BepF	1365	bepF
+3300009517-bin.6_DGMFJBHF_00733	Multidrug resistance protein MdtC	3279	mdtC
+3300009517-bin.6_DGMFJBHF_00734	Inorganic pyrophosphatase	549	ppa
+3300009517-bin.6_DGMFJBHF_00735	hypothetical protein	228	
+3300009517-bin.6_DGMFJBHF_00736	3-isopropylmalate dehydratase large subunit	1419	leuC
+3300009517-bin.6_DGMFJBHF_00737	Beta-barrel assembly-enhancing protease	591	bepA_1
+3300009517-bin.6_DGMFJBHF_00738	hypothetical protein	276	
+3300009517-bin.6_DGMFJBHF_00739	hypothetical protein	384	
+3300009517-bin.6_DGMFJBHF_00740	Peptide methionine sulfoxide reductase MsrA	639	msrA_2
+3300009517-bin.6_DGMFJBHF_00741	L-2-hydroxyglutarate oxidase LhgO	1107	lhgO
+3300009517-bin.6_DGMFJBHF_00742	hypothetical protein	2298	
+3300009517-bin.6_DGMFJBHF_00743	hypothetical protein	264	
+3300009517-bin.6_DGMFJBHF_00744	N-acetylmuramoyl-L-alanine amidase CwlM	1074	cwlM
+3300009517-bin.6_DGMFJBHF_00745	Putative acyltransferase	1212	fadA
+3300009517-bin.6_DGMFJBHF_00746	hypothetical protein	441	
+3300009517-bin.6_DGMFJBHF_00747	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_00748	hypothetical protein	486	
+3300009517-bin.6_DGMFJBHF_00749	3-methylmercaptopropionyl-CoA dehydrogenase	1779	dmdC_1
+3300009517-bin.6_DGMFJBHF_00750	HTH-type transcriptional regulator CueR	399	cueR
+3300009517-bin.6_DGMFJBHF_00751	hypothetical protein	372	
+3300009517-bin.6_DGMFJBHF_00752	Localization factor PodJL	3201	podJ_2
+3300009517-bin.6_DGMFJBHF_00753	hypothetical protein	918	
+3300009517-bin.6_DGMFJBHF_00754	hypothetical protein	762	
+3300009517-bin.6_DGMFJBHF_00755	hypothetical protein	1221	
+3300009517-bin.6_DGMFJBHF_00756	50S ribosomal protein L31	225	rpmE
+3300009517-bin.6_DGMFJBHF_00757	hypothetical protein	675	
+3300009517-bin.6_DGMFJBHF_00758	hypothetical protein	1257	
+3300009517-bin.6_DGMFJBHF_00759	Lipopolysaccharide assembly protein B	1455	lapB
+3300009517-bin.6_DGMFJBHF_00761	hypothetical protein	384	
+3300009517-bin.6_DGMFJBHF_00762	L-amino acid N-acyltransferase MnaT	504	mnaT
+3300009517-bin.6_DGMFJBHF_00763	Response regulator receiver protein CpdR	360	cpdR
+3300009517-bin.6_DGMFJBHF_00764	hypothetical protein	828	
+3300009517-bin.6_DGMFJBHF_00765	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase	720	gpmA_2
+3300009517-bin.6_DGMFJBHF_00766	Riboflavin biosynthesis protein RibD	453	ribD_1
+3300009517-bin.6_DGMFJBHF_00767	Vitamin B12 transporter BtuB	2619	btuB_7
+3300009517-bin.6_DGMFJBHF_00768	putative HTH-type transcriptional regulator	468	
+3300009517-bin.6_DGMFJBHF_00769	Phosphorylated carbohydrates phosphatase	603	
+3300009517-bin.6_DGMFJBHF_00770	Protein tas	1041	tas
+3300009517-bin.6_DGMFJBHF_00771	Glyceraldehyde-3-phosphate dehydrogenase	1008	gap
+3300009517-bin.6_DGMFJBHF_00772	Gamma-glutamyl-gamma-aminobutyrate hydrolase PuuD	732	puuD_1
+3300009517-bin.6_DGMFJBHF_00773	Diaminopimelate epimerase	828	dapF
+3300009517-bin.6_DGMFJBHF_00774	putative protein YfgD	342	yfgD
+3300009517-bin.6_DGMFJBHF_00775	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB	627	tsaB
+3300009517-bin.6_DGMFJBHF_00776	Ribosomal-protein-alanine acetyltransferase	435	rimI
+3300009517-bin.6_DGMFJBHF_00777	Ferric uptake regulation protein	426	fur
+3300009517-bin.6_DGMFJBHF_00778	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase	1368	miaB
+3300009517-bin.6_DGMFJBHF_00779	Endoribonuclease YbeY	486	ybeY
+3300009517-bin.6_DGMFJBHF_00780	Hemolysin C	909	tlyC
+3300009517-bin.6_DGMFJBHF_00781	Apolipoprotein N-acyltransferase	1539	lnt
+3300009517-bin.6_DGMFJBHF_00782	hypothetical protein	414	
+3300009517-bin.6_DGMFJBHF_00783	tRNA (guanine-N(7)-)-methyltransferase	687	trmB
+3300009517-bin.6_DGMFJBHF_00784	Ureidoglycolate lyase	849	
+3300009517-bin.6_DGMFJBHF_00785	(3S)-malyl-CoA thioesterase	873	mcl2
+3300009517-bin.6_DGMFJBHF_00786	hypothetical protein	1119	
+3300009517-bin.6_DGMFJBHF_00787	hypothetical protein	678	
+3300009517-bin.6_DGMFJBHF_00788	Acyl-CoA thioesterase YbgC	468	ybgC
+3300009517-bin.6_DGMFJBHF_00789	Holliday junction ATP-dependent DNA helicase RuvB	1026	ruvB
+3300009517-bin.6_DGMFJBHF_00790	Holliday junction ATP-dependent DNA helicase RuvA	642	ruvA
+3300009517-bin.6_DGMFJBHF_00791	Crossover junction endodeoxyribonuclease RuvC	510	ruvC
+3300009517-bin.6_DGMFJBHF_00792	NAD-dependent protein deacylase	705	cobB
+3300009517-bin.6_DGMFJBHF_00793	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_00794	Deaminated glutathione amidase	819	nit1
+3300009517-bin.6_DGMFJBHF_00795	Glutaredoxin 3	255	grxC
+3300009517-bin.6_DGMFJBHF_00796	Ribosomal RNA small subunit methyltransferase D	555	rsmD
+3300009517-bin.6_DGMFJBHF_00797	hypothetical protein	378	
+3300009517-bin.6_DGMFJBHF_00798	hypothetical protein	378	
+3300009517-bin.6_DGMFJBHF_00799	DNA mismatch repair protein MutL	1842	mutL
+3300009517-bin.6_DGMFJBHF_00800	hypothetical protein	582	
+3300009517-bin.6_DGMFJBHF_00801	Lipoprotein signal peptidase	540	lspA
+3300009517-bin.6_DGMFJBHF_00802	Proline/betaine transporter	1680	proP_1
+3300009517-bin.6_DGMFJBHF_00803	Lipid II flippase MurJ	1566	murJ
+3300009517-bin.6_DGMFJBHF_00804	Bifunctional uridylyltransferase/uridylyl-removing enzyme	2841	glnD
+3300009517-bin.6_DGMFJBHF_00805	Translation initiation factor IF-3	462	infC
+3300009517-bin.6_DGMFJBHF_00806	ADP-heptose--LPS heptosyltransferase 2	993	rfaF
+3300009517-bin.6_DGMFJBHF_00807	D-inositol 3-phosphate glycosyltransferase	1146	mshA_1
+3300009517-bin.6_DGMFJBHF_00808	Arylesterase	762	
+3300009517-bin.6_DGMFJBHF_00809	hypothetical protein	2082	
+3300009517-bin.6_DGMFJBHF_00810	Alanine dehydrogenase	1086	ald_2
+3300009517-bin.6_DGMFJBHF_00811	Leucine-responsive regulatory protein	468	lrp
+3300009517-bin.6_DGMFJBHF_00812	hypothetical protein	1023	
+3300009517-bin.6_DGMFJBHF_00813	30S ribosomal protein S21	204	rpsU
+3300009517-bin.6_DGMFJBHF_00814	hypothetical protein	651	
+3300009517-bin.6_DGMFJBHF_00815	Cardiolipin synthase	756	
+3300009517-bin.6_DGMFJBHF_00816	N5-carboxyaminoimidazole ribonucleotide synthase	1059	purK
+3300009517-bin.6_DGMFJBHF_00817	N5-carboxyaminoimidazole ribonucleotide mutase	486	purE
+3300009517-bin.6_DGMFJBHF_00818	Response regulator PleD	762	pleD_1
+3300009517-bin.6_DGMFJBHF_00819	RNA polymerase sigma factor RpoH	894	rpoH
+3300009517-bin.6_DGMFJBHF_00820	Primosomal protein N'	2163	priA
+3300009517-bin.6_DGMFJBHF_00821	hypothetical protein	777	
+3300009517-bin.6_DGMFJBHF_00822	Adenylosuccinate synthetase	1290	purA
+3300009517-bin.6_DGMFJBHF_00823	hypothetical protein	405	
+3300009517-bin.6_DGMFJBHF_00824	hypothetical protein	216	
+3300009517-bin.6_DGMFJBHF_00825	1,4-beta-D-glucan glucohydrolase	1383	gghA
+3300009517-bin.6_DGMFJBHF_00826	Catabolite control protein A	1047	ccpA_2
+3300009517-bin.6_DGMFJBHF_00827	hypothetical protein	1443	
+3300009517-bin.6_DGMFJBHF_00828	putative arabinose-binding protein	1296	araN
+3300009517-bin.6_DGMFJBHF_00829	Lactose transport system permease protein LacF	879	lacF
+3300009517-bin.6_DGMFJBHF_00830	L-arabinose transport system permease protein AraQ	822	araQ
+3300009517-bin.6_DGMFJBHF_00831	hypothetical protein	2994	
+3300009517-bin.6_DGMFJBHF_00832	Maltose/maltodextrin import ATP-binding protein MalK	1056	malK
+3300009517-bin.6_DGMFJBHF_00833	3-isopropylmalate dehydratase small subunit	603	leuD
+3300009517-bin.6_DGMFJBHF_00834	putative ABC transporter ATP-binding protein YxlF	717	yxlF
+3300009517-bin.6_DGMFJBHF_00835	hypothetical protein	741	
+3300009517-bin.6_DGMFJBHF_00836	hypothetical protein	1761	
+3300009517-bin.6_DGMFJBHF_00837	Undecaprenyl phosphate-alpha-4-amino-4-deoxy-L-arabinose arabinosyl transferase	1653	arnT
+3300009517-bin.6_DGMFJBHF_00838	N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase	864	wbbL_2
+3300009517-bin.6_DGMFJBHF_00839	hypothetical protein	1236	
+3300009517-bin.6_DGMFJBHF_00840	Threonine--tRNA ligase	1938	thrS
+3300009517-bin.6_DGMFJBHF_00841	Putative membrane protein insertion efficiency factor	423	yidD
+3300009517-bin.6_DGMFJBHF_00842	Iron-sulfur cluster assembly scaffold protein IscU	444	iscU
+3300009517-bin.6_DGMFJBHF_00843	UDP-N-acetyl-alpha-D-glucosamine C6 dehydratase	1896	pglF
+3300009517-bin.6_DGMFJBHF_00844	Bifunctional purine biosynthesis protein PurH	1590	purH
+3300009517-bin.6_DGMFJBHF_00845	hypothetical protein	762	
+3300009517-bin.6_DGMFJBHF_00846	hypothetical protein	948	
+3300009517-bin.6_DGMFJBHF_00847	hypothetical protein	1548	
+3300009517-bin.6_DGMFJBHF_00848	hypothetical protein	624	
+3300009517-bin.6_DGMFJBHF_00849	Succinate dehydrogenase flavoprotein subunit	1791	sdhA
+3300009517-bin.6_DGMFJBHF_00850	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_00851	Succinate dehydrogenase cytochrome b556 subunit	411	sdhC
+3300009517-bin.6_DGMFJBHF_00852	hypothetical protein	849	
+3300009517-bin.6_DGMFJBHF_00853	GMP synthase [glutamine-hydrolyzing]	735	guaA_1
+3300009517-bin.6_DGMFJBHF_00854	Thiol:disulfide interchange protein TlpA	615	tlpA
+3300009517-bin.6_DGMFJBHF_00855	Argininosuccinate lyase	1410	argH
+3300009517-bin.6_DGMFJBHF_00856	hypothetical protein	204	
+3300009517-bin.6_DGMFJBHF_00857	Diaminopimelate decarboxylase	1263	lysA
+3300009517-bin.6_DGMFJBHF_00858	Vitamin B12-dependent ribonucleoside-diphosphate reductase	1887	nrdZ
+3300009517-bin.6_DGMFJBHF_00859	hypothetical protein	708	
+3300009517-bin.6_DGMFJBHF_00860	hypothetical protein	696	
+3300009517-bin.6_DGMFJBHF_00861	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase	807	menH_1
+3300009517-bin.6_DGMFJBHF_00862	Ribonucleoside-diphosphate reductase subunit beta	1056	nrdB
+3300009517-bin.6_DGMFJBHF_00863	hypothetical protein	723	
+3300009517-bin.6_DGMFJBHF_00864	hypothetical protein	999	
+3300009517-bin.6_DGMFJBHF_00865	hypothetical protein	1005	
+3300009517-bin.6_DGMFJBHF_00866	hypothetical protein	744	
+3300009517-bin.6_DGMFJBHF_00867	hypothetical protein	858	
+3300009517-bin.6_DGMFJBHF_00868	hypothetical protein	2685	
+3300009517-bin.6_DGMFJBHF_00869	Putative agmatine deiminase	1167	aguA_1
+3300009517-bin.6_DGMFJBHF_00870	hypothetical protein	468	
+3300009517-bin.6_DGMFJBHF_00871	Undecaprenyl-diphosphatase	813	uppP
+3300009517-bin.6_DGMFJBHF_00872	Glutamate synthase [NADPH] small chain	1416	gltD
+3300009517-bin.6_DGMFJBHF_00873	Glutamate synthase [NADPH] large chain	4545	gltB
+3300009517-bin.6_DGMFJBHF_00874	hypothetical protein	762	
+3300009517-bin.6_DGMFJBHF_00875	Multidrug resistance protein MdtK	1368	mdtK
+3300009517-bin.6_DGMFJBHF_00876	hypothetical protein	393	
+3300009517-bin.6_DGMFJBHF_00877	putative 3-hydroxybutyryl-CoA dehydrogenase	879	mmgB
+3300009517-bin.6_DGMFJBHF_00878	hypothetical protein	171	
+3300009517-bin.6_DGMFJBHF_00879	Flavin prenyltransferase UbiX	567	ubiX
+3300009517-bin.6_DGMFJBHF_00880	hypothetical protein	228	
+3300009517-bin.6_DGMFJBHF_00881	hypothetical protein	492	
+3300009517-bin.6_DGMFJBHF_00882	hypothetical protein	480	
+3300009517-bin.6_DGMFJBHF_00883	hypothetical protein	435	
+3300009517-bin.6_DGMFJBHF_00884	hypothetical protein	1926	
+3300009517-bin.6_DGMFJBHF_00885	hypothetical protein	750	
+3300009517-bin.6_DGMFJBHF_00886	Succinate--CoA ligase [ADP-forming] subunit beta	1203	sucC
+3300009517-bin.6_DGMFJBHF_00887	Succinate--CoA ligase [ADP-forming] subunit alpha	885	sucD
+3300009517-bin.6_DGMFJBHF_00888	2-oxoglutarate dehydrogenase E1 component	2949	sucA
+3300009517-bin.6_DGMFJBHF_00889	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	1200	sucB
+3300009517-bin.6_DGMFJBHF_00890	hypothetical protein	453	
+3300009517-bin.6_DGMFJBHF_00891	Autoinducer 2 sensor kinase/phosphatase LuxQ	1896	luxQ_2
+3300009517-bin.6_DGMFJBHF_00892	hypothetical protein	795	
+3300009517-bin.6_DGMFJBHF_00893	Zinc uptake regulation protein	462	zur
+3300009517-bin.6_DGMFJBHF_00894	hypothetical protein	1068	
+3300009517-bin.6_DGMFJBHF_00896	2-octaprenyl-6-methoxyphenol hydroxylase	1200	ubiH_2
+3300009517-bin.6_DGMFJBHF_00897	HTH-type transcriptional regulator SutR	558	sutR_1
+3300009517-bin.6_DGMFJBHF_00898	Alpha-D-glucose 1-phosphate phosphatase YihX	606	yihX
+3300009517-bin.6_DGMFJBHF_00899	putative N-acetyltransferase YsnE	456	ysnE
+3300009517-bin.6_DGMFJBHF_00900	Dipeptidyl aminopeptidase 4	2229	dap4
+3300009517-bin.6_DGMFJBHF_00901	hypothetical protein	486	
+3300009517-bin.6_DGMFJBHF_00902	hypothetical protein	414	
+3300009517-bin.6_DGMFJBHF_00903	putative cystine transporter YijE	957	yijE
+3300009517-bin.6_DGMFJBHF_00904	Fatty acid oxidation complex subunit alpha	2172	fadJ
+3300009517-bin.6_DGMFJBHF_00905	Ferrous-iron efflux pump FieF	978	fieF
+3300009517-bin.6_DGMFJBHF_00906	50S ribosomal protein L34	237	rpmH
+3300009517-bin.6_DGMFJBHF_00907	Ribonuclease P protein component	369	rnpA
+3300009517-bin.6_DGMFJBHF_00908	Membrane protein insertase YidC	1791	yidC
+3300009517-bin.6_DGMFJBHF_00909	putative GTP-binding protein EngB	633	engB
+3300009517-bin.6_DGMFJBHF_00910	Ribosomal RNA small subunit methyltransferase B	1398	rsmB_1
+3300009517-bin.6_DGMFJBHF_00911	hypothetical protein	198	
+3300009517-bin.6_DGMFJBHF_00912	6-phosphogluconate phosphatase	732	yieH
+3300009517-bin.6_DGMFJBHF_00913	hypothetical protein	867	
+3300009517-bin.6_DGMFJBHF_00914	hypothetical protein	693	
+3300009517-bin.6_DGMFJBHF_00915	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	807	ydfG_1
+3300009517-bin.6_DGMFJBHF_00916	Low affinity potassium transport system protein kup	1947	kup_1
+3300009517-bin.6_DGMFJBHF_00917	hypothetical protein	630	
+3300009517-bin.6_DGMFJBHF_00918	Argininosuccinate synthase	1251	argG
+3300009517-bin.6_DGMFJBHF_00919	Protease synthase and sporulation protein PAI 2	591	paiB
+3300009517-bin.6_DGMFJBHF_00920	hypothetical protein	171	
+3300009517-bin.6_DGMFJBHF_00921	Putative O-methyltransferase	663	
+3300009517-bin.6_DGMFJBHF_00922	Thioredoxin 1	864	trxA_2
+3300009517-bin.6_DGMFJBHF_00923	Prolyl-tRNA editing protein ProX	546	proX
+3300009517-bin.6_DGMFJBHF_00925	Ribosomal RNA small subunit methyltransferase A	576	rsmA_1
+3300009517-bin.6_DGMFJBHF_00926	Cytosol aminopeptidase	1347	pepA_1
+3300009517-bin.6_DGMFJBHF_00927	hypothetical protein	909	
+3300009517-bin.6_DGMFJBHF_00928	hypothetical protein	1077	
+3300009517-bin.6_DGMFJBHF_00929	hypothetical protein	972	
+3300009517-bin.6_DGMFJBHF_00930	Putative conjugal transfer protein	1512	
+3300009517-bin.6_DGMFJBHF_00931	Septum site-determining protein MinD	1389	minD
+3300009517-bin.6_DGMFJBHF_00932	hypothetical protein	678	
+3300009517-bin.6_DGMFJBHF_00933	Type II secretion system protein D	1665	pulD
+3300009517-bin.6_DGMFJBHF_00934	hypothetical protein	861	
+3300009517-bin.6_DGMFJBHF_00935	hypothetical protein	528	
+3300009517-bin.6_DGMFJBHF_00936	hypothetical protein	696	
+3300009517-bin.6_DGMFJBHF_00937	hypothetical protein	168	
+3300009517-bin.6_DGMFJBHF_00938	hypothetical protein	168	
+3300009517-bin.6_DGMFJBHF_00939	hypothetical protein	174	
+3300009517-bin.6_DGMFJBHF_00940	hypothetical protein	435	
+3300009517-bin.6_DGMFJBHF_00941	hypothetical protein	552	
+3300009517-bin.6_DGMFJBHF_00942	hypothetical protein	642	
+3300009517-bin.6_DGMFJBHF_00943	Ammonia channel	1476	amtB
+3300009517-bin.6_DGMFJBHF_00944	hypothetical protein	126	
+3300009517-bin.6_DGMFJBHF_00945	Tyrosine recombinase XerC	945	xerC
+3300009517-bin.6_DGMFJBHF_00946	hypothetical protein	693	
+3300009517-bin.6_DGMFJBHF_00947	putative nicotinate-nucleotide adenylyltransferase	600	nadD
+3300009517-bin.6_DGMFJBHF_00948	Gamma-glutamyl phosphate reductase	1266	proA
+3300009517-bin.6_DGMFJBHF_00949	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_00950	hypothetical protein	624	
+3300009517-bin.6_DGMFJBHF_00951	Thiol-disulfide oxidoreductase ResA	564	resA_2
+3300009517-bin.6_DGMFJBHF_00952	RNA 2',3'-cyclic phosphodiesterase	549	ytlP
+3300009517-bin.6_DGMFJBHF_00953	N-succinylarginine dihydrolase	1347	astB
+3300009517-bin.6_DGMFJBHF_00954	hypothetical protein	1050	
+3300009517-bin.6_DGMFJBHF_00955	hypothetical protein	117	
+3300009517-bin.6_DGMFJBHF_00956	ABC transporter ATP-binding protein YtrB	894	ytrB
+3300009517-bin.6_DGMFJBHF_00957	HTH-type transcriptional repressor YtrA	375	ytrA
+3300009517-bin.6_DGMFJBHF_00958	Peroxiredoxin Bcp	594	bcp_1
+3300009517-bin.6_DGMFJBHF_00959	NADH pyrophosphatase	939	nudC
+3300009517-bin.6_DGMFJBHF_00960	hypothetical protein	807	
+3300009517-bin.6_DGMFJBHF_00961	Putative O-methyltransferase	675	
+3300009517-bin.6_DGMFJBHF_00962	hypothetical protein	447	
+3300009517-bin.6_DGMFJBHF_00963	Chemotaxis protein CheY	627	cheY_3
+3300009517-bin.6_DGMFJBHF_00964	hypothetical protein	633	
+3300009517-bin.6_DGMFJBHF_00965	hypothetical protein	2001	
+3300009517-bin.6_DGMFJBHF_00966	Small heat shock protein IbpA	465	ibpA
+3300009517-bin.6_DGMFJBHF_00967	Methyl-accepting chemotaxis protein 4	2154	mcp4
+3300009517-bin.6_DGMFJBHF_00968	2-(acetamidomethylene)succinate hydrolase	861	
+3300009517-bin.6_DGMFJBHF_00969	Elongation factor P--(R)-beta-lysine ligase	1035	epmA
+3300009517-bin.6_DGMFJBHF_00970	Elongation factor P	576	efp
+3300009517-bin.6_DGMFJBHF_00971	Phosphomethylpyrimidine synthase	1806	thiC
+3300009517-bin.6_DGMFJBHF_00972	3-oxoacyl-[acyl-carrier-protein] synthase 1	1215	fabB
+3300009517-bin.6_DGMFJBHF_00973	3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase	525	fabA
+3300009517-bin.6_DGMFJBHF_00974	hypothetical protein	495	
+3300009517-bin.6_DGMFJBHF_00975	Glycerate dehydrogenase	987	
+3300009517-bin.6_DGMFJBHF_00976	hypothetical protein	1119	
+3300009517-bin.6_DGMFJBHF_00977	hypothetical protein	2010	
+3300009517-bin.6_DGMFJBHF_00978	hypothetical protein	447	
+3300009517-bin.6_DGMFJBHF_00979	hypothetical protein	918	
+3300009517-bin.6_DGMFJBHF_00980	DNA-invertase hin	561	hin_1
+3300009517-bin.6_DGMFJBHF_00981	hypothetical protein	411	
+3300009517-bin.6_DGMFJBHF_00982	hypothetical protein	951	
+3300009517-bin.6_DGMFJBHF_00983	hypothetical protein	924	
+3300009517-bin.6_DGMFJBHF_00984	hypothetical protein	924	
+3300009517-bin.6_DGMFJBHF_00985	Endonuclease NucS	912	nucS_1
+3300009517-bin.6_DGMFJBHF_00986	hypothetical protein	510	
+3300009517-bin.6_DGMFJBHF_00987	hypothetical protein	840	
+3300009517-bin.6_DGMFJBHF_00988	putative type I restriction enzymeP M protein	1722	
+3300009517-bin.6_DGMFJBHF_00989	Type-1 restriction enzyme EcoKI specificity protein	1236	hsdS
+3300009517-bin.6_DGMFJBHF_00990	Type I restriction enzyme EcoR124II R protein	2988	hsdR_1
+3300009517-bin.6_DGMFJBHF_00991	hypothetical protein	702	
+3300009517-bin.6_DGMFJBHF_00992	hypothetical protein	651	
+3300009517-bin.6_DGMFJBHF_00993	hypothetical protein	210	
+3300009517-bin.6_DGMFJBHF_00994	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_00995	hypothetical protein	588	
+3300009517-bin.6_DGMFJBHF_00996	hypothetical protein	192	
+3300009517-bin.6_DGMFJBHF_00997	hypothetical protein	696	
+3300009517-bin.6_DGMFJBHF_00998	Prophage integrase IntA	1194	intA
+3300009517-bin.6_DGMFJBHF_01000	DNA gyrase inhibitor YacG	195	yacG
+3300009517-bin.6_DGMFJBHF_01001	Ribonuclease E	1014	rne_1
+3300009517-bin.6_DGMFJBHF_01002	Maf-like protein YhdE	564	yhdE
+3300009517-bin.6_DGMFJBHF_01003	Translation initiation factor IF-1	219	infA
+3300009517-bin.6_DGMFJBHF_01004	Flavodoxin/ferredoxin--NADP reductase	774	fpr
+3300009517-bin.6_DGMFJBHF_01005	hypothetical protein	348	
+3300009517-bin.6_DGMFJBHF_01006	Dual-specificity RNA methyltransferase RlmN	1137	rlmN
+3300009517-bin.6_DGMFJBHF_01007	hypothetical protein	156	
+3300009517-bin.6_DGMFJBHF_01008	hypothetical protein	171	
+3300009517-bin.6_DGMFJBHF_01009	Ribosome maturation factor RimM	546	rimM
+3300009517-bin.6_DGMFJBHF_01010	30S ribosomal protein S16	411	rpsP
+3300009517-bin.6_DGMFJBHF_01011	Signal recognition particle protein	1524	ffh_2
+3300009517-bin.6_DGMFJBHF_01012	hypothetical protein	501	
+3300009517-bin.6_DGMFJBHF_01013	2-alkyl-3-oxoalkanoate reductase	966	oleD_1
+3300009517-bin.6_DGMFJBHF_01014	hypothetical protein	1176	
+3300009517-bin.6_DGMFJBHF_01015	hypothetical protein	378	
+3300009517-bin.6_DGMFJBHF_01016	hypothetical protein	1383	
+3300009517-bin.6_DGMFJBHF_01017	hypothetical protein	354	
+3300009517-bin.6_DGMFJBHF_01018	hypothetical protein	1128	
+3300009517-bin.6_DGMFJBHF_01019	Malonyl-[acyl-carrier protein] O-methyltransferase	711	bioC
+3300009517-bin.6_DGMFJBHF_01020	Succinate dehydrogenase iron-sulfur subunit	786	sdhB
+3300009517-bin.6_DGMFJBHF_01021	hypothetical protein	579	
+3300009517-bin.6_DGMFJBHF_01022	hypothetical protein	399	
+3300009517-bin.6_DGMFJBHF_01023	hypothetical protein	564	
+3300009517-bin.6_DGMFJBHF_01024	Antitoxin HigA1	282	higA1
+3300009517-bin.6_DGMFJBHF_01025	hypothetical protein	321	
+3300009517-bin.6_DGMFJBHF_01027	hypothetical protein	1308	
+3300009517-bin.6_DGMFJBHF_01028	hypothetical protein	375	
+3300009517-bin.6_DGMFJBHF_01029	hypothetical protein	900	
+3300009517-bin.6_DGMFJBHF_01030	hypothetical protein	570	
+3300009517-bin.6_DGMFJBHF_01031	DNA primase TraC	924	traC_1
+3300009517-bin.6_DGMFJBHF_01032	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_01033	hypothetical protein	252	
+3300009517-bin.6_DGMFJBHF_01034	hypothetical protein	372	
+3300009517-bin.6_DGMFJBHF_01035	hypothetical protein	228	
+3300009517-bin.6_DGMFJBHF_01036	hypothetical protein	303	
+3300009517-bin.6_DGMFJBHF_01037	hypothetical protein	843	
+3300009517-bin.6_DGMFJBHF_01038	hypothetical protein	927	
+3300009517-bin.6_DGMFJBHF_01039	hypothetical protein	192	
+3300009517-bin.6_DGMFJBHF_01040	hypothetical protein	498	
+3300009517-bin.6_DGMFJBHF_01041	CRISPR-associated endonuclease Cas9	3219	cas9_1
+3300009517-bin.6_DGMFJBHF_01042	CRISPR-associated endonuclease Cas1	912	cas1_1
+3300009517-bin.6_DGMFJBHF_01043	CRISPR-associated endoribonuclease Cas2	306	cas2_1
+3300009517-bin.6_DGMFJBHF_01044	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_01045	hypothetical protein	1224	
+3300009517-bin.6_DGMFJBHF_01046	hypothetical protein	312	
+3300009517-bin.6_DGMFJBHF_01047	hypothetical protein	624	
+3300009517-bin.6_DGMFJBHF_01048	Protein TraL	1170	traL_1
+3300009517-bin.6_DGMFJBHF_01049	hypothetical protein	300	
+3300009517-bin.6_DGMFJBHF_01050	hypothetical protein	459	
+3300009517-bin.6_DGMFJBHF_01051	Protein TraI	1725	traI_1
+3300009517-bin.6_DGMFJBHF_01052	hypothetical protein	309	
+3300009517-bin.6_DGMFJBHF_01053	hypothetical protein	543	
+3300009517-bin.6_DGMFJBHF_01054	hypothetical protein	159	
+3300009517-bin.6_DGMFJBHF_01055	Conjugal transfer protein TraG	1941	traG_1
+3300009517-bin.6_DGMFJBHF_01056	Type IV secretion system protein virB1	591	virB1_1
+3300009517-bin.6_DGMFJBHF_01057	hypothetical protein	4278	
+3300009517-bin.6_DGMFJBHF_01058	hypothetical protein	276	
+3300009517-bin.6_DGMFJBHF_01059	hypothetical protein	528	
+3300009517-bin.6_DGMFJBHF_01060	Type IV secretion system protein virB10	1308	
+3300009517-bin.6_DGMFJBHF_01061	hypothetical protein	438	
+3300009517-bin.6_DGMFJBHF_01062	hypothetical protein	1050	
+3300009517-bin.6_DGMFJBHF_01063	hypothetical protein	705	
+3300009517-bin.6_DGMFJBHF_01064	hypothetical protein	1326	
+3300009517-bin.6_DGMFJBHF_01065	hypothetical protein	723	
+3300009517-bin.6_DGMFJBHF_01066	Type IV secretion system protein virB4	2490	virB4_1
+3300009517-bin.6_DGMFJBHF_01067	hypothetical protein	282	
+3300009517-bin.6_DGMFJBHF_01068	hypothetical protein	339	
+3300009517-bin.6_DGMFJBHF_01069	Type IV secretion system protein VirB11	963	
+3300009517-bin.6_DGMFJBHF_01070	hypothetical protein	672	
+3300009517-bin.6_DGMFJBHF_01071	putative protease YhbU	987	yhbU
+3300009517-bin.6_DGMFJBHF_01072	hypothetical protein	891	
+3300009517-bin.6_DGMFJBHF_01073	Glycine oxidase	1104	thiO_1
+3300009517-bin.6_DGMFJBHF_01074	hypothetical protein	1104	
+3300009517-bin.6_DGMFJBHF_01075	Aerotaxis receptor	534	aer
+3300009517-bin.6_DGMFJBHF_01076	Methyl-accepting chemotaxis protein McpP	1152	mcpP_2
+3300009517-bin.6_DGMFJBHF_01077	hypothetical protein	759	
+3300009517-bin.6_DGMFJBHF_01078	Iron-sulfur cluster repair protein YtfE	651	ytfE
+3300009517-bin.6_DGMFJBHF_01079	hypothetical protein	354	
+3300009517-bin.6_DGMFJBHF_01080	Molybdenum cofactor guanylyltransferase	564	mobA_1
+3300009517-bin.6_DGMFJBHF_01081	Molybdopterin synthase catalytic subunit 1	438	moaE1
+3300009517-bin.6_DGMFJBHF_01082	hypothetical protein	273	
+3300009517-bin.6_DGMFJBHF_01083	Molybdopterin molybdenumtransferase	1203	moeA_1
+3300009517-bin.6_DGMFJBHF_01084	Molybdopterin adenylyltransferase	984	mog_1
+3300009517-bin.6_DGMFJBHF_01085	GTP 3',8-cyclase	981	moaA_1
+3300009517-bin.6_DGMFJBHF_01086	Cyclic AMP receptor protein	1554	
+3300009517-bin.6_DGMFJBHF_01087	putative nitrate transporter NarT	1308	narT
+3300009517-bin.6_DGMFJBHF_01088	Nitrate/nitrite transporter NarK	1608	narK
+3300009517-bin.6_DGMFJBHF_01089	Respiratory nitrate reductase 1 alpha chain	3780	narG
+3300009517-bin.6_DGMFJBHF_01090	Respiratory nitrate reductase 2 beta chain	1530	narY
+3300009517-bin.6_DGMFJBHF_01091	putative nitrate reductase molybdenum cofactor assembly chaperone NarW	732	narW
+3300009517-bin.6_DGMFJBHF_01092	Respiratory nitrate reductase 2 gamma chain	690	narV
+3300009517-bin.6_DGMFJBHF_01093	hypothetical protein	471	
+3300009517-bin.6_DGMFJBHF_01094	hypothetical protein	618	
+3300009517-bin.6_DGMFJBHF_01095	hypothetical protein	1233	
+3300009517-bin.6_DGMFJBHF_01096	hypothetical protein	1092	
+3300009517-bin.6_DGMFJBHF_01097	Anaerobic ribonucleoside-triphosphate reductase	1932	nrdD
+3300009517-bin.6_DGMFJBHF_01098	7-carboxy-7-deazaguanine synthase	696	queE_1
+3300009517-bin.6_DGMFJBHF_01099	hypothetical protein	5265	
+3300009517-bin.6_DGMFJBHF_01100	hypothetical protein	4338	
+3300009517-bin.6_DGMFJBHF_01101	Molybdopterin synthase catalytic subunit	432	moaE
+3300009517-bin.6_DGMFJBHF_01102	hypothetical protein	273	
+3300009517-bin.6_DGMFJBHF_01103	Molybdopterin molybdenumtransferase	1209	moeA_2
+3300009517-bin.6_DGMFJBHF_01104	Molybdopterin adenylyltransferase	984	mog_2
+3300009517-bin.6_DGMFJBHF_01105	Molybdate-binding protein ModA	801	modA
+3300009517-bin.6_DGMFJBHF_01106	Molybdenum transport system permease protein ModB	687	modB
+3300009517-bin.6_DGMFJBHF_01107	Sulfate/thiosulfate import ATP-binding protein CysA	636	cysA
+3300009517-bin.6_DGMFJBHF_01108	hypothetical protein	2007	
+3300009517-bin.6_DGMFJBHF_01109	Ribose operon repressor	981	rbsR_2
+3300009517-bin.6_DGMFJBHF_01110	hypothetical protein	1218	
+3300009517-bin.6_DGMFJBHF_01111	Vitamin B12 transporter BtuB	2268	btuB_8
+3300009517-bin.6_DGMFJBHF_01112	Alpha,alpha-trehalose phosphorylase	2967	treP
+3300009517-bin.6_DGMFJBHF_01113	D-aminoacylase	1512	dan
+3300009517-bin.6_DGMFJBHF_01114	hypothetical protein	1005	
+3300009517-bin.6_DGMFJBHF_01115	putative amino acid permease YhdG	1422	yhdG_1
+3300009517-bin.6_DGMFJBHF_01116	hypothetical protein	870	
+3300009517-bin.6_DGMFJBHF_01117	L-Ala-D/L-Glu epimerase	1023	ycjG_1
+3300009517-bin.6_DGMFJBHF_01118	hypothetical protein	714	
+3300009517-bin.6_DGMFJBHF_01119	hypothetical protein	2136	
+3300009517-bin.6_DGMFJBHF_01120	hypothetical protein	525	
+3300009517-bin.6_DGMFJBHF_01121	Alkaline phosphatase synthesis sensor protein PhoR	1350	phoR
+3300009517-bin.6_DGMFJBHF_01122	Phosphate transport system permease protein PstC 1	1410	pstC1
+3300009517-bin.6_DGMFJBHF_01123	Phosphate transport system permease protein PstA	1740	pstA
+3300009517-bin.6_DGMFJBHF_01124	Phosphate import ATP-binding protein PstB	861	pstB
+3300009517-bin.6_DGMFJBHF_01125	Phosphate-specific transport system accessory protein PhoU	714	phoU
+3300009517-bin.6_DGMFJBHF_01126	Phosphate regulon transcriptional regulatory protein PhoB	690	phoB
+3300009517-bin.6_DGMFJBHF_01127	hypothetical protein	705	
+3300009517-bin.6_DGMFJBHF_01128	hypothetical protein	687	
+3300009517-bin.6_DGMFJBHF_01129	hypothetical protein	720	
+3300009517-bin.6_DGMFJBHF_01130	hypothetical protein	318	
+3300009517-bin.6_DGMFJBHF_01131	Chaperone protein ClpB	2598	clpB
+3300009517-bin.6_DGMFJBHF_01132	hypothetical protein	276	
+3300009517-bin.6_DGMFJBHF_01133	hypothetical protein	300	
+3300009517-bin.6_DGMFJBHF_01134	Di-/tripeptide transporter	1383	dtpT_1
+3300009517-bin.6_DGMFJBHF_01135	hypothetical protein	696	
+3300009517-bin.6_DGMFJBHF_01136	hypothetical protein	354	
+3300009517-bin.6_DGMFJBHF_01137	hypothetical protein	1065	
+3300009517-bin.6_DGMFJBHF_01138	Na(+)/H(+) antiporter NhaA	1191	nhaA
+3300009517-bin.6_DGMFJBHF_01139	hypothetical protein	936	
+3300009517-bin.6_DGMFJBHF_01140	L-threonine ammonia-lyase	963	tdcB_1
+3300009517-bin.6_DGMFJBHF_01141	Aerobic cobaltochelatase subunit CobT	1833	cobT
+3300009517-bin.6_DGMFJBHF_01142	Aerobic cobaltochelatase subunit CobS	987	cobS_1
+3300009517-bin.6_DGMFJBHF_01143	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_01144	O-acetyltransferase OatA	1128	oatA_1
+3300009517-bin.6_DGMFJBHF_01145	hypothetical protein	390	
+3300009517-bin.6_DGMFJBHF_01146	Chaperone protein DnaJ	627	dnaJ_1
+3300009517-bin.6_DGMFJBHF_01147	DNA-binding transcriptional regulator BolA	321	bolA
+3300009517-bin.6_DGMFJBHF_01148	hypothetical protein	642	
+3300009517-bin.6_DGMFJBHF_01149	Chemotaxis protein methyltransferase Cher2	837	cheR2
+3300009517-bin.6_DGMFJBHF_01150	Chemotaxis response regulator protein-glutamate methylesterase of group 1 operon	1134	cheB1
+3300009517-bin.6_DGMFJBHF_01151	Chemotaxis protein CheY	366	cheY_4
+3300009517-bin.6_DGMFJBHF_01152	Chemotaxis protein CheW	495	cheW
+3300009517-bin.6_DGMFJBHF_01153	Chemotaxis protein CheA	2709	cheA
+3300009517-bin.6_DGMFJBHF_01154	Protein phosphotransferase ChpT	642	chpT
+3300009517-bin.6_DGMFJBHF_01155	hypothetical protein	429	
+3300009517-bin.6_DGMFJBHF_01156	hypothetical protein	213	
+3300009517-bin.6_DGMFJBHF_01157	putative zinc protease	1320	
+3300009517-bin.6_DGMFJBHF_01158	Threonine synthase	1398	thrC
+3300009517-bin.6_DGMFJBHF_01159	hypothetical protein	702	
+3300009517-bin.6_DGMFJBHF_01160	hypothetical protein	372	
+3300009517-bin.6_DGMFJBHF_01161	Cytochrome c oxidase subunit 3	1041	ctaE
+3300009517-bin.6_DGMFJBHF_01162	Cytochrome c oxidase assembly protein CtaG	564	ctaG
+3300009517-bin.6_DGMFJBHF_01163	hypothetical protein	126	
+3300009517-bin.6_DGMFJBHF_01164	Protoheme IX farnesyltransferase	981	ctaB
+3300009517-bin.6_DGMFJBHF_01165	Cytochrome c oxidase subunit 1	1650	ctaD
+3300009517-bin.6_DGMFJBHF_01166	Cytochrome c oxidase subunit 2	813	ctaC
+3300009517-bin.6_DGMFJBHF_01167	Metalloprotease TldD	1431	tldD
+3300009517-bin.6_DGMFJBHF_01168	hypothetical protein	891	
+3300009517-bin.6_DGMFJBHF_01169	hypothetical protein	240	
+3300009517-bin.6_DGMFJBHF_01170	hypothetical protein	318	
+3300009517-bin.6_DGMFJBHF_01171	D-alanyl-D-alanine dipeptidase	714	vanX
+3300009517-bin.6_DGMFJBHF_01172	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_01173	hypothetical protein	822	
+3300009517-bin.6_DGMFJBHF_01174	hypothetical protein	1278	
+3300009517-bin.6_DGMFJBHF_01175	3-dehydroquinate synthase	1116	aroB
+3300009517-bin.6_DGMFJBHF_01176	Shikimate kinase 1	603	aroK_2
+3300009517-bin.6_DGMFJBHF_01177	hypothetical protein	1719	
+3300009517-bin.6_DGMFJBHF_01178	Tyrosine recombinase XerD	915	xerD
+3300009517-bin.6_DGMFJBHF_01179	Malyl-CoA/beta-methylmalyl-CoA/citramalyl-CoA lyase	1050	mcl
+3300009517-bin.6_DGMFJBHF_01180	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_01181	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase	777	menH_2
+3300009517-bin.6_DGMFJBHF_01182	RNA pyrophosphohydrolase	489	rppH_1
+3300009517-bin.6_DGMFJBHF_01183	hypothetical protein	1278	
+3300009517-bin.6_DGMFJBHF_01184	putative CtpA-like serine protease	1494	
+3300009517-bin.6_DGMFJBHF_01185	hypothetical protein	1206	
+3300009517-bin.6_DGMFJBHF_01186	Ribosomal RNA large subunit methyltransferase H	477	rlmH
+3300009517-bin.6_DGMFJBHF_01187	Ribosomal silencing factor RsfS	279	rsfS
+3300009517-bin.6_DGMFJBHF_01188	Heat-inducible transcription repressor HrcA	1083	hrcA
+3300009517-bin.6_DGMFJBHF_01189	Protein GrpE	561	grpE
+3300009517-bin.6_DGMFJBHF_01190	hypothetical protein	786	
+3300009517-bin.6_DGMFJBHF_01191	Inner membrane transport protein YajR	1146	yajR
+3300009517-bin.6_DGMFJBHF_01192	hypothetical protein	723	
+3300009517-bin.6_DGMFJBHF_01193	Release factor glutamine methyltransferase	852	prmC
+3300009517-bin.6_DGMFJBHF_01194	hypothetical protein	234	
+3300009517-bin.6_DGMFJBHF_01195	hypothetical protein	507	
+3300009517-bin.6_DGMFJBHF_01196	hypothetical protein	501	
+3300009517-bin.6_DGMFJBHF_01197	Ferri-bacillibactin esterase BesA	828	besA_1
+3300009517-bin.6_DGMFJBHF_01198	putative ABC transporter ATP-binding protein YheS	1872	yheS
+3300009517-bin.6_DGMFJBHF_01199	NADH oxidase	1089	
+3300009517-bin.6_DGMFJBHF_01200	Deoxyribodipyrimidine photo-lyase	1416	phrA
+3300009517-bin.6_DGMFJBHF_01201	hypothetical protein	561	
+3300009517-bin.6_DGMFJBHF_01202	Peroxiredoxin	483	
+3300009517-bin.6_DGMFJBHF_01203	hypothetical protein	393	
+3300009517-bin.6_DGMFJBHF_01204	ABC transporter ATP-binding protein NatA	753	natA_1
+3300009517-bin.6_DGMFJBHF_01205	hypothetical protein	1581	
+3300009517-bin.6_DGMFJBHF_01206	DNA primase	1875	dnaG
+3300009517-bin.6_DGMFJBHF_01207	RNA polymerase sigma factor RpoD	1983	rpoD
+3300009517-bin.6_DGMFJBHF_01208	hypothetical protein	1764	
+3300009517-bin.6_DGMFJBHF_01209	hypothetical protein	1725	
+3300009517-bin.6_DGMFJBHF_01210	hypothetical protein	696	
+3300009517-bin.6_DGMFJBHF_01211	Porphobilinogen deaminase	930	hemC
+3300009517-bin.6_DGMFJBHF_01212	hypothetical protein	495	
+3300009517-bin.6_DGMFJBHF_01213	hypothetical protein	618	
+3300009517-bin.6_DGMFJBHF_01214	Copper resistance protein A	2268	copA_1
+3300009517-bin.6_DGMFJBHF_01215	hypothetical protein	669	
+3300009517-bin.6_DGMFJBHF_01216	3-oxoacyl-[acyl-carrier-protein] reductase FabG	699	fabG_2
+3300009517-bin.6_DGMFJBHF_01217	hypothetical protein	1098	
+3300009517-bin.6_DGMFJBHF_01218	hypothetical protein	597	
+3300009517-bin.6_DGMFJBHF_01219	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_01220	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_01221	hypothetical protein	1329	
+3300009517-bin.6_DGMFJBHF_01222	Ribonuclease	738	
+3300009517-bin.6_DGMFJBHF_01223	hypothetical protein	468	
+3300009517-bin.6_DGMFJBHF_01224	Ribosomal RNA large subunit methyltransferase J	861	rlmJ
+3300009517-bin.6_DGMFJBHF_01225	putative cold shock protein A	657	cspA_1
+3300009517-bin.6_DGMFJBHF_01226	hypothetical protein	714	
+3300009517-bin.6_DGMFJBHF_01227	4-hydroxy-3-methylbut-2-enyl diphosphate reductase	942	ispH
+3300009517-bin.6_DGMFJBHF_01228	hypothetical protein	750	
+3300009517-bin.6_DGMFJBHF_01229	Arginine--tRNA ligase	1794	argS
+3300009517-bin.6_DGMFJBHF_01230	hypothetical protein	207	
+3300009517-bin.6_DGMFJBHF_01231	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_01232	Serine--tRNA ligase	1290	serS
+3300009517-bin.6_DGMFJBHF_01233	3'3'-cGAMP-specific phosphodiesterase 3	1395	
+3300009517-bin.6_DGMFJBHF_01234	Beta-alanine--pyruvate aminotransferase	1308	bauA
+3300009517-bin.6_DGMFJBHF_01235	putative HTH-type transcriptional regulator	492	
+3300009517-bin.6_DGMFJBHF_01236	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_01237	putative protein kinase UbiB	1419	ubiB
+3300009517-bin.6_DGMFJBHF_01238	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE	777	ubiE
+3300009517-bin.6_DGMFJBHF_01239	DNA polymerase IV	1308	dinB_1
+3300009517-bin.6_DGMFJBHF_01240	Outer membrane protein W	663	ompW
+3300009517-bin.6_DGMFJBHF_01241	hypothetical protein	1056	
+3300009517-bin.6_DGMFJBHF_01242	Formamidopyrimidine-DNA glycosylase	876	mutM
+3300009517-bin.6_DGMFJBHF_01243	hypothetical protein	549	
+3300009517-bin.6_DGMFJBHF_01244	hypothetical protein	243	
+3300009517-bin.6_DGMFJBHF_01245	Peptide deformylase	522	def
+3300009517-bin.6_DGMFJBHF_01246	Copper-sensing transcriptional repressor CsoR	267	csoR
+3300009517-bin.6_DGMFJBHF_01247	Nickel/cobalt efflux system RcnA	771	rcnA
+3300009517-bin.6_DGMFJBHF_01248	hypothetical protein	1242	
+3300009517-bin.6_DGMFJBHF_01249	50S ribosomal protein L19	378	rplS
+3300009517-bin.6_DGMFJBHF_01250	Threonylcarbamoyl-AMP synthase	936	ywlC
+3300009517-bin.6_DGMFJBHF_01251	hypothetical protein	393	
+3300009517-bin.6_DGMFJBHF_01252	ECF RNA polymerase sigma-E factor	555	rpoE_1
+3300009517-bin.6_DGMFJBHF_01253	hypothetical protein	360	
+3300009517-bin.6_DGMFJBHF_01254	Protein YceI	597	yceI_1
+3300009517-bin.6_DGMFJBHF_01255	Cytochrome b561	552	yceJ
+3300009517-bin.6_DGMFJBHF_01256	Protein YceI	666	yceI_2
+3300009517-bin.6_DGMFJBHF_01257	Protein YceI	651	yceI_3
+3300009517-bin.6_DGMFJBHF_01258	3-methylmercaptopropionyl-CoA dehydrogenase	1770	dmdC_2
+3300009517-bin.6_DGMFJBHF_01259	hypothetical protein	1239	
+3300009517-bin.6_DGMFJBHF_01260	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_01261	Chromosomal replication initiator protein DnaA	396	dnaA_1
+3300009517-bin.6_DGMFJBHF_01262	Cysteine desulfuration protein SufE	435	sufE
+3300009517-bin.6_DGMFJBHF_01263	Histidine protein kinase DivJ	1278	divJ
+3300009517-bin.6_DGMFJBHF_01264	hypothetical protein	828	
+3300009517-bin.6_DGMFJBHF_01265	hypothetical protein	351	
+3300009517-bin.6_DGMFJBHF_01266	hypothetical protein	387	
+3300009517-bin.6_DGMFJBHF_01267	Peptide chain release factor RF3	1605	prfC
+3300009517-bin.6_DGMFJBHF_01268	hypothetical protein	1077	
+3300009517-bin.6_DGMFJBHF_01269	hypothetical protein	1095	
+3300009517-bin.6_DGMFJBHF_01270	ABC transporter ATP-binding protein uup	1842	uup
+3300009517-bin.6_DGMFJBHF_01271	Penicillin-binding protein 1F	2016	pbpF
+3300009517-bin.6_DGMFJBHF_01272	hypothetical protein	276	
+3300009517-bin.6_DGMFJBHF_01273	hypothetical protein	1068	
+3300009517-bin.6_DGMFJBHF_01274	hypothetical protein	1167	
+3300009517-bin.6_DGMFJBHF_01275	hypothetical protein	252	
+3300009517-bin.6_DGMFJBHF_01276	hypothetical protein	432	
+3300009517-bin.6_DGMFJBHF_01277	hypothetical protein	1227	
+3300009517-bin.6_DGMFJBHF_01278	hypothetical protein	537	
+3300009517-bin.6_DGMFJBHF_01279	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_01280	hypothetical protein	417	
+3300009517-bin.6_DGMFJBHF_01281	hypothetical protein	303	
+3300009517-bin.6_DGMFJBHF_01282	hypothetical protein	165	
+3300009517-bin.6_DGMFJBHF_01283	hypothetical protein	516	
+3300009517-bin.6_DGMFJBHF_01284	hypothetical protein	633	
+3300009517-bin.6_DGMFJBHF_01285	hypothetical protein	846	
+3300009517-bin.6_DGMFJBHF_01286	hypothetical protein	360	
+3300009517-bin.6_DGMFJBHF_01287	hypothetical protein	3666	
+3300009517-bin.6_DGMFJBHF_01288	Peptide methionine sulfoxide reductase MsrB	366	msrB_2
+3300009517-bin.6_DGMFJBHF_01289	DNA polymerase IV	1263	dinB_2
+3300009517-bin.6_DGMFJBHF_01290	Polar-differentiation response regulator DivK	390	divK
+3300009517-bin.6_DGMFJBHF_01291	Response regulator PleD	1365	pleD_2
+3300009517-bin.6_DGMFJBHF_01292	hypothetical protein	534	
+3300009517-bin.6_DGMFJBHF_01293	hypothetical protein	357	
+3300009517-bin.6_DGMFJBHF_01294	PhoH-like protein	747	
+3300009517-bin.6_DGMFJBHF_01295	Protein YrdA	528	yrdA
+3300009517-bin.6_DGMFJBHF_01296	Alcohol dehydrogenase [acceptor]	1596	alkJ
+3300009517-bin.6_DGMFJBHF_01297	hypothetical protein	543	
+3300009517-bin.6_DGMFJBHF_01298	hypothetical protein	927	
+3300009517-bin.6_DGMFJBHF_01299	Methyl-accepting chemotaxis protein 3	1389	mcp3
+3300009517-bin.6_DGMFJBHF_01300	putative methylmalonyl-CoA mutase large subunit	2139	mutB
+3300009517-bin.6_DGMFJBHF_01301	Methylmalonyl-CoA mutase small subunit	1212	mutA
+3300009517-bin.6_DGMFJBHF_01302	Dipeptidyl aminopeptidase BI	2190	dapb1
+3300009517-bin.6_DGMFJBHF_01303	hypothetical protein	1152	
+3300009517-bin.6_DGMFJBHF_01304	GalNAc(5)-diNAcBac-PP-undecaprenol beta-1,3-glucosyltransferase	954	pglI
+3300009517-bin.6_DGMFJBHF_01305	hypothetical protein	939	
+3300009517-bin.6_DGMFJBHF_01306	hypothetical protein	123	
+3300009517-bin.6_DGMFJBHF_01307	hypothetical protein	588	
+3300009517-bin.6_DGMFJBHF_01308	Glycerol-3-phosphate dehydrogenase [NAD(P)+]	1020	gpsA
+3300009517-bin.6_DGMFJBHF_01309	hypothetical protein	1515	
+3300009517-bin.6_DGMFJBHF_01310	hypothetical protein	489	
+3300009517-bin.6_DGMFJBHF_01311	Copper-exporting P-type ATPase	2214	copA_2
+3300009517-bin.6_DGMFJBHF_01312	hypothetical protein	156	
+3300009517-bin.6_DGMFJBHF_01313	hypothetical protein	762	
+3300009517-bin.6_DGMFJBHF_01314	hypothetical protein	783	
+3300009517-bin.6_DGMFJBHF_01315	hypothetical protein	1155	
+3300009517-bin.6_DGMFJBHF_01316	hypothetical protein	540	
+3300009517-bin.6_DGMFJBHF_01317	Chromophore lyase CpcT/CpeT	1011	cpcT
+3300009517-bin.6_DGMFJBHF_01318	hypothetical protein	360	
+3300009517-bin.6_DGMFJBHF_01319	Regulatory protein AtoC	1485	atoC_2
+3300009517-bin.6_DGMFJBHF_01320	hypothetical protein	705	
+3300009517-bin.6_DGMFJBHF_01321	Bifunctional ligase/repressor BirA	720	birA_1
+3300009517-bin.6_DGMFJBHF_01322	hypothetical protein	429	
+3300009517-bin.6_DGMFJBHF_01323	hypothetical protein	471	
+3300009517-bin.6_DGMFJBHF_01324	hypothetical protein	381	
+3300009517-bin.6_DGMFJBHF_01325	HTH-type transcriptional repressor ComR	618	comR_2
+3300009517-bin.6_DGMFJBHF_01326	hypothetical protein	330	
+3300009517-bin.6_DGMFJBHF_01327	hypothetical protein	816	
+3300009517-bin.6_DGMFJBHF_01328	hypothetical protein	531	
+3300009517-bin.6_DGMFJBHF_01329	UDP-2-acetamido-2-deoxy-3-oxo-D-glucuronate aminotransferase	1182	wbpE_1
+3300009517-bin.6_DGMFJBHF_01330	Biofilm dispersion protein BdlA	1485	bdlA
+3300009517-bin.6_DGMFJBHF_01331	ATP synthase epsilon chain	411	atpC
+3300009517-bin.6_DGMFJBHF_01332	Histidinol-phosphatase	792	hisN
+3300009517-bin.6_DGMFJBHF_01333	Penicillin-binding protein 2D	2178	pbpG
+3300009517-bin.6_DGMFJBHF_01334	hypothetical protein	1950	
+3300009517-bin.6_DGMFJBHF_01335	hypothetical protein	1257	
+3300009517-bin.6_DGMFJBHF_01336	SCO1 protein	678	ypmQ
+3300009517-bin.6_DGMFJBHF_01337	Sensor histidine kinase RegB	1359	regB_1
+3300009517-bin.6_DGMFJBHF_01338	hypothetical protein	870	
+3300009517-bin.6_DGMFJBHF_01339	hypothetical protein	876	
+3300009517-bin.6_DGMFJBHF_01340	Photosynthetic apparatus regulatory protein RegA	561	regA_1
+3300009517-bin.6_DGMFJBHF_01341	Carbonic anhydrase	885	cah
+3300009517-bin.6_DGMFJBHF_01342	HTH-type transcriptional regulator DmlR	903	dmlR_2
+3300009517-bin.6_DGMFJBHF_01343	Enoyl-[acyl-carrier-protein] reductase [NADPH] FabL	756	fabL
+3300009517-bin.6_DGMFJBHF_01344	DNA gyrase subunit B	2400	gyrB
+3300009517-bin.6_DGMFJBHF_01345	DNA replication and repair protein RecF	1212	recF_1
+3300009517-bin.6_DGMFJBHF_01346	Beta sliding clamp	1116	dnaN
+3300009517-bin.6_DGMFJBHF_01347	30S ribosomal protein S20	264	rpsT
+3300009517-bin.6_DGMFJBHF_01348	Chromosomal replication initiator protein DnaA	1530	dnaA_2
+3300009517-bin.6_DGMFJBHF_01349	Low specificity L-threonine aldolase	1020	ltaE
+3300009517-bin.6_DGMFJBHF_01350	Glutathione S-transferase GST-6.0	612	gstB
+3300009517-bin.6_DGMFJBHF_01351	hypothetical protein	504	
+3300009517-bin.6_DGMFJBHF_01352	Murein hydrolase activator NlpD	942	nlpD
+3300009517-bin.6_DGMFJBHF_01353	Protein-L-isoaspartate O-methyltransferase	636	pcm_1
+3300009517-bin.6_DGMFJBHF_01354	5'-nucleotidase SurE	780	surE
+3300009517-bin.6_DGMFJBHF_01355	hypothetical protein	414	
+3300009517-bin.6_DGMFJBHF_01356	hypothetical protein	627	
+3300009517-bin.6_DGMFJBHF_01357	hypothetical protein	504	
+3300009517-bin.6_DGMFJBHF_01358	Monoacylglycerol lipase	861	
+3300009517-bin.6_DGMFJBHF_01359	hypothetical protein	939	
+3300009517-bin.6_DGMFJBHF_01360	hypothetical protein	768	
+3300009517-bin.6_DGMFJBHF_01361	Curved DNA-binding protein	963	cbpA
+3300009517-bin.6_DGMFJBHF_01362	Gamma-glutamyl-gamma-aminobutyrate hydrolase PuuD	726	puuD_2
+3300009517-bin.6_DGMFJBHF_01363	hypothetical protein	342	
+3300009517-bin.6_DGMFJBHF_01364	Transcriptional regulatory protein QseB	666	qseB
+3300009517-bin.6_DGMFJBHF_01365	Virulence sensor histidine kinase PhoQ	1374	phoQ
+3300009517-bin.6_DGMFJBHF_01366	hypothetical protein	1398	
+3300009517-bin.6_DGMFJBHF_01367	hypothetical protein	1161	
+3300009517-bin.6_DGMFJBHF_01368	Cytochrome c-type biogenesis protein CcmE	459	ccmE
+3300009517-bin.6_DGMFJBHF_01369	Cytochrome c-type biogenesis protein CcmF	1968	ccmF
+3300009517-bin.6_DGMFJBHF_01370	Cytochrome c-type biogenesis protein CcmH	435	ccmH
+3300009517-bin.6_DGMFJBHF_01371	HTH-type transcriptional regulator	297	
+3300009517-bin.6_DGMFJBHF_01372	Periplasmic serine endoprotease DegP	1509	degP_1
+3300009517-bin.6_DGMFJBHF_01373	Transcriptional activator protein CopR	672	copR
+3300009517-bin.6_DGMFJBHF_01374	Sensor kinase CusS	1485	cusS
+3300009517-bin.6_DGMFJBHF_01375	Bifunctional glutamine synthetase adenylyltransferase/adenylyl-removing enzyme	2799	glnE
+3300009517-bin.6_DGMFJBHF_01376	hypothetical protein	708	
+3300009517-bin.6_DGMFJBHF_01377	ECF RNA polymerase sigma factor SigE	597	sigE
+3300009517-bin.6_DGMFJBHF_01378	hypothetical protein	393	
+3300009517-bin.6_DGMFJBHF_01379	50S ribosomal protein L33	168	rpmG
+3300009517-bin.6_DGMFJBHF_01380	putative MFS-type transporter YcaD	1170	ycaD
+3300009517-bin.6_DGMFJBHF_01381	Putative beta-lactamase HcpC	1134	hcpC_3
+3300009517-bin.6_DGMFJBHF_01382	hypothetical protein	927	
+3300009517-bin.6_DGMFJBHF_01383	hypothetical protein	294	
+3300009517-bin.6_DGMFJBHF_01384	hypothetical protein	582	
+3300009517-bin.6_DGMFJBHF_01385	hypothetical protein	684	
+3300009517-bin.6_DGMFJBHF_01386	Bleomycin resistance protein	366	ble_1
+3300009517-bin.6_DGMFJBHF_01387	hypothetical protein	249	
+3300009517-bin.6_DGMFJBHF_01388	hypothetical protein	1002	
+3300009517-bin.6_DGMFJBHF_01389	hypothetical protein	759	
+3300009517-bin.6_DGMFJBHF_01390	hypothetical protein	1476	
+3300009517-bin.6_DGMFJBHF_01391	hypothetical protein	660	
+3300009517-bin.6_DGMFJBHF_01392	hypothetical protein	1134	
+3300009517-bin.6_DGMFJBHF_01393	Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase	957	arnC
+3300009517-bin.6_DGMFJBHF_01394	hypothetical protein	1440	
+3300009517-bin.6_DGMFJBHF_01395	UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase	1491	wcaJ
+3300009517-bin.6_DGMFJBHF_01397	hypothetical protein	351	
+3300009517-bin.6_DGMFJBHF_01398	Sodium/glucose cotransporter	1566	sglT
+3300009517-bin.6_DGMFJBHF_01399	hypothetical protein	1944	
+3300009517-bin.6_DGMFJBHF_01400	hypothetical protein	1848	
+3300009517-bin.6_DGMFJBHF_01401	Putative glutamine amidotransferase YafJ	777	yafJ
+3300009517-bin.6_DGMFJBHF_01402	hypothetical protein	153	
+3300009517-bin.6_DGMFJBHF_01403	Hippurate hydrolase	1305	hipO
+3300009517-bin.6_DGMFJBHF_01404	Acyl-CoA dehydrogenase	1188	mmgC
+3300009517-bin.6_DGMFJBHF_01405	hypothetical protein	1899	
+3300009517-bin.6_DGMFJBHF_01406	hypothetical protein	441	
+3300009517-bin.6_DGMFJBHF_01407	hypothetical protein	1110	
+3300009517-bin.6_DGMFJBHF_01408	hypothetical protein	471	
+3300009517-bin.6_DGMFJBHF_01409	Cocaine esterase	1914	cocE
+3300009517-bin.6_DGMFJBHF_01410	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_01411	hypothetical protein	399	
+3300009517-bin.6_DGMFJBHF_01412	Divalent-cation tolerance protein CutA	306	cutA
+3300009517-bin.6_DGMFJBHF_01413	hypothetical protein	294	
+3300009517-bin.6_DGMFJBHF_01414	Sulfite reductase [ferredoxin]	1659	sir
+3300009517-bin.6_DGMFJBHF_01415	hypothetical protein	399	
+3300009517-bin.6_DGMFJBHF_01416	Thioredoxin-dependent 5'-adenylylsulfate reductase	726	cysH
+3300009517-bin.6_DGMFJBHF_01417	Sulfate adenylyltransferase subunit 2	903	cysD
+3300009517-bin.6_DGMFJBHF_01418	Sulfate adenylyltransferase subunit 1	1641	cysN
+3300009517-bin.6_DGMFJBHF_01419	Siroheme synthase	1395	cysG
+3300009517-bin.6_DGMFJBHF_01420	DNA-binding transcriptional activator DecR	489	decR_1
+3300009517-bin.6_DGMFJBHF_01421	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_01422	hypothetical protein	471	
+3300009517-bin.6_DGMFJBHF_01423	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase	783	kduD_1
+3300009517-bin.6_DGMFJBHF_01424	Type III pantothenate kinase	783	coaX
+3300009517-bin.6_DGMFJBHF_01425	Coenzyme A biosynthesis bifunctional protein CoaBC	1233	coaBC
+3300009517-bin.6_DGMFJBHF_01426	Pantothenate synthetase	771	panC
+3300009517-bin.6_DGMFJBHF_01427	3-methyl-2-oxobutanoate hydroxymethyltransferase	813	panB
+3300009517-bin.6_DGMFJBHF_01428	hypothetical protein	135	
+3300009517-bin.6_DGMFJBHF_01429	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	777	ydfG_2
+3300009517-bin.6_DGMFJBHF_01430	hypothetical protein	615	
+3300009517-bin.6_DGMFJBHF_01431	hypothetical protein	342	
+3300009517-bin.6_DGMFJBHF_01432	Quercetin 2,3-dioxygenase	702	yhhW_2
+3300009517-bin.6_DGMFJBHF_01433	hypothetical protein	1125	
+3300009517-bin.6_DGMFJBHF_01434	hypothetical protein	1371	
+3300009517-bin.6_DGMFJBHF_01435	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_01436	hypothetical protein	2238	
+3300009517-bin.6_DGMFJBHF_01437	hypothetical protein	777	
+3300009517-bin.6_DGMFJBHF_01438	Non-reducing end beta-L-arabinofuranosidase	1812	hypBA1
+3300009517-bin.6_DGMFJBHF_01439	Proton/glutamate-aspartate symporter	1245	gltP
+3300009517-bin.6_DGMFJBHF_01440	Phosphatidylglycerol lysyltransferase	1629	mprF
+3300009517-bin.6_DGMFJBHF_01441	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_01442	Glutathione-dependent formaldehyde-activating enzyme	498	gfa
+3300009517-bin.6_DGMFJBHF_01443	hypothetical protein	1452	
+3300009517-bin.6_DGMFJBHF_01444	hypothetical protein	1428	
+3300009517-bin.6_DGMFJBHF_01445	Beta-barrel assembly-enhancing protease	1062	bepA_2
+3300009517-bin.6_DGMFJBHF_01446	hypothetical protein	1083	
+3300009517-bin.6_DGMFJBHF_01447	DNA-binding transcriptional activator DecR	489	decR_2
+3300009517-bin.6_DGMFJBHF_01448	hypothetical protein	3426	
+3300009517-bin.6_DGMFJBHF_01449	Secreted effector protein PipB2	1218	pipB2_1
+3300009517-bin.6_DGMFJBHF_01451	Secreted effector protein PipB2	1200	pipB2_2
+3300009517-bin.6_DGMFJBHF_01452	Secreted effector protein PipB2	1221	pipB2_3
+3300009517-bin.6_DGMFJBHF_01453	Pesticin receptor	2631	fyuA_2
+3300009517-bin.6_DGMFJBHF_01454	7-cyano-7-deazaguanine synthase	708	queC
+3300009517-bin.6_DGMFJBHF_01455	7-carboxy-7-deazaguanine synthase	633	queE_2
+3300009517-bin.6_DGMFJBHF_01456	6-carboxy-5,6,7,8-tetrahydropterin synthase	369	queD
+3300009517-bin.6_DGMFJBHF_01457	hypothetical protein	1113	
+3300009517-bin.6_DGMFJBHF_01458	putative tRNA/rRNA methyltransferase	990	
+3300009517-bin.6_DGMFJBHF_01459	hypothetical protein	2484	
+3300009517-bin.6_DGMFJBHF_01460	Isocitrate dehydrogenase [NADP]	1215	icd
+3300009517-bin.6_DGMFJBHF_01461	hypothetical protein	516	
+3300009517-bin.6_DGMFJBHF_01462	hypothetical protein	636	
+3300009517-bin.6_DGMFJBHF_01463	hypothetical protein	684	
+3300009517-bin.6_DGMFJBHF_01464	hypothetical protein	1101	
+3300009517-bin.6_DGMFJBHF_01465	hypothetical protein	615	
+3300009517-bin.6_DGMFJBHF_01466	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_01467	Acetylxylan esterase / glucomannan deacetylase	1095	ce2C
+3300009517-bin.6_DGMFJBHF_01468	Aminopeptidase YwaD	1674	ywaD_2
+3300009517-bin.6_DGMFJBHF_01469	hypothetical protein	615	
+3300009517-bin.6_DGMFJBHF_01470	Alanine--tRNA ligase	2637	alaS
+3300009517-bin.6_DGMFJBHF_01471	Protein RecA	1074	recA
+3300009517-bin.6_DGMFJBHF_01472	hypothetical protein	864	
+3300009517-bin.6_DGMFJBHF_01473	hypothetical protein	384	
+3300009517-bin.6_DGMFJBHF_01474	Sensor kinase CckA	1935	cckA
+3300009517-bin.6_DGMFJBHF_01475	Flagellar biosynthetic protein FlhB	1089	flhB
+3300009517-bin.6_DGMFJBHF_01476	hypothetical protein	750	
+3300009517-bin.6_DGMFJBHF_01477	hypothetical protein	276	
+3300009517-bin.6_DGMFJBHF_01478	hypothetical protein	2034	
+3300009517-bin.6_DGMFJBHF_01479	putative dipeptidase PepE	1842	pepE
+3300009517-bin.6_DGMFJBHF_01480	hypothetical protein	1104	
+3300009517-bin.6_DGMFJBHF_01481	Ribosomal protein L11 methyltransferase	852	prmA
+3300009517-bin.6_DGMFJBHF_01482	Ribosomal RNA small subunit methyltransferase E	723	rsmE
+3300009517-bin.6_DGMFJBHF_01483	Glutamate--cysteine ligase EgtA	1359	egtA
+3300009517-bin.6_DGMFJBHF_01484	hypothetical protein	960	
+3300009517-bin.6_DGMFJBHF_01485	Di-/tripeptide transporter	1881	dtpT_2
+3300009517-bin.6_DGMFJBHF_01486	Acetyltransferase YpeA	453	ypeA
+3300009517-bin.6_DGMFJBHF_01487	hypothetical protein	2088	
+3300009517-bin.6_DGMFJBHF_01488	Periplasmic serine endoprotease DegP	1329	degP_2
+3300009517-bin.6_DGMFJBHF_01489	Outer membrane protein A	1665	ompA
+3300009517-bin.6_DGMFJBHF_01490	Fluoroacetyl-CoA thioesterase	414	flK
+3300009517-bin.6_DGMFJBHF_01491	hypothetical protein	858	
+3300009517-bin.6_DGMFJBHF_01492	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_01493	Phosphoserine phosphatase	858	serB
+3300009517-bin.6_DGMFJBHF_01494	tRNA dimethylallyltransferase	894	miaA
+3300009517-bin.6_DGMFJBHF_01495	Putative beta-lactamase HcpC	1200	hcpC_4
+3300009517-bin.6_DGMFJBHF_01496	Acetolactate synthase isozyme 3 large subunit	1788	ilvI
+3300009517-bin.6_DGMFJBHF_01497	hypothetical protein	624	
+3300009517-bin.6_DGMFJBHF_01498	hypothetical protein	588	
+3300009517-bin.6_DGMFJBHF_01499	Acetolactate synthase isozyme 3 small subunit	543	ilvH
+3300009517-bin.6_DGMFJBHF_01500	hypothetical protein	660	
+3300009517-bin.6_DGMFJBHF_01501	hypothetical protein	750	
+3300009517-bin.6_DGMFJBHF_01502	Ketol-acid reductoisomerase (NADP(+))	1020	ilvC
+3300009517-bin.6_DGMFJBHF_01503	hypothetical protein	669	
+3300009517-bin.6_DGMFJBHF_01504	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	612	pgsA_1
+3300009517-bin.6_DGMFJBHF_01505	Dihydroxy-acid dehydratase	1851	ilvD
+3300009517-bin.6_DGMFJBHF_01506	Beta-barrel assembly-enhancing protease	1467	bepA_3
+3300009517-bin.6_DGMFJBHF_01507	hypothetical protein	708	
+3300009517-bin.6_DGMFJBHF_01508	hypothetical protein	1098	
+3300009517-bin.6_DGMFJBHF_01509	TVP38/TMEM64 family inner membrane protein YdjZ	735	ydjZ_1
+3300009517-bin.6_DGMFJBHF_01510	2-isopropylmalate synthase	1542	leuA
+3300009517-bin.6_DGMFJBHF_01511	hypothetical protein	837	
+3300009517-bin.6_DGMFJBHF_01512	hypothetical protein	729	
+3300009517-bin.6_DGMFJBHF_01513	hypothetical protein	915	
+3300009517-bin.6_DGMFJBHF_01514	CAI-1 autoinducer sensor kinase/phosphatase CqsS	795	cqsS
+3300009517-bin.6_DGMFJBHF_01515	hypothetical protein	720	
+3300009517-bin.6_DGMFJBHF_01516	D-xylose transporter	1230	xylT
+3300009517-bin.6_DGMFJBHF_01517	putative FAD-linked oxidoreductase	1389	
+3300009517-bin.6_DGMFJBHF_01518	Putative NAD(P)H nitroreductase YdjA	624	ydjA
+3300009517-bin.6_DGMFJBHF_01519	Serine acetyltransferase	861	cysE
+3300009517-bin.6_DGMFJBHF_01520	Aspartate-semialdehyde dehydrogenase	1032	asd
+3300009517-bin.6_DGMFJBHF_01521	hypothetical protein	2649	
+3300009517-bin.6_DGMFJBHF_01522	Exodeoxyribonuclease 7 large subunit	1476	xseA
+3300009517-bin.6_DGMFJBHF_01523	Murein DD-endopeptidase MepM	948	mepM_2
+3300009517-bin.6_DGMFJBHF_01524	Murein DD-endopeptidase MepM	891	mepM_3
+3300009517-bin.6_DGMFJBHF_01525	Protein LemA	597	lemA
+3300009517-bin.6_DGMFJBHF_01526	hypothetical protein	825	
+3300009517-bin.6_DGMFJBHF_01527	hypothetical protein	684	
+3300009517-bin.6_DGMFJBHF_01528	hypothetical protein	285	
+3300009517-bin.6_DGMFJBHF_01529	Glutamate--tRNA ligase	840	gltX_1
+3300009517-bin.6_DGMFJBHF_01530	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_01531	hypothetical protein	519	
+3300009517-bin.6_DGMFJBHF_01532	hypothetical protein	990	
+3300009517-bin.6_DGMFJBHF_01533	Enterobactin exporter EntS	1176	entS
+3300009517-bin.6_DGMFJBHF_01534	hypothetical protein	534	
+3300009517-bin.6_DGMFJBHF_01535	hypothetical protein	2034	
+3300009517-bin.6_DGMFJBHF_01536	hypothetical protein	2658	
+3300009517-bin.6_DGMFJBHF_01537	hypothetical protein	861	
+3300009517-bin.6_DGMFJBHF_01538	ATPase RavA	1023	ravA
+3300009517-bin.6_DGMFJBHF_01539	hypothetical protein	567	
+3300009517-bin.6_DGMFJBHF_01540	putative Nudix hydrolase NudL	618	nudL
+3300009517-bin.6_DGMFJBHF_01541	CCA-adding enzyme	1194	cca
+3300009517-bin.6_DGMFJBHF_01542	hypothetical protein	579	
+3300009517-bin.6_DGMFJBHF_01543	hypothetical protein	642	
+3300009517-bin.6_DGMFJBHF_01544	DNA ligase	2352	ligA
+3300009517-bin.6_DGMFJBHF_01545	DNA repair protein RecN	1701	recN
+3300009517-bin.6_DGMFJBHF_01546	Outer membrane protein assembly factor BamD	891	bamD
+3300009517-bin.6_DGMFJBHF_01547	UDP-3-O-acyl-N-acetylglucosamine deacetylase	915	lpxC
+3300009517-bin.6_DGMFJBHF_01548	Cell division protein FtsZ	1518	ftsZ
+3300009517-bin.6_DGMFJBHF_01549	Glutamate racemase	792	murI
+3300009517-bin.6_DGMFJBHF_01550	hypothetical protein	774	
+3300009517-bin.6_DGMFJBHF_01551	Bifunctional transcriptional activator/DNA repair enzyme Ada	813	ada_1
+3300009517-bin.6_DGMFJBHF_01552	hypothetical protein	468	
+3300009517-bin.6_DGMFJBHF_01553	hypothetical protein	849	
+3300009517-bin.6_DGMFJBHF_01554	S-methyl-5'-thioadenosine phosphorylase	855	mtnP
+3300009517-bin.6_DGMFJBHF_01555	hypothetical protein	876	
+3300009517-bin.6_DGMFJBHF_01556	Cytochrome b/c1	810	fbcH_1
+3300009517-bin.6_DGMFJBHF_01557	Cytochrome b/c1	1245	fbcH_2
+3300009517-bin.6_DGMFJBHF_01558	Ubiquinol-cytochrome c reductase iron-sulfur subunit	579	petA
+3300009517-bin.6_DGMFJBHF_01559	hypothetical protein	294	
+3300009517-bin.6_DGMFJBHF_01560	hypothetical protein	696	
+3300009517-bin.6_DGMFJBHF_01561	Oxygen-dependent coproporphyrinogen-III oxidase	942	hemF
+3300009517-bin.6_DGMFJBHF_01562	hypothetical protein	588	
+3300009517-bin.6_DGMFJBHF_01563	Beta-barrel assembly-enhancing protease	1323	bepA_4
+3300009517-bin.6_DGMFJBHF_01564	hypothetical protein	729	
+3300009517-bin.6_DGMFJBHF_01565	hypothetical protein	1218	
+3300009517-bin.6_DGMFJBHF_01566	Adenylate cyclase 1	1350	cyaA_2
+3300009517-bin.6_DGMFJBHF_01567	Polyphosphate:NDP phosphotransferase 2	1119	ppk2
+3300009517-bin.6_DGMFJBHF_01568	Beta-glucosidase BoGH3B	2262	
+3300009517-bin.6_DGMFJBHF_01569	hypothetical protein	156	
+3300009517-bin.6_DGMFJBHF_01570	Pimeloyl-[acyl-carrier protein] methyl ester esterase	921	bioH
+3300009517-bin.6_DGMFJBHF_01571	putative protein YbbA	960	ybbA
+3300009517-bin.6_DGMFJBHF_01572	L-serine dehydratase TdcG	1392	tdcG
+3300009517-bin.6_DGMFJBHF_01573	hypothetical protein	417	
+3300009517-bin.6_DGMFJBHF_01574	hypothetical protein	408	
+3300009517-bin.6_DGMFJBHF_01575	6-aminohexanoate-dimer hydrolase	1197	nylB'_2
+3300009517-bin.6_DGMFJBHF_01576	Transcriptional activator protein AnoR	717	anoR
+3300009517-bin.6_DGMFJBHF_01577	hypothetical protein	543	
+3300009517-bin.6_DGMFJBHF_01578	hypothetical protein	516	
+3300009517-bin.6_DGMFJBHF_01579	hypothetical protein	513	
+3300009517-bin.6_DGMFJBHF_01580	hypothetical protein	516	
+3300009517-bin.6_DGMFJBHF_01581	hypothetical protein	735	
+3300009517-bin.6_DGMFJBHF_01582	putative succinyl-diaminopimelate desuccinylase	1410	dapE_3
+3300009517-bin.6_DGMFJBHF_01583	hypothetical protein	936	
+3300009517-bin.6_DGMFJBHF_01584	tRNA-dihydrouridine(20/20a) synthase	1008	dusA
+3300009517-bin.6_DGMFJBHF_01585	hypothetical protein	237	
+3300009517-bin.6_DGMFJBHF_01586	hypothetical protein	336	
+3300009517-bin.6_DGMFJBHF_01587	putative epimerase/dehydratase	969	
+3300009517-bin.6_DGMFJBHF_01588	2-amino-3-ketobutyrate coenzyme A ligase	1218	kbl
+3300009517-bin.6_DGMFJBHF_01589	HTH-type transcriptional regulator SutR	582	sutR_2
+3300009517-bin.6_DGMFJBHF_01590	hypothetical protein	666	
+3300009517-bin.6_DGMFJBHF_01591	Carbonic anhydrase 1	639	cynT
+3300009517-bin.6_DGMFJBHF_01592	tRNA-modifying protein YgfZ	804	ygfZ
+3300009517-bin.6_DGMFJBHF_01593	hypothetical protein	384	
+3300009517-bin.6_DGMFJBHF_01594	hypothetical protein	795	
+3300009517-bin.6_DGMFJBHF_01595	Putative nucleoside permease NupX	1287	nupX
+3300009517-bin.6_DGMFJBHF_01596	hypothetical protein	651	
+3300009517-bin.6_DGMFJBHF_01597	hypothetical protein	435	
+3300009517-bin.6_DGMFJBHF_01598	Putative TrmH family tRNA/rRNA methyltransferase	918	
+3300009517-bin.6_DGMFJBHF_01601	Dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system	837	acoC
+3300009517-bin.6_DGMFJBHF_01602	Pesticin receptor	2373	fyuA_3
+3300009517-bin.6_DGMFJBHF_01603	hypothetical protein	723	
+3300009517-bin.6_DGMFJBHF_01604	hypothetical protein	453	
+3300009517-bin.6_DGMFJBHF_01605	DNA adenine methyltransferase YhdJ	1209	yhdJ_1
+3300009517-bin.6_DGMFJBHF_01606	hypothetical protein	864	
+3300009517-bin.6_DGMFJBHF_01607	hypothetical protein	264	
+3300009517-bin.6_DGMFJBHF_01608	hypothetical protein	441	
+3300009517-bin.6_DGMFJBHF_01609	DNA-invertase hin	1710	hin_2
+3300009517-bin.6_DGMFJBHF_01611	26 kDa periplasmic immunogenic protein	729	
+3300009517-bin.6_DGMFJBHF_01612	Periplasmic serine endoprotease DegP	1419	degP_3
+3300009517-bin.6_DGMFJBHF_01613	Replication-associated recombination protein A	1302	rarA
+3300009517-bin.6_DGMFJBHF_01614	HTH-type transcriptional regulator GadX	780	gadX
+3300009517-bin.6_DGMFJBHF_01615	hypothetical protein	546	
+3300009517-bin.6_DGMFJBHF_01616	ATP-dependent DNA helicase RecG	2073	recG
+3300009517-bin.6_DGMFJBHF_01617	4-hydroxybenzoate octaprenyltransferase	951	ubiA
+3300009517-bin.6_DGMFJBHF_01618	hypothetical protein	831	
+3300009517-bin.6_DGMFJBHF_01619	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_01620	hypothetical protein	330	
+3300009517-bin.6_DGMFJBHF_01621	Flagellar P-ring protein	1125	flgI
+3300009517-bin.6_DGMFJBHF_01622	Flagellar assembly protein FliX	420	fliX
+3300009517-bin.6_DGMFJBHF_01623	RNA polymerase-binding transcription factor DksA	471	dksA
+3300009517-bin.6_DGMFJBHF_01624	hypothetical protein	204	
+3300009517-bin.6_DGMFJBHF_01625	hypothetical protein	459	
+3300009517-bin.6_DGMFJBHF_01626	Flagellar L-ring protein	765	flgH
+3300009517-bin.6_DGMFJBHF_01627	hypothetical protein	774	
+3300009517-bin.6_DGMFJBHF_01628	Flagellar basal-body rod protein FlgG	789	flgG_1
+3300009517-bin.6_DGMFJBHF_01629	Flagellar basal-body rod protein FlgG	747	flgG_2
+3300009517-bin.6_DGMFJBHF_01630	Flagellar FliL protein	684	fliL
+3300009517-bin.6_DGMFJBHF_01631	Flagellar motor switch protein FliM	1122	fliM
+3300009517-bin.6_DGMFJBHF_01632	hypothetical protein	462	
+3300009517-bin.6_DGMFJBHF_01633	hypothetical protein	879	
+3300009517-bin.6_DGMFJBHF_01634	hypothetical protein	3732	
+3300009517-bin.6_DGMFJBHF_01635	Flagellar biosynthetic protein FliP	789	fliP
+3300009517-bin.6_DGMFJBHF_01636	hypothetical protein	288	
+3300009517-bin.6_DGMFJBHF_01637	hypothetical protein	291	
+3300009517-bin.6_DGMFJBHF_01638	Flagellar basal body rod protein FlgB	447	flgB
+3300009517-bin.6_DGMFJBHF_01639	Flagellar basal-body rod protein FlgC	414	flgC
+3300009517-bin.6_DGMFJBHF_01640	Flagellar hook-basal body complex protein FliE	306	fliE
+3300009517-bin.6_DGMFJBHF_01641	hypothetical protein	252	
+3300009517-bin.6_DGMFJBHF_01642	hypothetical protein	513	
+3300009517-bin.6_DGMFJBHF_01643	Pseudooxynicotine oxidase	1365	pao
+3300009517-bin.6_DGMFJBHF_01644	Crotonyl-CoA reductase	1284	ccrA2
+3300009517-bin.6_DGMFJBHF_01645	Methylmalonyl-CoA mutase	1980	scpA_1
+3300009517-bin.6_DGMFJBHF_01646	hypothetical protein	894	
+3300009517-bin.6_DGMFJBHF_01647	Lipid A biosynthesis palmitoleoyltransferase	906	lpxP
+3300009517-bin.6_DGMFJBHF_01648	Tetraacyldisaccharide 4'-kinase	987	lpxK
+3300009517-bin.6_DGMFJBHF_01649	3-deoxy-D-manno-octulosonic acid transferase	1284	waaA
+3300009517-bin.6_DGMFJBHF_01650	hypothetical protein	747	
+3300009517-bin.6_DGMFJBHF_01651	hypothetical protein	702	
+3300009517-bin.6_DGMFJBHF_01652	Putative multidrug export ATP-binding/permease protein	1770	
+3300009517-bin.6_DGMFJBHF_01653	hypothetical protein	243	
+3300009517-bin.6_DGMFJBHF_01654	Fructose-1, 6-bisphosphatase/inositol-1-monophosphatase	783	suhB_2
+3300009517-bin.6_DGMFJBHF_01655	Metalloprotease PmbA	1371	pmbA
+3300009517-bin.6_DGMFJBHF_01656	Inner membrane protein YecN	393	yecN
+3300009517-bin.6_DGMFJBHF_01657	hypothetical protein	165	
+3300009517-bin.6_DGMFJBHF_01658	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_01659	hypothetical protein	813	
+3300009517-bin.6_DGMFJBHF_01660	3-octaprenyl-4-hydroxybenzoate carboxy-lyase	1530	ubiD
+3300009517-bin.6_DGMFJBHF_01661	hypothetical protein	375	
+3300009517-bin.6_DGMFJBHF_01662	Bleomycin resistance protein	330	ble_2
+3300009517-bin.6_DGMFJBHF_01663	hypothetical protein	1773	
+3300009517-bin.6_DGMFJBHF_01664	hypothetical protein	552	
+3300009517-bin.6_DGMFJBHF_01665	DNA-3-methyladenine glycosylase 2	666	alkA
+3300009517-bin.6_DGMFJBHF_01666	hypothetical protein	213	
+3300009517-bin.6_DGMFJBHF_01667	hypothetical protein	270	
+3300009517-bin.6_DGMFJBHF_01668	hypothetical protein	702	
+3300009517-bin.6_DGMFJBHF_01669	hypothetical protein	870	
+3300009517-bin.6_DGMFJBHF_01670	Ribosomal large subunit pseudouridine synthase C	999	rluC_1
+3300009517-bin.6_DGMFJBHF_01671	Putative fluoride ion transporter CrcB	378	crcB
+3300009517-bin.6_DGMFJBHF_01672	Aquaporin Z 2	687	aqpZ2
+3300009517-bin.6_DGMFJBHF_01673	Ribosomal large subunit pseudouridine synthase C	732	rluC_2
+3300009517-bin.6_DGMFJBHF_01674	Nicotinate-nucleotide pyrophosphorylase [carboxylating]	855	nadC
+3300009517-bin.6_DGMFJBHF_01675	L-aspartate oxidase	1476	nadB
+3300009517-bin.6_DGMFJBHF_01676	Quinolinate synthase A	1122	nadA
+3300009517-bin.6_DGMFJBHF_01677	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_01678	hypothetical protein	828	
+3300009517-bin.6_DGMFJBHF_01679	hypothetical protein	369	
+3300009517-bin.6_DGMFJBHF_01680	hypothetical protein	513	
+3300009517-bin.6_DGMFJBHF_01681	hypothetical protein	495	
+3300009517-bin.6_DGMFJBHF_01682	NADPH-dependent 7-cyano-7-deazaguanine reductase	471	queF
+3300009517-bin.6_DGMFJBHF_01683	putative amino acid permease YhdG	1542	yhdG_2
+3300009517-bin.6_DGMFJBHF_01684	hypothetical protein	774	
+3300009517-bin.6_DGMFJBHF_01685	Ribosomal-protein-serine acetyltransferase	552	rimL
+3300009517-bin.6_DGMFJBHF_01686	Putative amidase AmiC	1491	amiC_1
+3300009517-bin.6_DGMFJBHF_01687	Methyl-accepting chemotaxis protein 1	1434	mcp1
+3300009517-bin.6_DGMFJBHF_01688	hypothetical protein	636	
+3300009517-bin.6_DGMFJBHF_01689	hypothetical protein	642	
+3300009517-bin.6_DGMFJBHF_01690	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_01691	hypothetical protein	477	
+3300009517-bin.6_DGMFJBHF_01692	L-lysine 2,3-aminomutase	1047	kamA
+3300009517-bin.6_DGMFJBHF_01693	Cystathionine beta-lyase MetC	1167	metC
+3300009517-bin.6_DGMFJBHF_01694	3-mercaptopyruvate sulfurtransferase	873	sseA
+3300009517-bin.6_DGMFJBHF_01695	hypothetical protein	702	
+3300009517-bin.6_DGMFJBHF_01696	Chaperone protein DnaJ	765	dnaJ_2
+3300009517-bin.6_DGMFJBHF_01697	Pyridoxine/pyridoxamine 5'-phosphate oxidase	669	pdxH
+3300009517-bin.6_DGMFJBHF_01698	3-methylmercaptopropionyl-CoA ligase	1623	dmdB
+3300009517-bin.6_DGMFJBHF_01699	hypothetical protein	549	
+3300009517-bin.6_DGMFJBHF_01700	Hydroxyacylglutathione hydrolase GloC	894	gloC_2
+3300009517-bin.6_DGMFJBHF_01701	Alcohol dehydrogenase	975	
+3300009517-bin.6_DGMFJBHF_01702	Ribosome-binding ATPase YchF	1098	ychF
+3300009517-bin.6_DGMFJBHF_01703	hypothetical protein	1095	
+3300009517-bin.6_DGMFJBHF_01704	Putative acid--amine ligase YgiC	1128	ygiC
+3300009517-bin.6_DGMFJBHF_01705	hypothetical protein	360	
+3300009517-bin.6_DGMFJBHF_01706	D-alanine--D-alanine ligase	918	ddl
+3300009517-bin.6_DGMFJBHF_01707	Cell division protein FtsQ	951	ftsQ
+3300009517-bin.6_DGMFJBHF_01708	Cell division protein FtsA	1293	ftsA
+3300009517-bin.6_DGMFJBHF_01709	hypothetical protein	1149	
+3300009517-bin.6_DGMFJBHF_01710	hypothetical protein	525	
+3300009517-bin.6_DGMFJBHF_01711	hypothetical protein	1317	
+3300009517-bin.6_DGMFJBHF_01712	Colicin I receptor	2304	cirA_3
+3300009517-bin.6_DGMFJBHF_01713	hypothetical protein	330	
+3300009517-bin.6_DGMFJBHF_01714	hypothetical protein	201	
+3300009517-bin.6_DGMFJBHF_01715	N-acetylmuramic acid 6-phosphate phosphatase	687	mupP
+3300009517-bin.6_DGMFJBHF_01716	Bifunctional protein GlmU	1359	glmU
+3300009517-bin.6_DGMFJBHF_01717	Ribose-5-phosphate isomerase A	708	rpiA
+3300009517-bin.6_DGMFJBHF_01718	Glutathione amide reductase	1371	garB
+3300009517-bin.6_DGMFJBHF_01719	S-(hydroxymethyl)glutathione dehydrogenase	1116	flhA_2
+3300009517-bin.6_DGMFJBHF_01720	hypothetical protein	1089	
+3300009517-bin.6_DGMFJBHF_01721	hypothetical protein	243	
+3300009517-bin.6_DGMFJBHF_01722	S-formylglutathione hydrolase	837	
+3300009517-bin.6_DGMFJBHF_01723	hypothetical protein	666	
+3300009517-bin.6_DGMFJBHF_01724	Cysteine synthase	981	cysK
+3300009517-bin.6_DGMFJBHF_01725	Ribonuclease HII	615	rnhB
+3300009517-bin.6_DGMFJBHF_01726	hypothetical protein	285	
+3300009517-bin.6_DGMFJBHF_01727	hypothetical protein	192	
+3300009517-bin.6_DGMFJBHF_01728	hypothetical protein	1146	
+3300009517-bin.6_DGMFJBHF_01729	hypothetical protein	492	
+3300009517-bin.6_DGMFJBHF_01730	NAD kinase	780	nadK
+3300009517-bin.6_DGMFJBHF_01731	hypothetical protein	1017	
+3300009517-bin.6_DGMFJBHF_01732	hypothetical protein	690	
+3300009517-bin.6_DGMFJBHF_01733	UvrABC system protein A	2877	uvrA
+3300009517-bin.6_DGMFJBHF_01734	hypothetical protein	501	
+3300009517-bin.6_DGMFJBHF_01735	hypothetical protein	366	
+3300009517-bin.6_DGMFJBHF_01736	Single-stranded DNA-binding protein	480	ssb
+3300009517-bin.6_DGMFJBHF_01737	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_01738	hypothetical protein	573	
+3300009517-bin.6_DGMFJBHF_01739	hypothetical protein	663	
+3300009517-bin.6_DGMFJBHF_01740	DNA gyrase subunit A	2805	gyrA
+3300009517-bin.6_DGMFJBHF_01741	Phosphopantetheine adenylyltransferase	510	coaD
+3300009517-bin.6_DGMFJBHF_01742	putative peptidyl-prolyl cis-trans isomerase	963	ppiB_1
+3300009517-bin.6_DGMFJBHF_01743	Superoxide dismutase [Fe]	612	sodB
+3300009517-bin.6_DGMFJBHF_01744	Peptidyl-prolyl cis-trans isomerase B	453	ppiB_2
+3300009517-bin.6_DGMFJBHF_01745	S-adenosylmethionine:tRNA ribosyltransferase-isomerase	1065	queA
+3300009517-bin.6_DGMFJBHF_01746	Queuine tRNA-ribosyltransferase	1113	tgt
+3300009517-bin.6_DGMFJBHF_01747	hypothetical protein	522	
+3300009517-bin.6_DGMFJBHF_01749	Outer membrane protein	1215	
+3300009517-bin.6_DGMFJBHF_01750	Phenylalanine-4-hydroxylase	807	phhA
+3300009517-bin.6_DGMFJBHF_01751	Heat shock protein HspQ	333	hspQ
+3300009517-bin.6_DGMFJBHF_01752	Ribosomal RNA large subunit methyltransferase E	708	rlmE
+3300009517-bin.6_DGMFJBHF_01753	Inosine-5'-monophosphate dehydrogenase	1488	guaB
+3300009517-bin.6_DGMFJBHF_01754	Ribosomal RNA small subunit methyltransferase B	1305	rsmB_2
+3300009517-bin.6_DGMFJBHF_01755	GMP synthase [glutamine-hydrolyzing]	1560	guaA_2
+3300009517-bin.6_DGMFJBHF_01756	hypothetical protein	210	
+3300009517-bin.6_DGMFJBHF_01757	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_01758	HTH-type transcriptional regulator BetI	630	betI
+3300009517-bin.6_DGMFJBHF_01759	hypothetical protein	972	
+3300009517-bin.6_DGMFJBHF_01760	D-alanyl-D-alanine carboxypeptidase DacF	1833	dacF
+3300009517-bin.6_DGMFJBHF_01761	hypothetical protein	420	
+3300009517-bin.6_DGMFJBHF_01762	ATP-dependent Clp protease adapter protein ClpS	360	clpS
+3300009517-bin.6_DGMFJBHF_01763	ATP-dependent Clp protease ATP-binding subunit ClpA	2331	clpA
+3300009517-bin.6_DGMFJBHF_01764	Protein hit	441	hit
+3300009517-bin.6_DGMFJBHF_01765	hypothetical protein	459	
+3300009517-bin.6_DGMFJBHF_01766	putative enoyl-CoA hydratase 1	465	
+3300009517-bin.6_DGMFJBHF_01767	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_01768	Indole-3-glycerol phosphate synthase	792	trpC
+3300009517-bin.6_DGMFJBHF_01769	Anthranilate phosphoribosyltransferase	1029	trpD
+3300009517-bin.6_DGMFJBHF_01770	Anthranilate synthase component 2	597	trpG
+3300009517-bin.6_DGMFJBHF_01771	Anthranilate synthase component 1	1563	trpE
+3300009517-bin.6_DGMFJBHF_01772	Peptidyl-prolyl cis-trans isomerase D	1905	ppiD
+3300009517-bin.6_DGMFJBHF_01773	Triosephosphate isomerase	759	tpiA
+3300009517-bin.6_DGMFJBHF_01774	hypothetical protein	1104	
+3300009517-bin.6_DGMFJBHF_01775	Protein-export membrane protein SecG	462	secG
+3300009517-bin.6_DGMFJBHF_01776	CTP synthase	1635	pyrG
+3300009517-bin.6_DGMFJBHF_01777	50S ribosomal protein L32	183	rpmF
+3300009517-bin.6_DGMFJBHF_01778	hypothetical protein	555	
+3300009517-bin.6_DGMFJBHF_01779	Type-5 uracil-DNA glycosylase	630	udgb
+3300009517-bin.6_DGMFJBHF_01780	2-amino-4-hydroxy-6- hydroxymethyldihydropteridine pyrophosphokinase	540	folK
+3300009517-bin.6_DGMFJBHF_01781	DNA-directed RNA polymerase subunit omega	354	rpoZ
+3300009517-bin.6_DGMFJBHF_01782	GTP pyrophosphokinase rsh	2187	rsh
+3300009517-bin.6_DGMFJBHF_01783	Orotate phosphoribosyltransferase	594	pyrE_2
+3300009517-bin.6_DGMFJBHF_01784	Pyridoxine 5'-phosphate synthase	753	pdxJ
+3300009517-bin.6_DGMFJBHF_01785	Holo-[acyl-carrier-protein] synthase	402	acpS
+3300009517-bin.6_DGMFJBHF_01786	Signal peptidase I	801	lepB
+3300009517-bin.6_DGMFJBHF_01787	Ribonuclease 3	726	rnc
+3300009517-bin.6_DGMFJBHF_01788	GTPase Era	948	era
+3300009517-bin.6_DGMFJBHF_01789	DNA repair protein RecO	735	recO
+3300009517-bin.6_DGMFJBHF_01790	Diguanylate cyclase VdcA	1047	vdcA
+3300009517-bin.6_DGMFJBHF_01791	Coniferyl aldehyde dehydrogenase	1404	calB
+3300009517-bin.6_DGMFJBHF_01792	ATP-dependent RNA helicase RhlE	1602	rhlE_1
+3300009517-bin.6_DGMFJBHF_01793	DNA topoisomerase 4 subunit B	2034	parE
+3300009517-bin.6_DGMFJBHF_01794	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_01795	DNA topoisomerase 4 subunit A	2235	parC
+3300009517-bin.6_DGMFJBHF_01796	hypothetical protein	1185	
+3300009517-bin.6_DGMFJBHF_01797	hypothetical protein	789	
+3300009517-bin.6_DGMFJBHF_01798	Aspartate/glutamate leucyltransferase	777	bpt
+3300009517-bin.6_DGMFJBHF_01799	Motility protein B	861	motB
+3300009517-bin.6_DGMFJBHF_01800	hypothetical protein	522	
+3300009517-bin.6_DGMFJBHF_01801	Delta-aminolevulinic acid dehydratase	1014	hemB
+3300009517-bin.6_DGMFJBHF_01802	Carboxypeptidase G2	1275	cpg2_2
+3300009517-bin.6_DGMFJBHF_01803	Glycerophosphodiester phosphodiesterase, periplasmic	1119	glpQ
+3300009517-bin.6_DGMFJBHF_01804	hypothetical protein	567	
+3300009517-bin.6_DGMFJBHF_01805	5-aminolevulinate synthase	1221	hemA
+3300009517-bin.6_DGMFJBHF_01806	Transcriptional regulatory protein ros	417	ros
+3300009517-bin.6_DGMFJBHF_01807	Serine hydroxymethyltransferase 2	1284	glyA2
+3300009517-bin.6_DGMFJBHF_01808	Transcriptional repressor NrdR	471	nrdR
+3300009517-bin.6_DGMFJBHF_01809	Riboflavin biosynthesis protein RibD	654	ribD_2
+3300009517-bin.6_DGMFJBHF_01810	Riboflavin synthase	609	ribE
+3300009517-bin.6_DGMFJBHF_01811	6,7-dimethyl-8-ribityllumazine synthase 1	468	ribH1
+3300009517-bin.6_DGMFJBHF_01812	Transcription antitermination protein NusB	486	nusB
+3300009517-bin.6_DGMFJBHF_01813	Thiamine-monophosphate kinase	972	thiL
+3300009517-bin.6_DGMFJBHF_01814	hypothetical protein	432	
+3300009517-bin.6_DGMFJBHF_01815	K(+)-insensitive pyrophosphate-energized proton pump	2160	hppA
+3300009517-bin.6_DGMFJBHF_01816	hypothetical protein	1152	
+3300009517-bin.6_DGMFJBHF_01817	hypothetical protein	1047	
+3300009517-bin.6_DGMFJBHF_01818	hypothetical protein	498	
+3300009517-bin.6_DGMFJBHF_01819	hypothetical protein	498	
+3300009517-bin.6_DGMFJBHF_01820	Phosphate acyltransferase	1068	plsX
+3300009517-bin.6_DGMFJBHF_01821	3-oxoacyl-[acyl-carrier-protein] synthase 3	963	fabH_1
+3300009517-bin.6_DGMFJBHF_01822	Integration host factor subunit alpha	291	ihfA
+3300009517-bin.6_DGMFJBHF_01823	hypothetical protein	444	
+3300009517-bin.6_DGMFJBHF_01824	hypothetical protein	537	
+3300009517-bin.6_DGMFJBHF_01825	hypothetical protein	261	
+3300009517-bin.6_DGMFJBHF_01826	Heme A synthase	993	ctaA
+3300009517-bin.6_DGMFJBHF_01827	Enolase	1284	eno
+3300009517-bin.6_DGMFJBHF_01828	hypothetical protein	297	
+3300009517-bin.6_DGMFJBHF_01829	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha	1023	acoA
+3300009517-bin.6_DGMFJBHF_01830	hypothetical protein	918	
+3300009517-bin.6_DGMFJBHF_01831	2-oxoisovalerate dehydrogenase subunit beta	1341	bfmBAB
+3300009517-bin.6_DGMFJBHF_01832	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	1260	pdhC
+3300009517-bin.6_DGMFJBHF_01833	hypothetical protein	414	
+3300009517-bin.6_DGMFJBHF_01834	hypothetical protein	180	
+3300009517-bin.6_DGMFJBHF_01835	hypothetical protein	639	
+3300009517-bin.6_DGMFJBHF_01836	Dihydrolipoyl dehydrogenase	1410	lpdC
+3300009517-bin.6_DGMFJBHF_01837	hypothetical protein	1035	
+3300009517-bin.6_DGMFJBHF_01838	Outer membrane protein assembly factor BamB	1374	bamB
+3300009517-bin.6_DGMFJBHF_01839	GTPase Der	1527	der
+3300009517-bin.6_DGMFJBHF_01840	putative oxidoreductase YciK	738	yciK
+3300009517-bin.6_DGMFJBHF_01841	Amidophosphoribosyltransferase	1491	purF
+3300009517-bin.6_DGMFJBHF_01842	hypothetical protein	708	
+3300009517-bin.6_DGMFJBHF_01843	DNA repair protein RadA	1392	radA
+3300009517-bin.6_DGMFJBHF_01844	Alanine racemase	1059	alr
+3300009517-bin.6_DGMFJBHF_01845	Replicative DNA helicase	1470	dnaC
+3300009517-bin.6_DGMFJBHF_01846	hypothetical protein	453	
+3300009517-bin.6_DGMFJBHF_01847	50S ribosomal protein L9	576	rplI
+3300009517-bin.6_DGMFJBHF_01848	30S ribosomal protein S18	258	rpsR
+3300009517-bin.6_DGMFJBHF_01849	30S ribosomal protein S6	405	rpsF
+3300009517-bin.6_DGMFJBHF_01850	hypothetical protein	1482	
+3300009517-bin.6_DGMFJBHF_01851	Regulator of ribonuclease activity B	357	rraB
+3300009517-bin.6_DGMFJBHF_01852	hypothetical protein	408	
+3300009517-bin.6_DGMFJBHF_01853	hypothetical protein	225	
+3300009517-bin.6_DGMFJBHF_01854	putative protease YdcP	1350	ydcP
+3300009517-bin.6_DGMFJBHF_01855	Protein flp	1155	flp
+3300009517-bin.6_DGMFJBHF_01856	hypothetical protein	354	
+3300009517-bin.6_DGMFJBHF_01857	Polyphosphate:AMP/ADP phosphotransferase	840	
+3300009517-bin.6_DGMFJBHF_01858	hypothetical protein	1791	
+3300009517-bin.6_DGMFJBHF_01859	Malonyl CoA-acyl carrier protein transacylase	939	fabD
+3300009517-bin.6_DGMFJBHF_01860	3-oxoacyl-[acyl-carrier-protein] reductase FabG	735	fabG_3
+3300009517-bin.6_DGMFJBHF_01861	Acyl carrier protein AcpP	240	acpP
+3300009517-bin.6_DGMFJBHF_01862	3-oxoacyl-[acyl-carrier-protein] synthase 2	1281	fabF
+3300009517-bin.6_DGMFJBHF_01863	Endolytic murein transglycosylase	1071	mltG
+3300009517-bin.6_DGMFJBHF_01864	Guanylate kinase	651	gmk
+3300009517-bin.6_DGMFJBHF_01865	Ribosomal RNA small subunit methyltransferase A	828	rsmA_2
+3300009517-bin.6_DGMFJBHF_01866	D-threonate 4-phosphate dehydrogenase	1014	pdxA2
+3300009517-bin.6_DGMFJBHF_01867	Chaperone SurA	1296	surA
+3300009517-bin.6_DGMFJBHF_01868	LPS-assembly protein LptD	2253	lptD
+3300009517-bin.6_DGMFJBHF_01869	hypothetical protein	1113	
+3300009517-bin.6_DGMFJBHF_01870	hypothetical protein	1116	
+3300009517-bin.6_DGMFJBHF_01871	Cytosol aminopeptidase	1488	pepA_2
+3300009517-bin.6_DGMFJBHF_01872	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_01873	hypothetical protein	294	
+3300009517-bin.6_DGMFJBHF_01874	Nucleoside diphosphate kinase	423	ndk
+3300009517-bin.6_DGMFJBHF_01875	hypothetical protein	207	
+3300009517-bin.6_DGMFJBHF_01876	hypothetical protein	516	
+3300009517-bin.6_DGMFJBHF_01877	Phosphoribosylglycinamide formyltransferase	633	purN
+3300009517-bin.6_DGMFJBHF_01878	Phosphoribosylformylglycinamidine cyclo-ligase	1038	purM
+3300009517-bin.6_DGMFJBHF_01879	hypothetical protein	636	
+3300009517-bin.6_DGMFJBHF_01880	Polyphosphate kinase	2181	ppk
+3300009517-bin.6_DGMFJBHF_01881	Exopolyphosphatase	1497	ppx
+3300009517-bin.6_DGMFJBHF_01882	hypothetical protein	261	
+3300009517-bin.6_DGMFJBHF_01883	Ribonuclease D	1176	rnd_2
+3300009517-bin.6_DGMFJBHF_01884	Aspartate--tRNA ligase	1782	aspS
+3300009517-bin.6_DGMFJBHF_01885	Secreted effector protein PipB2	762	pipB2_4
+3300009517-bin.6_DGMFJBHF_01886	Secreted effector protein PipB	495	pipB
+3300009517-bin.6_DGMFJBHF_01887	Vitamin B12-dependent ribonucleotide reductase	2526	nrdJ
+3300009517-bin.6_DGMFJBHF_01888	hypothetical protein	387	
+3300009517-bin.6_DGMFJBHF_01889	hypothetical protein	870	
+3300009517-bin.6_DGMFJBHF_01890	Leucyl/phenylalanyl-tRNA--protein transferase	675	aat
+3300009517-bin.6_DGMFJBHF_01891	Biotin carboxylase	1350	accC
+3300009517-bin.6_DGMFJBHF_01892	Biotin carboxyl carrier protein of acetyl-CoA carboxylase	477	accB
+3300009517-bin.6_DGMFJBHF_01893	3-dehydroquinate dehydratase	444	aroQ
+3300009517-bin.6_DGMFJBHF_01894	Sulfur carrier protein ThiS	222	thiS
+3300009517-bin.6_DGMFJBHF_01895	Thiazole synthase	774	thiG
+3300009517-bin.6_DGMFJBHF_01896	hypothetical protein	783	
+3300009517-bin.6_DGMFJBHF_01897	Beta-barrel assembly-enhancing protease	1353	bepA_5
+3300009517-bin.6_DGMFJBHF_01898	Outer membrane lipoprotein Blc	561	blc
+3300009517-bin.6_DGMFJBHF_01899	Ribonuclease E	2331	rne_2
+3300009517-bin.6_DGMFJBHF_01900	N-acetylmuramoyl-L-alanine amidase AmiC	1239	amiC_2
+3300009517-bin.6_DGMFJBHF_01901	Penicillin-binding protein 1A	2364	mrcA
+3300009517-bin.6_DGMFJBHF_01902	Peptide chain release factor RF2	1113	prfB
+3300009517-bin.6_DGMFJBHF_01903	hypothetical protein	453	
+3300009517-bin.6_DGMFJBHF_01904	Putative peroxiredoxin bcp	459	bcp_2
+3300009517-bin.6_DGMFJBHF_01905	Tyrosine--tRNA ligase	1272	tyrS
+3300009517-bin.6_DGMFJBHF_01906	Anhydro-N-acetylmuramic acid kinase	1119	anmK
+3300009517-bin.6_DGMFJBHF_01907	hypothetical protein	1248	
+3300009517-bin.6_DGMFJBHF_01908	hypothetical protein	750	
+3300009517-bin.6_DGMFJBHF_01909	hypothetical protein	672	
+3300009517-bin.6_DGMFJBHF_01910	HTH-type transcriptional regulator IscR	450	iscR
+3300009517-bin.6_DGMFJBHF_01911	Cysteine desulfurase IscS	1134	iscS
+3300009517-bin.6_DGMFJBHF_01912	FeS cluster assembly protein SufB	1488	sufB
+3300009517-bin.6_DGMFJBHF_01913	putative ATP-dependent transporter SufC	747	sufC
+3300009517-bin.6_DGMFJBHF_01914	FeS cluster assembly protein SufD	1137	sufD
+3300009517-bin.6_DGMFJBHF_01915	Cysteine desulfurase	1215	sufS
+3300009517-bin.6_DGMFJBHF_01916	Fe-S protein maturation auxiliary factor SufT	345	sufT
+3300009517-bin.6_DGMFJBHF_01917	Iron-binding protein IscA	363	iscA
+3300009517-bin.6_DGMFJBHF_01918	hypothetical protein	498	
+3300009517-bin.6_DGMFJBHF_01919	Bifunctional transcriptional activator/DNA repair enzyme Ada	1032	ada_2
+3300009517-bin.6_DGMFJBHF_01920	hypothetical protein	603	
+3300009517-bin.6_DGMFJBHF_01921	Putative membrane-bound redox modulator Alx	975	alx
+3300009517-bin.6_DGMFJBHF_01922	Glutamine synthetase	1410	glnA
+3300009517-bin.6_DGMFJBHF_01923	Nitrogen regulatory protein P-II	339	glnB_2
+3300009517-bin.6_DGMFJBHF_01924	putative succinyl-CoA:3-ketoacid coenzyme A transferase subunit A	738	scoA_1
+3300009517-bin.6_DGMFJBHF_01925	Succinyl-CoA:3-ketoacid coenzyme A transferase subunit B	645	scoB
+3300009517-bin.6_DGMFJBHF_01926	Vitamin B12 transporter BtuB	2928	btuB_9
+3300009517-bin.6_DGMFJBHF_01927	Colicin I receptor	2976	cirA_4
+3300009517-bin.6_DGMFJBHF_01928	putative succinyl-CoA:3-ketoacid coenzyme A transferase subunit A	699	scoA_2
+3300009517-bin.6_DGMFJBHF_01929	Dipeptidyl carboxypeptidase	2151	dcp
+3300009517-bin.6_DGMFJBHF_01930	Ribosomal large subunit pseudouridine synthase B	774	rluB_2
+3300009517-bin.6_DGMFJBHF_01931	Riboflavin biosynthesis protein RibBA	1314	ribBA
+3300009517-bin.6_DGMFJBHF_01932	Bifunctional protein Aas	1560	aas
+3300009517-bin.6_DGMFJBHF_01933	Lipoyl synthase	966	lipA
+3300009517-bin.6_DGMFJBHF_01934	hypothetical protein	486	
+3300009517-bin.6_DGMFJBHF_01935	Nicotinamide-nucleotide amidohydrolase PncC	492	pncC
+3300009517-bin.6_DGMFJBHF_01936	Bifunctional enzyme IspD/IspF	1176	ispDF
+3300009517-bin.6_DGMFJBHF_01937	Sensory histidine kinase/phosphatase NtrB	1080	glnL
+3300009517-bin.6_DGMFJBHF_01938	DNA-binding transcriptional regulator NtrC	1434	ntrC
+3300009517-bin.6_DGMFJBHF_01939	Alginate biosynthesis sensor protein KinB	2250	kinB
+3300009517-bin.6_DGMFJBHF_01940	Regulatory protein AtoC	1389	atoC_3
+3300009517-bin.6_DGMFJBHF_01941	D-alanine aminotransferase	840	dat
+3300009517-bin.6_DGMFJBHF_01942	RNA-binding protein Hfq	252	hfq
+3300009517-bin.6_DGMFJBHF_01943	GTPase HflX	1353	hflX
+3300009517-bin.6_DGMFJBHF_01944	Nucleoside triphosphate pyrophosphohydrolase	813	mazG
+3300009517-bin.6_DGMFJBHF_01945	Putative glycoside/cation symporter YagG	1344	yagG
+3300009517-bin.6_DGMFJBHF_01946	Ferri-bacillibactin esterase BesA	918	besA_2
+3300009517-bin.6_DGMFJBHF_01947	hypothetical protein	1263	
+3300009517-bin.6_DGMFJBHF_01948	hypothetical protein	801	
+3300009517-bin.6_DGMFJBHF_01949	D-aminoacyl-tRNA deacylase	777	dtd3
+3300009517-bin.6_DGMFJBHF_01950	DNA polymerase III subunit gamma/tau	1041	dnaX_1
+3300009517-bin.6_DGMFJBHF_01951	Thymidylate kinase	642	tmk
+3300009517-bin.6_DGMFJBHF_01952	Endolytic peptidoglycan transglycosylase RlpA	1005	rlpA
+3300009517-bin.6_DGMFJBHF_01953	Acetoin catabolism regulatory protein	954	acoR
+3300009517-bin.6_DGMFJBHF_01954	Acetaldehyde dehydrogenase 2	1503	acoD
+3300009517-bin.6_DGMFJBHF_01955	hypothetical protein	663	
+3300009517-bin.6_DGMFJBHF_01956	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_01957	Esterase EstP	5214	estP
+3300009517-bin.6_DGMFJBHF_01958	hypothetical protein	849	
+3300009517-bin.6_DGMFJBHF_01959	Transcriptional activator HlyU	354	hlyU_2
+3300009517-bin.6_DGMFJBHF_01961	Proline/betaine transporter	1668	proP_2
+3300009517-bin.6_DGMFJBHF_01962	hypothetical protein	1347	
+3300009517-bin.6_DGMFJBHF_01963	Transcriptional regulatory protein ComA	636	comA
+3300009517-bin.6_DGMFJBHF_01964	Sensory/regulatory protein RpfC	3420	rpfC_2
+3300009517-bin.6_DGMFJBHF_01965	Acetyl-coenzyme A synthetase	1872	acsA_1
+3300009517-bin.6_DGMFJBHF_01966	N-acetylmuramoyl-L-alanine amidase AmiD	888	amiD
+3300009517-bin.6_DGMFJBHF_01967	putative amino-acid metabolite efflux pump	885	eamA
+3300009517-bin.6_DGMFJBHF_01968	Co-chaperone protein DjlA	699	djlA
+3300009517-bin.6_DGMFJBHF_01969	hypothetical protein	288	
+3300009517-bin.6_DGMFJBHF_01970	hypothetical protein	303	
+3300009517-bin.6_DGMFJBHF_01971	Methionine synthase	2649	metH_1
+3300009517-bin.6_DGMFJBHF_01972	Methionine synthase	1068	metH_2
+3300009517-bin.6_DGMFJBHF_01973	5,10-methylenetetrahydrofolate reductase	861	metF
+3300009517-bin.6_DGMFJBHF_01974	putative methyltransferase YcgJ	1005	ycgJ_1
+3300009517-bin.6_DGMFJBHF_01975	Ribonuclease HI	438	rnhA
+3300009517-bin.6_DGMFJBHF_01976	Quinone reductase	528	chrR_1
+3300009517-bin.6_DGMFJBHF_01977	hypothetical protein	528	
+3300009517-bin.6_DGMFJBHF_01978	Valine--tRNA ligase	2727	valS
+3300009517-bin.6_DGMFJBHF_01979	hypothetical protein	651	
+3300009517-bin.6_DGMFJBHF_01980	Protein-L-isoaspartate O-methyltransferase	618	pcm_2
+3300009517-bin.6_DGMFJBHF_01983	Cytokinin riboside 5'-monophosphate phosphoribohydrolase	558	fas6
+3300009517-bin.6_DGMFJBHF_01984	Glutamate--tRNA ligase 1	1332	gltX1
+3300009517-bin.6_DGMFJBHF_01985	LexA repressor	663	lexA
+3300009517-bin.6_DGMFJBHF_01986	ComE operon protein 3	2166	comEC
+3300009517-bin.6_DGMFJBHF_01987	Glutamate--tRNA ligase	1407	gltX_2
+3300009517-bin.6_DGMFJBHF_01988	Citrate synthase	1305	aarA
+3300009517-bin.6_DGMFJBHF_01989	Lipid-A-disaccharide synthase	1143	lpxB
+3300009517-bin.6_DGMFJBHF_01990	UDP-2,3-diacylglucosamine pyrophosphatase LpxI	861	lpxI
+3300009517-bin.6_DGMFJBHF_01991	Acyl-[acyl-carrier-protein]--UDP-N- acetylglucosamine O-acyltransferase	789	lpxA
+3300009517-bin.6_DGMFJBHF_01992	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ	453	fabZ
+3300009517-bin.6_DGMFJBHF_01993	UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase	999	lpxD
+3300009517-bin.6_DGMFJBHF_01994	hypothetical protein	747	
+3300009517-bin.6_DGMFJBHF_01995	Outer membrane protein assembly factor BamA	2442	bamA
+3300009517-bin.6_DGMFJBHF_01996	Metalloprotease MmpA	1197	mmpA
+3300009517-bin.6_DGMFJBHF_01997	1-deoxy-D-xylulose 5-phosphate reductoisomerase	1188	dxr
+3300009517-bin.6_DGMFJBHF_01998	Phosphatidate cytidylyltransferase	882	cdsA
+3300009517-bin.6_DGMFJBHF_01999	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)	747	uppS
+3300009517-bin.6_DGMFJBHF_02000	Ribosome-recycling factor	558	frr
+3300009517-bin.6_DGMFJBHF_02001	Uridylate kinase	771	pyrH
+3300009517-bin.6_DGMFJBHF_02002	Elongation factor Ts	918	tsf
+3300009517-bin.6_DGMFJBHF_02003	30S ribosomal protein S2	798	rpsB
+3300009517-bin.6_DGMFJBHF_02004	DNA polymerase III subunit alpha	3420	dnaE1
+3300009517-bin.6_DGMFJBHF_02005	hypothetical protein	99	
+3300009517-bin.6_DGMFJBHF_02006	Lipoprotein-releasing system ATP-binding protein LolD	678	lolD
+3300009517-bin.6_DGMFJBHF_02007	Lipoprotein-releasing system transmembrane protein LolE	1263	lolE
+3300009517-bin.6_DGMFJBHF_02008	hypothetical protein	2070	
+3300009517-bin.6_DGMFJBHF_02009	Proline--tRNA ligase	1335	proS
+3300009517-bin.6_DGMFJBHF_02010	hypothetical protein	237	
+3300009517-bin.6_DGMFJBHF_02011	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_02012	Ribonuclease J	1677	rnj
+3300009517-bin.6_DGMFJBHF_02013	hypothetical protein	747	
+3300009517-bin.6_DGMFJBHF_02014	Bifunctional ligase/repressor BirA	717	birA_2
+3300009517-bin.6_DGMFJBHF_02015	NADH-quinone oxidoreductase subunit N	1443	nuoN
+3300009517-bin.6_DGMFJBHF_02016	NADH-quinone oxidoreductase subunit M	1488	nuoM
+3300009517-bin.6_DGMFJBHF_02017	NADH-quinone oxidoreductase subunit L	2073	nuoL
+3300009517-bin.6_DGMFJBHF_02018	NADH-quinone oxidoreductase subunit 11	324	
+3300009517-bin.6_DGMFJBHF_02019	NADH-quinone oxidoreductase subunit J	618	nuoJ
+3300009517-bin.6_DGMFJBHF_02020	NADH-quinone oxidoreductase subunit I	486	nuoI
+3300009517-bin.6_DGMFJBHF_02021	NADH-quinone oxidoreductase subunit H	1089	nuoH
+3300009517-bin.6_DGMFJBHF_02022	NADH-quinone oxidoreductase chain 3	2076	nqo3
+3300009517-bin.6_DGMFJBHF_02023	hypothetical protein	210	
+3300009517-bin.6_DGMFJBHF_02024	hypothetical protein	435	
+3300009517-bin.6_DGMFJBHF_02025	NADH-quinone oxidoreductase chain 1	1314	nqo1
+3300009517-bin.6_DGMFJBHF_02026	NADH-quinone oxidoreductase chain 2	663	nqo2_1
+3300009517-bin.6_DGMFJBHF_02027	hypothetical protein	333	
+3300009517-bin.6_DGMFJBHF_02028	NADH-quinone oxidoreductase subunit D	1230	nuoD
+3300009517-bin.6_DGMFJBHF_02029	NADH-quinone oxidoreductase chain 5	621	nqo5
+3300009517-bin.6_DGMFJBHF_02030	NADH-quinone oxidoreductase subunit B	555	nuoB
+3300009517-bin.6_DGMFJBHF_02031	NAD(P)H-quinone oxidoreductase subunit 3	399	ndhC
+3300009517-bin.6_DGMFJBHF_02032	hypothetical protein	1395	
+3300009517-bin.6_DGMFJBHF_02035	hypothetical protein	1074	
+3300009517-bin.6_DGMFJBHF_02036	Lon protease	2403	lon
+3300009517-bin.6_DGMFJBHF_02037	ATP-dependent Clp protease ATP-binding subunit ClpX	1269	clpX
+3300009517-bin.6_DGMFJBHF_02038	ATP-dependent Clp protease proteolytic subunit	636	clpP_2
+3300009517-bin.6_DGMFJBHF_02039	Trigger factor	1467	tig
+3300009517-bin.6_DGMFJBHF_02041	hypothetical protein	801	
+3300009517-bin.6_DGMFJBHF_02042	Transcription-repair-coupling factor	3459	mfd
+3300009517-bin.6_DGMFJBHF_02043	HTH-type transcriptional activator TipA	270	tipA
+3300009517-bin.6_DGMFJBHF_02044	hypothetical protein	477	
+3300009517-bin.6_DGMFJBHF_02045	hypothetical protein	297	
+3300009517-bin.6_DGMFJBHF_02046	Spore cortex-lytic enzyme	672	sleB
+3300009517-bin.6_DGMFJBHF_02047	Pyruvate, phosphate dikinase	2661	ppdK
+3300009517-bin.6_DGMFJBHF_02048	Glycine--tRNA ligase beta subunit	2019	glyS
+3300009517-bin.6_DGMFJBHF_02049	Glycine--tRNA ligase alpha subunit	939	glyQ
+3300009517-bin.6_DGMFJBHF_02050	hypothetical protein	1281	
+3300009517-bin.6_DGMFJBHF_02051	Acetyl-/propionyl-coenzyme A carboxylase alpha chain	2031	accA1_1
+3300009517-bin.6_DGMFJBHF_02052	hypothetical protein	312	
+3300009517-bin.6_DGMFJBHF_02053	Endoglucanase H	1074	celH
+3300009517-bin.6_DGMFJBHF_02054	hypothetical protein	1161	
+3300009517-bin.6_DGMFJBHF_02055	hypothetical protein	873	
+3300009517-bin.6_DGMFJBHF_02056	hypothetical protein	906	
+3300009517-bin.6_DGMFJBHF_02057	Propionyl-CoA carboxylase beta chain	1533	pccB_1
+3300009517-bin.6_DGMFJBHF_02058	hypothetical protein	1149	
+3300009517-bin.6_DGMFJBHF_02059	Isochorismate pyruvate lyase	330	pchB
+3300009517-bin.6_DGMFJBHF_02060	hypothetical protein	381	
+3300009517-bin.6_DGMFJBHF_02061	hypothetical protein	1083	
+3300009517-bin.6_DGMFJBHF_02062	Sensor histidine kinase RcsC	780	rcsC
+3300009517-bin.6_DGMFJBHF_02063	hypothetical protein	258	
+3300009517-bin.6_DGMFJBHF_02064	hypothetical protein	2634	
+3300009517-bin.6_DGMFJBHF_02065	hypothetical protein	645	
+3300009517-bin.6_DGMFJBHF_02066	hypothetical protein	1104	
+3300009517-bin.6_DGMFJBHF_02067	putative ribonucleotide transport ATP-binding protein mkl	801	mkl
+3300009517-bin.6_DGMFJBHF_02068	putative phospholipid ABC transporter permease protein MlaE	1167	mlaE
+3300009517-bin.6_DGMFJBHF_02069	hypothetical protein	942	
+3300009517-bin.6_DGMFJBHF_02070	L-Ala-D/L-Glu epimerase	981	ycjG_2
+3300009517-bin.6_DGMFJBHF_02071	hypothetical protein	1080	
+3300009517-bin.6_DGMFJBHF_02072	hypothetical protein	831	
+3300009517-bin.6_DGMFJBHF_02073	Putative short-chain type dehydrogenase/reductase	873	
+3300009517-bin.6_DGMFJBHF_02074	Asp/Glu-specific dipeptidyl-peptidase	2088	
+3300009517-bin.6_DGMFJBHF_02075	hypothetical protein	1728	
+3300009517-bin.6_DGMFJBHF_02076	Glutamine-dependent NAD(+) synthetase	1665	nadE
+3300009517-bin.6_DGMFJBHF_02077	hypothetical protein	885	
+3300009517-bin.6_DGMFJBHF_02078	hypothetical protein	939	
+3300009517-bin.6_DGMFJBHF_02079	Glycine oxidase	1038	thiO_2
+3300009517-bin.6_DGMFJBHF_02081	dTDP-L-rhamnose 4-epimerase	1008	wbiB
+3300009517-bin.6_DGMFJBHF_02082	hypothetical protein	288	
+3300009517-bin.6_DGMFJBHF_02083	Beta-barrel assembly-enhancing protease	810	bepA_6
+3300009517-bin.6_DGMFJBHF_02084	hypothetical protein	558	
+3300009517-bin.6_DGMFJBHF_02085	Colicin I receptor	2511	cirA_5
+3300009517-bin.6_DGMFJBHF_02086	2,3-dehydroadipyl-CoA hydratase	798	paaF
+3300009517-bin.6_DGMFJBHF_02087	Cytochrome c2	567	
+3300009517-bin.6_DGMFJBHF_02088	Peptidoglycan glycosyltransferase MrdB	1161	mrdB
+3300009517-bin.6_DGMFJBHF_02089	Peptidoglycan D,D-transpeptidase MrdA	1875	mrdA
+3300009517-bin.6_DGMFJBHF_02090	hypothetical protein	498	
+3300009517-bin.6_DGMFJBHF_02091	Cell shape-determining protein MreC	1197	mreC
+3300009517-bin.6_DGMFJBHF_02092	Rod shape-determining protein MreB	1011	mreB
+3300009517-bin.6_DGMFJBHF_02093	UvrABC system protein B	2229	uvrB
+3300009517-bin.6_DGMFJBHF_02094	hypothetical protein	480	
+3300009517-bin.6_DGMFJBHF_02095	hypothetical protein	216	
+3300009517-bin.6_DGMFJBHF_02096	hypothetical protein	810	
+3300009517-bin.6_DGMFJBHF_02097	RNA pyrophosphohydrolase	471	rppH_2
+3300009517-bin.6_DGMFJBHF_02098	hypothetical protein	912	
+3300009517-bin.6_DGMFJBHF_02099	Homoserine kinase	963	thrB
+3300009517-bin.6_DGMFJBHF_02100	Putative pre-16S rRNA nuclease	474	yrrK
+3300009517-bin.6_DGMFJBHF_02101	hypothetical protein	309	
+3300009517-bin.6_DGMFJBHF_02102	Aspartate carbamoyltransferase	963	pyrB
+3300009517-bin.6_DGMFJBHF_02103	Dihydroorotase	1296	pyrC
+3300009517-bin.6_DGMFJBHF_02104	putative glycerol-3-phosphate acyltransferase	591	plsY
+3300009517-bin.6_DGMFJBHF_02105	DNA processing protein DprA	1089	dprA
+3300009517-bin.6_DGMFJBHF_02106	DNA topoisomerase 1	2616	topA
+3300009517-bin.6_DGMFJBHF_02107	Ribonuclease R	2301	rnr
+3300009517-bin.6_DGMFJBHF_02108	Sec-independent protein translocase protein TatC	828	tatC
+3300009517-bin.6_DGMFJBHF_02109	Sec-independent protein translocase protein TatB	417	tatB
+3300009517-bin.6_DGMFJBHF_02110	Sec-independent protein translocase protein TatA	225	tatA
+3300009517-bin.6_DGMFJBHF_02111	hypothetical protein	840	
+3300009517-bin.6_DGMFJBHF_02112	hypothetical protein	828	
+3300009517-bin.6_DGMFJBHF_02113	Segregation and condensation protein B	741	scpB
+3300009517-bin.6_DGMFJBHF_02114	Segregation and condensation protein A	801	scpA_2
+3300009517-bin.6_DGMFJBHF_02115	Beta-hexosaminidase	1053	nagZ
+3300009517-bin.6_DGMFJBHF_02116	Cell division protein FtsN	810	ftsN
+3300009517-bin.6_DGMFJBHF_02117	Deoxyguanosinetriphosphate triphosphohydrolase-like protein	1188	dgt
+3300009517-bin.6_DGMFJBHF_02118	Iron-sulfur cluster insertion protein ErpA	366	erpA
+3300009517-bin.6_DGMFJBHF_02119	Exodeoxyribonuclease III	786	xthA_2
+3300009517-bin.6_DGMFJBHF_02120	hypothetical protein	876	
+3300009517-bin.6_DGMFJBHF_02121	Methylenetetrahydrofolate--tRNA-(uracil-5-)- methyltransferase TrmFO	1383	trmFO
+3300009517-bin.6_DGMFJBHF_02122	hypothetical protein	333	
+3300009517-bin.6_DGMFJBHF_02123	hypothetical protein	417	
+3300009517-bin.6_DGMFJBHF_02124	hypothetical protein	549	
+3300009517-bin.6_DGMFJBHF_02125	hypothetical protein	222	
+3300009517-bin.6_DGMFJBHF_02126	SsrA-binding protein	501	smpB
+3300009517-bin.6_DGMFJBHF_02127	4-hydroxy-tetrahydrodipicolinate synthase	888	dapA
+3300009517-bin.6_DGMFJBHF_02128	Soluble lytic murein transglycosylase	2244	slt_2
+3300009517-bin.6_DGMFJBHF_02129	hypothetical protein	345	
+3300009517-bin.6_DGMFJBHF_02130	Autoinducer 2 sensor kinase/phosphatase LuxQ	1593	luxQ_3
+3300009517-bin.6_DGMFJBHF_02131	hypothetical protein	666	
+3300009517-bin.6_DGMFJBHF_02132	hypothetical protein	729	
+3300009517-bin.6_DGMFJBHF_02133	Branched-chain-amino-acid aminotransferase	870	ilvE
+3300009517-bin.6_DGMFJBHF_02134	hypothetical protein	477	
+3300009517-bin.6_DGMFJBHF_02135	Transcriptional regulatory protein OmpR	678	ompR
+3300009517-bin.6_DGMFJBHF_02136	Cold shock protein CspA	207	cspA_2
+3300009517-bin.6_DGMFJBHF_02137	hypothetical protein	264	
+3300009517-bin.6_DGMFJBHF_02138	Osmolarity sensor protein EnvZ	1353	envZ
+3300009517-bin.6_DGMFJBHF_02139	Pyrroline-5-carboxylate reductase	801	proC
+3300009517-bin.6_DGMFJBHF_02140	hypothetical protein	543	
+3300009517-bin.6_DGMFJBHF_02141	hypothetical protein	246	
+3300009517-bin.6_DGMFJBHF_02142	Prolipoprotein diacylglyceryl transferase	849	lgt
+3300009517-bin.6_DGMFJBHF_02143	hypothetical protein	1047	
+3300009517-bin.6_DGMFJBHF_02144	Polyphenol oxidase	777	
+3300009517-bin.6_DGMFJBHF_02145	hypothetical protein	1260	
+3300009517-bin.6_DGMFJBHF_02146	Ribose-phosphate pyrophosphokinase	930	prs
+3300009517-bin.6_DGMFJBHF_02147	hypothetical protein	933	
+3300009517-bin.6_DGMFJBHF_02148	C4-dicarboxylic acid transporter DauA	1680	dauA
+3300009517-bin.6_DGMFJBHF_02149	putative chromate transport protein	1311	srpC_1
+3300009517-bin.6_DGMFJBHF_02150	50S ribosomal protein L25	597	rplY
+3300009517-bin.6_DGMFJBHF_02151	Peptidyl-tRNA hydrolase	606	pth
+3300009517-bin.6_DGMFJBHF_02152	Modification methylase DpnIIB	1083	dpnA
+3300009517-bin.6_DGMFJBHF_02153	hypothetical protein	540	
+3300009517-bin.6_DGMFJBHF_02154	Thiol:disulfide interchange protein DsbL	687	dsbL
+3300009517-bin.6_DGMFJBHF_02155	hypothetical protein	696	
+3300009517-bin.6_DGMFJBHF_02156	Chromosome partition protein Smc	3459	smc
+3300009517-bin.6_DGMFJBHF_02157	hypothetical protein	348	
+3300009517-bin.6_DGMFJBHF_02158	ATP synthase subunit a	756	atpB
+3300009517-bin.6_DGMFJBHF_02159	ATP synthase subunit c	228	atpE
+3300009517-bin.6_DGMFJBHF_02160	ATP synthase subunit b'	576	atpG_2
+3300009517-bin.6_DGMFJBHF_02161	ATP synthase subunit b	501	atpF
+3300009517-bin.6_DGMFJBHF_02162	O-acetyltransferase OatA	1095	oatA_2
+3300009517-bin.6_DGMFJBHF_02163	putative glycine dehydrogenase (decarboxylating) subunit 2	1542	gcvPB
+3300009517-bin.6_DGMFJBHF_02164	putative glycine dehydrogenase (decarboxylating) subunit 1	1311	gcvPA
+3300009517-bin.6_DGMFJBHF_02165	Glycine cleavage system H protein	372	gcvH
+3300009517-bin.6_DGMFJBHF_02166	Aminomethyltransferase	1173	gcvT
+3300009517-bin.6_DGMFJBHF_02167	Protein QmcA	909	qmcA
+3300009517-bin.6_DGMFJBHF_02168	Inner membrane protein YbbJ	447	ybbJ
+3300009517-bin.6_DGMFJBHF_02169	putative TonB-dependent receptor	1923	
+3300009517-bin.6_DGMFJBHF_02170	50S ribosomal protein L17	408	rplQ
+3300009517-bin.6_DGMFJBHF_02171	DNA-directed RNA polymerase subunit alpha	1044	rpoA
+3300009517-bin.6_DGMFJBHF_02172	30S ribosomal protein S11	390	rpsK
+3300009517-bin.6_DGMFJBHF_02173	30S ribosomal protein S13	381	rpsM
+3300009517-bin.6_DGMFJBHF_02174	Catalase	1437	katA
+3300009517-bin.6_DGMFJBHF_02175	Adenylate kinase	561	adk
+3300009517-bin.6_DGMFJBHF_02176	Protein translocase subunit SecY	1368	secY
+3300009517-bin.6_DGMFJBHF_02177	50S ribosomal protein L15	477	rplO
+3300009517-bin.6_DGMFJBHF_02178	50S ribosomal protein L30	186	rpmD
+3300009517-bin.6_DGMFJBHF_02179	30S ribosomal protein S5	564	rpsE
+3300009517-bin.6_DGMFJBHF_02180	50S ribosomal protein L18	357	rplR
+3300009517-bin.6_DGMFJBHF_02181	50S ribosomal protein L6	534	rplF
+3300009517-bin.6_DGMFJBHF_02182	30S ribosomal protein S8	396	rpsH
+3300009517-bin.6_DGMFJBHF_02183	30S ribosomal protein S14	306	rpsN
+3300009517-bin.6_DGMFJBHF_02184	50S ribosomal protein L5	555	rplE
+3300009517-bin.6_DGMFJBHF_02185	50S ribosomal protein L24	321	rplX
+3300009517-bin.6_DGMFJBHF_02186	50S ribosomal protein L14	369	rplN
+3300009517-bin.6_DGMFJBHF_02187	30S ribosomal protein S17	240	rpsQ
+3300009517-bin.6_DGMFJBHF_02188	50S ribosomal protein L29	201	rpmC
+3300009517-bin.6_DGMFJBHF_02189	50S ribosomal protein L16	423	rplP
+3300009517-bin.6_DGMFJBHF_02190	30S ribosomal protein S3	774	rpsC
+3300009517-bin.6_DGMFJBHF_02191	50S ribosomal protein L22	381	rplV
+3300009517-bin.6_DGMFJBHF_02192	30S ribosomal protein S19	279	rpsS
+3300009517-bin.6_DGMFJBHF_02193	50S ribosomal protein L2	834	rplB
+3300009517-bin.6_DGMFJBHF_02194	50S ribosomal protein L23	297	rplW
+3300009517-bin.6_DGMFJBHF_02195	50S ribosomal protein L4	693	rplD
+3300009517-bin.6_DGMFJBHF_02196	50S ribosomal protein L3	744	rplC
+3300009517-bin.6_DGMFJBHF_02197	30S ribosomal protein S10	309	rpsJ
+3300009517-bin.6_DGMFJBHF_02198	hypothetical protein	369	
+3300009517-bin.6_DGMFJBHF_02199	hypothetical protein	441	
+3300009517-bin.6_DGMFJBHF_02200	hypothetical protein	843	
+3300009517-bin.6_DGMFJBHF_02201	Glucose--fructose oxidoreductase	954	gfo
+3300009517-bin.6_DGMFJBHF_02202	UDP-2-acetamido-2-deoxy-3-oxo-D-glucuronate aminotransferase	1170	wbpE_2
+3300009517-bin.6_DGMFJBHF_02203	UDP-N-acetyl-D-glucosamine 6-dehydrogenase	1374	wbpA
+3300009517-bin.6_DGMFJBHF_02204	UDP-2-acetamido-3-amino-2, 3-dideoxy-D-glucuronate N-acetyltransferase	570	wbpD
+3300009517-bin.6_DGMFJBHF_02205	hypothetical protein	774	
+3300009517-bin.6_DGMFJBHF_02206	Teichoic acids export ATP-binding protein TagH	756	tagH
+3300009517-bin.6_DGMFJBHF_02207	hypothetical protein	1662	
+3300009517-bin.6_DGMFJBHF_02208	hypothetical protein	618	
+3300009517-bin.6_DGMFJBHF_02209	hypothetical protein	1497	
+3300009517-bin.6_DGMFJBHF_02210	hypothetical protein	1494	
+3300009517-bin.6_DGMFJBHF_02211	hypothetical protein	921	
+3300009517-bin.6_DGMFJBHF_02212	putative methyltransferase YcgJ	1092	ycgJ_2
+3300009517-bin.6_DGMFJBHF_02213	hypothetical protein	2589	
+3300009517-bin.6_DGMFJBHF_02214	hypothetical protein	1053	
+3300009517-bin.6_DGMFJBHF_02215	Asparagine synthetase [glutamine-hydrolyzing] 1	1875	asnB_1
+3300009517-bin.6_DGMFJBHF_02216	hypothetical protein	1374	
+3300009517-bin.6_DGMFJBHF_02217	UDP-2,3-diacetamido-2,3-dideoxy-D-glucuronate 2-epimerase	1056	wbpI
+3300009517-bin.6_DGMFJBHF_02218	dTDP-glucose 4,6-dehydratase	1065	rfbB
+3300009517-bin.6_DGMFJBHF_02219	GDP-6-deoxy-D-mannose reductase	951	rmd
+3300009517-bin.6_DGMFJBHF_02220	UDP-glucose 4-epimerase	945	galE1
+3300009517-bin.6_DGMFJBHF_02221	hypothetical protein	987	
+3300009517-bin.6_DGMFJBHF_02222	Asparagine synthetase [glutamine-hydrolyzing] 1	1908	asnB_2
+3300009517-bin.6_DGMFJBHF_02223	dTDP-glucose 4,6-dehydratase 2	1053	rffG
+3300009517-bin.6_DGMFJBHF_02224	dTDP-4-dehydrorhamnose 3,5-epimerase	543	rfbC
+3300009517-bin.6_DGMFJBHF_02225	Glucose-1-phosphate thymidylyltransferase 1	894	rfbA
+3300009517-bin.6_DGMFJBHF_02226	UDP-glucose 6-dehydrogenase	1167	ugd
+3300009517-bin.6_DGMFJBHF_02227	hypothetical protein	579	
+3300009517-bin.6_DGMFJBHF_02228	Free methionine-R-sulfoxide reductase	489	msrC
+3300009517-bin.6_DGMFJBHF_02229	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase YbaK	474	ybaK
+3300009517-bin.6_DGMFJBHF_02230	hypothetical protein	345	
+3300009517-bin.6_DGMFJBHF_02231	UDP-glucose 4-epimerase	987	galE
+3300009517-bin.6_DGMFJBHF_02232	hypothetical protein	1188	
+3300009517-bin.6_DGMFJBHF_02233	hypothetical protein	657	
+3300009517-bin.6_DGMFJBHF_02235	hypothetical protein	306	
+3300009517-bin.6_DGMFJBHF_02236	D-glycero-alpha-D-manno-heptose 7-phosphate kinase	1035	hddA
+3300009517-bin.6_DGMFJBHF_02237	Cellobiose 2-epimerase	1113	
+3300009517-bin.6_DGMFJBHF_02238	D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase	1197	gmhB
+3300009517-bin.6_DGMFJBHF_02239	4-carboxy-2-hydroxymuconate-6-semialdehyde dehydrogenase	897	ligC
+3300009517-bin.6_DGMFJBHF_02240	dTDP-4-dehydrorhamnose reductase	885	rfbD
+3300009517-bin.6_DGMFJBHF_02241	Extracellular serine protease	2349	
+3300009517-bin.6_DGMFJBHF_02243	hypothetical protein	495	
+3300009517-bin.6_DGMFJBHF_02244	1,3-propanediol dehydrogenase	1158	dhaT
+3300009517-bin.6_DGMFJBHF_02245	Succinate semialdehyde dehydrogenase [NAD(P)+] Sad	1386	sad
+3300009517-bin.6_DGMFJBHF_02246	hypothetical protein	375	
+3300009517-bin.6_DGMFJBHF_02247	Glutamate--isopropylamine ligase	1371	ipuC
+3300009517-bin.6_DGMFJBHF_02248	putative amino acid permease YhdG	1551	yhdG_3
+3300009517-bin.6_DGMFJBHF_02250	Single-stranded-DNA-specific exonuclease RecJ	1764	recJ
+3300009517-bin.6_DGMFJBHF_02251	Fructose-1,6-bisphosphatase class 2	954	glpX
+3300009517-bin.6_DGMFJBHF_02252	Homoserine dehydrogenase	1272	hom
+3300009517-bin.6_DGMFJBHF_02253	Glutamate-pyruvate aminotransferase AlaC	1176	alaC
+3300009517-bin.6_DGMFJBHF_02254	hypothetical protein	441	
+3300009517-bin.6_DGMFJBHF_02255	Poly(3-hydroxyalkanoate) polymerase subunit PhaC	1854	phaC
+3300009517-bin.6_DGMFJBHF_02256	1-deoxy-D-xylulose-5-phosphate synthase	1917	dxs
+3300009517-bin.6_DGMFJBHF_02257	Farnesyl diphosphate synthase	897	
+3300009517-bin.6_DGMFJBHF_02258	Exodeoxyribonuclease 7 small subunit	258	xseB
+3300009517-bin.6_DGMFJBHF_02259	hypothetical protein	678	
+3300009517-bin.6_DGMFJBHF_02260	Iron-sulfur cluster carrier protein	780	
+3300009517-bin.6_DGMFJBHF_02261	hypothetical protein	1086	
+3300009517-bin.6_DGMFJBHF_02262	hypothetical protein	897	
+3300009517-bin.6_DGMFJBHF_02263	hypothetical protein	363	
+3300009517-bin.6_DGMFJBHF_02264	Acetyl-/propionyl-coenzyme A carboxylase alpha chain	1989	accA1_2
+3300009517-bin.6_DGMFJBHF_02265	Hydroxycinnamoyl-CoA hydratase-lyase	798	
+3300009517-bin.6_DGMFJBHF_02266	Propionyl-CoA carboxylase beta chain	1608	pccB_2
+3300009517-bin.6_DGMFJBHF_02267	hypothetical protein	675	
+3300009517-bin.6_DGMFJBHF_02268	putative NTE family protein	1713	
+3300009517-bin.6_DGMFJBHF_02269	hypothetical protein	720	
+3300009517-bin.6_DGMFJBHF_02270	Multiple antibiotic resistance protein MarA	780	marA
+3300009517-bin.6_DGMFJBHF_02271	hypothetical protein	966	
+3300009517-bin.6_DGMFJBHF_02272	Acyl-CoA dehydrogenase	1170	acdA_1
+3300009517-bin.6_DGMFJBHF_02273	hypothetical protein	1116	
+3300009517-bin.6_DGMFJBHF_02274	hypothetical protein	1230	
+3300009517-bin.6_DGMFJBHF_02275	Magnesium transporter MgtE	1434	mgtE
+3300009517-bin.6_DGMFJBHF_02277	Flagellar motor switch protein FliN	246	fliN_2
+3300009517-bin.6_DGMFJBHF_02278	Putative L,D-transpeptidase YkuD	603	ykuD
+3300009517-bin.6_DGMFJBHF_02279	Octanoyltransferase	651	lipB
+3300009517-bin.6_DGMFJBHF_02280	hypothetical protein	495	
+3300009517-bin.6_DGMFJBHF_02281	hypothetical protein	576	
+3300009517-bin.6_DGMFJBHF_02282	hypothetical protein	279	
+3300009517-bin.6_DGMFJBHF_02283	hypothetical protein	225	
+3300009517-bin.6_DGMFJBHF_02284	hypothetical protein	852	
+3300009517-bin.6_DGMFJBHF_02285	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B	1512	gatB
+3300009517-bin.6_DGMFJBHF_02286	Glutamyl-tRNA(Gln) amidotransferase subunit A	1455	gatA
+3300009517-bin.6_DGMFJBHF_02287	Glutamyl-tRNA(Gln) amidotransferase subunit C	288	gatC
+3300009517-bin.6_DGMFJBHF_02288	hypothetical protein	771	
+3300009517-bin.6_DGMFJBHF_02289	hypothetical protein	723	
+3300009517-bin.6_DGMFJBHF_02290	ATP-dependent RNA helicase RhlE	2163	rhlE_2
+3300009517-bin.6_DGMFJBHF_02291	Tetracycline resistance protein, class C	1230	tetA
+3300009517-bin.6_DGMFJBHF_02292	hypothetical protein	234	
+3300009517-bin.6_DGMFJBHF_02293	hypothetical protein	456	
+3300009517-bin.6_DGMFJBHF_02294	L-threo-3-hydroxyaspartate ammonia-lyase	978	thadh
+3300009517-bin.6_DGMFJBHF_02295	hypothetical protein	495	
+3300009517-bin.6_DGMFJBHF_02296	5'-nucleotidase	642	
+3300009517-bin.6_DGMFJBHF_02297	putative HTH-type transcriptional regulator YybR	351	yybR
+3300009517-bin.6_DGMFJBHF_02298	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_02299	3-beta-hydroxysteroid dehydrogenase	780	
+3300009517-bin.6_DGMFJBHF_02300	hypothetical protein	423	
+3300009517-bin.6_DGMFJBHF_02301	DNA-directed RNA polymerase subunit beta'	4191	rpoC
+3300009517-bin.6_DGMFJBHF_02302	DNA-directed RNA polymerase subunit beta	4122	rpoB
+3300009517-bin.6_DGMFJBHF_02303	hypothetical protein	885	
+3300009517-bin.6_DGMFJBHF_02304	hypothetical protein	303	
+3300009517-bin.6_DGMFJBHF_02305	50S ribosomal protein L7/L12	375	rplL
+3300009517-bin.6_DGMFJBHF_02306	50S ribosomal protein L10	516	rplJ
+3300009517-bin.6_DGMFJBHF_02307	50S ribosomal protein L1	702	rplA
+3300009517-bin.6_DGMFJBHF_02308	50S ribosomal protein L11	429	rplK
+3300009517-bin.6_DGMFJBHF_02309	Transcription termination/antitermination protein NusG	546	nusG
+3300009517-bin.6_DGMFJBHF_02310	Protein translocase subunit SecE	237	secE
+3300009517-bin.6_DGMFJBHF_02312	Pesticin receptor	2310	fyuA_4
+3300009517-bin.6_DGMFJBHF_02313	Thiol-disulfide oxidoreductase ResA	633	resA_3
+3300009517-bin.6_DGMFJBHF_02314	Chorismate synthase	1092	aroC
+3300009517-bin.6_DGMFJBHF_02315	hypothetical protein	744	
+3300009517-bin.6_DGMFJBHF_02316	Adenosylcobalamin/alpha-ribazole phosphatase	579	cobC
+3300009517-bin.6_DGMFJBHF_02317	Beta-lactamase HcpA	756	hcpA
+3300009517-bin.6_DGMFJBHF_02318	Putative zinc metalloprotease Rip2	765	rip2
+3300009517-bin.6_DGMFJBHF_02319	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase	1257	pfp
+3300009517-bin.6_DGMFJBHF_02320	Phospho-2-dehydro-3-deoxyheptonate aldolase	1377	aroH
+3300009517-bin.6_DGMFJBHF_02321	UDP-N-acetylenolpyruvoylglucosamine reductase	912	murB
+3300009517-bin.6_DGMFJBHF_02322	hypothetical protein	834	
+3300009517-bin.6_DGMFJBHF_02323	hypothetical protein	831	
+3300009517-bin.6_DGMFJBHF_02324	hypothetical protein	735	
+3300009517-bin.6_DGMFJBHF_02325	Inner membrane protein YbaN	459	ybaN
+3300009517-bin.6_DGMFJBHF_02326	UvrABC system protein C	1911	uvrC
+3300009517-bin.6_DGMFJBHF_02327	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	594	pgsA_2
+3300009517-bin.6_DGMFJBHF_02328	Heme-based aerotactic transducer HemAT	1356	hemAT
+3300009517-bin.6_DGMFJBHF_02329	Dihydroneopterin aldolase	477	folB
+3300009517-bin.6_DGMFJBHF_02330	putative oxidoreductase YghA	774	yghA
+3300009517-bin.6_DGMFJBHF_02331	Autoinducer 2 sensor kinase/phosphatase LuxQ	1464	luxQ_4
+3300009517-bin.6_DGMFJBHF_02332	RNA pyrophosphohydrolase	399	rppH_3
+3300009517-bin.6_DGMFJBHF_02333	Adenosylcobinamide-GDP ribazoletransferase	831	cobS_2
+3300009517-bin.6_DGMFJBHF_02334	hypothetical protein	180	
+3300009517-bin.6_DGMFJBHF_02335	Beta-ketodecanoyl-[acyl-carrier-protein] synthase	1110	
+3300009517-bin.6_DGMFJBHF_02336	L-hydantoinase	1323	lhyD
+3300009517-bin.6_DGMFJBHF_02337	Polyketide synthase PksJ	1812	pksJ
+3300009517-bin.6_DGMFJBHF_02338	Putative acetolactate synthase large subunit IlvX	1545	ilvX
+3300009517-bin.6_DGMFJBHF_02339	Inner membrane protein YbhN	1614	ybhN
+3300009517-bin.6_DGMFJBHF_02340	hypothetical protein	504	
+3300009517-bin.6_DGMFJBHF_02341	hypothetical protein	2145	
+3300009517-bin.6_DGMFJBHF_02342	Non-motile and phage-resistance protein	2436	pleC
+3300009517-bin.6_DGMFJBHF_02343	Aminopeptidase N	2625	pepN_1
+3300009517-bin.6_DGMFJBHF_02344	hypothetical protein	492	
+3300009517-bin.6_DGMFJBHF_02345	Crotonobetaine/carnitine--CoA ligase	1797	caiC
+3300009517-bin.6_DGMFJBHF_02346	hypothetical protein	567	
+3300009517-bin.6_DGMFJBHF_02347	hypothetical protein	396	
+3300009517-bin.6_DGMFJBHF_02349	Disulfide bond formation protein B	564	dsbB
+3300009517-bin.6_DGMFJBHF_02350	2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase	561	coq7
+3300009517-bin.6_DGMFJBHF_02351	Putative manganese exporter	567	mneA
+3300009517-bin.6_DGMFJBHF_02352	D-aminopeptidase	1188	dap
+3300009517-bin.6_DGMFJBHF_02353	Carboxymethylenebutenolidase	891	clcD
+3300009517-bin.6_DGMFJBHF_02354	Methyl-accepting chemotaxis protein II	1965	tar
+3300009517-bin.6_DGMFJBHF_02355	Glycogen operon protein GlgX	4035	glgX
+3300009517-bin.6_DGMFJBHF_02356	Maltodextrin phosphorylase	2439	malP
+3300009517-bin.6_DGMFJBHF_02357	1,4-alpha-glucan branching enzyme GlgB	2157	glgB
+3300009517-bin.6_DGMFJBHF_02358	Glucose-1-phosphate adenylyltransferase	1263	glgC
+3300009517-bin.6_DGMFJBHF_02359	Glycogen synthase 1	1449	glgA1
+3300009517-bin.6_DGMFJBHF_02360	Solvent efflux pump outer membrane protein SrpC	1374	srpC_2
+3300009517-bin.6_DGMFJBHF_02361	Multidrug resistance protein MexB	3123	mexB
+3300009517-bin.6_DGMFJBHF_02362	Multidrug efflux pump subunit AcrA	1170	acrA
+3300009517-bin.6_DGMFJBHF_02363	2-dehydro-3-deoxygluconokinase	1020	kdgK
+3300009517-bin.6_DGMFJBHF_02364	Vitamin B12 transporter BtuB	2952	btuB_10
+3300009517-bin.6_DGMFJBHF_02365	2-keto-4-pentenoate hydratase	822	mhpD
+3300009517-bin.6_DGMFJBHF_02366	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase	756	kduD_2
+3300009517-bin.6_DGMFJBHF_02367	4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase 1	867	kduI1
+3300009517-bin.6_DGMFJBHF_02368	Uronate isomerase	1449	uxaC
+3300009517-bin.6_DGMFJBHF_02369	putative HTH-type transcriptional repressor ExuR	1185	exuR_2
+3300009517-bin.6_DGMFJBHF_02370	Altronate dehydratase	1524	uxaA
+3300009517-bin.6_DGMFJBHF_02371	Polyol:NADP oxidoreductase	1440	por
+3300009517-bin.6_DGMFJBHF_02372	hypothetical protein	1365	
+3300009517-bin.6_DGMFJBHF_02373	Non-reducing end alpha-L-arabinofuranosidase BoGH43B	1575	
+3300009517-bin.6_DGMFJBHF_02374	Para-nitrobenzyl esterase	1575	pnbA
+3300009517-bin.6_DGMFJBHF_02375	putative rhamnogalacturonan acetylesterase YesY	912	yesY
+3300009517-bin.6_DGMFJBHF_02376	Hexuronate transporter	1299	exuT
+3300009517-bin.6_DGMFJBHF_02377	GTP 3',8-cyclase	978	moaA_2
+3300009517-bin.6_DGMFJBHF_02378	Sulfur carrier protein FdhD	774	fdhD
+3300009517-bin.6_DGMFJBHF_02379	Putative formate dehydrogenase	2829	
+3300009517-bin.6_DGMFJBHF_02380	NADP-reducing hydrogenase subunit HndC	1467	hndC
+3300009517-bin.6_DGMFJBHF_02381	NADH-quinone oxidoreductase subunit 2	426	nqo2_2
+3300009517-bin.6_DGMFJBHF_02382	hypothetical protein	1158	
+3300009517-bin.6_DGMFJBHF_02383	Molybdenum cofactor guanylyltransferase	588	mobA_2
+3300009517-bin.6_DGMFJBHF_02384	hypothetical protein	642	
+3300009517-bin.6_DGMFJBHF_02385	L-fucose-proton symporter	1287	fucP_3
+3300009517-bin.6_DGMFJBHF_02386	hypothetical protein	1212	
+3300009517-bin.6_DGMFJBHF_02387	Thermostable beta-glucosidase B	2229	bglB
+3300009517-bin.6_DGMFJBHF_02388	Flavin-dependent tryptophan halogenase RebH	1503	rebH_5
+3300009517-bin.6_DGMFJBHF_02389	Flavin-dependent tryptophan halogenase PrnA	1506	prnA_2
+3300009517-bin.6_DGMFJBHF_02390	Vitamin B12 transporter BtuB	3120	btuB_11
+3300009517-bin.6_DGMFJBHF_02391	Catabolite control protein A	1029	ccpA_3
+3300009517-bin.6_DGMFJBHF_02392	Tuberculostearic acid methyltransferase UfaA1	1209	ufaA1
+3300009517-bin.6_DGMFJBHF_02393	hypothetical protein	414	
+3300009517-bin.6_DGMFJBHF_02394	Anti-sigma-E factor ChrR	654	chrR_2
+3300009517-bin.6_DGMFJBHF_02395	ECF RNA polymerase sigma factor RpoE	612	rpoE_2
+3300009517-bin.6_DGMFJBHF_02396	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC	1374	mnmC_1
+3300009517-bin.6_DGMFJBHF_02397	hypothetical protein	771	
+3300009517-bin.6_DGMFJBHF_02398	Cyclopropane-fatty-acyl-phospholipid synthase	1020	cfa
+3300009517-bin.6_DGMFJBHF_02399	hypothetical protein	771	
+3300009517-bin.6_DGMFJBHF_02400	hypothetical protein	381	
+3300009517-bin.6_DGMFJBHF_02401	hypothetical protein	135	
+3300009517-bin.6_DGMFJBHF_02402	HTH-type transcriptional repressor NsrR	435	nsrR_2
+3300009517-bin.6_DGMFJBHF_02403	hypothetical protein	486	
+3300009517-bin.6_DGMFJBHF_02404	Cytochrome bd ubiquinol oxidase subunit 1	1530	cydA
+3300009517-bin.6_DGMFJBHF_02405	Cytochrome bd-I ubiquinol oxidase subunit 2	1140	cydB
+3300009517-bin.6_DGMFJBHF_02406	Cytochrome bd ubiquinol oxidase subunit X	105	cydX
+3300009517-bin.6_DGMFJBHF_02407	hypothetical protein	210	
+3300009517-bin.6_DGMFJBHF_02408	hypothetical protein	387	
+3300009517-bin.6_DGMFJBHF_02409	putative metallo-hydrolase	891	
+3300009517-bin.6_DGMFJBHF_02410	putative membrane transporter protein	777	
+3300009517-bin.6_DGMFJBHF_02411	Sensor histidine kinase RegB	1323	regB_2
+3300009517-bin.6_DGMFJBHF_02412	Photosynthetic apparatus regulatory protein RegA	525	regA_2
+3300009517-bin.6_DGMFJBHF_02413	Ferric enterobactin receptor	2052	pfeA
+3300009517-bin.6_DGMFJBHF_02414	hypothetical protein	1257	
+3300009517-bin.6_DGMFJBHF_02415	hypothetical protein	1422	
+3300009517-bin.6_DGMFJBHF_02416	putative ABC transporter ATP-binding protein NosF	702	nosF
+3300009517-bin.6_DGMFJBHF_02417	Ferrichrome outer membrane transporter/phage receptor	2073	fhuA_2
+3300009517-bin.6_DGMFJBHF_02418	Vitamin B12 transporter BtuB	1242	btuB_12
+3300009517-bin.6_DGMFJBHF_02419	Vitamin B12 transporter BtuB	888	btuB_13
+3300009517-bin.6_DGMFJBHF_02420	hypothetical protein	489	
+3300009517-bin.6_DGMFJBHF_02421	Mercuric resistance operon regulatory protein	402	merR1
+3300009517-bin.6_DGMFJBHF_02422	Zinc-transporting ATPase	1959	ziaA
+3300009517-bin.6_DGMFJBHF_02423	hypothetical protein	306	
+3300009517-bin.6_DGMFJBHF_02424	Nickel and cobalt resistance protein CnrC	1251	cnrC
+3300009517-bin.6_DGMFJBHF_02425	Nickel and cobalt resistance protein CnrB	1194	cnrB
+3300009517-bin.6_DGMFJBHF_02426	Nickel and cobalt resistance protein CnrA	3195	cnrA
+3300009517-bin.6_DGMFJBHF_02427	Putative conjugal transfer protein	963	
+3300009517-bin.6_DGMFJBHF_02428	hypothetical protein	339	
+3300009517-bin.6_DGMFJBHF_02429	hypothetical protein	282	
+3300009517-bin.6_DGMFJBHF_02430	Type IV secretion system protein virB4	2475	virB4_2
+3300009517-bin.6_DGMFJBHF_02431	hypothetical protein	753	
+3300009517-bin.6_DGMFJBHF_02432	hypothetical protein	1326	
+3300009517-bin.6_DGMFJBHF_02433	hypothetical protein	705	
+3300009517-bin.6_DGMFJBHF_02434	hypothetical protein	1080	
+3300009517-bin.6_DGMFJBHF_02435	hypothetical protein	453	
+3300009517-bin.6_DGMFJBHF_02436	Type IV secretion system protein PtlG	1302	ptlG_1
+3300009517-bin.6_DGMFJBHF_02437	hypothetical protein	399	
+3300009517-bin.6_DGMFJBHF_02438	Type IV secretion system protein virB1	591	virB1_2
+3300009517-bin.6_DGMFJBHF_02439	Conjugal transfer protein TraG	1950	traG_2
+3300009517-bin.6_DGMFJBHF_02440	Protein TraI	1710	traI_2
+3300009517-bin.6_DGMFJBHF_02441	hypothetical protein	336	
+3300009517-bin.6_DGMFJBHF_02442	hypothetical protein	300	
+3300009517-bin.6_DGMFJBHF_02443	Protein TraL	1161	traL_2
+3300009517-bin.6_DGMFJBHF_02444	hypothetical protein	1599	
+3300009517-bin.6_DGMFJBHF_02445	hypothetical protein	771	
+3300009517-bin.6_DGMFJBHF_02446	hypothetical protein	921	
+3300009517-bin.6_DGMFJBHF_02447	hypothetical protein	498	
+3300009517-bin.6_DGMFJBHF_02448	hypothetical protein	192	
+3300009517-bin.6_DGMFJBHF_02449	hypothetical protein	1590	
+3300009517-bin.6_DGMFJBHF_02450	hypothetical protein	303	
+3300009517-bin.6_DGMFJBHF_02451	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_02452	DNA primase TraC	924	traC_2
+3300009517-bin.6_DGMFJBHF_02453	hypothetical protein	138	
+3300009517-bin.6_DGMFJBHF_02454	hypothetical protein	1935	
+3300009517-bin.6_DGMFJBHF_02455	hypothetical protein	504	
+3300009517-bin.6_DGMFJBHF_02456	hypothetical protein	1188	
+3300009517-bin.6_DGMFJBHF_02457	hypothetical protein	375	
+3300009517-bin.6_DGMFJBHF_02458	hypothetical protein	240	
+3300009517-bin.6_DGMFJBHF_02459	hypothetical protein	1323	
+3300009517-bin.6_DGMFJBHF_02460	hypothetical protein	1146	
+3300009517-bin.6_DGMFJBHF_02461	hypothetical protein	138	
+3300009517-bin.6_DGMFJBHF_02462	HTH-type transcriptional regulator SinR	375	sinR
+3300009517-bin.6_DGMFJBHF_02463	Type IV secretion system protein VirB11	966	
+3300009517-bin.6_DGMFJBHF_02464	hypothetical protein	336	
+3300009517-bin.6_DGMFJBHF_02465	Type IV secretion system protein virB4	2478	virB4_3
+3300009517-bin.6_DGMFJBHF_02466	hypothetical protein	738	
+3300009517-bin.6_DGMFJBHF_02467	hypothetical protein	1392	
+3300009517-bin.6_DGMFJBHF_02468	hypothetical protein	705	
+3300009517-bin.6_DGMFJBHF_02469	hypothetical protein	1074	
+3300009517-bin.6_DGMFJBHF_02470	hypothetical protein	450	
+3300009517-bin.6_DGMFJBHF_02471	Type IV secretion system protein PtlG	1302	ptlG_2
+3300009517-bin.6_DGMFJBHF_02472	hypothetical protein	192	
+3300009517-bin.6_DGMFJBHF_02473	Copper resistance protein D	915	copD
+3300009517-bin.6_DGMFJBHF_02474	Protein YobA	366	yobA
+3300009517-bin.6_DGMFJBHF_02475	Copper resistance protein B	711	copB
+3300009517-bin.6_DGMFJBHF_02476	Copper resistance protein A	1683	copA_3
+3300009517-bin.6_DGMFJBHF_02477	hypothetical protein	402	
+3300009517-bin.6_DGMFJBHF_02478	hypothetical protein	348	
+3300009517-bin.6_DGMFJBHF_02479	hypothetical protein	651	
+3300009517-bin.6_DGMFJBHF_02480	hypothetical protein	234	
+3300009517-bin.6_DGMFJBHF_02481	Silver exporting P-type ATPase	2196	silP
+3300009517-bin.6_DGMFJBHF_02482	Copper-sensing transcriptional repressor RicR	273	ricR
+3300009517-bin.6_DGMFJBHF_02483	hypothetical protein	246	
+3300009517-bin.6_DGMFJBHF_02484	hypothetical protein	333	
+3300009517-bin.6_DGMFJBHF_02485	Type IV secretion system protein virB1	603	virB1_3
+3300009517-bin.6_DGMFJBHF_02486	Conjugal transfer protein TraG	1890	traG_3
+3300009517-bin.6_DGMFJBHF_02487	Protein TraI	2013	traI_3
+3300009517-bin.6_DGMFJBHF_02488	hypothetical protein	339	
+3300009517-bin.6_DGMFJBHF_02489	hypothetical protein	300	
+3300009517-bin.6_DGMFJBHF_02490	Protein TraL	1167	traL_3
+3300009517-bin.6_DGMFJBHF_02491	hypothetical protein	948	
+3300009517-bin.6_DGMFJBHF_02492	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_02493	CRISPR-associated endoribonuclease Cas2	306	cas2_2
+3300009517-bin.6_DGMFJBHF_02494	CRISPR-associated endonuclease Cas1	912	cas1_2
+3300009517-bin.6_DGMFJBHF_02495	CRISPR-associated endonuclease Cas9	3231	cas9_2
+3300009517-bin.6_DGMFJBHF_02496	hypothetical protein	498	
+3300009517-bin.6_DGMFJBHF_02497	hypothetical protein	192	
+3300009517-bin.6_DGMFJBHF_02498	hypothetical protein	1137	
+3300009517-bin.6_DGMFJBHF_02499	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_02500	hypothetical protein	375	
+3300009517-bin.6_DGMFJBHF_02501	hypothetical protein	1275	
+3300009517-bin.6_DGMFJBHF_02503	Hypoxic response protein 1	426	hrp1
+3300009517-bin.6_DGMFJBHF_02504	hypothetical protein	777	
+3300009517-bin.6_DGMFJBHF_02505	hypothetical protein	576	
+3300009517-bin.6_DGMFJBHF_02506	hypothetical protein	1014	
+3300009517-bin.6_DGMFJBHF_02507	hypothetical protein	1383	
+3300009517-bin.6_DGMFJBHF_02508	hypothetical protein	1254	
+3300009517-bin.6_DGMFJBHF_02509	Ribosomal protein S12 methylthiotransferase RimO	1416	rimO
+3300009517-bin.6_DGMFJBHF_02510	hypothetical protein	555	
+3300009517-bin.6_DGMFJBHF_02511	hypothetical protein	561	
+3300009517-bin.6_DGMFJBHF_02512	hypothetical protein	624	
+3300009517-bin.6_DGMFJBHF_02513	hypothetical protein	1077	
+3300009517-bin.6_DGMFJBHF_02514	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_02515	hypothetical protein	834	
+3300009517-bin.6_DGMFJBHF_02516	Aspartate aminotransferase	1206	
+3300009517-bin.6_DGMFJBHF_02517	Leucine efflux protein	630	leuE
+3300009517-bin.6_DGMFJBHF_02518	hypothetical protein	1914	
+3300009517-bin.6_DGMFJBHF_02519	Methionine--tRNA ligase	1716	metG
+3300009517-bin.6_DGMFJBHF_02520	Hydroperoxy fatty acid reductase gpx1	483	gpx1
+3300009517-bin.6_DGMFJBHF_02522	D-3-phosphoglycerate dehydrogenase	1578	serA
+3300009517-bin.6_DGMFJBHF_02523	Phosphoserine aminotransferase	1197	serC
+3300009517-bin.6_DGMFJBHF_02524	hypothetical protein	612	
+3300009517-bin.6_DGMFJBHF_02525	hypothetical protein	339	
+3300009517-bin.6_DGMFJBHF_02526	hypothetical protein	330	
+3300009517-bin.6_DGMFJBHF_02527	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_02528	hypothetical protein	660	
+3300009517-bin.6_DGMFJBHF_02529	Queuosine precursor transporter	741	yhhQ
+3300009517-bin.6_DGMFJBHF_02530	Putative beta-lactamase HcpC	654	hcpC_5
+3300009517-bin.6_DGMFJBHF_02531	Putative beta-lactamase HcpC	774	hcpC_6
+3300009517-bin.6_DGMFJBHF_02532	hypothetical protein	426	
+3300009517-bin.6_DGMFJBHF_02533	hypothetical protein	375	
+3300009517-bin.6_DGMFJBHF_02534	hypothetical protein	561	
+3300009517-bin.6_DGMFJBHF_02535	Glutathione import ATP-binding protein GsiA	1803	gsiA
+3300009517-bin.6_DGMFJBHF_02536	hypothetical protein	1824	
+3300009517-bin.6_DGMFJBHF_02537	Acetyl-coenzyme A synthetase	1938	acsA_2
+3300009517-bin.6_DGMFJBHF_02538	Creatinine amidohydrolase	747	crnA
+3300009517-bin.6_DGMFJBHF_02539	Membrane-bound lytic murein transglycosylase B	1374	mltB_2
+3300009517-bin.6_DGMFJBHF_02540	hypothetical protein	549	
+3300009517-bin.6_DGMFJBHF_02541	UDP-N-acetyl-D-mannosaminuronic acid transferase	789	wecG
+3300009517-bin.6_DGMFJBHF_02542	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC	1758	mnmC_2
+3300009517-bin.6_DGMFJBHF_02543	hypothetical protein	261	
+3300009517-bin.6_DGMFJBHF_02544	Motility protein A	867	motA
+3300009517-bin.6_DGMFJBHF_02545	Acetylornithine deacetylase	1146	argE
+3300009517-bin.6_DGMFJBHF_02546	Peptidyl-prolyl cis-trans isomerase Mip	609	mip
+3300009517-bin.6_DGMFJBHF_02547	L-threonine ammonia-lyase	1215	tdcB_2
+3300009517-bin.6_DGMFJBHF_02548	hypothetical protein	489	
+3300009517-bin.6_DGMFJBHF_02549	Na(+)/H(+)-K(+) antiporter GerN	1203	gerN
+3300009517-bin.6_DGMFJBHF_02550	Acid sugar phosphatase	855	yutF
+3300009517-bin.6_DGMFJBHF_02551	putative cyclic di-GMP phosphodiesterase PdeI	1236	pdeI
+3300009517-bin.6_DGMFJBHF_02552	hypothetical protein	186	
+3300009517-bin.6_DGMFJBHF_02553	hypothetical protein	882	
+3300009517-bin.6_DGMFJBHF_02554	Isoleucine--tRNA ligase	2922	ileS
+3300009517-bin.6_DGMFJBHF_02555	Heme exporter protein C	753	ccmC
+3300009517-bin.6_DGMFJBHF_02556	hypothetical protein	186	
+3300009517-bin.6_DGMFJBHF_02557	Thiol:disulfide interchange protein DsbE	519	dsbE
+3300009517-bin.6_DGMFJBHF_02558	hypothetical protein	234	
+3300009517-bin.6_DGMFJBHF_02559	Amino-acid acetyltransferase	438	argA
+3300009517-bin.6_DGMFJBHF_02561	hypothetical protein	576	
+3300009517-bin.6_DGMFJBHF_02562	Error-prone DNA polymerase	3153	dnaE2
+3300009517-bin.6_DGMFJBHF_02563	Protein ImuB	1422	imuB
+3300009517-bin.6_DGMFJBHF_02564	hypothetical protein	816	
+3300009517-bin.6_DGMFJBHF_02565	hypothetical protein	3789	
+3300009517-bin.6_DGMFJBHF_02566	hypothetical protein	246	
+3300009517-bin.6_DGMFJBHF_02567	hypothetical protein	627	
+3300009517-bin.6_DGMFJBHF_02568	hypothetical protein	525	
+3300009517-bin.6_DGMFJBHF_02569	DNA-invertase hin	564	hin_3
+3300009517-bin.6_DGMFJBHF_02570	ATP-dependent DNA helicase Rep	2034	rep
+3300009517-bin.6_DGMFJBHF_02571	DNA replication and repair protein RecF	1926	recF_2
+3300009517-bin.6_DGMFJBHF_02572	hypothetical protein	681	
+3300009517-bin.6_DGMFJBHF_02573	Prophage integrase IntS	1200	intS
+3300009517-bin.6_DGMFJBHF_02574	hypothetical protein	399	
+3300009517-bin.6_DGMFJBHF_02575	putative lipoprotein YiaD	825	yiaD
+3300009517-bin.6_DGMFJBHF_02576	Transcriptional regulatory protein FixJ	4029	fixJ
+3300009517-bin.6_DGMFJBHF_02577	hypothetical protein	309	
+3300009517-bin.6_DGMFJBHF_02578	DNA protection during starvation protein	561	dps
+3300009517-bin.6_DGMFJBHF_02579	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_02580	hypothetical protein	567	
+3300009517-bin.6_DGMFJBHF_02581	Alcohol dehydrogenase	1038	adh
+3300009517-bin.6_DGMFJBHF_02582	hypothetical protein	585	
+3300009517-bin.6_DGMFJBHF_02583	1,4-beta-mannosyl-N-acetylglucosamine phosphorylase	1302	
+3300009517-bin.6_DGMFJBHF_02584	D-inositol 3-phosphate glycosyltransferase	2274	mshA_2
+3300009517-bin.6_DGMFJBHF_02585	hypothetical protein	273	
+3300009517-bin.6_DGMFJBHF_02586	Mannose-6-phosphate isomerase ManA	1041	manA
+3300009517-bin.6_DGMFJBHF_02587	hypothetical protein	1002	
+3300009517-bin.6_DGMFJBHF_02588	tRNA-specific adenosine deaminase	477	tadA
+3300009517-bin.6_DGMFJBHF_02589	Mycothiol acetyltransferase	582	mshD
+3300009517-bin.6_DGMFJBHF_02590	Methylated-DNA--protein-cysteine methyltransferase	513	ogt
+3300009517-bin.6_DGMFJBHF_02591	Magnesium transport protein CorA	966	corA
+3300009517-bin.6_DGMFJBHF_02592	Phosphoribosylamine--glycine ligase	1278	purD
+3300009517-bin.6_DGMFJBHF_02593	CTP pyrophosphohydrolase	402	nudG
+3300009517-bin.6_DGMFJBHF_02594	Arginine biosynthesis bifunctional protein ArgJ	1227	argJ
+3300009517-bin.6_DGMFJBHF_02595	Protein translocase subunit SecA	2760	secA
+3300009517-bin.6_DGMFJBHF_02596	hypothetical protein	213	
+3300009517-bin.6_DGMFJBHF_02597	Biopolymer transport protein ExbB	678	exbB_1
+3300009517-bin.6_DGMFJBHF_02598	Biopolymer transport protein ExbD	426	exbD_1
+3300009517-bin.6_DGMFJBHF_02599	hypothetical protein	942	
+3300009517-bin.6_DGMFJBHF_02600	Protein TolB	1290	tolB
+3300009517-bin.6_DGMFJBHF_02601	Outer membrane lipoprotein Omp16	591	
+3300009517-bin.6_DGMFJBHF_02602	hypothetical protein	963	
+3300009517-bin.6_DGMFJBHF_02603	tRNA(Ile)-lysidine synthase	1080	tilS
+3300009517-bin.6_DGMFJBHF_02604	ATP-dependent zinc metalloprotease FtsH	1896	ftsH
+3300009517-bin.6_DGMFJBHF_02605	Dihydropteroate synthase	813	folP
+3300009517-bin.6_DGMFJBHF_02606	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase	810	thiD
+3300009517-bin.6_DGMFJBHF_02607	hypothetical protein	423	
+3300009517-bin.6_DGMFJBHF_02608	hypothetical protein	570	
+3300009517-bin.6_DGMFJBHF_02609	Phosphoribosylformylglycinamidine synthase subunit PurQ	657	purQ
+3300009517-bin.6_DGMFJBHF_02610	hypothetical protein	441	
+3300009517-bin.6_DGMFJBHF_02611	Phosphoribosylformylglycinamidine synthase subunit PurL	2202	purL
+3300009517-bin.6_DGMFJBHF_02612	Peptidoglycan-N-acetylglucosamine deacetylase	813	pgdA
+3300009517-bin.6_DGMFJBHF_02613	hypothetical protein	189	
+3300009517-bin.6_DGMFJBHF_02614	hypothetical protein	240	
+3300009517-bin.6_DGMFJBHF_02615	hypothetical protein	318	
+3300009517-bin.6_DGMFJBHF_02616	Phosphoribosylaminoimidazole-succinocarboxamide synthase	747	purC
+3300009517-bin.6_DGMFJBHF_02617	Phosphoribosylformylglycinamidine synthase subunit PurS	243	purS
+3300009517-bin.6_DGMFJBHF_02618	hypothetical protein	1881	
+3300009517-bin.6_DGMFJBHF_02619	Autoinducer 2 sensor kinase/phosphatase LuxQ	3066	luxQ_5
+3300009517-bin.6_DGMFJBHF_02620	Autoinducer 2 sensor kinase/phosphatase LuxQ	2718	luxQ_6
+3300009517-bin.6_DGMFJBHF_02621	DNA mismatch repair protein MutS	2649	mutS
+3300009517-bin.6_DGMFJBHF_02622	DNA polymerase III subunit tau	1755	dnaX_2
+3300009517-bin.6_DGMFJBHF_02623	Nucleoid-associated protein YbaB	327	ybaB
+3300009517-bin.6_DGMFJBHF_02624	Polyribonucleotide nucleotidyltransferase	2169	pnp
+3300009517-bin.6_DGMFJBHF_02625	30S ribosomal protein S15	270	rpsO
+3300009517-bin.6_DGMFJBHF_02626	tRNA pseudouridine synthase B	951	truB
+3300009517-bin.6_DGMFJBHF_02627	30S ribosome-binding factor	435	rbfA
+3300009517-bin.6_DGMFJBHF_02628	Translation initiation factor IF-2	2595	infB
+3300009517-bin.6_DGMFJBHF_02629	hypothetical protein	618	
+3300009517-bin.6_DGMFJBHF_02630	Transcription termination/antitermination protein NusA	1593	nusA
+3300009517-bin.6_DGMFJBHF_02631	Ribosome maturation factor RimP	597	rimP
+3300009517-bin.6_DGMFJBHF_02632	N-acetylmuramate alpha-1-phosphate uridylyltransferase	744	murU
+3300009517-bin.6_DGMFJBHF_02633	N-acetylmuramate/N-acetylglucosamine kinase	1095	amgK
+3300009517-bin.6_DGMFJBHF_02634	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE	483	tsaE
+3300009517-bin.6_DGMFJBHF_02635	Adenosylhomocysteinase	1392	ahcY
+3300009517-bin.6_DGMFJBHF_02636	Sensor protein DivL	2283	divL
+3300009517-bin.6_DGMFJBHF_02637	hypothetical protein	360	
+3300009517-bin.6_DGMFJBHF_02638	hypothetical protein	444	
+3300009517-bin.6_DGMFJBHF_02639	Ferredoxin-6	321	fdxE
+3300009517-bin.6_DGMFJBHF_02640	Putidaredoxin reductase CamA	1245	camA
+3300009517-bin.6_DGMFJBHF_02641	Lysine/ornithine decarboxylase	1191	ldc
+3300009517-bin.6_DGMFJBHF_02642	Deoxyhypusine synthase-like protein	1041	
+3300009517-bin.6_DGMFJBHF_02643	hypothetical protein	660	
+3300009517-bin.6_DGMFJBHF_02644	hypothetical protein	663	
+3300009517-bin.6_DGMFJBHF_02645	Biopolymer transport protein ExbD	486	exbD_2
+3300009517-bin.6_DGMFJBHF_02646	Biopolymer transport protein ExbD	474	exbD_3
+3300009517-bin.6_DGMFJBHF_02647	Biopolymer transport protein ExbB	843	exbB_2
+3300009517-bin.6_DGMFJBHF_02648	N-carbamoyl-D-amino acid hydrolase	858	
+3300009517-bin.6_DGMFJBHF_02649	Putative agmatine deiminase	1014	aguA_2
+3300009517-bin.6_DGMFJBHF_02650	hypothetical protein	879	
+3300009517-bin.6_DGMFJBHF_02651	Alkaline phosphatase D	1593	phoD
+3300009517-bin.6_DGMFJBHF_02652	hypothetical protein	669	
+3300009517-bin.6_DGMFJBHF_02653	Vitamin B12 transporter BtuB	2511	btuB_14
+3300009517-bin.6_DGMFJBHF_02654	Protein oar	3543	oar_2
+3300009517-bin.6_DGMFJBHF_02655	hypothetical protein	543	
+3300009517-bin.6_DGMFJBHF_02656	NADH dehydrogenase	1539	ahpF
+3300009517-bin.6_DGMFJBHF_02657	Alkyl hydroperoxide reductase C	567	ahpC
+3300009517-bin.6_DGMFJBHF_02658	Hydrogen peroxide-inducible genes activator	906	oxyR
+3300009517-bin.6_DGMFJBHF_02659	Tyrosine-protein phosphatase	780	iphP
+3300009517-bin.6_DGMFJBHF_02660	hypothetical protein	834	
+3300009517-bin.6_DGMFJBHF_02661	Major phosphate-irrepressible acid phosphatase	723	phoC
+3300009517-bin.6_DGMFJBHF_02662	Transcriptional regulatory protein BaeR	705	baeR_1
+3300009517-bin.6_DGMFJBHF_02663	Signal transduction histidine-protein kinase BaeS	1590	baeS_1
+3300009517-bin.6_DGMFJBHF_02664	ABC transporter ATP-binding protein NatA	705	natA_2
+3300009517-bin.6_DGMFJBHF_02665	hypothetical protein	1107	
+3300009517-bin.6_DGMFJBHF_02666	Putative pterin-4-alpha-carbinolamine dehydratase	306	phhB
+3300009517-bin.6_DGMFJBHF_02667	Deoxycytidine triphosphate deaminase	1038	dcd
+3300009517-bin.6_DGMFJBHF_02668	O-succinylhomoserine sulfhydrylase	1200	metZ
+3300009517-bin.6_DGMFJBHF_02669	hypothetical protein	837	
+3300009517-bin.6_DGMFJBHF_02670	Arsenate reductase	435	arsC_1
+3300009517-bin.6_DGMFJBHF_02671	hypothetical protein	474	
+3300009517-bin.6_DGMFJBHF_02672	Histidinol dehydrogenase	1293	hisD
+3300009517-bin.6_DGMFJBHF_02673	hypothetical protein	429	
+3300009517-bin.6_DGMFJBHF_02674	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	1272	murA
+3300009517-bin.6_DGMFJBHF_02675	hypothetical protein	129	
+3300009517-bin.6_DGMFJBHF_02676	hypothetical protein	858	
+3300009517-bin.6_DGMFJBHF_02677	Glucosamine kinase GspK	885	gspK
+3300009517-bin.6_DGMFJBHF_02678	L-fucose-proton symporter	1281	fucP_4
+3300009517-bin.6_DGMFJBHF_02679	HTH-type transcriptional repressor YvoA	738	yvoA
+3300009517-bin.6_DGMFJBHF_02680	hypothetical protein	135	
+3300009517-bin.6_DGMFJBHF_02681	Acetylxylan esterase	699	axe2
+3300009517-bin.6_DGMFJBHF_02682	hypothetical protein	339	
+3300009517-bin.6_DGMFJBHF_02683	hypothetical protein	162	
+3300009517-bin.6_DGMFJBHF_02684	hypothetical protein	294	
+3300009517-bin.6_DGMFJBHF_02686	hypothetical protein	615	
+3300009517-bin.6_DGMFJBHF_02687	hypothetical protein	99	
+3300009517-bin.6_DGMFJBHF_02688	Low affinity potassium transport system protein kup	1911	kup_2
+3300009517-bin.6_DGMFJBHF_02689	Sensor protein KdpD	1473	kdpD
+3300009517-bin.6_DGMFJBHF_02690	KDP operon transcriptional regulatory protein KdpE	690	kdpE
+3300009517-bin.6_DGMFJBHF_02691	hypothetical protein	477	
+3300009517-bin.6_DGMFJBHF_02692	hypothetical protein	492	
+3300009517-bin.6_DGMFJBHF_02693	HTH-type transcriptional regulator AdhR	375	adhR
+3300009517-bin.6_DGMFJBHF_02694	hypothetical protein	381	
+3300009517-bin.6_DGMFJBHF_02695	Transcriptional regulator YqjI	687	yqjI
+3300009517-bin.6_DGMFJBHF_02696	putative HTH-type transcriptional regulator YgaV	324	ygaV
+3300009517-bin.6_DGMFJBHF_02697	Arsenate reductase	489	arsC_2
+3300009517-bin.6_DGMFJBHF_02698	Arsenical-resistance protein Acr3	1032	acr3
+3300009517-bin.6_DGMFJBHF_02699	Thymidylate synthase	819	thyA
+3300009517-bin.6_DGMFJBHF_02700	hypothetical protein	978	
+3300009517-bin.6_DGMFJBHF_02701	hypothetical protein	456	
+3300009517-bin.6_DGMFJBHF_02702	hypothetical protein	771	
+3300009517-bin.6_DGMFJBHF_02703	hypothetical protein	336	
+3300009517-bin.6_DGMFJBHF_02704	hypothetical protein	1983	
+3300009517-bin.6_DGMFJBHF_02705	Glycerol kinase	1437	glpK
+3300009517-bin.6_DGMFJBHF_02706	hypothetical protein	765	
+3300009517-bin.6_DGMFJBHF_02707	hypothetical protein	570	
+3300009517-bin.6_DGMFJBHF_02708	Solvent efflux pump outer membrane protein SrpC	1428	srpC_3
+3300009517-bin.6_DGMFJBHF_02709	putative multidrug ABC transporter permease YbhR	1113	ybhR
+3300009517-bin.6_DGMFJBHF_02710	putative multidrug ABC transporter permease YbhS	1146	ybhS
+3300009517-bin.6_DGMFJBHF_02711	putative multidrug ABC transporter ATP-binding protein YbhF	1761	ybhF
+3300009517-bin.6_DGMFJBHF_02712	hypothetical protein	990	
+3300009517-bin.6_DGMFJBHF_02713	HTH-type transcriptional dual regulator CecR	690	cecR
+3300009517-bin.6_DGMFJBHF_02714	HTH-type transcriptional regulator AcrR	588	acrR_1
+3300009517-bin.6_DGMFJBHF_02715	Aurachin B dehydrogenase	1023	auaH
+3300009517-bin.6_DGMFJBHF_02716	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_02717	hypothetical protein	300	
+3300009517-bin.6_DGMFJBHF_02718	Putative cytochrome P450 139	1260	
+3300009517-bin.6_DGMFJBHF_02719	hypothetical protein	1257	
+3300009517-bin.6_DGMFJBHF_02720	hypothetical protein	384	
+3300009517-bin.6_DGMFJBHF_02721	hypothetical protein	1290	
+3300009517-bin.6_DGMFJBHF_02722	hypothetical protein	858	
+3300009517-bin.6_DGMFJBHF_02723	hypothetical protein	870	
+3300009517-bin.6_DGMFJBHF_02724	Serine/threonine-protein kinase toxin HipA	1263	hipA
+3300009517-bin.6_DGMFJBHF_02725	hypothetical protein	216	
+3300009517-bin.6_DGMFJBHF_02726	hypothetical protein	1143	
+3300009517-bin.6_DGMFJBHF_02727	hypothetical protein	537	
+3300009517-bin.6_DGMFJBHF_02728	hypothetical protein	3597	
+3300009517-bin.6_DGMFJBHF_02729	DNA primase TraC	918	traC_3
+3300009517-bin.6_DGMFJBHF_02730	putative helicase HelY	2934	helY
+3300009517-bin.6_DGMFJBHF_02731	hypothetical protein	813	
+3300009517-bin.6_DGMFJBHF_02732	hypothetical protein	717	
+3300009517-bin.6_DGMFJBHF_02733	Type-1 restriction enzyme R protein	3051	hsdR_2
+3300009517-bin.6_DGMFJBHF_02734	Endonuclease NucS	936	nucS_2
+3300009517-bin.6_DGMFJBHF_02735	hypothetical protein	1200	
+3300009517-bin.6_DGMFJBHF_02736	Type I restriction enzyme EcoKI M protein	2421	hsdM
+3300009517-bin.6_DGMFJBHF_02737	DNA-invertase hin	639	hin_4
+3300009517-bin.6_DGMFJBHF_02738	hypothetical protein	777	
+3300009517-bin.6_DGMFJBHF_02739	hypothetical protein	486	
+3300009517-bin.6_DGMFJBHF_02740	hypothetical protein	822	
+3300009517-bin.6_DGMFJBHF_02741	hypothetical protein	594	
+3300009517-bin.6_DGMFJBHF_02742	hypothetical protein	1065	
+3300009517-bin.6_DGMFJBHF_02743	hypothetical protein	741	
+3300009517-bin.6_DGMFJBHF_02744	hypothetical protein	729	
+3300009517-bin.6_DGMFJBHF_02745	hypothetical protein	372	
+3300009517-bin.6_DGMFJBHF_02746	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_02747	hypothetical protein	168	
+3300009517-bin.6_DGMFJBHF_02748	hypothetical protein	186	
+3300009517-bin.6_DGMFJBHF_02749	hypothetical protein	1413	
+3300009517-bin.6_DGMFJBHF_02750	hypothetical protein	306	
+3300009517-bin.6_DGMFJBHF_02751	hypothetical protein	285	
+3300009517-bin.6_DGMFJBHF_02752	hypothetical protein	810	
+3300009517-bin.6_DGMFJBHF_02753	hypothetical protein	1560	
+3300009517-bin.6_DGMFJBHF_02754	hypothetical protein	381	
+3300009517-bin.6_DGMFJBHF_02755	hypothetical protein	813	
+3300009517-bin.6_DGMFJBHF_02756	hypothetical protein	333	
+3300009517-bin.6_DGMFJBHF_02758	Putative competence-damage inducible protein	750	cinA
+3300009517-bin.6_DGMFJBHF_02759	Methionine aminopeptidase	849	map
+3300009517-bin.6_DGMFJBHF_02760	hypothetical protein	675	
+3300009517-bin.6_DGMFJBHF_02761	Bicyclomycin resistance protein	1200	bcr
+3300009517-bin.6_DGMFJBHF_02762	Chaperone protein DnaJ	1137	dnaJ_3
+3300009517-bin.6_DGMFJBHF_02763	hypothetical protein	204	
+3300009517-bin.6_DGMFJBHF_02764	Chaperone protein DnaK	1914	dnaK
+3300009517-bin.6_DGMFJBHF_02765	Acetyl-CoA acetyltransferase	1179	phaA
+3300009517-bin.6_DGMFJBHF_02766	hypothetical protein	588	
+3300009517-bin.6_DGMFJBHF_02767	hypothetical protein	504	
+3300009517-bin.6_DGMFJBHF_02768	hypothetical protein	561	
+3300009517-bin.6_DGMFJBHF_02769	hypothetical protein	531	
+3300009517-bin.6_DGMFJBHF_02770	hypothetical protein	507	
+3300009517-bin.6_DGMFJBHF_02771	Short-chain-enoyl-CoA hydratase	753	crt
+3300009517-bin.6_DGMFJBHF_02772	Transcriptional regulatory protein BaeR	714	baeR_2
+3300009517-bin.6_DGMFJBHF_02773	Signal transduction histidine-protein kinase BaeS	1182	baeS_2
+3300009517-bin.6_DGMFJBHF_02774	hypothetical protein	600	
+3300009517-bin.6_DGMFJBHF_02775	hypothetical protein	606	
+3300009517-bin.6_DGMFJBHF_02776	putative protein RP812	231	
+3300009517-bin.6_DGMFJBHF_02777	Adenylosuccinate lyase	1320	purB
+3300009517-bin.6_DGMFJBHF_02778	Right origin-binding protein	873	rob
+3300009517-bin.6_DGMFJBHF_02779	hypothetical protein	174	
+3300009517-bin.6_DGMFJBHF_02780	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase	849	dapD
+3300009517-bin.6_DGMFJBHF_02781	Phosphoglycolate phosphatase	708	gph
+3300009517-bin.6_DGMFJBHF_02782	Acetylglutamate kinase	1116	argB
+3300009517-bin.6_DGMFJBHF_02783	Outer membrane porin F	1515	oprF
+3300009517-bin.6_DGMFJBHF_02784	Narbonolide/10-deoxymethynolide synthase PikA2, modules 3 and 4	1005	pikAII
+3300009517-bin.6_DGMFJBHF_02785	Riboflavin transporter	888	ribN
+3300009517-bin.6_DGMFJBHF_02786	tRNA (guanine-N(1)-)-methyltransferase	693	trmD
+3300009517-bin.6_DGMFJBHF_02787	Aminopeptidase N	2643	pepN_2
+3300009517-bin.6_DGMFJBHF_02788	Methylxanthine N3-demethylase NdmB	996	ndmB
+3300009517-bin.6_DGMFJBHF_02789	hypothetical protein	1029	
+3300009517-bin.6_DGMFJBHF_02790	hypothetical protein	1098	
+3300009517-bin.6_DGMFJBHF_02791	hypothetical protein	1194	
+3300009517-bin.6_DGMFJBHF_02792	4-pyridoxolactonase	834	
+3300009517-bin.6_DGMFJBHF_02793	2-alkyl-3-oxoalkanoate reductase	987	oleD_2
+3300009517-bin.6_DGMFJBHF_02794	3-oxoacyl-[acyl-carrier-protein] synthase 3	999	fabH_2
+3300009517-bin.6_DGMFJBHF_02795	RCS-specific HTH-type transcriptional activator RclR	969	rclR
+3300009517-bin.6_DGMFJBHF_02796	Protein/nucleic acid deglycase 1	684	hchA
+3300009517-bin.6_DGMFJBHF_02797	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase	774	kduD_3
+3300009517-bin.6_DGMFJBHF_02798	hypothetical protein	441	
+3300009517-bin.6_DGMFJBHF_02799	Putative beta-lactamase HcpC	1047	hcpC_7
+3300009517-bin.6_DGMFJBHF_02800	hypothetical protein	315	
+3300009517-bin.6_DGMFJBHF_02801	30S ribosomal protein S12	372	rpsL
+3300009517-bin.6_DGMFJBHF_02802	30S ribosomal protein S7	471	rpsG
+3300009517-bin.6_DGMFJBHF_02803	Elongation factor G	2079	fusA
+3300009517-bin.6_DGMFJBHF_02804	hypothetical protein	453	
+3300009517-bin.6_DGMFJBHF_02805	DNA adenine methyltransferase YhdJ	1359	yhdJ_2
+3300009517-bin.6_DGMFJBHF_02806	hypothetical protein	657	
+3300009517-bin.6_DGMFJBHF_02807	hypothetical protein	372	
+3300009517-bin.6_DGMFJBHF_02808	hypothetical protein	501	
+3300009517-bin.6_DGMFJBHF_02809	DNA-invertase hin	1557	hin_5
+3300009517-bin.6_DGMFJBHF_02810	5-methylcytosine-specific restriction enzyme B	2268	mcrB
+3300009517-bin.6_DGMFJBHF_02811	Protein McrC	1047	mcrC
+3300009517-bin.6_DGMFJBHF_02812	hypothetical protein	870	
+3300009517-bin.6_DGMFJBHF_02813	hypothetical protein	1563	
+3300009517-bin.6_DGMFJBHF_02814	hypothetical protein	3504	
+3300009517-bin.6_DGMFJBHF_02815	hypothetical protein	930	
+3300009517-bin.6_DGMFJBHF_02817	hypothetical protein	519	
+3300009517-bin.6_DGMFJBHF_02818	Cytidylate kinase	621	cmk
+3300009517-bin.6_DGMFJBHF_02819	hypothetical protein	465	
+3300009517-bin.6_DGMFJBHF_02820	hypothetical protein	393	
+3300009517-bin.6_DGMFJBHF_02821	30S ribosomal protein S1	1692	rpsA
+3300009517-bin.6_DGMFJBHF_02822	Integration host factor subunit beta	327	ihfB
+3300009517-bin.6_DGMFJBHF_02823	Large-conductance mechanosensitive channel	399	mscL_2
+3300009517-bin.6_DGMFJBHF_02824	hypothetical protein	1815	
+3300009517-bin.6_DGMFJBHF_02825	hypothetical protein	750	
+3300009517-bin.6_DGMFJBHF_02826	Glutathione hydrolase proenzyme	1728	ggt
+3300009517-bin.6_DGMFJBHF_02827	TVP38/TMEM64 family inner membrane protein YdjZ	624	ydjZ_2
+3300009517-bin.6_DGMFJBHF_02828	Protein AmpG	1764	ampG
+3300009517-bin.6_DGMFJBHF_02829	Serine protease	1641	
+3300009517-bin.6_DGMFJBHF_02830	Signal transduction histidine-protein kinase BarA	1734	barA
+3300009517-bin.6_DGMFJBHF_02831	Glucose-6-phosphate isomerase	1608	pgi
+3300009517-bin.6_DGMFJBHF_02832	hypothetical protein	1011	
+3300009517-bin.6_DGMFJBHF_02833	TelA-like protein	1140	
+3300009517-bin.6_DGMFJBHF_02834	hypothetical protein	711	
+3300009517-bin.6_DGMFJBHF_02835	hypothetical protein	717	
+3300009517-bin.6_DGMFJBHF_02836	hypothetical protein	432	
+3300009517-bin.6_DGMFJBHF_02837	hypothetical protein	1536	
+3300009517-bin.6_DGMFJBHF_02838	putative GST-like protein YibF	594	yibF
+3300009517-bin.6_DGMFJBHF_02839	hypothetical protein	297	
+3300009517-bin.6_DGMFJBHF_02840	Lysophospholipase L2	936	pldB
+3300009517-bin.6_DGMFJBHF_02841	hypothetical protein	840	
+3300009517-bin.6_DGMFJBHF_02842	C4-dicarboxylate transport protein	1362	dctA
+3300009517-bin.6_DGMFJBHF_02843	hypothetical protein	654	
+3300009517-bin.6_DGMFJBHF_02844	hypothetical protein	687	
+3300009517-bin.6_DGMFJBHF_02845	Chemotaxis protein CheY	387	cheY_5
+3300009517-bin.6_DGMFJBHF_02846	(R)-specific enoyl-CoA hydratase	462	phaJ_2
+3300009517-bin.6_DGMFJBHF_02847	Riboflavin biosynthesis protein RibF	933	ribF
+3300009517-bin.6_DGMFJBHF_02848	hypothetical protein	888	
+3300009517-bin.6_DGMFJBHF_02849	hypothetical protein	888	
+3300009517-bin.6_DGMFJBHF_02850	hypothetical protein	1824	
+3300009517-bin.6_DGMFJBHF_02851	hypothetical protein	1818	
+3300009517-bin.6_DGMFJBHF_02852	10 kDa chaperonin	288	groS
+3300009517-bin.6_DGMFJBHF_02853	60 kDa chaperonin	1635	groL
+3300009517-bin.6_DGMFJBHF_02854	Biofilm operon icaADBC HTH-type negative transcriptional regulator IcaR	612	icaR
+3300009517-bin.6_DGMFJBHF_02855	HTH-type transcriptional activator AmpR	876	ampR_2
+3300009517-bin.6_DGMFJBHF_02856	Putative 3-oxopropanoate dehydrogenase	1494	bauC
+3300009517-bin.6_DGMFJBHF_02857	putative enoyl-CoA hydratase echA8	777	echA8
+3300009517-bin.6_DGMFJBHF_02858	Acyl-CoA dehydrogenase	1137	acdA_2
+3300009517-bin.6_DGMFJBHF_02859	Crotonyl-CoA hydratase	1044	
+3300009517-bin.6_DGMFJBHF_02860	3-hydroxyisobutyrate dehydrogenase	888	mmsB
+3300009517-bin.6_DGMFJBHF_02861	Multidrug export protein EmrB	1542	emrB
+3300009517-bin.6_DGMFJBHF_02862	putative multidrug resistance protein EmrK	1194	emrK
+3300009517-bin.6_DGMFJBHF_02863	Outer membrane protein OprM	1557	oprM
+3300009517-bin.6_DGMFJBHF_02864	HTH-type transcriptional regulator AcrR	621	acrR_2
+3300009517-bin.6_DGMFJBHF_02865	3'-phosphoadenosine 5'-phosphate phosphatase	744	cysQ

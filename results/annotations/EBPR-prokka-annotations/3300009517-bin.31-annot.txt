@@ -1,0 +1,2773 @@
+3300009517-bin.31_COICDMBG_00001	DNA polymerase III PolC-type	600	polC_1
+3300009517-bin.31_COICDMBG_00002	Inosine-5'-monophosphate dehydrogenase	1911	guaB_1
+3300009517-bin.31_COICDMBG_00003	hypothetical protein	1626	
+3300009517-bin.31_COICDMBG_00004	hypothetical protein	3885	
+3300009517-bin.31_COICDMBG_00005	hypothetical protein	1977	
+3300009517-bin.31_COICDMBG_00006	hypothetical protein	762	
+3300009517-bin.31_COICDMBG_00007	hypothetical protein	1611	
+3300009517-bin.31_COICDMBG_00008	N-acetyl-alpha-D-glucosaminyl L-malate synthase	1545	bshA_1
+3300009517-bin.31_COICDMBG_00009	Putative DNA repair helicase RadD	1527	radD
+3300009517-bin.31_COICDMBG_00010	hypothetical protein	516	
+3300009517-bin.31_COICDMBG_00011	hypothetical protein	285	
+3300009517-bin.31_COICDMBG_00012	Miniconductance mechanosensitive channel YbdG	1266	ybdG
+3300009517-bin.31_COICDMBG_00013	hypothetical protein	516	
+3300009517-bin.31_COICDMBG_00014	Outer membrane porin F	1341	oprF_1
+3300009517-bin.31_COICDMBG_00015	hypothetical protein	420	
+3300009517-bin.31_COICDMBG_00016	putative HTH-type transcriptional regulator	432	
+3300009517-bin.31_COICDMBG_00017	putative 3-hydroxyacyl-CoA dehydrogenase	2391	fadN
+3300009517-bin.31_COICDMBG_00018	hypothetical protein	357	
+3300009517-bin.31_COICDMBG_00019	3-ketoacyl-CoA thiolase	1182	fadA
+3300009517-bin.31_COICDMBG_00020	putative acyl-CoA dehydrogenase	1791	fadE
+3300009517-bin.31_COICDMBG_00021	hypothetical protein	1650	
+3300009517-bin.31_COICDMBG_00022	Superoxide dismutase [Cu-Zn]	525	sodC
+3300009517-bin.31_COICDMBG_00023	hypothetical protein	246	
+3300009517-bin.31_COICDMBG_00024	hypothetical protein	627	
+3300009517-bin.31_COICDMBG_00025	hypothetical protein	2280	
+3300009517-bin.31_COICDMBG_00026	hypothetical protein	1353	
+3300009517-bin.31_COICDMBG_00027	hypothetical protein	729	
+3300009517-bin.31_COICDMBG_00028	Succinate--CoA ligase [ADP-forming] subunit alpha	873	sucD
+3300009517-bin.31_COICDMBG_00029	hypothetical protein	360	
+3300009517-bin.31_COICDMBG_00030	UDP-3-O-acylglucosamine N-acyltransferase	930	lpxD_1
+3300009517-bin.31_COICDMBG_00031	Elongation factor P	567	efp
+3300009517-bin.31_COICDMBG_00032	Acyl-[acyl-carrier-protein]--UDP-N- acetylglucosamine O-acyltransferase	783	lpxA
+3300009517-bin.31_COICDMBG_00033	UDP-3-O-acyl-N-acetylglucosamine deacetylase	1389	lpxC
+3300009517-bin.31_COICDMBG_00034	UDP-3-O-acylglucosamine N-acyltransferase	1020	lpxD_2
+3300009517-bin.31_COICDMBG_00035	hypothetical protein	1233	
+3300009517-bin.31_COICDMBG_00036	2-succinyl-5-enolpyruvyl-6-hydroxy-3- cyclohexene-1-carboxylate synthase	1662	menD
+3300009517-bin.31_COICDMBG_00037	L-methionine sulfoximine/L-methionine sulfone acetyltransferase	537	
+3300009517-bin.31_COICDMBG_00038	Valine--tRNA ligase	2631	valS
+3300009517-bin.31_COICDMBG_00039	hypothetical protein	435	
+3300009517-bin.31_COICDMBG_00040	Dihydrolipoyl dehydrogenase	1404	
+3300009517-bin.31_COICDMBG_00041	Leucine-responsive regulatory protein	453	lrp
+3300009517-bin.31_COICDMBG_00042	L-methionine gamma-lyase	1203	mgl
+3300009517-bin.31_COICDMBG_00043	hypothetical protein	492	
+3300009517-bin.31_COICDMBG_00044	hypothetical protein	444	
+3300009517-bin.31_COICDMBG_00045	hypothetical protein	1347	
+3300009517-bin.31_COICDMBG_00046	Aspartate aminotransferase	1167	aspC
+3300009517-bin.31_COICDMBG_00050	Acetyl-CoA acetyltransferase	1179	phaA
+3300009517-bin.31_COICDMBG_00051	Dipeptidyl-peptidase 6	762	
+3300009517-bin.31_COICDMBG_00052	DNA gyrase subunit A	2688	gyrA_1
+3300009517-bin.31_COICDMBG_00053	DNA gyrase subunit B	1857	gyrB_1
+3300009517-bin.31_COICDMBG_00054	Ribosome-binding ATPase YchF	1095	ychF
+3300009517-bin.31_COICDMBG_00055	hypothetical protein	1167	
+3300009517-bin.31_COICDMBG_00056	hypothetical protein	534	
+3300009517-bin.31_COICDMBG_00057	Ferredoxin	351	fdx
+3300009517-bin.31_COICDMBG_00058	hypothetical protein	1074	
+3300009517-bin.31_COICDMBG_00059	Phosphoserine aminotransferase	1071	serC
+3300009517-bin.31_COICDMBG_00060	Hydroxypyruvate reductase	963	
+3300009517-bin.31_COICDMBG_00061	hypothetical protein	561	
+3300009517-bin.31_COICDMBG_00062	hypothetical protein	426	
+3300009517-bin.31_COICDMBG_00063	hypothetical protein	318	
+3300009517-bin.31_COICDMBG_00064	GTP cyclohydrolase 1	678	folE_1
+3300009517-bin.31_COICDMBG_00065	Lipoprotein-releasing system ATP-binding protein LolD	711	lolD
+3300009517-bin.31_COICDMBG_00066	hypothetical protein	774	
+3300009517-bin.31_COICDMBG_00067	Low affinity potassium transport system protein kup	1965	kup
+3300009517-bin.31_COICDMBG_00068	Ribosomal RNA small subunit methyltransferase B	1215	rsmB
+3300009517-bin.31_COICDMBG_00069	Extracellular ribonuclease	1086	bsn_1
+3300009517-bin.31_COICDMBG_00070	putative protein/MSMEI_2664	2100	
+3300009517-bin.31_COICDMBG_00071	Aspartate carbamoyltransferase	924	pyrB
+3300009517-bin.31_COICDMBG_00072	Bifunctional protein pyrR	546	pyrR_1
+3300009517-bin.31_COICDMBG_00073	putative protein YqeN	1002	yqeN
+3300009517-bin.31_COICDMBG_00074	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_00075	Putative mycofactocin biosynthesis glycosyltransferase MftF	1005	mftF
+3300009517-bin.31_COICDMBG_00076	Outer membrane porin F	837	oprF_2
+3300009517-bin.31_COICDMBG_00077	Cysteine desulfurase IscS	1122	iscS
+3300009517-bin.31_COICDMBG_00078	hypothetical protein	957	
+3300009517-bin.31_COICDMBG_00079	Putative cysteine ligase BshC	1593	bshC
+3300009517-bin.31_COICDMBG_00080	Nucleoside diphosphate kinase	420	ndk
+3300009517-bin.31_COICDMBG_00081	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_00082	Glutathione peroxidase BsaA	594	bsaA
+3300009517-bin.31_COICDMBG_00083	Vitamin B12 transporter BtuB	2202	btuB_1
+3300009517-bin.31_COICDMBG_00084	hypothetical protein	1290	
+3300009517-bin.31_COICDMBG_00085	hypothetical protein	540	
+3300009517-bin.31_COICDMBG_00086	hypothetical protein	651	
+3300009517-bin.31_COICDMBG_00087	ECF RNA polymerase sigma factor SigK	531	sigK
+3300009517-bin.31_COICDMBG_00088	hypothetical protein	789	
+3300009517-bin.31_COICDMBG_00089	Aerobic respiration control sensor protein ArcB	1083	arcB
+3300009517-bin.31_COICDMBG_00090	6-aminohexanoate-dimer hydrolase	1122	nylB_1
+3300009517-bin.31_COICDMBG_00091	hypothetical protein	189	
+3300009517-bin.31_COICDMBG_00092	Aurachin C monooxygenase/isomerase	1461	auaG
+3300009517-bin.31_COICDMBG_00093	ATP-dependent RNA helicase RhlE	1347	rhlE_1
+3300009517-bin.31_COICDMBG_00094	hypothetical protein	1923	
+3300009517-bin.31_COICDMBG_00095	Dihydroorotase	1254	pyrC_1
+3300009517-bin.31_COICDMBG_00096	hypothetical protein	327	
+3300009517-bin.31_COICDMBG_00097	Carboxylesterase 2	645	estB
+3300009517-bin.31_COICDMBG_00098	hypothetical protein	486	
+3300009517-bin.31_COICDMBG_00099	hypothetical protein	495	
+3300009517-bin.31_COICDMBG_00100	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	777	phnP
+3300009517-bin.31_COICDMBG_00101	hypothetical protein	1470	
+3300009517-bin.31_COICDMBG_00102	Peroxiredoxin Bcp	453	bcp_1
+3300009517-bin.31_COICDMBG_00103	Endonuclease III	660	nth
+3300009517-bin.31_COICDMBG_00104	hypothetical protein	144	
+3300009517-bin.31_COICDMBG_00105	ECF RNA polymerase sigma factor SigE	588	sigE_1
+3300009517-bin.31_COICDMBG_00106	UvrABC system protein A	2790	uvrA_1
+3300009517-bin.31_COICDMBG_00107	23S rRNA (uracil-C(5))-methyltransferase RlmCD	1410	rlmCD
+3300009517-bin.31_COICDMBG_00108	hypothetical protein	498	
+3300009517-bin.31_COICDMBG_00109	hypothetical protein	735	
+3300009517-bin.31_COICDMBG_00110	hypothetical protein	231	
+3300009517-bin.31_COICDMBG_00111	hypothetical protein	366	
+3300009517-bin.31_COICDMBG_00112	Thiol-disulfide oxidoreductase ResA	1521	resA_1
+3300009517-bin.31_COICDMBG_00113	Ribosomal RNA large subunit methyltransferase L	1146	rlmL
+3300009517-bin.31_COICDMBG_00114	Glycine/sarcosine N-methyltransferase	744	
+3300009517-bin.31_COICDMBG_00115	hypothetical protein	669	
+3300009517-bin.31_COICDMBG_00116	N-acetylmuramic acid 6-phosphate etherase	813	murQ
+3300009517-bin.31_COICDMBG_00117	hypothetical protein	507	
+3300009517-bin.31_COICDMBG_00118	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_00119	hypothetical protein	534	
+3300009517-bin.31_COICDMBG_00120	hypothetical protein	390	
+3300009517-bin.31_COICDMBG_00121	hypothetical protein	858	
+3300009517-bin.31_COICDMBG_00122	hypothetical protein	219	
+3300009517-bin.31_COICDMBG_00123	Phosphoethanolamine transferase EptA	1527	eptA
+3300009517-bin.31_COICDMBG_00124	hypothetical protein	873	
+3300009517-bin.31_COICDMBG_00125	hypothetical protein	543	
+3300009517-bin.31_COICDMBG_00126	hypothetical protein	153	
+3300009517-bin.31_COICDMBG_00127	hypothetical protein	510	
+3300009517-bin.31_COICDMBG_00128	Signal transduction histidine-protein kinase ArlS	1383	arlS
+3300009517-bin.31_COICDMBG_00129	putative transcriptional regulatory protein YedW	672	yedW
+3300009517-bin.31_COICDMBG_00130	Peptidoglycan O-acetyltransferase	1452	patA_1
+3300009517-bin.31_COICDMBG_00131	hypothetical protein	933	
+3300009517-bin.31_COICDMBG_00132	hypothetical protein	384	
+3300009517-bin.31_COICDMBG_00133	hypothetical protein	189	
+3300009517-bin.31_COICDMBG_00134	hypothetical protein	1620	
+3300009517-bin.31_COICDMBG_00135	hypothetical protein	1122	
+3300009517-bin.31_COICDMBG_00136	ECF RNA polymerase sigma-E factor	579	rpoE_1
+3300009517-bin.31_COICDMBG_00137	hypothetical protein	417	
+3300009517-bin.31_COICDMBG_00138	hypothetical protein	453	
+3300009517-bin.31_COICDMBG_00139	hypothetical protein	1050	
+3300009517-bin.31_COICDMBG_00140	hypothetical protein	1194	
+3300009517-bin.31_COICDMBG_00141	Peptide chain release factor 1	1074	prfA
+3300009517-bin.31_COICDMBG_00142	H(+)/Cl(-) exchange transporter ClcA	1275	clcA
+3300009517-bin.31_COICDMBG_00143	hypothetical protein	486	
+3300009517-bin.31_COICDMBG_00144	Chaperone protein DnaK	1884	dnaK
+3300009517-bin.31_COICDMBG_00145	hypothetical protein	372	
+3300009517-bin.31_COICDMBG_00146	Transcription termination factor Rho	1680	rho
+3300009517-bin.31_COICDMBG_00147	hypothetical protein	408	
+3300009517-bin.31_COICDMBG_00148	hypothetical protein	495	
+3300009517-bin.31_COICDMBG_00149	tRNA pseudouridine synthase A	786	truA
+3300009517-bin.31_COICDMBG_00150	Putative multidrug export ATP-binding/permease protein	1758	
+3300009517-bin.31_COICDMBG_00151	Linear gramicidin synthase subunit B	1509	lgrB
+3300009517-bin.31_COICDMBG_00152	hypothetical protein	663	
+3300009517-bin.31_COICDMBG_00153	Acyl carrier protein	249	acpP_1
+3300009517-bin.31_COICDMBG_00154	Peptidoglycan O-acetyltransferase	1446	patA_2
+3300009517-bin.31_COICDMBG_00155	hypothetical protein	930	
+3300009517-bin.31_COICDMBG_00156	Dihydrolipoyl dehydrogenase	1389	lpdC
+3300009517-bin.31_COICDMBG_00157	Beta-barrel assembly-enhancing protease	1320	bepA_1
+3300009517-bin.31_COICDMBG_00158	DNA gyrase subunit A	2568	gyrA_2
+3300009517-bin.31_COICDMBG_00159	Negative regulator of genetic competence ClpC/MecB	2547	clpC
+3300009517-bin.31_COICDMBG_00160	Ribosomal protein S6--L-glutamate ligase	1356	rimK
+3300009517-bin.31_COICDMBG_00161	Potassium channel	579	
+3300009517-bin.31_COICDMBG_00162	hypothetical protein	363	
+3300009517-bin.31_COICDMBG_00163	Histidine ammonia-lyase	1503	hutH
+3300009517-bin.31_COICDMBG_00164	Bifunctional aspartokinase/homoserine dehydrogenase 1	2448	thrA
+3300009517-bin.31_COICDMBG_00165	Homoserine kinase	927	thrB
+3300009517-bin.31_COICDMBG_00166	Threonine synthase	1293	thrC
+3300009517-bin.31_COICDMBG_00167	hypothetical protein	813	
+3300009517-bin.31_COICDMBG_00168	hypothetical protein	846	
+3300009517-bin.31_COICDMBG_00169	DEAD-box ATP-dependent RNA helicase CshC	615	cshC
+3300009517-bin.31_COICDMBG_00170	Transcriptional regulatory protein ZraR	1164	zraR
+3300009517-bin.31_COICDMBG_00171	3-methyl-2-oxobutanoate hydroxymethyltransferase	819	panB
+3300009517-bin.31_COICDMBG_00172	Ribosomal large subunit pseudouridine synthase D	699	rluD_1
+3300009517-bin.31_COICDMBG_00173	hypothetical protein	1338	
+3300009517-bin.31_COICDMBG_00174	Aldehyde dehydrogenase	1329	alkH
+3300009517-bin.31_COICDMBG_00175	Signal transduction histidine-protein kinase BarA	3951	barA
+3300009517-bin.31_COICDMBG_00176	hypothetical protein	861	
+3300009517-bin.31_COICDMBG_00177	Competence protein ComM	1536	comM
+3300009517-bin.31_COICDMBG_00178	Mycothiol acetyltransferase	435	mshD
+3300009517-bin.31_COICDMBG_00179	putative hydrolase YxeP	1131	yxeP
+3300009517-bin.31_COICDMBG_00180	Alanine racemase 2	1152	alr2
+3300009517-bin.31_COICDMBG_00181	Ornithine racemase	1074	orr
+3300009517-bin.31_COICDMBG_00182	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_00183	hypothetical protein	1482	
+3300009517-bin.31_COICDMBG_00184	Internalin-J	1626	inlJ_1
+3300009517-bin.31_COICDMBG_00185	hypothetical protein	384	
+3300009517-bin.31_COICDMBG_00186	hypothetical protein	1197	
+3300009517-bin.31_COICDMBG_00187	Carbonic anhydrase 2	636	can
+3300009517-bin.31_COICDMBG_00188	Carbonic anhydrase 2	690	mtcA2
+3300009517-bin.31_COICDMBG_00189	hypothetical protein	630	
+3300009517-bin.31_COICDMBG_00190	C4-dicarboxylic acid transporter DauA	1596	dauA
+3300009517-bin.31_COICDMBG_00191	hypothetical protein	279	
+3300009517-bin.31_COICDMBG_00192	Hydrogen peroxide-inducible genes activator	978	oxyR
+3300009517-bin.31_COICDMBG_00193	hypothetical protein	198	
+3300009517-bin.31_COICDMBG_00194	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC	666	mnmC
+3300009517-bin.31_COICDMBG_00195	hypothetical protein	453	
+3300009517-bin.31_COICDMBG_00196	hypothetical protein	489	
+3300009517-bin.31_COICDMBG_00197	Branched-chain-amino-acid aminotransferase 2	1068	ilvK_1
+3300009517-bin.31_COICDMBG_00198	hypothetical protein	159	
+3300009517-bin.31_COICDMBG_00199	hypothetical protein	390	
+3300009517-bin.31_COICDMBG_00200	hypothetical protein	753	
+3300009517-bin.31_COICDMBG_00201	hypothetical protein	654	
+3300009517-bin.31_COICDMBG_00202	hypothetical protein	810	
+3300009517-bin.31_COICDMBG_00203	hypothetical protein	909	
+3300009517-bin.31_COICDMBG_00204	ATP-dependent DNA helicase RecG	2541	recG
+3300009517-bin.31_COICDMBG_00205	hypothetical protein	864	
+3300009517-bin.31_COICDMBG_00206	Phenylalanine--tRNA ligase beta subunit	2421	pheT
+3300009517-bin.31_COICDMBG_00207	Immunogenic protein MPB70	567	
+3300009517-bin.31_COICDMBG_00208	30S ribosomal protein S1	1776	rpsA
+3300009517-bin.31_COICDMBG_00209	Xanthosine permease	1254	xapB
+3300009517-bin.31_COICDMBG_00210	Cytidylate kinase	684	cmk
+3300009517-bin.31_COICDMBG_00211	hypothetical protein	1032	
+3300009517-bin.31_COICDMBG_00212	Lon protease 2	2451	lon2
+3300009517-bin.31_COICDMBG_00213	hypothetical protein	1332	
+3300009517-bin.31_COICDMBG_00214	hypothetical protein	1374	
+3300009517-bin.31_COICDMBG_00215	Beta-barrel assembly-enhancing protease	822	bepA_2
+3300009517-bin.31_COICDMBG_00216	Oligosaccharide 4-alpha-D-glucosyltransferase	2400	
+3300009517-bin.31_COICDMBG_00217	1,4-alpha-glucan branching enzyme GlgB	1905	glgB_1
+3300009517-bin.31_COICDMBG_00218	Maltokinase	1623	mak
+3300009517-bin.31_COICDMBG_00219	Alpha-1,4-glucan:maltose-1-phosphate maltosyltransferase 1	1941	glgE1
+3300009517-bin.31_COICDMBG_00220	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase	864	menH_1
+3300009517-bin.31_COICDMBG_00221	Ultraviolet N-glycosylase/AP lyase	654	pdg
+3300009517-bin.31_COICDMBG_00227	Threonine--tRNA ligase	1947	thrS
+3300009517-bin.31_COICDMBG_00228	Translation initiation factor IF-3	489	infC
+3300009517-bin.31_COICDMBG_00229	50S ribosomal protein L35	198	rpmI
+3300009517-bin.31_COICDMBG_00230	50S ribosomal protein L20	345	rplT
+3300009517-bin.31_COICDMBG_00231	Sensory transduction protein LytR	744	lytR_1
+3300009517-bin.31_COICDMBG_00232	putative sensor histidine kinase pdtaS	1884	pdtaS_1
+3300009517-bin.31_COICDMBG_00233	hypothetical protein	753	
+3300009517-bin.31_COICDMBG_00234	hypothetical protein	510	
+3300009517-bin.31_COICDMBG_00235	UDP-glucose 4-epimerase	933	galE_1
+3300009517-bin.31_COICDMBG_00236	hypothetical protein	486	
+3300009517-bin.31_COICDMBG_00237	putative HTH-type transcriptional regulator	309	
+3300009517-bin.31_COICDMBG_00238	Modification methylase BspRI	1362	bspRIM
+3300009517-bin.31_COICDMBG_00239	hypothetical protein	1065	
+3300009517-bin.31_COICDMBG_00240	hypothetical protein	1152	
+3300009517-bin.31_COICDMBG_00241	Isoaspartyl peptidase/L-asparaginase	843	
+3300009517-bin.31_COICDMBG_00242	Cyanophycinase	873	cphB
+3300009517-bin.31_COICDMBG_00243	23S rRNA pseudouridine(2604) synthase	816	rluF_1
+3300009517-bin.31_COICDMBG_00244	Putative fluoride ion transporter CrcB	372	crcB
+3300009517-bin.31_COICDMBG_00245	Bifunctional oligoribonuclease and PAP phosphatase NrnA	1038	nrnA
+3300009517-bin.31_COICDMBG_00246	hypothetical protein	582	
+3300009517-bin.31_COICDMBG_00247	putative peptidyl-prolyl cis-trans isomerase	1119	ppiB_1
+3300009517-bin.31_COICDMBG_00248	putative peptidyl-prolyl cis-trans isomerase	1080	ppiB_2
+3300009517-bin.31_COICDMBG_00249	Oxygen-independent coproporphyrinogen III oxidase	1362	hemN_1
+3300009517-bin.31_COICDMBG_00250	hypothetical protein	1236	
+3300009517-bin.31_COICDMBG_00251	hypothetical protein	840	
+3300009517-bin.31_COICDMBG_00252	hypothetical protein	702	
+3300009517-bin.31_COICDMBG_00253	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_00254	hypothetical protein	1422	
+3300009517-bin.31_COICDMBG_00255	Cbb3-type cytochrome c oxidase subunit CcoP2	927	ccoP2
+3300009517-bin.31_COICDMBG_00256	hypothetical protein	168	
+3300009517-bin.31_COICDMBG_00257	Cbb3-type cytochrome c oxidase subunit CcoN1	2175	ccoN1
+3300009517-bin.31_COICDMBG_00258	hypothetical protein	231	
+3300009517-bin.31_COICDMBG_00259	Copper-exporting P-type ATPase	2373	copA_1
+3300009517-bin.31_COICDMBG_00260	Nitrogen fixation regulation protein FixK	681	fixK
+3300009517-bin.31_COICDMBG_00261	hypothetical protein	387	
+3300009517-bin.31_COICDMBG_00262	Cobalt-zinc-cadmium resistance protein CzcA	4344	czcA_1
+3300009517-bin.31_COICDMBG_00263	Nickel and cobalt resistance protein CnrB	1134	cnrB_1
+3300009517-bin.31_COICDMBG_00264	Prolyl endopeptidase	2067	f1pep1
+3300009517-bin.31_COICDMBG_00265	hypothetical protein	624	
+3300009517-bin.31_COICDMBG_00266	Sensor histidine kinase YpdA	1335	ypdA
+3300009517-bin.31_COICDMBG_00267	hypothetical protein	339	
+3300009517-bin.31_COICDMBG_00268	hypothetical protein	306	
+3300009517-bin.31_COICDMBG_00269	hypothetical protein	315	
+3300009517-bin.31_COICDMBG_00270	hypothetical protein	666	
+3300009517-bin.31_COICDMBG_00271	Sensory transduction protein LytR	756	lytR_2
+3300009517-bin.31_COICDMBG_00272	hypothetical protein	771	
+3300009517-bin.31_COICDMBG_00273	Heme A synthase	1020	ctaA
+3300009517-bin.31_COICDMBG_00274	Multifunctional CCA protein	1422	cca
+3300009517-bin.31_COICDMBG_00275	Threonylcarbamoyl-AMP synthase	567	tsaC
+3300009517-bin.31_COICDMBG_00276	hypothetical protein	1173	
+3300009517-bin.31_COICDMBG_00277	Putative glycosyltransferase EpsE	957	epsE_1
+3300009517-bin.31_COICDMBG_00278	hypothetical protein	954	
+3300009517-bin.31_COICDMBG_00279	Ubiquinone biosynthesis O-methyltransferase	645	ubiG_1
+3300009517-bin.31_COICDMBG_00280	Lipid A biosynthesis lauroyltransferase	888	lpxL
+3300009517-bin.31_COICDMBG_00281	Validoxylamine A glucosyltransferase	819	valG
+3300009517-bin.31_COICDMBG_00282	D-inositol 3-phosphate glycosyltransferase	1119	mshA
+3300009517-bin.31_COICDMBG_00283	Lipopolysaccharide core heptosyltransferase RfaQ	1053	rfaQ_1
+3300009517-bin.31_COICDMBG_00284	Peptidoglycan-N-acetylmuramic acid deacetylase PdaA	783	pdaA
+3300009517-bin.31_COICDMBG_00285	putative glycosyltransferase	945	
+3300009517-bin.31_COICDMBG_00286	hypothetical protein	1212	
+3300009517-bin.31_COICDMBG_00287	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase	816	dapD
+3300009517-bin.31_COICDMBG_00288	Lipoprotein NlpE	888	nlpE
+3300009517-bin.31_COICDMBG_00289	Putative pre-16S rRNA nuclease	417	
+3300009517-bin.31_COICDMBG_00290	putative malate:quinone oxidoreductase 1	1476	mqo1
+3300009517-bin.31_COICDMBG_00291	Peptide deformylase	588	def
+3300009517-bin.31_COICDMBG_00292	hypothetical protein	486	
+3300009517-bin.31_COICDMBG_00293	hypothetical protein	231	
+3300009517-bin.31_COICDMBG_00294	hypothetical protein	1194	
+3300009517-bin.31_COICDMBG_00295	hypothetical protein	1662	
+3300009517-bin.31_COICDMBG_00296	hypothetical protein	141	
+3300009517-bin.31_COICDMBG_00297	hypothetical protein	921	
+3300009517-bin.31_COICDMBG_00298	hypothetical protein	123	
+3300009517-bin.31_COICDMBG_00299	hypothetical protein	492	
+3300009517-bin.31_COICDMBG_00300	hypothetical protein	396	
+3300009517-bin.31_COICDMBG_00301	Lipoteichoic acid synthase 1	1932	ltaS1
+3300009517-bin.31_COICDMBG_00302	Long-chain-fatty-acid--CoA ligase FadD15	1773	
+3300009517-bin.31_COICDMBG_00303	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA	3837	cpdA_1
+3300009517-bin.31_COICDMBG_00304	hypothetical protein	414	
+3300009517-bin.31_COICDMBG_00305	hypothetical protein	561	
+3300009517-bin.31_COICDMBG_00306	hypothetical protein	483	
+3300009517-bin.31_COICDMBG_00307	2-dehydro-3-deoxyphosphooctonate aldolase	819	kdsA
+3300009517-bin.31_COICDMBG_00308	hypothetical protein	822	
+3300009517-bin.31_COICDMBG_00309	hypothetical protein	8943	
+3300009517-bin.31_COICDMBG_00310	hypothetical protein	348	
+3300009517-bin.31_COICDMBG_00311	Bacterial leucyl aminopeptidase	1371	
+3300009517-bin.31_COICDMBG_00312	hypothetical protein	624	
+3300009517-bin.31_COICDMBG_00313	hypothetical protein	297	
+3300009517-bin.31_COICDMBG_00314	hypothetical protein	456	
+3300009517-bin.31_COICDMBG_00315	hypothetical protein	306	
+3300009517-bin.31_COICDMBG_00316	Inner membrane protein CreD	1344	creD
+3300009517-bin.31_COICDMBG_00317	L-Ala-D/L-Glu epimerase	1038	ykfB
+3300009517-bin.31_COICDMBG_00318	hypothetical protein	1194	
+3300009517-bin.31_COICDMBG_00319	hypothetical protein	678	
+3300009517-bin.31_COICDMBG_00320	1,4-dihydroxy-2-naphthoate octaprenyltransferase	924	menA_1
+3300009517-bin.31_COICDMBG_00321	hypothetical protein	1500	
+3300009517-bin.31_COICDMBG_00322	hypothetical protein	516	
+3300009517-bin.31_COICDMBG_00323	1,4-dihydroxy-2-naphthoyl-CoA synthase	840	menB
+3300009517-bin.31_COICDMBG_00324	hypothetical protein	1149	
+3300009517-bin.31_COICDMBG_00325	Acetyltransferase	510	ttr
+3300009517-bin.31_COICDMBG_00326	hypothetical protein	456	
+3300009517-bin.31_COICDMBG_00327	hypothetical protein	1092	
+3300009517-bin.31_COICDMBG_00328	Bacterial leucyl aminopeptidase	1020	
+3300009517-bin.31_COICDMBG_00330	N-acetyl-alpha-D-glucosaminyl L-malate deacetylase 1	717	bshB1
+3300009517-bin.31_COICDMBG_00331	Salicylate biosynthesis isochorismate synthase	1065	pchA
+3300009517-bin.31_COICDMBG_00332	1,4-dihydroxy-2-naphthoyl-CoA hydrolase	432	menI
+3300009517-bin.31_COICDMBG_00333	hypothetical protein	1590	
+3300009517-bin.31_COICDMBG_00334	hypothetical protein	633	
+3300009517-bin.31_COICDMBG_00335	Phosphoribosylformylglycinamidine synthase	3666	purL
+3300009517-bin.31_COICDMBG_00336	hypothetical protein	435	
+3300009517-bin.31_COICDMBG_00337	Methionine aminotransferase	1128	ybdL
+3300009517-bin.31_COICDMBG_00338	putative 2,4-dienoyl-CoA reductase	882	fadH
+3300009517-bin.31_COICDMBG_00339	Sporulation initiation inhibitor protein Soj	768	soj
+3300009517-bin.31_COICDMBG_00340	putative chromosome-partitioning protein ParB	900	parB
+3300009517-bin.31_COICDMBG_00341	hypothetical protein	567	
+3300009517-bin.31_COICDMBG_00342	4-hydroxy-tetrahydrodipicolinate reductase	708	dapB
+3300009517-bin.31_COICDMBG_00343	Signal peptidase I	1599	lepB
+3300009517-bin.31_COICDMBG_00344	hypothetical protein	558	
+3300009517-bin.31_COICDMBG_00345	hypothetical protein	1050	
+3300009517-bin.31_COICDMBG_00346	hypothetical protein	864	
+3300009517-bin.31_COICDMBG_00347	Rhomboid protease GlpG	813	glpG
+3300009517-bin.31_COICDMBG_00348	DNA mismatch repair protein MutL	1848	mutL
+3300009517-bin.31_COICDMBG_00349	6,7-dimethyl-8-ribityllumazine synthase	498	ribH
+3300009517-bin.31_COICDMBG_00350	hypothetical protein	786	
+3300009517-bin.31_COICDMBG_00351	DNA replication and repair protein RecF	1080	recF
+3300009517-bin.31_COICDMBG_00352	Thioredoxin	699	trxA_1
+3300009517-bin.31_COICDMBG_00353	hypothetical protein	675	
+3300009517-bin.31_COICDMBG_00354	UDP-N-acetylenolpyruvoylglucosamine reductase	1014	murB
+3300009517-bin.31_COICDMBG_00355	Spermidine N(1)-acetyltransferase	504	speG_1
+3300009517-bin.31_COICDMBG_00356	Protease synthase and sporulation protein PAI 2	612	paiB
+3300009517-bin.31_COICDMBG_00357	Poly-beta-1,6-N-acetyl-D-glucosamine synthase	1107	pgaC
+3300009517-bin.31_COICDMBG_00358	ECF RNA polymerase sigma factor SigW	549	sigW_1
+3300009517-bin.31_COICDMBG_00359	hypothetical protein	846	
+3300009517-bin.31_COICDMBG_00360	Penicillin-binding protein 4*	1173	pbpE_1
+3300009517-bin.31_COICDMBG_00361	Conserved virulence factor B	825	cvfB
+3300009517-bin.31_COICDMBG_00362	ECF RNA polymerase sigma-E factor	495	rpoE_2
+3300009517-bin.31_COICDMBG_00363	hypothetical protein	639	
+3300009517-bin.31_COICDMBG_00364	hypothetical protein	855	
+3300009517-bin.31_COICDMBG_00365	hypothetical protein	825	
+3300009517-bin.31_COICDMBG_00366	putative Nudix hydrolase NudL	639	nudL
+3300009517-bin.31_COICDMBG_00367	hypothetical protein	444	
+3300009517-bin.31_COICDMBG_00368	hypothetical protein	297	
+3300009517-bin.31_COICDMBG_00369	hypothetical protein	459	
+3300009517-bin.31_COICDMBG_00370	hypothetical protein	1074	
+3300009517-bin.31_COICDMBG_00371	hypothetical protein	186	
+3300009517-bin.31_COICDMBG_00372	Signal recognition particle receptor FtsY	981	ftsY
+3300009517-bin.31_COICDMBG_00373	hypothetical protein	153	
+3300009517-bin.31_COICDMBG_00374	50S ribosomal protein L33	183	rpmG
+3300009517-bin.31_COICDMBG_00375	50S ribosomal protein L28	237	rpmB
+3300009517-bin.31_COICDMBG_00376	Nicotinamide-nucleotide amidohydrolase PncC	1251	pncC
+3300009517-bin.31_COICDMBG_00377	hypothetical protein	606	
+3300009517-bin.31_COICDMBG_00378	hypothetical protein	471	
+3300009517-bin.31_COICDMBG_00379	Salicyloyl-CoA 5-hydroxylase	2292	sdgC
+3300009517-bin.31_COICDMBG_00380	Benzoate--CoA ligase	1593	bclA
+3300009517-bin.31_COICDMBG_00381	Glutamate synthase [NADPH] large chain	1581	gltA
+3300009517-bin.31_COICDMBG_00382	1,4-dihydroxy-2-naphthoyl-CoA hydrolase	441	
+3300009517-bin.31_COICDMBG_00383	Aliphatic nitrilase	981	nitA
+3300009517-bin.31_COICDMBG_00384	Cadmium, cobalt and zinc/H(+)-K(+) antiporter	795	czcD_1
+3300009517-bin.31_COICDMBG_00385	hypothetical protein	3483	
+3300009517-bin.31_COICDMBG_00386	putative ABC transporter ATP-binding protein YbiT	1635	ybiT_1
+3300009517-bin.31_COICDMBG_00387	Beta-hexosaminidase	3015	nagZ
+3300009517-bin.31_COICDMBG_00388	hypothetical protein	483	
+3300009517-bin.31_COICDMBG_00389	putative iron-sulfur-binding oxidoreductase FadF	792	fadF_1
+3300009517-bin.31_COICDMBG_00390	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_00391	putative iron-sulfur-binding oxidoreductase FadF	1308	fadF_2
+3300009517-bin.31_COICDMBG_00392	hypothetical protein	954	
+3300009517-bin.31_COICDMBG_00393	N-acetylmuramoyl-L-alanine amidase AmiB	1173	amiB_1
+3300009517-bin.31_COICDMBG_00394	N-acetylmuramoyl-L-alanine amidase AmiB	1101	amiB_2
+3300009517-bin.31_COICDMBG_00395	LPS-assembly protein LptD	2673	lptD_1
+3300009517-bin.31_COICDMBG_00396	2-iminobutanoate/2-iminopropanoate deaminase	381	yabJ
+3300009517-bin.31_COICDMBG_00397	hypothetical protein	480	
+3300009517-bin.31_COICDMBG_00398	hypothetical protein	180	
+3300009517-bin.31_COICDMBG_00399	hypothetical protein	204	
+3300009517-bin.31_COICDMBG_00400	Type-2 restriction enzyme DpnI	795	dpnC
+3300009517-bin.31_COICDMBG_00401	Methylglyoxal synthase	372	mgsA
+3300009517-bin.31_COICDMBG_00402	hypothetical protein	852	
+3300009517-bin.31_COICDMBG_00403	Glyceraldehyde-3-phosphate dehydrogenase A	1008	gapA
+3300009517-bin.31_COICDMBG_00404	ATP-dependent 6-phosphofructokinase 1	987	pfkA
+3300009517-bin.31_COICDMBG_00405	hypothetical protein	4440	
+3300009517-bin.31_COICDMBG_00406	tRNA N6-adenosine threonylcarbamoyltransferase	1023	tsaD
+3300009517-bin.31_COICDMBG_00407	Ribosomal RNA small subunit methyltransferase E	708	rsmE
+3300009517-bin.31_COICDMBG_00408	Thiol:disulfide interchange protein DsbD	1203	dsbD_1
+3300009517-bin.31_COICDMBG_00409	hypothetical protein	651	
+3300009517-bin.31_COICDMBG_00410	Putative transport protein YhhT	1092	yhhT_1
+3300009517-bin.31_COICDMBG_00411	hypothetical protein	1182	
+3300009517-bin.31_COICDMBG_00412	hypothetical protein	567	
+3300009517-bin.31_COICDMBG_00413	NADH dehydrogenase	1305	ndh
+3300009517-bin.31_COICDMBG_00414	Sulfurtransferase	318	
+3300009517-bin.31_COICDMBG_00415	Transcriptional regulator SlyA	462	slyA
+3300009517-bin.31_COICDMBG_00416	Major NAD(P)H-flavin oxidoreductase	633	
+3300009517-bin.31_COICDMBG_00417	hypothetical protein	570	
+3300009517-bin.31_COICDMBG_00418	Anthranilate synthase component 2	570	trpG
+3300009517-bin.31_COICDMBG_00419	HTH-type transcriptional repressor NicS	624	nicS
+3300009517-bin.31_COICDMBG_00420	hypothetical protein	1311	
+3300009517-bin.31_COICDMBG_00421	Multidrug export protein EmrA	1080	emrA
+3300009517-bin.31_COICDMBG_00422	Multidrug export protein EmrB	1590	emrB
+3300009517-bin.31_COICDMBG_00423	hypothetical protein	348	
+3300009517-bin.31_COICDMBG_00424	hypothetical protein	759	
+3300009517-bin.31_COICDMBG_00425	hypothetical protein	621	
+3300009517-bin.31_COICDMBG_00426	hypothetical protein	1341	
+3300009517-bin.31_COICDMBG_00427	hypothetical protein	1419	
+3300009517-bin.31_COICDMBG_00428	hypothetical protein	564	
+3300009517-bin.31_COICDMBG_00429	Inner membrane protein YqiK	1530	yqiK
+3300009517-bin.31_COICDMBG_00430	hypothetical protein	2490	
+3300009517-bin.31_COICDMBG_00431	hypothetical protein	492	
+3300009517-bin.31_COICDMBG_00432	Acyl carrier protein	258	acpP_2
+3300009517-bin.31_COICDMBG_00433	3-oxoacyl-[acyl-carrier-protein] synthase 1	1269	fabB
+3300009517-bin.31_COICDMBG_00434	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ	429	fabZ
+3300009517-bin.31_COICDMBG_00435	Alpha-pyrone synthesis polyketide synthase-like Pks11	1053	
+3300009517-bin.31_COICDMBG_00436	Ubiquinone biosynthesis O-methyltransferase	717	ubiG_2
+3300009517-bin.31_COICDMBG_00437	Kynurenine 3-monooxygenase	1119	kmo_1
+3300009517-bin.31_COICDMBG_00438	Acetyl-coenzyme A synthetase	1908	acsA
+3300009517-bin.31_COICDMBG_00439	hypothetical protein	219	
+3300009517-bin.31_COICDMBG_00440	Proline/betaine transporter	1464	proP
+3300009517-bin.31_COICDMBG_00441	hypothetical protein	345	
+3300009517-bin.31_COICDMBG_00442	putative protein YcgM	612	ycgM
+3300009517-bin.31_COICDMBG_00443	DNA polymerase III PolC-type	774	polC_2
+3300009517-bin.31_COICDMBG_00444	hypothetical protein	1005	
+3300009517-bin.31_COICDMBG_00445	hypothetical protein	321	
+3300009517-bin.31_COICDMBG_00446	hypothetical protein	5469	
+3300009517-bin.31_COICDMBG_00447	hypothetical protein	5799	
+3300009517-bin.31_COICDMBG_00448	Bifunctional protein PyrR	498	pyrR_2
+3300009517-bin.31_COICDMBG_00449	Shikimate kinase	525	aroK
+3300009517-bin.31_COICDMBG_00453	HTH-type transcriptional repressor CarH	897	carH
+3300009517-bin.31_COICDMBG_00454	Dehydrosqualene desaturase	1458	crtN
+3300009517-bin.31_COICDMBG_00455	All-trans-phytoene synthase	840	crtB
+3300009517-bin.31_COICDMBG_00456	hypothetical protein	444	
+3300009517-bin.31_COICDMBG_00457	hypothetical protein	540	
+3300009517-bin.31_COICDMBG_00458	hypothetical protein	549	
+3300009517-bin.31_COICDMBG_00459	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_00460	ECF RNA polymerase sigma factor SigE	510	sigE_2
+3300009517-bin.31_COICDMBG_00461	Tail-specific protease	1407	prc_1
+3300009517-bin.31_COICDMBG_00462	hypothetical protein	669	
+3300009517-bin.31_COICDMBG_00463	Putative aminopeptidase YsdC	1092	ysdC
+3300009517-bin.31_COICDMBG_00464	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_00465	hypothetical protein	459	
+3300009517-bin.31_COICDMBG_00466	Phosphoribosylaminoimidazole-succinocarboxamide synthase	948	purC
+3300009517-bin.31_COICDMBG_00467	hypothetical protein	513	
+3300009517-bin.31_COICDMBG_00468	PhoH-like protein	951	
+3300009517-bin.31_COICDMBG_00469	5'-fluoro-5'-deoxy-adenosine synthase	825	flA
+3300009517-bin.31_COICDMBG_00470	hypothetical protein	297	
+3300009517-bin.31_COICDMBG_00471	hypothetical protein	726	
+3300009517-bin.31_COICDMBG_00472	hypothetical protein	1677	
+3300009517-bin.31_COICDMBG_00473	Beta sliding clamp	1119	dnaN
+3300009517-bin.31_COICDMBG_00474	hypothetical protein	312	
+3300009517-bin.31_COICDMBG_00475	hypothetical protein	696	
+3300009517-bin.31_COICDMBG_00476	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_00477	Alanine dehydrogenase	1194	ald
+3300009517-bin.31_COICDMBG_00478	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE	408	tsaE
+3300009517-bin.31_COICDMBG_00479	Transcriptional regulatory protein SrrA	1554	srrA
+3300009517-bin.31_COICDMBG_00480	Global nitrogen regulator	633	ntcA_1
+3300009517-bin.31_COICDMBG_00481	hypothetical protein	804	
+3300009517-bin.31_COICDMBG_00482	Beta-lactamase hydrolase-like protein	1407	blh
+3300009517-bin.31_COICDMBG_00483	hypothetical protein	204	
+3300009517-bin.31_COICDMBG_00484	Thioredoxin-like protein	327	
+3300009517-bin.31_COICDMBG_00485	hypothetical protein	192	
+3300009517-bin.31_COICDMBG_00486	HTH-type transcriptional repressor	609	
+3300009517-bin.31_COICDMBG_00487	hypothetical protein	1251	
+3300009517-bin.31_COICDMBG_00488	hypothetical protein	873	
+3300009517-bin.31_COICDMBG_00489	hypothetical protein	285	
+3300009517-bin.31_COICDMBG_00490	putative multidrug ABC transporter ATP-binding protein YbhF	897	ybhF_1
+3300009517-bin.31_COICDMBG_00491	putative multidrug ABC transporter ATP-binding protein YbhF	735	ybhF_2
+3300009517-bin.31_COICDMBG_00492	putative multidrug ABC transporter permease YbhS	1107	ybhS
+3300009517-bin.31_COICDMBG_00493	putative multidrug ABC transporter permease YbhR	1065	ybhR
+3300009517-bin.31_COICDMBG_00494	hypothetical protein	204	
+3300009517-bin.31_COICDMBG_00495	hypothetical protein	741	
+3300009517-bin.31_COICDMBG_00496	hypothetical protein	792	
+3300009517-bin.31_COICDMBG_00497	hypothetical protein	1314	
+3300009517-bin.31_COICDMBG_00498	Efflux pump periplasmic linker BepF	1086	bepF_1
+3300009517-bin.31_COICDMBG_00499	Swarming motility protein SwrC	3225	swrC
+3300009517-bin.31_COICDMBG_00500	hypothetical protein	306	
+3300009517-bin.31_COICDMBG_00501	hypothetical protein	186	
+3300009517-bin.31_COICDMBG_00502	Neutral endopeptidase	2037	pepO_1
+3300009517-bin.31_COICDMBG_00503	Superoxide dismutase [Mn]	783	sodA_1
+3300009517-bin.31_COICDMBG_00504	hypothetical protein	267	
+3300009517-bin.31_COICDMBG_00505	Phosphatidylserine decarboxylase proenzyme	651	psd
+3300009517-bin.31_COICDMBG_00506	Phosphatidate cytidylyltransferase	825	cdsA
+3300009517-bin.31_COICDMBG_00507	hypothetical protein	606	
+3300009517-bin.31_COICDMBG_00508	ATP-dependent zinc metalloprotease FtsH	1923	ftsH
+3300009517-bin.31_COICDMBG_00509	Ribosomal silencing factor RsfS	372	rsfS
+3300009517-bin.31_COICDMBG_00510	Bifunctional ligase/repressor BirA	729	birA
+3300009517-bin.31_COICDMBG_00511	hypothetical protein	1167	
+3300009517-bin.31_COICDMBG_00512	hypothetical protein	1536	
+3300009517-bin.31_COICDMBG_00513	hypothetical protein	897	
+3300009517-bin.31_COICDMBG_00514	hypothetical protein	489	
+3300009517-bin.31_COICDMBG_00515	hypothetical protein	591	
+3300009517-bin.31_COICDMBG_00516	Cysteine desulfurase SufS	1485	sufS_1
+3300009517-bin.31_COICDMBG_00517	Rhomboid protease GluP	642	gluP
+3300009517-bin.31_COICDMBG_00518	26 kDa periplasmic immunogenic protein	696	
+3300009517-bin.31_COICDMBG_00519	hypothetical protein	528	
+3300009517-bin.31_COICDMBG_00521	Thiol-disulfide oxidoreductase ResA	351	resA_2
+3300009517-bin.31_COICDMBG_00522	hypothetical protein	714	
+3300009517-bin.31_COICDMBG_00523	Extracellular ribonuclease	1968	bsn_2
+3300009517-bin.31_COICDMBG_00524	hypothetical protein	531	
+3300009517-bin.31_COICDMBG_00525	hypothetical protein	1008	
+3300009517-bin.31_COICDMBG_00526	hypothetical protein	327	
+3300009517-bin.31_COICDMBG_00527	hypothetical protein	207	
+3300009517-bin.31_COICDMBG_00528	hypothetical protein	459	
+3300009517-bin.31_COICDMBG_00529	putative type I restriction enzymeP M protein	1464	
+3300009517-bin.31_COICDMBG_00530	hypothetical protein	1086	
+3300009517-bin.31_COICDMBG_00531	hypothetical protein	1563	
+3300009517-bin.31_COICDMBG_00532	hypothetical protein	1551	
+3300009517-bin.31_COICDMBG_00533	hypothetical protein	618	
+3300009517-bin.31_COICDMBG_00534	hypothetical protein	435	
+3300009517-bin.31_COICDMBG_00535	hypothetical protein	249	
+3300009517-bin.31_COICDMBG_00536	hypothetical protein	270	
+3300009517-bin.31_COICDMBG_00537	Tyrosine recombinase XerC	1140	xerC_1
+3300009517-bin.31_COICDMBG_00538	hypothetical protein	654	
+3300009517-bin.31_COICDMBG_00539	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_00540	hypothetical protein	306	
+3300009517-bin.31_COICDMBG_00541	hypothetical protein	345	
+3300009517-bin.31_COICDMBG_00542	tRNA modification GTPase MnmE	1419	mnmE
+3300009517-bin.31_COICDMBG_00543	Protein translocase subunit SecDF	2970	secDF
+3300009517-bin.31_COICDMBG_00544	Malate dehydrogenase	933	mdh
+3300009517-bin.31_COICDMBG_00545	DNA gyrase subunit B	1941	gyrB_2
+3300009517-bin.31_COICDMBG_00546	Asparagine synthetase B [glutamine-hydrolyzing]	1671	asnB_1
+3300009517-bin.31_COICDMBG_00547	hypothetical protein	759	
+3300009517-bin.31_COICDMBG_00548	hypothetical protein	504	
+3300009517-bin.31_COICDMBG_00549	hypothetical protein	1722	
+3300009517-bin.31_COICDMBG_00550	Lipopolysaccharide assembly protein B	3015	lapB_1
+3300009517-bin.31_COICDMBG_00551	Cell division ATP-binding protein FtsE	684	ftsE
+3300009517-bin.31_COICDMBG_00552	hypothetical protein	879	
+3300009517-bin.31_COICDMBG_00553	hypothetical protein	738	
+3300009517-bin.31_COICDMBG_00554	putative glycosyltransferase EpsJ	927	epsJ_1
+3300009517-bin.31_COICDMBG_00555	N-acetylgalactosamine-N, N'-diacetylbacillosaminyl-diphospho-undecaprenol 4-alpha-N-acetylgalactosaminyltransferase	1083	pglJ
+3300009517-bin.31_COICDMBG_00556	hypothetical protein	1137	
+3300009517-bin.31_COICDMBG_00557	Lipid III flippase	1311	wzxE_1
+3300009517-bin.31_COICDMBG_00558	hypothetical protein	1818	
+3300009517-bin.31_COICDMBG_00559	23S rRNA (uridine(2479)-2'-O)-methyltransferase	810	aviRb
+3300009517-bin.31_COICDMBG_00560	Protein flp	1545	flp
+3300009517-bin.31_COICDMBG_00561	GTP pyrophosphokinase	2220	relA
+3300009517-bin.31_COICDMBG_00562	Ferric uptake regulation protein	456	fur
+3300009517-bin.31_COICDMBG_00563	hypothetical protein	246	
+3300009517-bin.31_COICDMBG_00564	Adenylosuccinate synthetase	1272	purA
+3300009517-bin.31_COICDMBG_00565	hypothetical protein	156	
+3300009517-bin.31_COICDMBG_00566	hypothetical protein	684	
+3300009517-bin.31_COICDMBG_00567	hypothetical protein	417	
+3300009517-bin.31_COICDMBG_00568	Modification methylase BanI	1539	banIM_1
+3300009517-bin.31_COICDMBG_00569	hypothetical protein	837	
+3300009517-bin.31_COICDMBG_00570	Neopullulanase 2	1872	tvaII_1
+3300009517-bin.31_COICDMBG_00571	LPS-assembly protein LptD	1635	lptD_2
+3300009517-bin.31_COICDMBG_00572	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_00573	Acetylornithine aminotransferase	1188	argD
+3300009517-bin.31_COICDMBG_00574	Beta-barrel assembly-enhancing protease	1401	bepA_3
+3300009517-bin.31_COICDMBG_00575	Shikimate dehydrogenase (NADP(+))	741	aroE
+3300009517-bin.31_COICDMBG_00576	Ribosomal RNA large subunit methyltransferase H	474	rlmH
+3300009517-bin.31_COICDMBG_00577	hypothetical protein	630	
+3300009517-bin.31_COICDMBG_00578	Dihydropteroate synthase	819	folP
+3300009517-bin.31_COICDMBG_00579	hypothetical protein	1857	
+3300009517-bin.31_COICDMBG_00580	hypothetical protein	546	
+3300009517-bin.31_COICDMBG_00581	hypothetical protein	1110	
+3300009517-bin.31_COICDMBG_00582	hypothetical protein	309	
+3300009517-bin.31_COICDMBG_00583	Thiol-disulfide oxidoreductase ResA	525	resA_3
+3300009517-bin.31_COICDMBG_00584	Triosephosphate isomerase	753	tpiA
+3300009517-bin.31_COICDMBG_00585	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_00586	Ribosomal protein L11 methyltransferase	834	prmA
+3300009517-bin.31_COICDMBG_00587	ATP-dependent Clp protease adapter protein ClpS	276	clpS
+3300009517-bin.31_COICDMBG_00588	hypothetical protein	426	
+3300009517-bin.31_COICDMBG_00589	DnaJ-like protein DjlA	402	djlA
+3300009517-bin.31_COICDMBG_00590	putative protein YbbA	801	ybbA
+3300009517-bin.31_COICDMBG_00591	hypothetical protein	420	
+3300009517-bin.31_COICDMBG_00592	hypothetical protein	459	
+3300009517-bin.31_COICDMBG_00593	Bifunctional protein FolD protein	885	folD
+3300009517-bin.31_COICDMBG_00594	Signal recognition particle protein	1338	ffh
+3300009517-bin.31_COICDMBG_00595	hypothetical protein	468	
+3300009517-bin.31_COICDMBG_00596	hypothetical protein	111	
+3300009517-bin.31_COICDMBG_00597	hypothetical protein	1035	
+3300009517-bin.31_COICDMBG_00598	ECF RNA polymerase sigma factor SigW	522	sigW_2
+3300009517-bin.31_COICDMBG_00599	hypothetical protein	909	
+3300009517-bin.31_COICDMBG_00600	hypothetical protein	612	
+3300009517-bin.31_COICDMBG_00601	hypothetical protein	1929	
+3300009517-bin.31_COICDMBG_00602	Arginine--tRNA ligase	2142	argS
+3300009517-bin.31_COICDMBG_00603	hypothetical protein	4635	
+3300009517-bin.31_COICDMBG_00604	hypothetical protein	2439	
+3300009517-bin.31_COICDMBG_00605	3-oxoacyl-[acyl-carrier-protein] synthase 3	1008	fabH_1
+3300009517-bin.31_COICDMBG_00606	hypothetical protein	333	
+3300009517-bin.31_COICDMBG_00607	hypothetical protein	501	
+3300009517-bin.31_COICDMBG_00608	HTH-type transcriptional repressor AseR	354	aseR
+3300009517-bin.31_COICDMBG_00609	hypothetical protein	468	
+3300009517-bin.31_COICDMBG_00610	Protein ArsC	690	arsC
+3300009517-bin.31_COICDMBG_00611	Arsenical-resistance protein Acr3	1071	acr3
+3300009517-bin.31_COICDMBG_00612	hypothetical protein	468	
+3300009517-bin.31_COICDMBG_00613	hypothetical protein	423	
+3300009517-bin.31_COICDMBG_00614	Fe(3+) ions import ATP-binding protein FbpC 2	921	fbpC2
+3300009517-bin.31_COICDMBG_00615	hypothetical protein	1518	
+3300009517-bin.31_COICDMBG_00616	putative protein kinase UbiB	1311	ubiB
+3300009517-bin.31_COICDMBG_00617	hypothetical protein	708	
+3300009517-bin.31_COICDMBG_00618	putative lipoprotein YiaD	693	yiaD_1
+3300009517-bin.31_COICDMBG_00619	hypothetical protein	474	
+3300009517-bin.31_COICDMBG_00620	Chaperone protein HtpG	1887	htpG
+3300009517-bin.31_COICDMBG_00621	hypothetical protein	390	
+3300009517-bin.31_COICDMBG_00622	hypothetical protein	762	
+3300009517-bin.31_COICDMBG_00623	Carbamoyl-phosphate synthase large chain	2853	carB
+3300009517-bin.31_COICDMBG_00624	50S ribosomal protein L34	162	rpmH
+3300009517-bin.31_COICDMBG_00625	hypothetical protein	516	
+3300009517-bin.31_COICDMBG_00626	Membrane-bound lytic murein transglycosylase D	894	mltD_1
+3300009517-bin.31_COICDMBG_00627	hypothetical protein	660	
+3300009517-bin.31_COICDMBG_00628	hypothetical protein	303	
+3300009517-bin.31_COICDMBG_00629	hypothetical protein	342	
+3300009517-bin.31_COICDMBG_00630	Threonylcarbamoyladenosine tRNA methylthiotransferase MtaB	1329	mtaB
+3300009517-bin.31_COICDMBG_00631	hypothetical protein	1176	
+3300009517-bin.31_COICDMBG_00632	50S ribosomal protein L31 type B	252	rpmE2
+3300009517-bin.31_COICDMBG_00633	hypothetical protein	531	
+3300009517-bin.31_COICDMBG_00634	Dodecaprenyl-phosphate galacturonate synthase	951	rgtE
+3300009517-bin.31_COICDMBG_00635	hypothetical protein	504	
+3300009517-bin.31_COICDMBG_00636	Phosphoglucomutase	1728	pgcA
+3300009517-bin.31_COICDMBG_00637	Putative multidrug export ATP-binding/permease protein	1830	
+3300009517-bin.31_COICDMBG_00638	hypothetical protein	720	
+3300009517-bin.31_COICDMBG_00639	hypothetical protein	2478	
+3300009517-bin.31_COICDMBG_00640	hypothetical protein	1698	
+3300009517-bin.31_COICDMBG_00641	hypothetical protein	291	
+3300009517-bin.31_COICDMBG_00642	hypothetical protein	288	
+3300009517-bin.31_COICDMBG_00643	Ribonuclease Y	1566	rny
+3300009517-bin.31_COICDMBG_00644	Chemotaxis protein CheY	396	cheY_1
+3300009517-bin.31_COICDMBG_00645	Sensor protein kinase WalK	1512	walK_1
+3300009517-bin.31_COICDMBG_00646	Tyrosine recombinase XerD	900	xerD_1
+3300009517-bin.31_COICDMBG_00647	hypothetical protein	495	
+3300009517-bin.31_COICDMBG_00648	hypothetical protein	603	
+3300009517-bin.31_COICDMBG_00649	3-dehydroquinate dehydratase	414	aroQ
+3300009517-bin.31_COICDMBG_00650	hypothetical protein	2457	
+3300009517-bin.31_COICDMBG_00651	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	1311	murA
+3300009517-bin.31_COICDMBG_00652	hypothetical protein	693	
+3300009517-bin.31_COICDMBG_00653	hypothetical protein	285	
+3300009517-bin.31_COICDMBG_00654	Enolase	1293	eno
+3300009517-bin.31_COICDMBG_00655	Carbamoyl-phosphate synthase small chain	1122	carA
+3300009517-bin.31_COICDMBG_00656	50S ribosomal protein L17	513	rplQ
+3300009517-bin.31_COICDMBG_00657	DNA-directed RNA polymerase subunit alpha	993	rpoA
+3300009517-bin.31_COICDMBG_00658	30S ribosomal protein S4	606	rpsD
+3300009517-bin.31_COICDMBG_00659	30S ribosomal protein S11	384	rpsK
+3300009517-bin.31_COICDMBG_00660	30S ribosomal protein S13	375	rpsM
+3300009517-bin.31_COICDMBG_00661	50S ribosomal protein L36	117	rpmJ
+3300009517-bin.31_COICDMBG_00662	Translation initiation factor IF-1	216	infA
+3300009517-bin.31_COICDMBG_00663	Protein translocase subunit SecY	1344	secY
+3300009517-bin.31_COICDMBG_00664	50S ribosomal protein L15	453	rplO
+3300009517-bin.31_COICDMBG_00665	50S ribosomal protein L30	183	rpmD
+3300009517-bin.31_COICDMBG_00666	30S ribosomal protein S5	525	rpsE
+3300009517-bin.31_COICDMBG_00667	50S ribosomal protein L18	354	rplR
+3300009517-bin.31_COICDMBG_00668	50S ribosomal protein L6	543	rplF
+3300009517-bin.31_COICDMBG_00669	30S ribosomal protein S8	399	rpsH
+3300009517-bin.31_COICDMBG_00670	Alternate 30S ribosomal protein S14	270	rpsN2
+3300009517-bin.31_COICDMBG_00671	50S ribosomal protein L5	552	rplE
+3300009517-bin.31_COICDMBG_00672	50S ribosomal protein L24	315	rplX
+3300009517-bin.31_COICDMBG_00673	50S ribosomal protein L14	369	rplN
+3300009517-bin.31_COICDMBG_00674	30S ribosomal protein S17	273	rpsQ
+3300009517-bin.31_COICDMBG_00675	50S ribosomal protein L29	192	rpmC
+3300009517-bin.31_COICDMBG_00676	50S ribosomal protein L16	420	rplP
+3300009517-bin.31_COICDMBG_00677	30S ribosomal protein S3	738	rpsC
+3300009517-bin.31_COICDMBG_00678	50S ribosomal protein L22	411	rplV
+3300009517-bin.31_COICDMBG_00679	30S ribosomal protein S19	279	rpsS
+3300009517-bin.31_COICDMBG_00680	50S ribosomal protein L2	825	rplB
+3300009517-bin.31_COICDMBG_00681	50S ribosomal protein L23	291	rplW
+3300009517-bin.31_COICDMBG_00682	50S ribosomal protein L4	630	rplD
+3300009517-bin.31_COICDMBG_00683	50S ribosomal protein L3	618	rplC
+3300009517-bin.31_COICDMBG_00684	30S ribosomal protein S10	306	rpsJ
+3300009517-bin.31_COICDMBG_00685	Elongation factor G	2157	fusA
+3300009517-bin.31_COICDMBG_00686	30S ribosomal protein S7	477	rpsG
+3300009517-bin.31_COICDMBG_00687	30S ribosomal protein S12	384	rpsL
+3300009517-bin.31_COICDMBG_00688	Outer membrane protein assembly factor BamA	1662	bamA_1
+3300009517-bin.31_COICDMBG_00689	TonB-dependent receptor SusC	2562	susC_1
+3300009517-bin.31_COICDMBG_00690	hypothetical protein	465	
+3300009517-bin.31_COICDMBG_00691	hypothetical protein	1431	
+3300009517-bin.31_COICDMBG_00692	hypothetical protein	726	
+3300009517-bin.31_COICDMBG_00693	hypothetical protein	501	
+3300009517-bin.31_COICDMBG_00694	Putative TrmH family tRNA/rRNA methyltransferase	735	
+3300009517-bin.31_COICDMBG_00695	hypothetical protein	807	
+3300009517-bin.31_COICDMBG_00696	Replication-associated recombination protein A	1278	rarA
+3300009517-bin.31_COICDMBG_00697	hypothetical protein	402	
+3300009517-bin.31_COICDMBG_00698	hypothetical protein	726	
+3300009517-bin.31_COICDMBG_00699	Pyrimidine 5'-nucleotidase YjjG	687	yjjG
+3300009517-bin.31_COICDMBG_00700	hypothetical protein	693	
+3300009517-bin.31_COICDMBG_00701	hypothetical protein	582	
+3300009517-bin.31_COICDMBG_00702	hypothetical protein	1497	
+3300009517-bin.31_COICDMBG_00703	UDP-N-acetylmuramate--L-alanyl-gamma-D-glutamyl- meso-2,6-diaminoheptandioate ligase	1356	mpl
+3300009517-bin.31_COICDMBG_00704	Lipopolysaccharide assembly protein B	690	lapB_2
+3300009517-bin.31_COICDMBG_00705	hypothetical protein	4824	
+3300009517-bin.31_COICDMBG_00706	Dipeptidyl-peptidase 7	2151	dpp7
+3300009517-bin.31_COICDMBG_00707	hypothetical protein	465	
+3300009517-bin.31_COICDMBG_00708	hypothetical protein	594	
+3300009517-bin.31_COICDMBG_00709	hypothetical protein	198	
+3300009517-bin.31_COICDMBG_00710	Transcriptional regulatory protein TdiR	600	tdiR
+3300009517-bin.31_COICDMBG_00711	putative sensor histidine kinase pdtaS	1755	pdtaS_2
+3300009517-bin.31_COICDMBG_00712	Peroxiredoxin OsmC	414	osmC_1
+3300009517-bin.31_COICDMBG_00713	PKHD-type hydroxylase YbiX	591	ybiX
+3300009517-bin.31_COICDMBG_00714	hypothetical protein	1344	
+3300009517-bin.31_COICDMBG_00715	hypothetical protein	483	
+3300009517-bin.31_COICDMBG_00716	hypothetical protein	480	
+3300009517-bin.31_COICDMBG_00717	hypothetical protein	201	
+3300009517-bin.31_COICDMBG_00718	HTH-type transcriptional regulator SinR	222	sinR
+3300009517-bin.31_COICDMBG_00719	Modification methylase HpaII	1260	hpaIIM_1
+3300009517-bin.31_COICDMBG_00720	hypothetical protein	1086	
+3300009517-bin.31_COICDMBG_00721	hypothetical protein	681	
+3300009517-bin.31_COICDMBG_00722	hypothetical protein	501	
+3300009517-bin.31_COICDMBG_00723	putative epimerase/dehydratase	939	
+3300009517-bin.31_COICDMBG_00724	hypothetical protein	666	
+3300009517-bin.31_COICDMBG_00725	Transcription-repair-coupling factor	3306	mfd
+3300009517-bin.31_COICDMBG_00726	hypothetical protein	2175	
+3300009517-bin.31_COICDMBG_00727	hypothetical protein	360	
+3300009517-bin.31_COICDMBG_00728	putative murein peptide carboxypeptidase	957	ykfA
+3300009517-bin.31_COICDMBG_00729	Methionine--tRNA ligase	2058	metG
+3300009517-bin.31_COICDMBG_00730	hypothetical protein	687	
+3300009517-bin.31_COICDMBG_00731	hypothetical protein	1287	
+3300009517-bin.31_COICDMBG_00732	hypothetical protein	444	
+3300009517-bin.31_COICDMBG_00733	Ribonuclease D	441	rnd
+3300009517-bin.31_COICDMBG_00734	Single-stranded DNA-binding protein	333	ssb_1
+3300009517-bin.31_COICDMBG_00735	Deaminated glutathione amidase	1524	nit1
+3300009517-bin.31_COICDMBG_00736	hypothetical protein	351	
+3300009517-bin.31_COICDMBG_00737	hypothetical protein	2415	
+3300009517-bin.31_COICDMBG_00738	Protein YeeZ	804	yeeZ
+3300009517-bin.31_COICDMBG_00739	hypothetical protein	252	
+3300009517-bin.31_COICDMBG_00740	Neutral endopeptidase	2049	pepO_2
+3300009517-bin.31_COICDMBG_00741	SCO1 protein	711	ypmQ_1
+3300009517-bin.31_COICDMBG_00742	Fe(2+) transport protein A	237	feoA
+3300009517-bin.31_COICDMBG_00743	Fe(2+) transporter FeoB	2109	feoB
+3300009517-bin.31_COICDMBG_00744	hypothetical protein	126	
+3300009517-bin.31_COICDMBG_00745	Divalent metal cation transporter MntH	1872	mntH
+3300009517-bin.31_COICDMBG_00746	Iron-dependent repressor IdeR	660	ideR
+3300009517-bin.31_COICDMBG_00747	hypothetical protein	99	
+3300009517-bin.31_COICDMBG_00748	hypothetical protein	621	
+3300009517-bin.31_COICDMBG_00749	putative bacterial non-heme ferritin	519	ftnA
+3300009517-bin.31_COICDMBG_00750	hypothetical protein	1164	
+3300009517-bin.31_COICDMBG_00751	hypothetical protein	411	
+3300009517-bin.31_COICDMBG_00752	hypothetical protein	1359	
+3300009517-bin.31_COICDMBG_00753	Coenzyme PQQ synthesis protein E	1035	pqqE
+3300009517-bin.31_COICDMBG_00754	hypothetical protein	1209	
+3300009517-bin.31_COICDMBG_00755	Gliding motility lipoprotein GldH	483	gldH
+3300009517-bin.31_COICDMBG_00756	Penicillin-binding protein 1A	2304	mrcA
+3300009517-bin.31_COICDMBG_00757	Succinyl-CoA:3-ketoacid coenzyme A transferase subunit A	699	scoA
+3300009517-bin.31_COICDMBG_00758	hypothetical protein	354	
+3300009517-bin.31_COICDMBG_00759	putative succinyl-CoA:3-ketoacid coenzyme A transferase subunit B	660	scoB
+3300009517-bin.31_COICDMBG_00760	hypothetical protein	393	
+3300009517-bin.31_COICDMBG_00761	Fumarate hydratase class I, anaerobic	1602	fumB
+3300009517-bin.31_COICDMBG_00762	hypothetical protein	552	
+3300009517-bin.31_COICDMBG_00763	Spore maturation protein B	1440	spmB
+3300009517-bin.31_COICDMBG_00764	hypothetical protein	714	
+3300009517-bin.31_COICDMBG_00765	Methylated-DNA--protein-cysteine methyltransferase	471	ogt
+3300009517-bin.31_COICDMBG_00766	hypothetical protein	366	
+3300009517-bin.31_COICDMBG_00767	Delta-aminolevulinic acid dehydratase	999	hemB
+3300009517-bin.31_COICDMBG_00768	Oxygen-dependent coproporphyrinogen-III oxidase	903	hemF
+3300009517-bin.31_COICDMBG_00769	hypothetical protein	1662	
+3300009517-bin.31_COICDMBG_00770	Uroporphyrinogen decarboxylase	1026	hemE
+3300009517-bin.31_COICDMBG_00771	hypothetical protein	675	
+3300009517-bin.31_COICDMBG_00772	hypothetical protein	627	
+3300009517-bin.31_COICDMBG_00773	Porphobilinogen deaminase	969	hemC
+3300009517-bin.31_COICDMBG_00774	Glutamyl-tRNA reductase	1251	hemA
+3300009517-bin.31_COICDMBG_00775	Regulatory protein PchR	873	pchR_1
+3300009517-bin.31_COICDMBG_00776	Ferrochelatase	1017	hemH
+3300009517-bin.31_COICDMBG_00777	hypothetical protein	555	
+3300009517-bin.31_COICDMBG_00778	Signal transduction histidine-protein kinase AtoS	1473	atoS
+3300009517-bin.31_COICDMBG_00779	Crotonyl-CoA hydratase	783	
+3300009517-bin.31_COICDMBG_00780	hypothetical protein	1119	
+3300009517-bin.31_COICDMBG_00781	putative protein YedJ	645	yedJ
+3300009517-bin.31_COICDMBG_00782	Putative acyl-[acyl-carrier-protein] desaturase DesA1	987	desA1
+3300009517-bin.31_COICDMBG_00783	hypothetical protein	738	
+3300009517-bin.31_COICDMBG_00784	Protein RecA	1005	recA
+3300009517-bin.31_COICDMBG_00785	hypothetical protein	408	
+3300009517-bin.31_COICDMBG_00786	ECF RNA polymerase sigma factor SigE	549	sigE_3
+3300009517-bin.31_COICDMBG_00787	hypothetical protein	1557	
+3300009517-bin.31_COICDMBG_00788	1-acyl-sn-glycerol-3-phosphate acyltransferase	735	plsC_1
+3300009517-bin.31_COICDMBG_00789	Tryptophan--tRNA ligase	978	trpS
+3300009517-bin.31_COICDMBG_00790	hypothetical protein	1434	
+3300009517-bin.31_COICDMBG_00791	DNA processing protein DprA	1104	dprA
+3300009517-bin.31_COICDMBG_00792	hypothetical protein	945	
+3300009517-bin.31_COICDMBG_00793	putative acyl-CoA thioester hydrolase	510	
+3300009517-bin.31_COICDMBG_00794	hypothetical protein	1914	
+3300009517-bin.31_COICDMBG_00795	hypothetical protein	2154	
+3300009517-bin.31_COICDMBG_00796	Murein hydrolase activator EnvC	1248	envC
+3300009517-bin.31_COICDMBG_00797	hypothetical protein	774	
+3300009517-bin.31_COICDMBG_00798	Beta-barrel assembly-enhancing protease	1350	bepA_4
+3300009517-bin.31_COICDMBG_00799	UTP--glucose-1-phosphate uridylyltransferase	1011	gtaB
+3300009517-bin.31_COICDMBG_00800	hypothetical protein	339	
+3300009517-bin.31_COICDMBG_00801	hypothetical protein	390	
+3300009517-bin.31_COICDMBG_00802	Deoxyuridine 5'-triphosphate nucleotidohydrolase	435	dut
+3300009517-bin.31_COICDMBG_00803	hypothetical protein	1476	
+3300009517-bin.31_COICDMBG_00804	ATP synthase gamma chain	861	atpG
+3300009517-bin.31_COICDMBG_00805	ATP synthase subunit alpha	1578	atpA
+3300009517-bin.31_COICDMBG_00806	ATP synthase subunit delta	528	atpH
+3300009517-bin.31_COICDMBG_00807	ATP synthase subunit b	501	atpF
+3300009517-bin.31_COICDMBG_00808	ATP synthase subunit c	192	atpE
+3300009517-bin.31_COICDMBG_00809	ATP synthase subunit a	1164	atpB
+3300009517-bin.31_COICDMBG_00810	hypothetical protein	399	
+3300009517-bin.31_COICDMBG_00811	hypothetical protein	234	
+3300009517-bin.31_COICDMBG_00812	hypothetical protein	405	
+3300009517-bin.31_COICDMBG_00813	hypothetical protein	2856	
+3300009517-bin.31_COICDMBG_00814	ABC transporter ATP-binding protein NatA	699	natA_1
+3300009517-bin.31_COICDMBG_00815	hypothetical protein	1470	
+3300009517-bin.31_COICDMBG_00816	hypothetical protein	693	
+3300009517-bin.31_COICDMBG_00817	hypothetical protein	336	
+3300009517-bin.31_COICDMBG_00818	1,2-phenylacetyl-CoA epoxidase, subunit E	1053	paaE_1
+3300009517-bin.31_COICDMBG_00819	Lipopolysaccharide core heptosyltransferase RfaQ	999	rfaQ_2
+3300009517-bin.31_COICDMBG_00820	hypothetical protein	606	
+3300009517-bin.31_COICDMBG_00821	Uracil phosphoribosyltransferase	654	upp
+3300009517-bin.31_COICDMBG_00822	hypothetical protein	930	
+3300009517-bin.31_COICDMBG_00823	hypothetical protein	231	
+3300009517-bin.31_COICDMBG_00824	Phosphoribosylamine--glycine ligase	1347	purD
+3300009517-bin.31_COICDMBG_00825	Ycf48-like protein	1314	hcf136
+3300009517-bin.31_COICDMBG_00826	hypothetical protein	1269	
+3300009517-bin.31_COICDMBG_00827	UDP-2,3-diacetamido-2,3-dideoxy-D-glucuronate 2-epimerase	1089	wbpI
+3300009517-bin.31_COICDMBG_00828	hypothetical protein	1185	
+3300009517-bin.31_COICDMBG_00829	UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase	1362	wcaJ
+3300009517-bin.31_COICDMBG_00830	UDP-glucose 4-epimerase	984	
+3300009517-bin.31_COICDMBG_00831	hypothetical protein	1326	
+3300009517-bin.31_COICDMBG_00832	O-antigen biosynthesis glycosyltransferase WbnH	1131	wbnH
+3300009517-bin.31_COICDMBG_00833	hypothetical protein	1215	
+3300009517-bin.31_COICDMBG_00834	hypothetical protein	822	
+3300009517-bin.31_COICDMBG_00835	dTDP-4-amino-4,6-dideoxy-D-glucose transaminase	1077	vioA_1
+3300009517-bin.31_COICDMBG_00836	Teichuronic acid biosynthesis protein TuaB	1434	tuaB
+3300009517-bin.31_COICDMBG_00837	hypothetical protein	1395	
+3300009517-bin.31_COICDMBG_00838	hypothetical protein	546	
+3300009517-bin.31_COICDMBG_00839	hypothetical protein	519	
+3300009517-bin.31_COICDMBG_00840	dTDP-4-dehydrorhamnose reductase	912	rmlD
+3300009517-bin.31_COICDMBG_00841	dTDP-4-dehydrorhamnose 3,5-epimerase	552	rfbC
+3300009517-bin.31_COICDMBG_00842	Glucose-1-phosphate thymidylyltransferase 1	864	rfbA
+3300009517-bin.31_COICDMBG_00843	hypothetical protein	984	
+3300009517-bin.31_COICDMBG_00844	hypothetical protein	1689	
+3300009517-bin.31_COICDMBG_00845	hypothetical protein	861	
+3300009517-bin.31_COICDMBG_00846	hypothetical protein	1509	
+3300009517-bin.31_COICDMBG_00847	hypothetical protein	366	
+3300009517-bin.31_COICDMBG_00848	Murein DD-endopeptidase MepM	873	mepM_1
+3300009517-bin.31_COICDMBG_00849	Sec-independent protein translocase protein TatAy	183	tatAy
+3300009517-bin.31_COICDMBG_00850	Esterase EstD	1380	estD
+3300009517-bin.31_COICDMBG_00851	Protein YhgF	2127	yhgF
+3300009517-bin.31_COICDMBG_00852	Cadmium, cobalt and zinc/H(+)-K(+) antiporter	903	czcD_2
+3300009517-bin.31_COICDMBG_00853	Ribose-5-phosphate isomerase B	432	rpiB
+3300009517-bin.31_COICDMBG_00854	hypothetical protein	234	
+3300009517-bin.31_COICDMBG_00855	Ribonuclease R	2181	rnr
+3300009517-bin.31_COICDMBG_00856	hypothetical protein	666	
+3300009517-bin.31_COICDMBG_00857	hypothetical protein	693	
+3300009517-bin.31_COICDMBG_00858	hypothetical protein	657	
+3300009517-bin.31_COICDMBG_00860	Dihydroneopterin aldolase	360	folB
+3300009517-bin.31_COICDMBG_00861	Glutamine--tRNA ligase	1686	glnS
+3300009517-bin.31_COICDMBG_00862	hypothetical protein	987	
+3300009517-bin.31_COICDMBG_00863	Protein QmcA	966	qmcA
+3300009517-bin.31_COICDMBG_00864	hypothetical protein	645	
+3300009517-bin.31_COICDMBG_00865	Glutamate--tRNA ligase	1509	gltX
+3300009517-bin.31_COICDMBG_00866	hypothetical protein	3408	
+3300009517-bin.31_COICDMBG_00867	Endoribonuclease YbeY	420	ybeY
+3300009517-bin.31_COICDMBG_00868	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG	1872	mnmG
+3300009517-bin.31_COICDMBG_00869	Demethylmenaquinone methyltransferase	843	menG_1
+3300009517-bin.31_COICDMBG_00870	hypothetical protein	588	
+3300009517-bin.31_COICDMBG_00871	ATP-dependent RecD-like DNA helicase	2274	recD2_1
+3300009517-bin.31_COICDMBG_00872	hypothetical protein	387	
+3300009517-bin.31_COICDMBG_00873	DNA polymerase III subunit gamma/tau	1149	dnaX_1
+3300009517-bin.31_COICDMBG_00874	hypothetical protein	153	
+3300009517-bin.31_COICDMBG_00875	hypothetical protein	1854	
+3300009517-bin.31_COICDMBG_00876	Phosphoglycerate kinase	1188	pgk
+3300009517-bin.31_COICDMBG_00877	Membrane-bound lytic murein transglycosylase D	2268	mltD_2
+3300009517-bin.31_COICDMBG_00878	hypothetical protein	975	
+3300009517-bin.31_COICDMBG_00879	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_00880	Photosystem I P700 chlorophyll a apoprotein A2	816	psaB_1
+3300009517-bin.31_COICDMBG_00881	putative CtpA-like serine protease	1635	
+3300009517-bin.31_COICDMBG_00882	Ribonuclease P protein component	396	rnpA
+3300009517-bin.31_COICDMBG_00883	hypothetical protein	414	
+3300009517-bin.31_COICDMBG_00884	hypothetical protein	1878	
+3300009517-bin.31_COICDMBG_00885	Cell wall-associated protease	1584	wprA
+3300009517-bin.31_COICDMBG_00886	putative quorum-quenching lactonase YtnP	861	ytnP
+3300009517-bin.31_COICDMBG_00887	hypothetical protein	3063	
+3300009517-bin.31_COICDMBG_00888	hypothetical protein	705	
+3300009517-bin.31_COICDMBG_00889	hypothetical protein	543	
+3300009517-bin.31_COICDMBG_00890	putative lipoprotein YiaD	1329	yiaD_2
+3300009517-bin.31_COICDMBG_00891	hypothetical protein	1218	
+3300009517-bin.31_COICDMBG_00892	hypothetical protein	639	
+3300009517-bin.31_COICDMBG_00893	hypothetical protein	471	
+3300009517-bin.31_COICDMBG_00894	hypothetical protein	1833	
+3300009517-bin.31_COICDMBG_00895	hypothetical protein	729	
+3300009517-bin.31_COICDMBG_00896	hypothetical protein	396	
+3300009517-bin.31_COICDMBG_00897	hypothetical protein	489	
+3300009517-bin.31_COICDMBG_00898	Internalin-J	2145	inlJ_2
+3300009517-bin.31_COICDMBG_00899	Iron-sulfur cluster insertion protein ErpA	330	erpA
+3300009517-bin.31_COICDMBG_00900	FeS cluster assembly protein SufB	1449	sufB
+3300009517-bin.31_COICDMBG_00901	hypothetical protein	348	
+3300009517-bin.31_COICDMBG_00902	putative ATP-dependent transporter SufC	750	sufC
+3300009517-bin.31_COICDMBG_00903	FeS cluster assembly protein SufD	1317	sufD
+3300009517-bin.31_COICDMBG_00904	6-aminohexanoate-dimer hydrolase	1443	nylB_2
+3300009517-bin.31_COICDMBG_00905	hypothetical protein	981	
+3300009517-bin.31_COICDMBG_00906	hypothetical protein	1164	
+3300009517-bin.31_COICDMBG_00907	Cysteine desulfurase SufS	1215	sufS_2
+3300009517-bin.31_COICDMBG_00908	hypothetical protein	441	
+3300009517-bin.31_COICDMBG_00909	Cysteine desulfuration protein SufE	420	sufE
+3300009517-bin.31_COICDMBG_00910	hypothetical protein	414	
+3300009517-bin.31_COICDMBG_00911	Fe-S protein maturation auxiliary factor SufT	324	sufT
+3300009517-bin.31_COICDMBG_00912	hypothetical protein	507	
+3300009517-bin.31_COICDMBG_00913	hypothetical protein	891	
+3300009517-bin.31_COICDMBG_00914	Biosynthetic peptidoglycan transglycosylase	681	mtgA
+3300009517-bin.31_COICDMBG_00915	hypothetical protein	1119	
+3300009517-bin.31_COICDMBG_00916	Chitinase A1	3942	chiA1
+3300009517-bin.31_COICDMBG_00917	Elongation factor 4	1797	lepA
+3300009517-bin.31_COICDMBG_00918	putative tRNA-dihydrouridine synthase	993	dus
+3300009517-bin.31_COICDMBG_00919	Lipoprotein-releasing system transmembrane protein LolE	1200	lolE_1
+3300009517-bin.31_COICDMBG_00920	Ribosome-binding factor A	393	rbfA
+3300009517-bin.31_COICDMBG_00921	hypothetical protein	402	
+3300009517-bin.31_COICDMBG_00923	hypothetical protein	219	
+3300009517-bin.31_COICDMBG_00924	Riboflavin synthase	606	ribE
+3300009517-bin.31_COICDMBG_00925	D-threonate 4-phosphate dehydrogenase	1047	pdxA2
+3300009517-bin.31_COICDMBG_00926	hypothetical protein	543	
+3300009517-bin.31_COICDMBG_00927	50S ribosomal protein L32	195	rpmF
+3300009517-bin.31_COICDMBG_00928	3-oxoacyl-[acyl-carrier-protein] synthase 3	999	fabH_2
+3300009517-bin.31_COICDMBG_00929	Biotin carboxyl carrier protein of acetyl-CoA carboxylase	486	accB
+3300009517-bin.31_COICDMBG_00930	Biotin carboxylase	1344	accC
+3300009517-bin.31_COICDMBG_00931	hypothetical protein	357	
+3300009517-bin.31_COICDMBG_00932	Dipeptidyl-peptidase 5	1902	dpp5
+3300009517-bin.31_COICDMBG_00933	hypothetical protein	1305	
+3300009517-bin.31_COICDMBG_00934	hypothetical protein	642	
+3300009517-bin.31_COICDMBG_00935	hypothetical protein	2805	
+3300009517-bin.31_COICDMBG_00936	hypothetical protein	1116	
+3300009517-bin.31_COICDMBG_00937	3-hydroxyanthranilate 3,4-dioxygenase	534	nbaC
+3300009517-bin.31_COICDMBG_00938	NAD/NADP-dependent betaine aldehyde dehydrogenase	1554	betB_1
+3300009517-bin.31_COICDMBG_00939	hypothetical protein	576	
+3300009517-bin.31_COICDMBG_00940	hypothetical protein	498	
+3300009517-bin.31_COICDMBG_00941	Bis(5'-nucleosyl)-tetraphosphatase, symmetrical	729	apaH
+3300009517-bin.31_COICDMBG_00942	hypothetical protein	1149	
+3300009517-bin.31_COICDMBG_00943	Oxidoreductase YdhF	867	ydhF
+3300009517-bin.31_COICDMBG_00944	hypothetical protein	1005	
+3300009517-bin.31_COICDMBG_00945	hypothetical protein	870	
+3300009517-bin.31_COICDMBG_00946	hypothetical protein	1635	
+3300009517-bin.31_COICDMBG_00947	hypothetical protein	1002	
+3300009517-bin.31_COICDMBG_00948	hypothetical protein	1038	
+3300009517-bin.31_COICDMBG_00949	hypothetical protein	765	
+3300009517-bin.31_COICDMBG_00950	hypothetical protein	1767	
+3300009517-bin.31_COICDMBG_00951	hypothetical protein	747	
+3300009517-bin.31_COICDMBG_00952	hypothetical protein	504	
+3300009517-bin.31_COICDMBG_00953	hypothetical protein	357	
+3300009517-bin.31_COICDMBG_00954	Phenylalanine--tRNA ligase alpha subunit	1020	pheS
+3300009517-bin.31_COICDMBG_00955	hypothetical protein	408	
+3300009517-bin.31_COICDMBG_00956	Photosystem I P700 chlorophyll a apoprotein A2	1872	psaB_2
+3300009517-bin.31_COICDMBG_00957	Glycerol-3-phosphate dehydrogenase [NAD(P)+]	996	gpsA
+3300009517-bin.31_COICDMBG_00958	Nicotinate-nucleotide adenylyltransferase	582	nadD
+3300009517-bin.31_COICDMBG_00959	hypothetical protein	366	
+3300009517-bin.31_COICDMBG_00960	Guanylate kinase	573	gmk
+3300009517-bin.31_COICDMBG_00961	hypothetical protein	861	
+3300009517-bin.31_COICDMBG_00962	putative cystine transporter YijE	888	yijE
+3300009517-bin.31_COICDMBG_00963	putative protein YfgD	354	yfgD_1
+3300009517-bin.31_COICDMBG_00964	hypothetical protein	456	
+3300009517-bin.31_COICDMBG_00965	hypothetical protein	174	
+3300009517-bin.31_COICDMBG_00966	Cystathionine beta-lyase	1167	metC
+3300009517-bin.31_COICDMBG_00967	hypothetical protein	378	
+3300009517-bin.31_COICDMBG_00968	hypothetical protein	801	
+3300009517-bin.31_COICDMBG_00969	putative TonB-dependent receptor	2208	
+3300009517-bin.31_COICDMBG_00970	hypothetical protein	354	
+3300009517-bin.31_COICDMBG_00971	hypothetical protein	279	
+3300009517-bin.31_COICDMBG_00972	Modification methylase BanI	1329	banIM_2
+3300009517-bin.31_COICDMBG_00973	hypothetical protein	687	
+3300009517-bin.31_COICDMBG_00974	Aspartate-semialdehyde dehydrogenase	990	asd
+3300009517-bin.31_COICDMBG_00975	Large-conductance mechanosensitive channel	378	mscL
+3300009517-bin.31_COICDMBG_00976	Alanine racemase 1	2445	alr1
+3300009517-bin.31_COICDMBG_00977	Thymidine kinase	621	tdk
+3300009517-bin.31_COICDMBG_00978	hypothetical protein	879	
+3300009517-bin.31_COICDMBG_00979	Ribosomal RNA small subunit methyltransferase I	708	rsmI_1
+3300009517-bin.31_COICDMBG_00980	Adenine deaminase	1623	ade
+3300009517-bin.31_COICDMBG_00981	Protein UmuD	441	umuD
+3300009517-bin.31_COICDMBG_00982	Protein UmuC	1299	umuC
+3300009517-bin.31_COICDMBG_00983	putative sugar kinase YdjH	927	ydjH
+3300009517-bin.31_COICDMBG_00984	Amidophosphoribosyltransferase	1899	purF
+3300009517-bin.31_COICDMBG_00985	Superoxide dismutase [Mn]	609	sodA_2
+3300009517-bin.31_COICDMBG_00986	hypothetical protein	519	
+3300009517-bin.31_COICDMBG_00987	ATP-dependent helicase/nuclease subunit A	3168	addA
+3300009517-bin.31_COICDMBG_00988	2-amino-3-ketobutyrate coenzyme A ligase	1194	kbl
+3300009517-bin.31_COICDMBG_00989	Outer membrane porin F	1395	oprF_3
+3300009517-bin.31_COICDMBG_00990	hypothetical protein	2754	
+3300009517-bin.31_COICDMBG_00991	hypothetical protein	384	
+3300009517-bin.31_COICDMBG_00992	hypothetical protein	783	
+3300009517-bin.31_COICDMBG_00993	Xaa-Pro aminopeptidase	1293	pepP
+3300009517-bin.31_COICDMBG_00994	hypothetical protein	597	
+3300009517-bin.31_COICDMBG_00995	hypothetical protein	846	
+3300009517-bin.31_COICDMBG_00996	hypothetical protein	867	
+3300009517-bin.31_COICDMBG_00997	hypothetical protein	918	
+3300009517-bin.31_COICDMBG_00998	Fumarate reductase flavoprotein subunit	2010	frdA
+3300009517-bin.31_COICDMBG_00999	Fumarate reductase iron-sulfur subunit	762	frdB
+3300009517-bin.31_COICDMBG_01000	hypothetical protein	2838	
+3300009517-bin.31_COICDMBG_01001	Omega-amidase YafV	804	yafV
+3300009517-bin.31_COICDMBG_01002	hypothetical protein	1602	
+3300009517-bin.31_COICDMBG_01003	hypothetical protein	318	
+3300009517-bin.31_COICDMBG_01004	hypothetical protein	684	
+3300009517-bin.31_COICDMBG_01005	hypothetical protein	222	
+3300009517-bin.31_COICDMBG_01006	hypothetical protein	1686	
+3300009517-bin.31_COICDMBG_01007	hypothetical protein	384	
+3300009517-bin.31_COICDMBG_01008	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_01009	hypothetical protein	429	
+3300009517-bin.31_COICDMBG_01010	hypothetical protein	561	
+3300009517-bin.31_COICDMBG_01011	hypothetical protein	609	
+3300009517-bin.31_COICDMBG_01012	hypothetical protein	1470	
+3300009517-bin.31_COICDMBG_01013	ATPase RavA	954	ravA
+3300009517-bin.31_COICDMBG_01014	Chaperone SurA	1404	surA_1
+3300009517-bin.31_COICDMBG_01015	hypothetical protein	849	
+3300009517-bin.31_COICDMBG_01016	Chaperone SurA	1965	surA_2
+3300009517-bin.31_COICDMBG_01017	Peptide chain release factor 3	1590	prfC
+3300009517-bin.31_COICDMBG_01018	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_01019	hypothetical protein	3312	
+3300009517-bin.31_COICDMBG_01020	Amylopullulanase	4569	apu
+3300009517-bin.31_COICDMBG_01021	hypothetical protein	111	
+3300009517-bin.31_COICDMBG_01022	hypothetical protein	312	
+3300009517-bin.31_COICDMBG_01023	DNA-directed RNA polymerase subunit beta'	4308	rpoC
+3300009517-bin.31_COICDMBG_01024	DNA-directed RNA polymerase subunit beta	3813	rpoB
+3300009517-bin.31_COICDMBG_01025	50S ribosomal protein L7/L12	375	rplL
+3300009517-bin.31_COICDMBG_01026	50S ribosomal protein L10	495	rplJ
+3300009517-bin.31_COICDMBG_01027	50S ribosomal protein L1	690	rplA
+3300009517-bin.31_COICDMBG_01028	50S ribosomal protein L11	447	rplK
+3300009517-bin.31_COICDMBG_01029	Transcription termination/antitermination protein NusG	552	nusG
+3300009517-bin.31_COICDMBG_01030	Protein translocase subunit SecE	201	secE
+3300009517-bin.31_COICDMBG_01032	Elongation factor Tu	1188	tuf
+3300009517-bin.31_COICDMBG_01036	Ribosome hibernation promoting factor	303	hpf
+3300009517-bin.31_COICDMBG_01037	Tyrosine recombinase XerC	915	xerC_2
+3300009517-bin.31_COICDMBG_01038	30S ribosomal protein S21	195	rpsU
+3300009517-bin.31_COICDMBG_01039	Acyl-CoA dehydrogenase	1170	mmgC_1
+3300009517-bin.31_COICDMBG_01040	hypothetical protein	891	
+3300009517-bin.31_COICDMBG_01041	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_01042	hypothetical protein	1269	
+3300009517-bin.31_COICDMBG_01043	hypothetical protein	1650	
+3300009517-bin.31_COICDMBG_01044	hypothetical protein	132	
+3300009517-bin.31_COICDMBG_01045	Putative cystathionine beta-synthase	1362	cbs_1
+3300009517-bin.31_COICDMBG_01046	hypothetical protein	1959	
+3300009517-bin.31_COICDMBG_01047	C5a peptidase	1857	scpA_1
+3300009517-bin.31_COICDMBG_01048	hypothetical protein	1449	
+3300009517-bin.31_COICDMBG_01049	TonB-dependent receptor SusC	3069	susC_2
+3300009517-bin.31_COICDMBG_01050	Ribonuclease HII	660	rnhB
+3300009517-bin.31_COICDMBG_01051	Octanoyltransferase	705	lipB
+3300009517-bin.31_COICDMBG_01052	Lysine--tRNA ligase	1698	lysS
+3300009517-bin.31_COICDMBG_01053	hypothetical protein	1995	
+3300009517-bin.31_COICDMBG_01054	hypothetical protein	843	
+3300009517-bin.31_COICDMBG_01055	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_01056	Transcriptional activatory protein AadR	591	aadR
+3300009517-bin.31_COICDMBG_01057	hypothetical protein	1230	
+3300009517-bin.31_COICDMBG_01058	Immunogenic protein MPB70	558	
+3300009517-bin.31_COICDMBG_01059	Peroxiredoxin OsmC	438	osmC_2
+3300009517-bin.31_COICDMBG_01060	Nitric oxide reductase subunit C	438	norC
+3300009517-bin.31_COICDMBG_01061	Nitric oxide reductase subunit B	1341	norB
+3300009517-bin.31_COICDMBG_01062	hypothetical protein	1797	
+3300009517-bin.31_COICDMBG_01063	Histidine decarboxylase	1239	hdc
+3300009517-bin.31_COICDMBG_01064	hypothetical protein	291	
+3300009517-bin.31_COICDMBG_01065	7-carboxy-7-deazaguanine synthase	678	queE_1
+3300009517-bin.31_COICDMBG_01066	hypothetical protein	171	
+3300009517-bin.31_COICDMBG_01067	Anaerobic ribonucleoside-triphosphate reductase	2115	nrdD
+3300009517-bin.31_COICDMBG_01068	Iron-sulfur cluster repair protein ScdA	726	scdA
+3300009517-bin.31_COICDMBG_01069	Quinolinate synthase A	927	nadA
+3300009517-bin.31_COICDMBG_01070	L-aspartate oxidase	1572	nadB
+3300009517-bin.31_COICDMBG_01071	Group 3 truncated hemoglobin ctb	372	ctb_1
+3300009517-bin.31_COICDMBG_01072	hypothetical protein	768	
+3300009517-bin.31_COICDMBG_01073	putative ABC transporter ATP-binding protein YxlF	714	yxlF_1
+3300009517-bin.31_COICDMBG_01074	putative ABC transporter binding protein NosD	1236	nosD
+3300009517-bin.31_COICDMBG_01075	Copper-binding lipoprotein NosL	1014	nosL
+3300009517-bin.31_COICDMBG_01076	Nitrous-oxide reductase	1980	nosZ
+3300009517-bin.31_COICDMBG_01077	hypothetical protein	474	
+3300009517-bin.31_COICDMBG_01078	hypothetical protein	408	
+3300009517-bin.31_COICDMBG_01079	hypothetical protein	369	
+3300009517-bin.31_COICDMBG_01080	Glutamate-1-semialdehyde 2,1-aminomutase	1287	hemL
+3300009517-bin.31_COICDMBG_01081	Autolysin	891	
+3300009517-bin.31_COICDMBG_01082	D-cysteine desulfhydrase	891	dcyD
+3300009517-bin.31_COICDMBG_01083	hypothetical protein	4794	
+3300009517-bin.31_COICDMBG_01084	hypothetical protein	1857	
+3300009517-bin.31_COICDMBG_01085	hypothetical protein	330	
+3300009517-bin.31_COICDMBG_01086	hypothetical protein	183	
+3300009517-bin.31_COICDMBG_01087	Urocanate hydratase	1977	hutU
+3300009517-bin.31_COICDMBG_01088	hypothetical protein	534	
+3300009517-bin.31_COICDMBG_01089	2-oxoisovalerate dehydrogenase subunit beta	2046	bfmBAB_1
+3300009517-bin.31_COICDMBG_01090	Branched-chain-amino-acid aminotransferase 2	1068	ilvK_2
+3300009517-bin.31_COICDMBG_01091	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	1266	pdhC_1
+3300009517-bin.31_COICDMBG_01092	Protein YrdA	597	yrdA_1
+3300009517-bin.31_COICDMBG_01093	Short-chain-enoyl-CoA hydratase	753	crt
+3300009517-bin.31_COICDMBG_01094	Bifunctional protein PaaZ	2496	paaZ
+3300009517-bin.31_COICDMBG_01095	Beta-ketoadipyl-CoA thiolase	1209	pcaF
+3300009517-bin.31_COICDMBG_01096	hypothetical protein	366	
+3300009517-bin.31_COICDMBG_01097	Acyl-coenzyme A thioesterase PaaI	405	paaI
+3300009517-bin.31_COICDMBG_01098	3-hydroxyadipyl-CoA dehydrogenase	1149	paaH
+3300009517-bin.31_COICDMBG_01099	1,2-epoxyphenylacetyl-CoA isomerase	780	paaG
+3300009517-bin.31_COICDMBG_01100	Putative 1,2-phenylacetyl-CoA epoxidase, subunit D	501	paaD
+3300009517-bin.31_COICDMBG_01101	1,2-phenylacetyl-CoA epoxidase, subunit C	753	paaC
+3300009517-bin.31_COICDMBG_01102	1,2-phenylacetyl-CoA epoxidase, subunit B	282	paaB
+3300009517-bin.31_COICDMBG_01103	1,2-phenylacetyl-CoA epoxidase, subunit A	957	paaA
+3300009517-bin.31_COICDMBG_01104	1,2-phenylacetyl-CoA epoxidase, subunit E	1074	paaE_2
+3300009517-bin.31_COICDMBG_01105	HTH-type transcriptional repressor KstR2	573	kstR2_1
+3300009517-bin.31_COICDMBG_01106	Sulfurtransferase	309	
+3300009517-bin.31_COICDMBG_01107	hypothetical protein	531	
+3300009517-bin.31_COICDMBG_01108	Transcriptional regulatory protein DegU	648	degU_1
+3300009517-bin.31_COICDMBG_01109	Sensor histidine kinase LiaS	1929	liaS_1
+3300009517-bin.31_COICDMBG_01110	hypothetical protein	279	
+3300009517-bin.31_COICDMBG_01111	hypothetical protein	2631	
+3300009517-bin.31_COICDMBG_01112	hypothetical protein	1452	
+3300009517-bin.31_COICDMBG_01113	hypothetical protein	3597	
+3300009517-bin.31_COICDMBG_01114	hypothetical protein	1461	
+3300009517-bin.31_COICDMBG_01115	Response regulator protein VraR	648	vraR
+3300009517-bin.31_COICDMBG_01116	Sensor protein VraS	1938	vraS
+3300009517-bin.31_COICDMBG_01117	Sensor histidine kinase LiaS	1887	liaS_2
+3300009517-bin.31_COICDMBG_01118	hypothetical protein	282	
+3300009517-bin.31_COICDMBG_01119	hypothetical protein	534	
+3300009517-bin.31_COICDMBG_01120	Outer membrane protein assembly factor BamB	1860	bamB
+3300009517-bin.31_COICDMBG_01121	hypothetical protein	948	
+3300009517-bin.31_COICDMBG_01122	Putative multidrug export ATP-binding/permease protein	1743	
+3300009517-bin.31_COICDMBG_01123	hypothetical protein	1404	
+3300009517-bin.31_COICDMBG_01124	hypothetical protein	306	
+3300009517-bin.31_COICDMBG_01125	hypothetical protein	810	
+3300009517-bin.31_COICDMBG_01126	Alanine--tRNA ligase	2637	alaS
+3300009517-bin.31_COICDMBG_01127	Murein DD-endopeptidase MepM	981	mepM_2
+3300009517-bin.31_COICDMBG_01128	Mercuric resistance operon regulatory protein	333	merR1
+3300009517-bin.31_COICDMBG_01129	Protein LemA	609	lemA
+3300009517-bin.31_COICDMBG_01130	hypothetical protein	438	
+3300009517-bin.31_COICDMBG_01131	hypothetical protein	804	
+3300009517-bin.31_COICDMBG_01132	hypothetical protein	2781	
+3300009517-bin.31_COICDMBG_01133	GTPase Der	1311	der
+3300009517-bin.31_COICDMBG_01134	hypothetical protein	495	
+3300009517-bin.31_COICDMBG_01135	GTPase Era	885	era
+3300009517-bin.31_COICDMBG_01137	hypothetical protein	933	
+3300009517-bin.31_COICDMBG_01138	hypothetical protein	273	
+3300009517-bin.31_COICDMBG_01139	hypothetical protein	768	
+3300009517-bin.31_COICDMBG_01140	hypothetical protein	201	
+3300009517-bin.31_COICDMBG_01141	hypothetical protein	1029	
+3300009517-bin.31_COICDMBG_01142	hypothetical protein	972	
+3300009517-bin.31_COICDMBG_01143	hypothetical protein	2466	
+3300009517-bin.31_COICDMBG_01144	hypothetical protein	288	
+3300009517-bin.31_COICDMBG_01145	hypothetical protein	669	
+3300009517-bin.31_COICDMBG_01146	Signal transduction histidine-protein kinase/phosphatase UhpB	1644	uhpB
+3300009517-bin.31_COICDMBG_01147	Chaperone protein DnaJ	453	dnaJ_1
+3300009517-bin.31_COICDMBG_01148	hypothetical protein	903	
+3300009517-bin.31_COICDMBG_01149	hypothetical protein	480	
+3300009517-bin.31_COICDMBG_01150	Putative pterin-4-alpha-carbinolamine dehydratase	276	phhB
+3300009517-bin.31_COICDMBG_01151	hypothetical protein	1149	
+3300009517-bin.31_COICDMBG_01152	putative ABC transporter ATP-binding protein YheS	1905	yheS
+3300009517-bin.31_COICDMBG_01153	hypothetical protein	393	
+3300009517-bin.31_COICDMBG_01154	Glycine oxidase	1056	thiO
+3300009517-bin.31_COICDMBG_01155	hypothetical protein	915	
+3300009517-bin.31_COICDMBG_01156	hypothetical protein	1548	
+3300009517-bin.31_COICDMBG_01157	hypothetical protein	630	
+3300009517-bin.31_COICDMBG_01158	Serine/threonine-protein kinase pkn1	1407	pkn1
+3300009517-bin.31_COICDMBG_01159	Formimidoylglutamase	1152	hutG_1
+3300009517-bin.31_COICDMBG_01160	DNA topoisomerase 1	2505	topA
+3300009517-bin.31_COICDMBG_01161	hypothetical protein	171	
+3300009517-bin.31_COICDMBG_01162	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase	1449	miaB
+3300009517-bin.31_COICDMBG_01163	hypothetical protein	387	
+3300009517-bin.31_COICDMBG_01164	Regulatory protein AtoC	1257	atoC_1
+3300009517-bin.31_COICDMBG_01165	hypothetical protein	840	
+3300009517-bin.31_COICDMBG_01166	hypothetical protein	504	
+3300009517-bin.31_COICDMBG_01167	hypothetical protein	825	
+3300009517-bin.31_COICDMBG_01168	Protein-export membrane protein SecG	360	secG
+3300009517-bin.31_COICDMBG_01169	10 kDa chaperonin	276	groS
+3300009517-bin.31_COICDMBG_01170	60 kDa chaperonin	1632	groL
+3300009517-bin.31_COICDMBG_01171	Protein DedA	681	dedA
+3300009517-bin.31_COICDMBG_01172	hypothetical protein	342	
+3300009517-bin.31_COICDMBG_01173	Vitamin B12 transporter BtuB	2007	btuB_2
+3300009517-bin.31_COICDMBG_01174	hypothetical protein	417	
+3300009517-bin.31_COICDMBG_01175	Ribonuclease	1356	
+3300009517-bin.31_COICDMBG_01176	hypothetical protein	831	
+3300009517-bin.31_COICDMBG_01177	hypothetical protein	444	
+3300009517-bin.31_COICDMBG_01178	hypothetical protein	558	
+3300009517-bin.31_COICDMBG_01179	Free methionine-R-sulfoxide reductase	456	msrC
+3300009517-bin.31_COICDMBG_01180	hypothetical protein	1566	
+3300009517-bin.31_COICDMBG_01181	hypothetical protein	579	
+3300009517-bin.31_COICDMBG_01182	30S ribosomal protein S15	270	rpsO
+3300009517-bin.31_COICDMBG_01183	Polyribonucleotide nucleotidyltransferase	2157	pnp
+3300009517-bin.31_COICDMBG_01184	hypothetical protein	657	
+3300009517-bin.31_COICDMBG_01185	hypothetical protein	1737	
+3300009517-bin.31_COICDMBG_01186	RNA polymerase sigma factor SigA	864	sigA
+3300009517-bin.31_COICDMBG_01187	Ribulose-phosphate 3-epimerase	663	rpe
+3300009517-bin.31_COICDMBG_01188	hypothetical protein	825	
+3300009517-bin.31_COICDMBG_01190	putative protein YqeY	450	yqeY
+3300009517-bin.31_COICDMBG_01191	Cell division protein FtsZ	1953	ftsZ
+3300009517-bin.31_COICDMBG_01192	Cell division protein FtsA	1380	ftsA
+3300009517-bin.31_COICDMBG_01193	hypothetical protein	723	
+3300009517-bin.31_COICDMBG_01194	UDP-N-acetylmuramate--L-alanine ligase	1341	murC
+3300009517-bin.31_COICDMBG_01195	UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	1092	murG_1
+3300009517-bin.31_COICDMBG_01196	putative peptidoglycan glycosyltransferase FtsW	1284	ftsW
+3300009517-bin.31_COICDMBG_01197	UDP-N-acetylmuramoylalanine--D-glutamate ligase	1335	murD
+3300009517-bin.31_COICDMBG_01198	Phospho-N-acetylmuramoyl-pentapeptide- transferase	1227	mraY
+3300009517-bin.31_COICDMBG_01199	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase	1464	murE
+3300009517-bin.31_COICDMBG_01200	Stage V sporulation protein D	2004	spoVD
+3300009517-bin.31_COICDMBG_01201	hypothetical protein	348	
+3300009517-bin.31_COICDMBG_01202	Ribosomal RNA small subunit methyltransferase H	897	rsmH
+3300009517-bin.31_COICDMBG_01203	Transcriptional regulator MraZ	516	mraZ
+3300009517-bin.31_COICDMBG_01204	2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase	765	bphD
+3300009517-bin.31_COICDMBG_01205	putative GTP-binding protein EngB	618	engB
+3300009517-bin.31_COICDMBG_01206	hypothetical protein	324	
+3300009517-bin.31_COICDMBG_01207	hypothetical protein	966	
+3300009517-bin.31_COICDMBG_01208	NH(3)-dependent NAD(+) synthetase	855	nadE
+3300009517-bin.31_COICDMBG_01209	Response regulator UvrY	630	uvrY_1
+3300009517-bin.31_COICDMBG_01210	DNA primase	1989	dnaG_1
+3300009517-bin.31_COICDMBG_01211	hypothetical protein	1062	
+3300009517-bin.31_COICDMBG_01212	hypothetical protein	750	
+3300009517-bin.31_COICDMBG_01213	ECF RNA polymerase sigma factor SigE	573	sigE_4
+3300009517-bin.31_COICDMBG_01214	All-trans-nonaprenyl-diphosphate synthase (geranyl-diphosphate specific)	978	sdsA
+3300009517-bin.31_COICDMBG_01216	hypothetical protein	1587	
+3300009517-bin.31_COICDMBG_01217	hypothetical protein	693	
+3300009517-bin.31_COICDMBG_01218	hypothetical protein	2436	
+3300009517-bin.31_COICDMBG_01219	2,3-bisphosphoglycerate-independent phosphoglycerate mutase	1497	gpmI
+3300009517-bin.31_COICDMBG_01220	Internalin-J	1422	inlJ_3
+3300009517-bin.31_COICDMBG_01221	Butanoate coenzyme A-transferase	1269	
+3300009517-bin.31_COICDMBG_01222	hypothetical protein	675	
+3300009517-bin.31_COICDMBG_01223	Leukotoxin export ATP-binding protein LtxB	1665	ltxB
+3300009517-bin.31_COICDMBG_01224	hypothetical protein	1341	
+3300009517-bin.31_COICDMBG_01225	hypothetical protein	1386	
+3300009517-bin.31_COICDMBG_01226	Methionine aminopeptidase 1	819	map
+3300009517-bin.31_COICDMBG_01227	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_01228	Demethylrebeccamycin-D-glucose O-methyltransferase	714	rebM
+3300009517-bin.31_COICDMBG_01229	hypothetical protein	1254	
+3300009517-bin.31_COICDMBG_01230	Protein ApaG	387	apaG
+3300009517-bin.31_COICDMBG_01231	1-pyrroline-5-carboxylate dehydrogenase	1629	rocA
+3300009517-bin.31_COICDMBG_01232	hypothetical protein	816	
+3300009517-bin.31_COICDMBG_01233	hypothetical protein	345	
+3300009517-bin.31_COICDMBG_01234	Trigger factor	1329	tig
+3300009517-bin.31_COICDMBG_01235	ATP-dependent Clp protease proteolytic subunit	660	clpP
+3300009517-bin.31_COICDMBG_01236	ATP-dependent Clp protease ATP-binding subunit ClpX	1233	clpX
+3300009517-bin.31_COICDMBG_01237	hypothetical protein	2220	
+3300009517-bin.31_COICDMBG_01238	putative inner membrane transporter YedA	897	yedA
+3300009517-bin.31_COICDMBG_01239	hypothetical protein	141	
+3300009517-bin.31_COICDMBG_01240	hypothetical protein	1536	
+3300009517-bin.31_COICDMBG_01241	N-acetylmuramoyl-L-alanine amidase LytC	615	lytC
+3300009517-bin.31_COICDMBG_01242	hypothetical protein	795	
+3300009517-bin.31_COICDMBG_01243	hypothetical protein	2613	
+3300009517-bin.31_COICDMBG_01244	Deoxyguanosine kinase	1134	dgk
+3300009517-bin.31_COICDMBG_01245	tRNA (guanosine(18)-2'-O)-methyltransferase	531	trmH_1
+3300009517-bin.31_COICDMBG_01246	hypothetical protein	453	
+3300009517-bin.31_COICDMBG_01247	DNA mismatch repair protein MutS	2607	mutS
+3300009517-bin.31_COICDMBG_01250	hypothetical protein	231	
+3300009517-bin.31_COICDMBG_01251	Asp/Glu-specific dipeptidyl-peptidase	2157	
+3300009517-bin.31_COICDMBG_01252	3-deoxy-D-manno-octulosonic acid transferase	1245	waaA
+3300009517-bin.31_COICDMBG_01253	UDP-2-acetamido-2-deoxy-3-oxo-D-glucuronate aminotransferase	1131	wbpE
+3300009517-bin.31_COICDMBG_01254	UDP-glucose 4-epimerase	1017	galE_2
+3300009517-bin.31_COICDMBG_01255	hypothetical protein	249	
+3300009517-bin.31_COICDMBG_01256	hypothetical protein	702	
+3300009517-bin.31_COICDMBG_01257	Malonyl CoA-acyl carrier protein transacylase	873	fabD
+3300009517-bin.31_COICDMBG_01258	hypothetical protein	1629	
+3300009517-bin.31_COICDMBG_01259	Quinone reductase	522	chrR
+3300009517-bin.31_COICDMBG_01260	hypothetical protein	225	
+3300009517-bin.31_COICDMBG_01261	putative protein YjdJ	279	yjdJ
+3300009517-bin.31_COICDMBG_01262	Quercetin 2,3-dioxygenase	717	yhhW
+3300009517-bin.31_COICDMBG_01263	Putative phospholipase A1	885	
+3300009517-bin.31_COICDMBG_01264	Anaerobic regulatory protein	576	fnr
+3300009517-bin.31_COICDMBG_01265	hypothetical protein	315	
+3300009517-bin.31_COICDMBG_01266	Formate-dependent phosphoribosylglycinamide formyltransferase	1164	purT
+3300009517-bin.31_COICDMBG_01267	Aspartate aminotransferase	1188	
+3300009517-bin.31_COICDMBG_01268	NADPH-dependent stearoyl-CoA 9-desaturase	1095	desA3
+3300009517-bin.31_COICDMBG_01269	Ribosomal RNA small subunit methyltransferase G	630	rsmG
+3300009517-bin.31_COICDMBG_01270	hypothetical protein	2277	
+3300009517-bin.31_COICDMBG_01271	Esterase YbfF	762	ybfF
+3300009517-bin.31_COICDMBG_01272	Pyridoxine 5'-phosphate synthase	714	pdxJ
+3300009517-bin.31_COICDMBG_01273	hypothetical protein	660	
+3300009517-bin.31_COICDMBG_01274	NAD kinase	882	nadK
+3300009517-bin.31_COICDMBG_01275	hypothetical protein	687	
+3300009517-bin.31_COICDMBG_01276	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)	738	uppS
+3300009517-bin.31_COICDMBG_01277	Outer membrane protein assembly factor BamA	2715	bamA_2
+3300009517-bin.31_COICDMBG_01278	hypothetical protein	969	
+3300009517-bin.31_COICDMBG_01279	hypothetical protein	501	
+3300009517-bin.31_COICDMBG_01280	Glutamate racemase	780	murI
+3300009517-bin.31_COICDMBG_01281	Protein YrdA	570	yrdA_2
+3300009517-bin.31_COICDMBG_01282	hypothetical protein	1002	
+3300009517-bin.31_COICDMBG_01283	hypothetical protein	783	
+3300009517-bin.31_COICDMBG_01284	hypothetical protein	1089	
+3300009517-bin.31_COICDMBG_01285	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_01286	hypothetical protein	441	
+3300009517-bin.31_COICDMBG_01287	hypothetical protein	411	
+3300009517-bin.31_COICDMBG_01288	Bifunctional transcriptional activator/DNA repair enzyme AdaA	450	adaA
+3300009517-bin.31_COICDMBG_01289	hypothetical protein	306	
+3300009517-bin.31_COICDMBG_01290	hypothetical protein	630	
+3300009517-bin.31_COICDMBG_01291	hypothetical protein	180	
+3300009517-bin.31_COICDMBG_01292	hypothetical protein	570	
+3300009517-bin.31_COICDMBG_01293	putative formaldehyde dehydrogenase AdhA	1053	adhA
+3300009517-bin.31_COICDMBG_01294	hypothetical protein	168	
+3300009517-bin.31_COICDMBG_01295	hypothetical protein	720	
+3300009517-bin.31_COICDMBG_01296	hypothetical protein	435	
+3300009517-bin.31_COICDMBG_01297	hypothetical protein	444	
+3300009517-bin.31_COICDMBG_01298	hypothetical protein	351	
+3300009517-bin.31_COICDMBG_01299	hypothetical protein	474	
+3300009517-bin.31_COICDMBG_01300	hypothetical protein	243	
+3300009517-bin.31_COICDMBG_01301	Voltage-gated ClC-type chloride channel ClcB	1821	clcB
+3300009517-bin.31_COICDMBG_01302	hypothetical protein	678	
+3300009517-bin.31_COICDMBG_01303	Glutathione hydrolase proenzyme	1704	ggt
+3300009517-bin.31_COICDMBG_01304	Acyl carrier protein phosphodiesterase	588	acpH
+3300009517-bin.31_COICDMBG_01305	hypothetical protein	591	
+3300009517-bin.31_COICDMBG_01306	Methylmalonyl-CoA mutase large subunit	2133	mutB
+3300009517-bin.31_COICDMBG_01307	Methylmalonyl-CoA mutase	1359	scpA_2
+3300009517-bin.31_COICDMBG_01308	Cell division protein FtsL	354	ftsL
+3300009517-bin.31_COICDMBG_01309	Uridine kinase	609	udk
+3300009517-bin.31_COICDMBG_01311	Thioredoxin reductase	948	trxB
+3300009517-bin.31_COICDMBG_01312	hypothetical protein	834	
+3300009517-bin.31_COICDMBG_01313	hypothetical protein	741	
+3300009517-bin.31_COICDMBG_01314	hypothetical protein	1731	
+3300009517-bin.31_COICDMBG_01315	hypothetical protein	333	
+3300009517-bin.31_COICDMBG_01316	hypothetical protein	456	
+3300009517-bin.31_COICDMBG_01317	hypothetical protein	456	
+3300009517-bin.31_COICDMBG_01318	Epimerase family protein	903	
+3300009517-bin.31_COICDMBG_01319	Protein GrpE	570	grpE
+3300009517-bin.31_COICDMBG_01320	Chaperone protein DnaJ	1122	dnaJ_2
+3300009517-bin.31_COICDMBG_01321	ABC transporter ATP-binding protein NatA	942	natA_2
+3300009517-bin.31_COICDMBG_01322	putative protein YhaP	1302	yhaP
+3300009517-bin.31_COICDMBG_01323	L-serine dehydratase 1	1425	sdaA
+3300009517-bin.31_COICDMBG_01324	N-acetyl-alpha-D-glucosaminyl L-malate synthase	1149	bshA_2
+3300009517-bin.31_COICDMBG_01325	hypothetical protein	429	
+3300009517-bin.31_COICDMBG_01326	hypothetical protein	498	
+3300009517-bin.31_COICDMBG_01327	UDP-2,3-diacylglucosamine hydrolase	834	lpxH_1
+3300009517-bin.31_COICDMBG_01328	Chorismate synthase	1062	aroC
+3300009517-bin.31_COICDMBG_01329	Proton/glutamate-aspartate symporter	1293	gltP
+3300009517-bin.31_COICDMBG_01330	C4-dicarboxylate transport protein	1254	dctA
+3300009517-bin.31_COICDMBG_01331	hypothetical protein	1056	
+3300009517-bin.31_COICDMBG_01332	hypothetical protein	138	
+3300009517-bin.31_COICDMBG_01333	hypothetical protein	420	
+3300009517-bin.31_COICDMBG_01334	Endonuclease MutS2	2172	mutS2_1
+3300009517-bin.31_COICDMBG_01335	Uracil-DNA glycosylase	666	ung
+3300009517-bin.31_COICDMBG_01336	hypothetical protein	591	
+3300009517-bin.31_COICDMBG_01337	hypothetical protein	567	
+3300009517-bin.31_COICDMBG_01338	hypothetical protein	936	
+3300009517-bin.31_COICDMBG_01339	hypothetical protein	852	
+3300009517-bin.31_COICDMBG_01340	hypothetical protein	534	
+3300009517-bin.31_COICDMBG_01341	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_01342	putative protein YycE	378	yycE
+3300009517-bin.31_COICDMBG_01343	Purine nucleoside phosphorylase DeoD-type	867	deoD
+3300009517-bin.31_COICDMBG_01344	putative protein YciH	333	yciH
+3300009517-bin.31_COICDMBG_01345	hypothetical protein	954	
+3300009517-bin.31_COICDMBG_01346	hypothetical protein	378	
+3300009517-bin.31_COICDMBG_01347	hypothetical protein	729	
+3300009517-bin.31_COICDMBG_01348	putative cyclic di-GMP phosphodiesterase	441	
+3300009517-bin.31_COICDMBG_01349	hypothetical protein	573	
+3300009517-bin.31_COICDMBG_01350	2-oxoisovalerate dehydrogenase subunit beta	1977	bfmBAB_2
+3300009517-bin.31_COICDMBG_01351	Chaperone modulatory protein CbpM	291	cbpM
+3300009517-bin.31_COICDMBG_01352	Curved DNA-binding protein	903	cbpA
+3300009517-bin.31_COICDMBG_01353	Calcium-dependent protease	4602	prcA_1
+3300009517-bin.31_COICDMBG_01354	Maleate isomerase	795	maiA
+3300009517-bin.31_COICDMBG_01355	putative protein YisK	915	yisK
+3300009517-bin.31_COICDMBG_01356	Gentisate 1,2-dioxygenase	1254	sdgD
+3300009517-bin.31_COICDMBG_01357	hypothetical protein	105	
+3300009517-bin.31_COICDMBG_01358	hypothetical protein	264	
+3300009517-bin.31_COICDMBG_01359	TonB-dependent receptor SusC	1941	susC_3
+3300009517-bin.31_COICDMBG_01360	hypothetical protein	936	
+3300009517-bin.31_COICDMBG_01361	ECF RNA polymerase sigma factor SigW	537	sigW_3
+3300009517-bin.31_COICDMBG_01362	putative protein YyaP	555	yyaP
+3300009517-bin.31_COICDMBG_01363	Vitamin B12 transporter BtuB	1953	btuB_3
+3300009517-bin.31_COICDMBG_01364	hypothetical protein	1137	
+3300009517-bin.31_COICDMBG_01365	Hemin transport system permease protein HmuU	1026	hmuU
+3300009517-bin.31_COICDMBG_01366	hypothetical protein	438	
+3300009517-bin.31_COICDMBG_01367	putative siderophore transport system ATP-binding protein YusV	792	yusV
+3300009517-bin.31_COICDMBG_01368	tRNA (cytidine(34)-2'-O)-methyltransferase	453	trmL
+3300009517-bin.31_COICDMBG_01369	Ribosomal large subunit pseudouridine synthase E	582	rluE
+3300009517-bin.31_COICDMBG_01370	hypothetical protein	1365	
+3300009517-bin.31_COICDMBG_01371	putative acyl-CoA thioester hydrolase	552	
+3300009517-bin.31_COICDMBG_01372	hypothetical protein	1419	
+3300009517-bin.31_COICDMBG_01373	hypothetical protein	2043	
+3300009517-bin.31_COICDMBG_01374	hypothetical protein	1128	
+3300009517-bin.31_COICDMBG_01375	hypothetical protein	2484	
+3300009517-bin.31_COICDMBG_01376	hypothetical protein	312	
+3300009517-bin.31_COICDMBG_01377	Phosphomannomutase/phosphoglucomutase	1389	algC
+3300009517-bin.31_COICDMBG_01378	hypothetical protein	1665	
+3300009517-bin.31_COICDMBG_01379	hypothetical protein	675	
+3300009517-bin.31_COICDMBG_01380	hypothetical protein	894	
+3300009517-bin.31_COICDMBG_01381	hypothetical protein	1470	
+3300009517-bin.31_COICDMBG_01382	hypothetical protein	573	
+3300009517-bin.31_COICDMBG_01383	hypothetical protein	1293	
+3300009517-bin.31_COICDMBG_01384	hypothetical protein	2448	
+3300009517-bin.31_COICDMBG_01385	hypothetical protein	258	
+3300009517-bin.31_COICDMBG_01386	hypothetical protein	984	
+3300009517-bin.31_COICDMBG_01387	hypothetical protein	1119	
+3300009517-bin.31_COICDMBG_01388	Putative membrane-bound redox modulator Alx	951	alx
+3300009517-bin.31_COICDMBG_01389	Glutamine synthetase	2190	glnA
+3300009517-bin.31_COICDMBG_01390	hypothetical protein	1122	
+3300009517-bin.31_COICDMBG_01391	hypothetical protein	456	
+3300009517-bin.31_COICDMBG_01392	hypothetical protein	891	
+3300009517-bin.31_COICDMBG_01393	Photosystem I P700 chlorophyll a apoprotein A2	843	psaB_3
+3300009517-bin.31_COICDMBG_01394	hypothetical protein	771	
+3300009517-bin.31_COICDMBG_01395	Phosphoribosylformylglycinamidine cyclo-ligase	1179	purM
+3300009517-bin.31_COICDMBG_01396	Autoinducer 2 sensor kinase/phosphatase LuxQ	1659	luxQ_1
+3300009517-bin.31_COICDMBG_01397	Oxygen regulatory protein NreC	654	nreC_1
+3300009517-bin.31_COICDMBG_01398	Autoinducer 2 sensor kinase/phosphatase LuxQ	750	luxQ_2
+3300009517-bin.31_COICDMBG_01399	Nucleoside triphosphate pyrophosphohydrolase	774	mazG
+3300009517-bin.31_COICDMBG_01400	hypothetical protein	2154	
+3300009517-bin.31_COICDMBG_01401	Polyphosphate:ADP phosphotransferase	873	
+3300009517-bin.31_COICDMBG_01402	Multidrug resistance protein NorM	1374	norM
+3300009517-bin.31_COICDMBG_01403	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_01404	Oxygen regulatory protein NreC	666	nreC_2
+3300009517-bin.31_COICDMBG_01405	Oxygen sensor histidine kinase NreB	780	nreB_1
+3300009517-bin.31_COICDMBG_01406	hypothetical protein	666	
+3300009517-bin.31_COICDMBG_01407	hypothetical protein	501	
+3300009517-bin.31_COICDMBG_01408	hypothetical protein	138	
+3300009517-bin.31_COICDMBG_01409	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_01410	hypothetical protein	495	
+3300009517-bin.31_COICDMBG_01411	hypothetical protein	543	
+3300009517-bin.31_COICDMBG_01412	hypothetical protein	420	
+3300009517-bin.31_COICDMBG_01413	hypothetical protein	579	
+3300009517-bin.31_COICDMBG_01414	hypothetical protein	729	
+3300009517-bin.31_COICDMBG_01415	putative GTPase	1083	
+3300009517-bin.31_COICDMBG_01416	putative FAD-linked oxidoreductase	1404	
+3300009517-bin.31_COICDMBG_01417	hypothetical protein	111	
+3300009517-bin.31_COICDMBG_01418	hypothetical protein	582	
+3300009517-bin.31_COICDMBG_01419	hypothetical protein	399	
+3300009517-bin.31_COICDMBG_01420	hypothetical protein	153	
+3300009517-bin.31_COICDMBG_01421	hypothetical protein	1611	
+3300009517-bin.31_COICDMBG_01422	Protein translocase subunit SecA	3348	secA
+3300009517-bin.31_COICDMBG_01423	hypothetical protein	222	
+3300009517-bin.31_COICDMBG_01424	Cob(I)yrinic acid a,c-diamide adenosyltransferase	570	yvqK
+3300009517-bin.31_COICDMBG_01425	hypothetical protein	234	
+3300009517-bin.31_COICDMBG_01426	putative ABC transporter ATP-binding protein YknY	699	yknY_1
+3300009517-bin.31_COICDMBG_01427	hypothetical protein	780	
+3300009517-bin.31_COICDMBG_01428	Energy-dependent translational throttle protein EttA	1863	ettA_1
+3300009517-bin.31_COICDMBG_01429	N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase	1182	wbbL
+3300009517-bin.31_COICDMBG_01430	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	1386	odhB
+3300009517-bin.31_COICDMBG_01431	1-deoxy-D-xylulose-5-phosphate synthase	954	dxs_1
+3300009517-bin.31_COICDMBG_01432	Transketolase 2	846	tktB
+3300009517-bin.31_COICDMBG_01433	hypothetical protein	1575	
+3300009517-bin.31_COICDMBG_01434	hypothetical protein	174	
+3300009517-bin.31_COICDMBG_01435	Queuine tRNA-ribosyltransferase	1131	tgt
+3300009517-bin.31_COICDMBG_01436	Lipopolysaccharide export system permease protein LptG	1086	lptG
+3300009517-bin.31_COICDMBG_01437	hypothetical protein	885	
+3300009517-bin.31_COICDMBG_01438	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha	954	accA
+3300009517-bin.31_COICDMBG_01439	Replicative DNA helicase	1551	dnaC
+3300009517-bin.31_COICDMBG_01440	hypothetical protein	315	
+3300009517-bin.31_COICDMBG_01441	hypothetical protein	636	
+3300009517-bin.31_COICDMBG_01442	Oxygen sensor histidine kinase NreB	786	nreB_2
+3300009517-bin.31_COICDMBG_01443	Transcriptional regulatory protein DegU	663	degU_2
+3300009517-bin.31_COICDMBG_01444	hypothetical protein	183	
+3300009517-bin.31_COICDMBG_01445	hypothetical protein	1266	
+3300009517-bin.31_COICDMBG_01446	Prolyl tripeptidyl peptidase	2133	ptpA
+3300009517-bin.31_COICDMBG_01447	Na(+)/H(+) antiporter NhaP	1224	nhaP
+3300009517-bin.31_COICDMBG_01448	Mechanosensitive channel MscK	900	mscK_1
+3300009517-bin.31_COICDMBG_01449	Mechanosensitive channel MscK	1872	mscK_2
+3300009517-bin.31_COICDMBG_01450	hypothetical protein	771	
+3300009517-bin.31_COICDMBG_01451	Cyanophycin synthetase	2619	cphA
+3300009517-bin.31_COICDMBG_01452	Non-heme chloroperoxidase	843	cpo
+3300009517-bin.31_COICDMBG_01453	Chromosome partition protein Smc	780	smc
+3300009517-bin.31_COICDMBG_01454	GTP cyclohydrolase 1 type 2	1116	
+3300009517-bin.31_COICDMBG_01455	hypothetical protein	564	
+3300009517-bin.31_COICDMBG_01456	Tetraacyldisaccharide 4'-kinase	1053	lpxK
+3300009517-bin.31_COICDMBG_01457	Purine nucleoside phosphorylase 1	813	punA
+3300009517-bin.31_COICDMBG_01458	Autoinducer 2 sensor kinase/phosphatase LuxQ	2205	luxQ_3
+3300009517-bin.31_COICDMBG_01459	Glyceraldehyde-3-phosphate dehydrogenase	996	gap
+3300009517-bin.31_COICDMBG_01460	Lipoyl synthase	870	lipA
+3300009517-bin.31_COICDMBG_01461	hypothetical protein	204	
+3300009517-bin.31_COICDMBG_01462	hypothetical protein	537	
+3300009517-bin.31_COICDMBG_01463	L-threonine dehydratase biosynthetic IlvA	1245	ilvA
+3300009517-bin.31_COICDMBG_01464	Ketol-acid reductoisomerase (NAD(+))	1047	
+3300009517-bin.31_COICDMBG_01465	Acetolactate synthase small subunit	525	ilvH
+3300009517-bin.31_COICDMBG_01466	Acetolactate synthase large subunit	1695	ilvB
+3300009517-bin.31_COICDMBG_01467	Dihydroxy-acid dehydratase	1677	ilvD
+3300009517-bin.31_COICDMBG_01468	Branched-chain-amino-acid aminotransferase	891	ilvE
+3300009517-bin.31_COICDMBG_01469	Sensor protein ZraS	1092	zraS_1
+3300009517-bin.31_COICDMBG_01470	Regulatory protein AtoC	1329	atoC_2
+3300009517-bin.31_COICDMBG_01471	hypothetical protein	165	
+3300009517-bin.31_COICDMBG_01472	hypothetical protein	117	
+3300009517-bin.31_COICDMBG_01473	Glutamate dehydrogenase	1305	gdhA_1
+3300009517-bin.31_COICDMBG_01474	Regulator of nucleoside diphosphate kinase	414	rnk
+3300009517-bin.31_COICDMBG_01475	hypothetical protein	402	
+3300009517-bin.31_COICDMBG_01476	hypothetical protein	609	
+3300009517-bin.31_COICDMBG_01477	Group 3 truncated hemoglobin ctb	435	ctb_2
+3300009517-bin.31_COICDMBG_01478	hypothetical protein	264	
+3300009517-bin.31_COICDMBG_01479	hypothetical protein	234	
+3300009517-bin.31_COICDMBG_01480	hypothetical protein	303	
+3300009517-bin.31_COICDMBG_01481	hypothetical protein	468	
+3300009517-bin.31_COICDMBG_01482	hypothetical protein	1008	
+3300009517-bin.31_COICDMBG_01483	hypothetical protein	372	
+3300009517-bin.31_COICDMBG_01484	hypothetical protein	177	
+3300009517-bin.31_COICDMBG_01485	hypothetical protein	288	
+3300009517-bin.31_COICDMBG_01486	Tyrosine recombinase XerC	1275	xerC_3
+3300009517-bin.31_COICDMBG_01487	hypothetical protein	780	
+3300009517-bin.31_COICDMBG_01488	hypothetical protein	285	
+3300009517-bin.31_COICDMBG_01489	hypothetical protein	870	
+3300009517-bin.31_COICDMBG_01490	hypothetical protein	1032	
+3300009517-bin.31_COICDMBG_01491	hypothetical protein	684	
+3300009517-bin.31_COICDMBG_01492	hypothetical protein	426	
+3300009517-bin.31_COICDMBG_01493	hypothetical protein	630	
+3300009517-bin.31_COICDMBG_01494	hypothetical protein	288	
+3300009517-bin.31_COICDMBG_01495	hypothetical protein	3459	
+3300009517-bin.31_COICDMBG_01496	hypothetical protein	1512	
+3300009517-bin.31_COICDMBG_01497	hypothetical protein	843	
+3300009517-bin.31_COICDMBG_01498	Tyrosine recombinase XerD	1233	xerD_2
+3300009517-bin.31_COICDMBG_01499	hypothetical protein	1215	
+3300009517-bin.31_COICDMBG_01500	hypothetical protein	288	
+3300009517-bin.31_COICDMBG_01501	hypothetical protein	276	
+3300009517-bin.31_COICDMBG_01502	hypothetical protein	2259	
+3300009517-bin.31_COICDMBG_01503	putative type I restriction enzymeP M protein	2085	
+3300009517-bin.31_COICDMBG_01504	hypothetical protein	1317	
+3300009517-bin.31_COICDMBG_01505	hypothetical protein	3258	
+3300009517-bin.31_COICDMBG_01506	hypothetical protein	906	
+3300009517-bin.31_COICDMBG_01507	Thermonuclease	474	nucH
+3300009517-bin.31_COICDMBG_01508	hypothetical protein	843	
+3300009517-bin.31_COICDMBG_01509	hypothetical protein	885	
+3300009517-bin.31_COICDMBG_01510	hypothetical protein	804	
+3300009517-bin.31_COICDMBG_01511	Endonuclease YhcR	495	yhcR
+3300009517-bin.31_COICDMBG_01513	Riboflavin biosynthesis protein RibBA	1140	ribBA
+3300009517-bin.31_COICDMBG_01514	hypothetical protein	1893	
+3300009517-bin.31_COICDMBG_01515	Outer-membrane lipoprotein carrier protein	642	lolA
+3300009517-bin.31_COICDMBG_01516	DNA translocase SpoIIIE	2436	spoIIIE
+3300009517-bin.31_COICDMBG_01517	Undecaprenol kinase	375	dgkA
+3300009517-bin.31_COICDMBG_01518	Thiol peroxidase	498	tpx
+3300009517-bin.31_COICDMBG_01519	hypothetical protein	621	
+3300009517-bin.31_COICDMBG_01520	putative amino acid permease YhdG	1911	yhdG
+3300009517-bin.31_COICDMBG_01521	Alkyl hydroperoxide reductase C	636	ahpC
+3300009517-bin.31_COICDMBG_01522	Thioredoxin-like protein	309	
+3300009517-bin.31_COICDMBG_01523	hypothetical protein	258	
+3300009517-bin.31_COICDMBG_01524	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_01525	hypothetical protein	891	
+3300009517-bin.31_COICDMBG_01526	Aminodeoxychorismate synthase component 1	1296	pabB
+3300009517-bin.31_COICDMBG_01527	tRNA(Ile)-lysidine synthase	1308	tilS
+3300009517-bin.31_COICDMBG_01528	Thiol:disulfide interchange protein DsbD	2019	dsbD_2
+3300009517-bin.31_COICDMBG_01529	hypothetical protein	285	
+3300009517-bin.31_COICDMBG_01530	hypothetical protein	135	
+3300009517-bin.31_COICDMBG_01531	Modification methylase HpaII	360	hpaIIM_2
+3300009517-bin.31_COICDMBG_01532	Modification methylase HhaI	318	hhaIM
+3300009517-bin.31_COICDMBG_01533	Cold shock-like protein CspC	192	cspC
+3300009517-bin.31_COICDMBG_01534	hypothetical protein	525	
+3300009517-bin.31_COICDMBG_01535	ATP-dependent DNA helicase PcrA	2334	pcrA
+3300009517-bin.31_COICDMBG_01536	hypothetical protein	195	
+3300009517-bin.31_COICDMBG_01537	putative protein YciO	621	yciO
+3300009517-bin.31_COICDMBG_01538	hypothetical protein	1062	
+3300009517-bin.31_COICDMBG_01539	Cytosol non-specific dipeptidase	1467	pepD
+3300009517-bin.31_COICDMBG_01540	hypothetical protein	594	
+3300009517-bin.31_COICDMBG_01541	UDP-3-O-acylglucosamine N-acyltransferase	999	lpxD_3
+3300009517-bin.31_COICDMBG_01542	Peptide chain release factor RF2	930	prfB
+3300009517-bin.31_COICDMBG_01543	L-allo-threonine aldolase	1026	ltaA
+3300009517-bin.31_COICDMBG_01544	hypothetical protein	732	
+3300009517-bin.31_COICDMBG_01545	Nucleoid-associated protein	324	
+3300009517-bin.31_COICDMBG_01546	Dipeptidyl aminopeptidase BI	2058	dapb1
+3300009517-bin.31_COICDMBG_01547	Putative cystathionine beta-synthase	1041	cbs_2
+3300009517-bin.31_COICDMBG_01548	hypothetical protein	834	
+3300009517-bin.31_COICDMBG_01549	putative dual-specificity RNA methyltransferase RlmN	1041	rlmN
+3300009517-bin.31_COICDMBG_01550	Putative O-methyltransferase	642	
+3300009517-bin.31_COICDMBG_01551	hypothetical protein	558	
+3300009517-bin.31_COICDMBG_01552	Sec-independent protein translocase protein TatB	324	tatB
+3300009517-bin.31_COICDMBG_01553	hypothetical protein	735	
+3300009517-bin.31_COICDMBG_01554	hypothetical protein	759	
+3300009517-bin.31_COICDMBG_01555	Peptidase E	741	pepE
+3300009517-bin.31_COICDMBG_01556	putative transcriptional regulatory protein	714	
+3300009517-bin.31_COICDMBG_01557	hypothetical protein	1923	
+3300009517-bin.31_COICDMBG_01558	Aminomethyltransferase	1083	gcvT
+3300009517-bin.31_COICDMBG_01559	hypothetical protein	1287	
+3300009517-bin.31_COICDMBG_01560	Serine hydroxymethyltransferase	1275	glyA
+3300009517-bin.31_COICDMBG_01561	GMP reductase	1041	guaC
+3300009517-bin.31_COICDMBG_01562	hypothetical protein	573	
+3300009517-bin.31_COICDMBG_01563	NADH pyrophosphatase	525	nudC
+3300009517-bin.31_COICDMBG_01564	hypothetical protein	393	
+3300009517-bin.31_COICDMBG_01565	Orotate phosphoribosyltransferase	642	pyrE
+3300009517-bin.31_COICDMBG_01566	Diadenosine hexaphosphate hydrolase	600	ndx1
+3300009517-bin.31_COICDMBG_01567	ATP-dependent RNA helicase DbpA	1284	dbpA
+3300009517-bin.31_COICDMBG_01568	Phosphopantetheine adenylyltransferase	468	coaD
+3300009517-bin.31_COICDMBG_01569	hypothetical protein	621	
+3300009517-bin.31_COICDMBG_01570	D-alanine--D-alanine ligase B	975	ddlB
+3300009517-bin.31_COICDMBG_01571	hypothetical protein	606	
+3300009517-bin.31_COICDMBG_01572	Ribosomal large subunit pseudouridine synthase D	1038	rluD_2
+3300009517-bin.31_COICDMBG_01573	Prolipoprotein diacylglyceryl transferase	912	lgt
+3300009517-bin.31_COICDMBG_01574	Putative membrane protein insertion efficiency factor	246	
+3300009517-bin.31_COICDMBG_01575	Cysteine--tRNA ligase	1485	cysS
+3300009517-bin.31_COICDMBG_01576	GTP cyclohydrolase 1	672	folE_2
+3300009517-bin.31_COICDMBG_01577	hypothetical protein	168	
+3300009517-bin.31_COICDMBG_01578	Fe/S biogenesis protein NfuA	897	nfuA_1
+3300009517-bin.31_COICDMBG_01579	Calcium dodecin	201	secE2
+3300009517-bin.31_COICDMBG_01580	hypothetical protein	399	
+3300009517-bin.31_COICDMBG_01581	Small-conductance mechanosensitive channel	831	mscS_1
+3300009517-bin.31_COICDMBG_01582	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB	666	tsaB
+3300009517-bin.31_COICDMBG_01583	Macrolide export protein MacA	1296	macA_1
+3300009517-bin.31_COICDMBG_01584	Outer membrane protein TolC	1347	tolC
+3300009517-bin.31_COICDMBG_01585	hypothetical protein	1371	
+3300009517-bin.31_COICDMBG_01586	hypothetical protein	264	
+3300009517-bin.31_COICDMBG_01587	hypothetical protein	594	
+3300009517-bin.31_COICDMBG_01588	SCO1 protein	690	ypmQ_2
+3300009517-bin.31_COICDMBG_01589	hypothetical protein	573	
+3300009517-bin.31_COICDMBG_01590	hypothetical protein	366	
+3300009517-bin.31_COICDMBG_01591	Cytochrome c oxidase subunit 3	1029	ctaE_1
+3300009517-bin.31_COICDMBG_01592	Cytochrome c oxidase subunit 3	582	ctaE_2
+3300009517-bin.31_COICDMBG_01593	Protoheme IX farnesyltransferase 1	915	ctaB1
+3300009517-bin.31_COICDMBG_01594	HTH-type transcriptional activator RhaR	1704	rhaR_1
+3300009517-bin.31_COICDMBG_01595	hypothetical protein	1386	
+3300009517-bin.31_COICDMBG_01596	hypothetical protein	4056	
+3300009517-bin.31_COICDMBG_01597	hypothetical protein	474	
+3300009517-bin.31_COICDMBG_01598	hypothetical protein	480	
+3300009517-bin.31_COICDMBG_01599	hypothetical protein	1674	
+3300009517-bin.31_COICDMBG_01600	Photosystem I assembly protein Ycf3	1680	ycf3
+3300009517-bin.31_COICDMBG_01601	hypothetical protein	222	
+3300009517-bin.31_COICDMBG_01602	hypothetical protein	492	
+3300009517-bin.31_COICDMBG_01603	hypothetical protein	480	
+3300009517-bin.31_COICDMBG_01604	hypothetical protein	201	
+3300009517-bin.31_COICDMBG_01605	hypothetical protein	567	
+3300009517-bin.31_COICDMBG_01606	hypothetical protein	444	
+3300009517-bin.31_COICDMBG_01607	hypothetical protein	471	
+3300009517-bin.31_COICDMBG_01608	hypothetical protein	567	
+3300009517-bin.31_COICDMBG_01609	hypothetical protein	2127	
+3300009517-bin.31_COICDMBG_01610	hypothetical protein	390	
+3300009517-bin.31_COICDMBG_01611	Glycine cleavage system H protein	381	gcvH
+3300009517-bin.31_COICDMBG_01612	hypothetical protein	7185	
+3300009517-bin.31_COICDMBG_01613	Holliday junction ATP-dependent DNA helicase RuvA	582	ruvA
+3300009517-bin.31_COICDMBG_01614	NADP-dependent malic enzyme	2301	maeB
+3300009517-bin.31_COICDMBG_01615	hypothetical protein	132	
+3300009517-bin.31_COICDMBG_01616	Epoxyqueuosine reductase	927	queG
+3300009517-bin.31_COICDMBG_01617	Holliday junction ATP-dependent DNA helicase RuvB	1083	ruvB
+3300009517-bin.31_COICDMBG_01618	Alternative cytochrome c oxidase subunit 1	1809	coxN
+3300009517-bin.31_COICDMBG_01619	Alternative cytochrome c oxidase subunit 2	1173	coxM
+3300009517-bin.31_COICDMBG_01620	hypothetical protein	1329	
+3300009517-bin.31_COICDMBG_01621	hypothetical protein	561	
+3300009517-bin.31_COICDMBG_01622	hypothetical protein	528	
+3300009517-bin.31_COICDMBG_01623	hypothetical protein	1410	
+3300009517-bin.31_COICDMBG_01624	Menaquinone reductase, iron-sulfur cluster-binding subunit	3063	qrcC
+3300009517-bin.31_COICDMBG_01625	Menaquinone reductase, multiheme cytochrome c subunit	1320	qrcA
+3300009517-bin.31_COICDMBG_01626	hypothetical protein	390	
+3300009517-bin.31_COICDMBG_01627	Translation initiation factor IF-2	2742	infB
+3300009517-bin.31_COICDMBG_01628	Transcription termination/antitermination protein NusA	1242	nusA
+3300009517-bin.31_COICDMBG_01629	Ribosome maturation factor RimP	468	rimP
+3300009517-bin.31_COICDMBG_01630	Universal stress protein F	825	uspF
+3300009517-bin.31_COICDMBG_01632	hypothetical protein	3279	
+3300009517-bin.31_COICDMBG_01633	Peptidoglycan-N-acetylglucosamine deacetylase	657	pgdA
+3300009517-bin.31_COICDMBG_01634	Thioredoxin	297	trxA_2
+3300009517-bin.31_COICDMBG_01635	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA	1233	cpdA_2
+3300009517-bin.31_COICDMBG_01636	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_01637	Sensor histidine kinase WalK	1323	walK_2
+3300009517-bin.31_COICDMBG_01638	Sensory transduction protein regX3	675	regX3
+3300009517-bin.31_COICDMBG_01639	hypothetical protein	537	
+3300009517-bin.31_COICDMBG_01640	DNA polymerase I	2850	polA
+3300009517-bin.31_COICDMBG_01641	hypothetical protein	774	
+3300009517-bin.31_COICDMBG_01642	hypothetical protein	534	
+3300009517-bin.31_COICDMBG_01643	HTH-type transcriptional regulator DegA	1023	degA_1
+3300009517-bin.31_COICDMBG_01644	50S ribosomal protein L13	456	rplM
+3300009517-bin.31_COICDMBG_01645	30S ribosomal protein S9	387	rpsI
+3300009517-bin.31_COICDMBG_01646	30S ribosomal protein S2	786	rpsB
+3300009517-bin.31_COICDMBG_01647	Elongation factor Ts	825	tsf
+3300009517-bin.31_COICDMBG_01648	hypothetical protein	1554	
+3300009517-bin.31_COICDMBG_01649	hypothetical protein	1335	
+3300009517-bin.31_COICDMBG_01650	hypothetical protein	3723	
+3300009517-bin.31_COICDMBG_01651	Dipeptidyl carboxypeptidase	2118	dcp
+3300009517-bin.31_COICDMBG_01652	DNA-binding protein	231	
+3300009517-bin.31_COICDMBG_01653	DNA-3-methyladenine glycosylase 1	561	tag
+3300009517-bin.31_COICDMBG_01654	hypothetical protein	729	
+3300009517-bin.31_COICDMBG_01655	Leucyl/phenylalanyl-tRNA--protein transferase	636	aat
+3300009517-bin.31_COICDMBG_01656	hypothetical protein	405	
+3300009517-bin.31_COICDMBG_01657	Flavoredoxin	876	flr
+3300009517-bin.31_COICDMBG_01658	hypothetical protein	162	
+3300009517-bin.31_COICDMBG_01659	Sporulation kinase D	1161	kinD
+3300009517-bin.31_COICDMBG_01660	putative HIT-like protein	390	
+3300009517-bin.31_COICDMBG_01661	Transcription elongation factor GreA	477	greA
+3300009517-bin.31_COICDMBG_01662	hypothetical protein	417	
+3300009517-bin.31_COICDMBG_01663	Vitamin B12 transporter BtuB	2250	btuB_4
+3300009517-bin.31_COICDMBG_01664	hypothetical protein	738	
+3300009517-bin.31_COICDMBG_01665	Peptidyl-tRNA hydrolase ArfB	402	arfB
+3300009517-bin.31_COICDMBG_01666	hypothetical protein	1602	
+3300009517-bin.31_COICDMBG_01667	Nicotinamide riboside transporter PnuC	618	pnuC
+3300009517-bin.31_COICDMBG_01668	Geranylgeranylglyceryl phosphate synthase	708	
+3300009517-bin.31_COICDMBG_01669	Cyclic AMP receptor-like protein	597	vfr
+3300009517-bin.31_COICDMBG_01670	hypothetical protein	288	
+3300009517-bin.31_COICDMBG_01671	Group 3 truncated hemoglobin ctb	390	ctb_3
+3300009517-bin.31_COICDMBG_01672	hypothetical protein	630	
+3300009517-bin.31_COICDMBG_01673	Adenosylhomocysteinase	1317	ahcY
+3300009517-bin.31_COICDMBG_01674	50S ribosomal protein L27	261	rpmA
+3300009517-bin.31_COICDMBG_01675	50S ribosomal protein L21	645	rplU
+3300009517-bin.31_COICDMBG_01676	putative zinc protease	1326	
+3300009517-bin.31_COICDMBG_01677	hypothetical protein	2055	
+3300009517-bin.31_COICDMBG_01678	putative amino-acid metabolite efflux pump	867	eamA
+3300009517-bin.31_COICDMBG_01679	Mercuric transport protein periplasmic component	384	merP
+3300009517-bin.31_COICDMBG_01680	hypothetical protein	564	
+3300009517-bin.31_COICDMBG_01681	hypothetical protein	1296	
+3300009517-bin.31_COICDMBG_01682	Single-stranded DNA-binding protein	453	ssb_2
+3300009517-bin.31_COICDMBG_01683	Adenine DNA glycosylase	1041	mutY
+3300009517-bin.31_COICDMBG_01684	DNA-binding protein HU	294	
+3300009517-bin.31_COICDMBG_01685	Ribonuclease G	1539	rng
+3300009517-bin.31_COICDMBG_01686	Penicillin-binding protein 1C	2292	pbpC
+3300009517-bin.31_COICDMBG_01687	hypothetical protein	450	
+3300009517-bin.31_COICDMBG_01688	Carboxy-terminal processing protease CtpB	1569	ctpB
+3300009517-bin.31_COICDMBG_01689	tRNA-specific adenosine deaminase	432	tadA_1
+3300009517-bin.31_COICDMBG_01690	hypothetical protein	594	
+3300009517-bin.31_COICDMBG_01691	hypothetical protein	432	
+3300009517-bin.31_COICDMBG_01692	Fructose-1,6-bisphosphatase class 1	1008	fbp
+3300009517-bin.31_COICDMBG_01693	hypothetical protein	483	
+3300009517-bin.31_COICDMBG_01694	Lysine-sensitive aspartokinase 3	1254	lysC
+3300009517-bin.31_COICDMBG_01695	hypothetical protein	3399	
+3300009517-bin.31_COICDMBG_01696	hypothetical protein	483	
+3300009517-bin.31_COICDMBG_01697	Ribonucleoside-diphosphate reductase subunit beta	978	nrdB
+3300009517-bin.31_COICDMBG_01698	Ribonucleoside-diphosphate reductase 1 subunit alpha	2433	nrdA
+3300009517-bin.31_COICDMBG_01699	hypothetical protein	225	
+3300009517-bin.31_COICDMBG_01700	putative N-acetyltransferase YsnE	462	ysnE
+3300009517-bin.31_COICDMBG_01701	Deoxyguanosinetriphosphate triphosphohydrolase	1338	dgt
+3300009517-bin.31_COICDMBG_01702	hypothetical protein	942	
+3300009517-bin.31_COICDMBG_01703	1-deoxy-D-xylulose-5-phosphate synthase	1776	dxs_2
+3300009517-bin.31_COICDMBG_01704	tRNA-specific adenosine deaminase	474	tadA_2
+3300009517-bin.31_COICDMBG_01705	putative lipoprotein YfhM	5637	yfhM
+3300009517-bin.31_COICDMBG_01706	hypothetical protein	609	
+3300009517-bin.31_COICDMBG_01707	hypothetical protein	198	
+3300009517-bin.31_COICDMBG_01708	hypothetical protein	603	
+3300009517-bin.31_COICDMBG_01709	hypothetical protein	573	
+3300009517-bin.31_COICDMBG_01710	Lys-gingipain W83	1866	kgp
+3300009517-bin.31_COICDMBG_01711	hypothetical protein	753	
+3300009517-bin.31_COICDMBG_01712	hypothetical protein	1674	
+3300009517-bin.31_COICDMBG_01713	hypothetical protein	480	
+3300009517-bin.31_COICDMBG_01714	hypothetical protein	834	
+3300009517-bin.31_COICDMBG_01716	hypothetical protein	453	
+3300009517-bin.31_COICDMBG_01717	UDP-2,3-diacylglucosamine hydrolase	759	lpxH_2
+3300009517-bin.31_COICDMBG_01718	Enterobactin exporter EntS	1269	entS
+3300009517-bin.31_COICDMBG_01719	Single-stranded-DNA-specific exonuclease RecJ	1698	recJ
+3300009517-bin.31_COICDMBG_01720	4-hydroxyphenylpyruvate dioxygenase	1161	hpd
+3300009517-bin.31_COICDMBG_01721	Homogentisate 1,2-dioxygenase	1161	hmgA
+3300009517-bin.31_COICDMBG_01722	hypothetical protein	1671	
+3300009517-bin.31_COICDMBG_01723	hypothetical protein	159	
+3300009517-bin.31_COICDMBG_01724	putative NTE family protein	2304	
+3300009517-bin.31_COICDMBG_01725	UvrABC system protein C	1797	uvrC
+3300009517-bin.31_COICDMBG_01726	hypothetical protein	477	
+3300009517-bin.31_COICDMBG_01727	N-alpha-acetyl-L-2,4-diaminobutyric acid deacetylase	972	doeB
+3300009517-bin.31_COICDMBG_01728	5-formyltetrahydrofolate cyclo-ligase	570	
+3300009517-bin.31_COICDMBG_01729	Lipoprotein signal peptidase	636	lspA
+3300009517-bin.31_COICDMBG_01730	General stress protein 16O	381	yocK
+3300009517-bin.31_COICDMBG_01731	Isoleucine--tRNA ligase	3399	ileS
+3300009517-bin.31_COICDMBG_01732	DNA repair protein RecO	708	recO
+3300009517-bin.31_COICDMBG_01733	hypothetical protein	2292	
+3300009517-bin.31_COICDMBG_01734	NAD(P)-specific glutamate dehydrogenase	1344	gdhA_2
+3300009517-bin.31_COICDMBG_01735	hypothetical protein	792	
+3300009517-bin.31_COICDMBG_01736	GTPase HflX	1221	hflX
+3300009517-bin.31_COICDMBG_01737	hypothetical protein	8478	
+3300009517-bin.31_COICDMBG_01738	hypothetical protein	924	
+3300009517-bin.31_COICDMBG_01739	Outer membrane protein A	1869	ompA
+3300009517-bin.31_COICDMBG_01740	hypothetical protein	777	
+3300009517-bin.31_COICDMBG_01741	Tryptophan 2,3-dioxygenase	927	kynA
+3300009517-bin.31_COICDMBG_01742	Murein DD-endopeptidase MepM	1239	mepM_3
+3300009517-bin.31_COICDMBG_01743	Glucose-6-phosphate isomerase	1644	pgi
+3300009517-bin.31_COICDMBG_01744	hypothetical protein	423	
+3300009517-bin.31_COICDMBG_01745	Endolytic peptidoglycan transglycosylase RlpA	543	rlpA
+3300009517-bin.31_COICDMBG_01746	Inorganic triphosphatase	468	
+3300009517-bin.31_COICDMBG_01747	DNA polymerase IV	1083	dinB
+3300009517-bin.31_COICDMBG_01748	hypothetical protein	660	
+3300009517-bin.31_COICDMBG_01749	hypothetical protein	1608	
+3300009517-bin.31_COICDMBG_01750	hypothetical protein	759	
+3300009517-bin.31_COICDMBG_01751	Pyruvate kinase	1431	pyk
+3300009517-bin.31_COICDMBG_01752	hypothetical protein	492	
+3300009517-bin.31_COICDMBG_01753	Ribonuclease 3	741	rnc
+3300009517-bin.31_COICDMBG_01754	3-oxoacyl-[acyl-carrier-protein] synthase 2	1254	fabF_1
+3300009517-bin.31_COICDMBG_01755	Acyl carrier protein AcpP	237	acpP_3
+3300009517-bin.31_COICDMBG_01756	Phosphoribosylglycinamide formyltransferase	570	purN
+3300009517-bin.31_COICDMBG_01757	Ribonuclease HI	480	rnhA
+3300009517-bin.31_COICDMBG_01758	hypothetical protein	3648	
+3300009517-bin.31_COICDMBG_01759	putative ABC transporter ATP-binding protein YxlF	876	yxlF_2
+3300009517-bin.31_COICDMBG_01760	Type-2 restriction enzyme EcoRV	921	ecoRVR
+3300009517-bin.31_COICDMBG_01761	Modification methylase DpnIIA	960	dpnM
+3300009517-bin.31_COICDMBG_01762	Thiamine-monophosphate kinase	1050	thiL
+3300009517-bin.31_COICDMBG_01763	Transcriptional regulatory protein RcsB	669	rcsB
+3300009517-bin.31_COICDMBG_01764	Oxygen sensor histidine kinase NreB	2016	nreB_3
+3300009517-bin.31_COICDMBG_01765	hypothetical protein	276	
+3300009517-bin.31_COICDMBG_01766	Oxygen sensor histidine kinase NreB	1992	nreB_4
+3300009517-bin.31_COICDMBG_01767	hypothetical protein	402	
+3300009517-bin.31_COICDMBG_01768	hypothetical protein	486	
+3300009517-bin.31_COICDMBG_01769	Response regulator UvrY	660	uvrY_2
+3300009517-bin.31_COICDMBG_01770	hypothetical protein	1359	
+3300009517-bin.31_COICDMBG_01771	Glycine--tRNA ligase	1542	glyQS
+3300009517-bin.31_COICDMBG_01772	Copper-exporting P-type ATPase	1281	copA_2
+3300009517-bin.31_COICDMBG_01773	HTH-type transcriptional activator RhaR	519	rhaR_2
+3300009517-bin.31_COICDMBG_01774	hypothetical protein	858	
+3300009517-bin.31_COICDMBG_01775	hypothetical protein	402	
+3300009517-bin.31_COICDMBG_01776	NAD/NADP-dependent betaine aldehyde dehydrogenase	882	betB_2
+3300009517-bin.31_COICDMBG_01777	Putative aldehyde dehydrogenase AldA	1467	aldA
+3300009517-bin.31_COICDMBG_01778	Deoxyribose-phosphate aldolase	903	deoC
+3300009517-bin.31_COICDMBG_01779	hypothetical protein	2766	
+3300009517-bin.31_COICDMBG_01780	Malto-oligosyltrehalose trehalohydrolase	2889	treZ
+3300009517-bin.31_COICDMBG_01781	hypothetical protein	1170	
+3300009517-bin.31_COICDMBG_01782	Starch-binding protein SusD	1548	susD
+3300009517-bin.31_COICDMBG_01783	TonB-dependent receptor SusC	3057	susC_4
+3300009517-bin.31_COICDMBG_01784	HTH-type transcriptional regulator DegA	1020	degA_2
+3300009517-bin.31_COICDMBG_01785	hypothetical protein	1530	
+3300009517-bin.31_COICDMBG_01786	Beta-phosphoglucomutase	654	pgmB
+3300009517-bin.31_COICDMBG_01787	Maltose phosphorylase	2304	malP
+3300009517-bin.31_COICDMBG_01788	Neopullulanase 2	1827	tvaII_2
+3300009517-bin.31_COICDMBG_01789	hypothetical protein	483	
+3300009517-bin.31_COICDMBG_01790	Oligosaccharide 4-alpha-D-glucosyltransferase	2367	
+3300009517-bin.31_COICDMBG_01791	Periplasmic alpha-amylase	1656	malS
+3300009517-bin.31_COICDMBG_01792	Glycerophosphodiester phosphodiesterase	678	glpQ
+3300009517-bin.31_COICDMBG_01793	hypothetical protein	441	
+3300009517-bin.31_COICDMBG_01794	hypothetical protein	1212	
+3300009517-bin.31_COICDMBG_01795	hypothetical protein	180	
+3300009517-bin.31_COICDMBG_01796	Hemagglutinin A	4539	hagA_1
+3300009517-bin.31_COICDMBG_01797	Hemagglutinin A	2013	hagA_2
+3300009517-bin.31_COICDMBG_01798	hypothetical protein	3351	
+3300009517-bin.31_COICDMBG_01799	Tryptophan-rich protein TspO	474	crtK-2
+3300009517-bin.31_COICDMBG_01800	hypothetical protein	1107	
+3300009517-bin.31_COICDMBG_01801	hypothetical protein	939	
+3300009517-bin.31_COICDMBG_01802	hypothetical protein	918	
+3300009517-bin.31_COICDMBG_01803	23S rRNA pseudouridine(2604) synthase	912	rluF_2
+3300009517-bin.31_COICDMBG_01804	hypothetical protein	387	
+3300009517-bin.31_COICDMBG_01805	hypothetical protein	1722	
+3300009517-bin.31_COICDMBG_01806	hypothetical protein	762	
+3300009517-bin.31_COICDMBG_01807	hypothetical protein	1323	
+3300009517-bin.31_COICDMBG_01808	hypothetical protein	897	
+3300009517-bin.31_COICDMBG_01809	hypothetical protein	297	
+3300009517-bin.31_COICDMBG_01810	hypothetical protein	819	
+3300009517-bin.31_COICDMBG_01811	hypothetical protein	516	
+3300009517-bin.31_COICDMBG_01812	DNA primase	2229	dnaG_2
+3300009517-bin.31_COICDMBG_01813	hypothetical protein	606	
+3300009517-bin.31_COICDMBG_01815	Succinyl-diaminopimelate desuccinylase	1389	dapE
+3300009517-bin.31_COICDMBG_01816	hypothetical protein	420	
+3300009517-bin.31_COICDMBG_01817	hypothetical protein	1101	
+3300009517-bin.31_COICDMBG_01818	hypothetical protein	702	
+3300009517-bin.31_COICDMBG_01819	putative protein YjbR	372	yjbR
+3300009517-bin.31_COICDMBG_01820	hypothetical protein	408	
+3300009517-bin.31_COICDMBG_01821	Bleomycin resistance protein	354	ble
+3300009517-bin.31_COICDMBG_01822	Kynurenine formamidase	765	kynB
+3300009517-bin.31_COICDMBG_01823	hypothetical protein	387	
+3300009517-bin.31_COICDMBG_01824	Oxygen-independent coproporphyrinogen-III oxidase-like protein YqeR	1134	hemN_2
+3300009517-bin.31_COICDMBG_01825	Crossover junction endodeoxyribonuclease RuvC	555	ruvC
+3300009517-bin.31_COICDMBG_01826	Tyrosine--tRNA ligase 1	1293	tyrS1
+3300009517-bin.31_COICDMBG_01827	Aurachin B dehydrogenase	996	auaH
+3300009517-bin.31_COICDMBG_01828	hypothetical protein	390	
+3300009517-bin.31_COICDMBG_01829	Dihydroorotase	1341	pyrC_2
+3300009517-bin.31_COICDMBG_01830	Polyprenol monophosphomannose synthase	726	ppm1
+3300009517-bin.31_COICDMBG_01831	hypothetical protein	666	
+3300009517-bin.31_COICDMBG_01832	hypothetical protein	759	
+3300009517-bin.31_COICDMBG_01833	hypothetical protein	705	
+3300009517-bin.31_COICDMBG_01834	hypothetical protein	981	
+3300009517-bin.31_COICDMBG_01835	hypothetical protein	2379	
+3300009517-bin.31_COICDMBG_01836	hypothetical protein	1131	
+3300009517-bin.31_COICDMBG_01837	hypothetical protein	1881	
+3300009517-bin.31_COICDMBG_01838	hypothetical protein	315	
+3300009517-bin.31_COICDMBG_01839	hypothetical protein	1185	
+3300009517-bin.31_COICDMBG_01840	hypothetical protein	2742	
+3300009517-bin.31_COICDMBG_01841	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP	684	phoP
+3300009517-bin.31_COICDMBG_01842	Alkaline phosphatase synthesis sensor protein PhoR	1044	phoR
+3300009517-bin.31_COICDMBG_01843	UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	1065	murG_2
+3300009517-bin.31_COICDMBG_01844	tRNA (guanine-N(7)-)-methyltransferase	675	trmB
+3300009517-bin.31_COICDMBG_01845	hypothetical protein	639	
+3300009517-bin.31_COICDMBG_01846	DNA base-flipping protein	342	atl
+3300009517-bin.31_COICDMBG_01847	Sensor protein ZraS	1332	zraS_2
+3300009517-bin.31_COICDMBG_01848	Regulatory protein AtoC	1347	atoC_3
+3300009517-bin.31_COICDMBG_01849	Macrolide export protein MacA	1239	macA_2
+3300009517-bin.31_COICDMBG_01850	putative ABC transporter ATP-binding protein YknY	702	yknY_2
+3300009517-bin.31_COICDMBG_01851	hypothetical protein	777	
+3300009517-bin.31_COICDMBG_01852	Macrolide export ATP-binding/permease protein MacB	2436	macB_1
+3300009517-bin.31_COICDMBG_01853	hypothetical protein	1296	
+3300009517-bin.31_COICDMBG_01854	Iron-sulfur cluster carrier protein	1134	apbC
+3300009517-bin.31_COICDMBG_01855	Fe/S biogenesis protein NfuA	240	nfuA_2
+3300009517-bin.31_COICDMBG_01856	Ferredoxin--NADP reductase	1059	
+3300009517-bin.31_COICDMBG_01857	Rhodocoxin	333	thcC
+3300009517-bin.31_COICDMBG_01858	hypothetical protein	699	
+3300009517-bin.31_COICDMBG_01859	Acyl-CoA dehydrogenase	1179	mmgC_2
+3300009517-bin.31_COICDMBG_01860	tRNA1(Val) (adenine(37)-N6)-methyltransferase	708	yfiC
+3300009517-bin.31_COICDMBG_01861	hypothetical protein	204	
+3300009517-bin.31_COICDMBG_01862	Ribosome maturation factor RimM	525	rimM
+3300009517-bin.31_COICDMBG_01863	30S ribosomal protein S16	594	rpsP
+3300009517-bin.31_COICDMBG_01864	hypothetical protein	717	
+3300009517-bin.31_COICDMBG_01865	hypothetical protein	345	
+3300009517-bin.31_COICDMBG_01866	DNA polymerase III subunit alpha	4524	dnaE
+3300009517-bin.31_COICDMBG_01867	Thioredoxin 1	318	trxA_3
+3300009517-bin.31_COICDMBG_01868	Sensor histidine kinase RcsC	1968	rcsC
+3300009517-bin.31_COICDMBG_01869	Transcriptional regulatory protein YpdB	705	ypdB
+3300009517-bin.31_COICDMBG_01870	hypothetical protein	2283	
+3300009517-bin.31_COICDMBG_01871	hypothetical protein	354	
+3300009517-bin.31_COICDMBG_01872	hypothetical protein	927	
+3300009517-bin.31_COICDMBG_01874	hypothetical protein	477	
+3300009517-bin.31_COICDMBG_01875	Beta-monoglucosyldiacylglycerol synthase	1122	
+3300009517-bin.31_COICDMBG_01876	hypothetical protein	918	
+3300009517-bin.31_COICDMBG_01877	Calcium-dependent protease	3261	prcA_2
+3300009517-bin.31_COICDMBG_01878	Phosphoenolpyruvate carboxykinase (ATP)	1626	pckA
+3300009517-bin.31_COICDMBG_01879	hypothetical protein	387	
+3300009517-bin.31_COICDMBG_01880	hypothetical protein	762	
+3300009517-bin.31_COICDMBG_01881	hypothetical protein	327	
+3300009517-bin.31_COICDMBG_01882	hypothetical protein	1374	
+3300009517-bin.31_COICDMBG_01883	Regulatory protein AsnC	471	asnC_1
+3300009517-bin.31_COICDMBG_01884	hypothetical protein	696	
+3300009517-bin.31_COICDMBG_01885	Leucine--tRNA ligase	3558	leuS
+3300009517-bin.31_COICDMBG_01886	Cell division protein FtsX	1011	ftsX
+3300009517-bin.31_COICDMBG_01887	hypothetical protein	246	
+3300009517-bin.31_COICDMBG_01888	Undecaprenyl-diphosphatase	798	uppP
+3300009517-bin.31_COICDMBG_01889	tRNA pseudouridine synthase B	693	truB
+3300009517-bin.31_COICDMBG_01890	hypothetical protein	597	
+3300009517-bin.31_COICDMBG_01891	Uridylate kinase	708	pyrH
+3300009517-bin.31_COICDMBG_01892	Ribosome-recycling factor	561	frr
+3300009517-bin.31_COICDMBG_01893	hypothetical protein	2484	
+3300009517-bin.31_COICDMBG_01894	hypothetical protein	1191	
+3300009517-bin.31_COICDMBG_01895	Multidrug resistance protein MexB	2406	mexB_1
+3300009517-bin.31_COICDMBG_01896	Asparagine--tRNA ligase	1446	asnS
+3300009517-bin.31_COICDMBG_01897	RNA polymerase sigma-54 factor	1455	rpoN
+3300009517-bin.31_COICDMBG_01898	hypothetical protein	606	
+3300009517-bin.31_COICDMBG_01899	hypothetical protein	708	
+3300009517-bin.31_COICDMBG_01900	Transcriptional regulatory protein DegU	636	degU_3
+3300009517-bin.31_COICDMBG_01901	Oxygen sensor histidine kinase NreB	2001	nreB_5
+3300009517-bin.31_COICDMBG_01902	Signal transduction histidine-protein kinase/phosphatase DegS	1992	degS_1
+3300009517-bin.31_COICDMBG_01903	hypothetical protein	117	
+3300009517-bin.31_COICDMBG_01904	Signal transduction histidine-protein kinase/phosphatase DegS	2007	degS_2
+3300009517-bin.31_COICDMBG_01905	hypothetical protein	1518	
+3300009517-bin.31_COICDMBG_01906	hypothetical protein	1578	
+3300009517-bin.31_COICDMBG_01907	hypothetical protein	1512	
+3300009517-bin.31_COICDMBG_01908	hypothetical protein	1002	
+3300009517-bin.31_COICDMBG_01909	Ycf48-like protein	990	
+3300009517-bin.31_COICDMBG_01910	hypothetical protein	453	
+3300009517-bin.31_COICDMBG_01911	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_01912	hypothetical protein	498	
+3300009517-bin.31_COICDMBG_01913	hypothetical protein	621	
+3300009517-bin.31_COICDMBG_01914	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase	777	menH_2
+3300009517-bin.31_COICDMBG_01915	hypothetical protein	1194	
+3300009517-bin.31_COICDMBG_01916	hypothetical protein	1551	
+3300009517-bin.31_COICDMBG_01917	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_01918	Protein oar	2367	oar
+3300009517-bin.31_COICDMBG_01919	hypothetical protein	819	
+3300009517-bin.31_COICDMBG_01920	hypothetical protein	492	
+3300009517-bin.31_COICDMBG_01921	hypothetical protein	1311	
+3300009517-bin.31_COICDMBG_01922	hypothetical protein	132	
+3300009517-bin.31_COICDMBG_01923	hypothetical protein	156	
+3300009517-bin.31_COICDMBG_01924	hypothetical protein	660	
+3300009517-bin.31_COICDMBG_01925	hypothetical protein	438	
+3300009517-bin.31_COICDMBG_01926	hypothetical protein	690	
+3300009517-bin.31_COICDMBG_01927	hypothetical protein	447	
+3300009517-bin.31_COICDMBG_01928	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_01929	hypothetical protein	711	
+3300009517-bin.31_COICDMBG_01930	hypothetical protein	135	
+3300009517-bin.31_COICDMBG_01931	hypothetical protein	216	
+3300009517-bin.31_COICDMBG_01932	hypothetical protein	240	
+3300009517-bin.31_COICDMBG_01933	Protein tas	1035	tas
+3300009517-bin.31_COICDMBG_01934	Aldose sugar dehydrogenase YliI	1383	yliI
+3300009517-bin.31_COICDMBG_01935	Penicillin-binding protein 4	1956	pbpD
+3300009517-bin.31_COICDMBG_01936	hypothetical protein	459	
+3300009517-bin.31_COICDMBG_01937	DNA repair protein RadA	1362	radA
+3300009517-bin.31_COICDMBG_01938	hypothetical protein	1245	
+3300009517-bin.31_COICDMBG_01939	hypothetical protein	966	
+3300009517-bin.31_COICDMBG_01940	Aspartate 1-decarboxylase	351	panD
+3300009517-bin.31_COICDMBG_01941	Pantothenate synthetase	849	panC
+3300009517-bin.31_COICDMBG_01942	Glycogen synthase	807	glgA
+3300009517-bin.31_COICDMBG_01943	hypothetical protein	1710	
+3300009517-bin.31_COICDMBG_01944	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]	1848	glmS
+3300009517-bin.31_COICDMBG_01945	TonB-dependent receptor SusC	2907	susC_5
+3300009517-bin.31_COICDMBG_01946	hypothetical protein	1581	
+3300009517-bin.31_COICDMBG_01947	ATP synthase subunit beta	1512	atpD
+3300009517-bin.31_COICDMBG_01948	ATP synthase epsilon chain	282	atpC
+3300009517-bin.31_COICDMBG_01949	hypothetical protein	528	
+3300009517-bin.31_COICDMBG_01950	8-amino-7-oxononanoate synthase	1155	bioF
+3300009517-bin.31_COICDMBG_01951	ATP-dependent dethiobiotin synthetase BioD 1	618	bioD1
+3300009517-bin.31_COICDMBG_01952	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	1272	bioA
+3300009517-bin.31_COICDMBG_01953	3-oxoacyl-[acyl-carrier-protein] synthase 2	1203	fabF_2
+3300009517-bin.31_COICDMBG_01954	Regulatory protein RecX	468	recX
+3300009517-bin.31_COICDMBG_01955	hypothetical protein	6555	
+3300009517-bin.31_COICDMBG_01956	Biotin synthase	1086	bioB
+3300009517-bin.31_COICDMBG_01957	hypothetical protein	435	
+3300009517-bin.31_COICDMBG_01958	Riboflavin biosynthesis protein RibF	942	ribF
+3300009517-bin.31_COICDMBG_01959	Calcium-dependent protease	2685	prcA_3
+3300009517-bin.31_COICDMBG_01960	hypothetical protein	519	
+3300009517-bin.31_COICDMBG_01961	hypothetical protein	1236	
+3300009517-bin.31_COICDMBG_01962	Peptidyl-tRNA hydrolase	567	pth
+3300009517-bin.31_COICDMBG_01963	General stress protein CTC	609	ctc
+3300009517-bin.31_COICDMBG_01964	Ribose-phosphate pyrophosphokinase	942	prs
+3300009517-bin.31_COICDMBG_01966	hypothetical protein	189	
+3300009517-bin.31_COICDMBG_01967	hypothetical protein	372	
+3300009517-bin.31_COICDMBG_01968	hypothetical protein	1161	
+3300009517-bin.31_COICDMBG_01969	hypothetical protein	429	
+3300009517-bin.31_COICDMBG_01970	hypothetical protein	1653	
+3300009517-bin.31_COICDMBG_01971	hypothetical protein	3465	
+3300009517-bin.31_COICDMBG_01972	hypothetical protein	3558	
+3300009517-bin.31_COICDMBG_01973	hypothetical protein	3528	
+3300009517-bin.31_COICDMBG_01974	hypothetical protein	234	
+3300009517-bin.31_COICDMBG_01975	hypothetical protein	624	
+3300009517-bin.31_COICDMBG_01976	hypothetical protein	417	
+3300009517-bin.31_COICDMBG_01977	Serine/threonine-protein kinase StkP	1377	stkP
+3300009517-bin.31_COICDMBG_01978	hypothetical protein	858	
+3300009517-bin.31_COICDMBG_01979	hypothetical protein	141	
+3300009517-bin.31_COICDMBG_01980	hypothetical protein	324	
+3300009517-bin.31_COICDMBG_01981	Transcriptional regulatory protein BtsR	780	btsR_1
+3300009517-bin.31_COICDMBG_01982	hypothetical protein	618	
+3300009517-bin.31_COICDMBG_01983	hypothetical protein	1677	
+3300009517-bin.31_COICDMBG_01984	hypothetical protein	1110	
+3300009517-bin.31_COICDMBG_01985	hypothetical protein	1200	
+3300009517-bin.31_COICDMBG_01986	hypothetical protein	618	
+3300009517-bin.31_COICDMBG_01987	hypothetical protein	1356	
+3300009517-bin.31_COICDMBG_01988	hypothetical protein	603	
+3300009517-bin.31_COICDMBG_01989	hypothetical protein	459	
+3300009517-bin.31_COICDMBG_01990	hypothetical protein	330	
+3300009517-bin.31_COICDMBG_01991	hypothetical protein	300	
+3300009517-bin.31_COICDMBG_01992	hypothetical protein	384	
+3300009517-bin.31_COICDMBG_01993	hypothetical protein	201	
+3300009517-bin.31_COICDMBG_01994	hypothetical protein	321	
+3300009517-bin.31_COICDMBG_01995	hypothetical protein	423	
+3300009517-bin.31_COICDMBG_01996	hypothetical protein	606	
+3300009517-bin.31_COICDMBG_01997	hypothetical protein	453	
+3300009517-bin.31_COICDMBG_01998	hypothetical protein	243	
+3300009517-bin.31_COICDMBG_01999	hypothetical protein	195	
+3300009517-bin.31_COICDMBG_02000	hypothetical protein	135	
+3300009517-bin.31_COICDMBG_02001	hypothetical protein	2688	
+3300009517-bin.31_COICDMBG_02002	hypothetical protein	1041	
+3300009517-bin.31_COICDMBG_02003	hypothetical protein	363	
+3300009517-bin.31_COICDMBG_02004	hypothetical protein	3570	
+3300009517-bin.31_COICDMBG_02005	hypothetical protein	726	
+3300009517-bin.31_COICDMBG_02006	GTP pyrophosphokinase rsh	552	rsh
+3300009517-bin.31_COICDMBG_02007	hypothetical protein	354	
+3300009517-bin.31_COICDMBG_02008	hypothetical protein	669	
+3300009517-bin.31_COICDMBG_02009	putative adenylyltransferase/sulfurtransferase MoeZ	909	moeZ
+3300009517-bin.31_COICDMBG_02010	hypothetical protein	1410	
+3300009517-bin.31_COICDMBG_02011	hypothetical protein	321	
+3300009517-bin.31_COICDMBG_02012	hypothetical protein	348	
+3300009517-bin.31_COICDMBG_02013	hypothetical protein	450	
+3300009517-bin.31_COICDMBG_02014	hypothetical protein	858	
+3300009517-bin.31_COICDMBG_02015	hypothetical protein	1536	
+3300009517-bin.31_COICDMBG_02017	Putative zinc metalloprotease	1347	
+3300009517-bin.31_COICDMBG_02018	Aminopeptidase N	1920	pepN_1
+3300009517-bin.31_COICDMBG_02019	Serine--tRNA ligase	1272	serS
+3300009517-bin.31_COICDMBG_02020	Lipopolysaccharide assembly protein B	1779	lapB_3
+3300009517-bin.31_COICDMBG_02021	hypothetical protein	312	
+3300009517-bin.31_COICDMBG_02022	Ribosomal RNA small subunit methyltransferase A	777	rsmA
+3300009517-bin.31_COICDMBG_02023	Magnesium transporter MgtE	1353	
+3300009517-bin.31_COICDMBG_02024	NADH-quinone oxidoreductase subunit N	1377	nuoN
+3300009517-bin.31_COICDMBG_02025	NADH-quinone oxidoreductase subunit M	1440	nuoM
+3300009517-bin.31_COICDMBG_02026	NADH-quinone oxidoreductase subunit L	1878	nuoL
+3300009517-bin.31_COICDMBG_02027	NADH-quinone oxidoreductase subunit 11	321	
+3300009517-bin.31_COICDMBG_02028	NADH-quinone oxidoreductase subunit J	513	nuoJ
+3300009517-bin.31_COICDMBG_02029	NADH-quinone oxidoreductase subunit 9	546	nqo9
+3300009517-bin.31_COICDMBG_02030	NADH-quinone oxidoreductase subunit H	1032	nuoH
+3300009517-bin.31_COICDMBG_02031	NADH-quinone oxidoreductase chain 3	1050	nqo3
+3300009517-bin.31_COICDMBG_02032	NADH-quinone oxidoreductase subunit 1	1368	nqo1
+3300009517-bin.31_COICDMBG_02033	NADH-quinone oxidoreductase subunit 2	531	nqo2
+3300009517-bin.31_COICDMBG_02034	NADH-quinone oxidoreductase subunit 4	1236	nqo4
+3300009517-bin.31_COICDMBG_02035	NADH-quinone oxidoreductase subunit C	525	nuoC
+3300009517-bin.31_COICDMBG_02036	NADH-quinone oxidoreductase subunit 6	546	nqo6
+3300009517-bin.31_COICDMBG_02037	NAD(P)H-quinone oxidoreductase subunit 3	366	ndhC
+3300009517-bin.31_COICDMBG_02038	Cold shock protein CspV	201	cspV
+3300009517-bin.31_COICDMBG_02039	Aspartate--tRNA ligase	1746	aspS
+3300009517-bin.31_COICDMBG_02040	Thiol-disulfide oxidoreductase ResA	993	resA_4
+3300009517-bin.31_COICDMBG_02041	hypothetical protein	348	
+3300009517-bin.31_COICDMBG_02042	Multidrug resistance protein MexB	3453	mexB_2
+3300009517-bin.31_COICDMBG_02043	Cobalt-zinc-cadmium resistance protein CzcB	1188	czcB
+3300009517-bin.31_COICDMBG_02044	Outer membrane protein OprM	1344	oprM_1
+3300009517-bin.31_COICDMBG_02045	HTH-type transcriptional repressor KstR2	573	kstR2_2
+3300009517-bin.31_COICDMBG_02046	(2E,6E)-farnesyl diphosphate synthase	975	
+3300009517-bin.31_COICDMBG_02047	hypothetical protein	357	
+3300009517-bin.31_COICDMBG_02048	hypothetical protein	540	
+3300009517-bin.31_COICDMBG_02049	2-oxoglutarate dehydrogenase E1 component	2760	sucA
+3300009517-bin.31_COICDMBG_02050	hypothetical protein	234	
+3300009517-bin.31_COICDMBG_02051	hypothetical protein	237	
+3300009517-bin.31_COICDMBG_02052	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	1215	sucB
+3300009517-bin.31_COICDMBG_02053	hypothetical protein	450	
+3300009517-bin.31_COICDMBG_02054	hypothetical protein	312	
+3300009517-bin.31_COICDMBG_02055	hypothetical protein	630	
+3300009517-bin.31_COICDMBG_02056	hypothetical protein	861	
+3300009517-bin.31_COICDMBG_02057	hypothetical protein	753	
+3300009517-bin.31_COICDMBG_02058	Tetracycline resistance protein, class C	1236	tetA
+3300009517-bin.31_COICDMBG_02059	hypothetical protein	438	
+3300009517-bin.31_COICDMBG_02060	D-aminoacyl-tRNA deacylase	771	dtd3
+3300009517-bin.31_COICDMBG_02061	hypothetical protein	1137	
+3300009517-bin.31_COICDMBG_02062	L-asparaginase 1	1023	ansA
+3300009517-bin.31_COICDMBG_02064	Tyrosine recombinase XerD	1236	xerD_3
+3300009517-bin.31_COICDMBG_02065	hypothetical protein	381	
+3300009517-bin.31_COICDMBG_02066	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_02067	hypothetical protein	552	
+3300009517-bin.31_COICDMBG_02068	hypothetical protein	1212	
+3300009517-bin.31_COICDMBG_02069	hypothetical protein	3645	
+3300009517-bin.31_COICDMBG_02070	putative ABC transporter ATP-binding protein YadG	888	yadG
+3300009517-bin.31_COICDMBG_02071	hypothetical protein	360	
+3300009517-bin.31_COICDMBG_02072	hypothetical protein	609	
+3300009517-bin.31_COICDMBG_02073	hypothetical protein	393	
+3300009517-bin.31_COICDMBG_02074	Cocaine esterase	1767	cocE
+3300009517-bin.31_COICDMBG_02075	Ribosomal-protein-serine acetyltransferase	537	rimL
+3300009517-bin.31_COICDMBG_02076	hypothetical protein	2877	
+3300009517-bin.31_COICDMBG_02077	Haloalkane dehalogenase 2	897	dhmA2
+3300009517-bin.31_COICDMBG_02078	hypothetical protein	885	
+3300009517-bin.31_COICDMBG_02079	hypothetical protein	198	
+3300009517-bin.31_COICDMBG_02080	Transcription antitermination protein RfaH	462	rfaH
+3300009517-bin.31_COICDMBG_02081	hypothetical protein	522	
+3300009517-bin.31_COICDMBG_02082	TDP-4-oxo-6-deoxy-alpha-D-glucose-3, 4-oxoisomerase	399	fdtA_1
+3300009517-bin.31_COICDMBG_02083	TDP-4-oxo-6-deoxy-alpha-D-glucose-3, 4-oxoisomerase	420	fdtA_2
+3300009517-bin.31_COICDMBG_02084	hypothetical protein	936	
+3300009517-bin.31_COICDMBG_02085	hypothetical protein	915	
+3300009517-bin.31_COICDMBG_02086	Virginiamycin A acetyltransferase	501	vat
+3300009517-bin.31_COICDMBG_02087	dTDP-3-amino-3,6-dideoxy-alpha-D-galactopyranose transaminase	1131	fdtB
+3300009517-bin.31_COICDMBG_02088	Lipid III flippase	1479	wzxE_2
+3300009517-bin.31_COICDMBG_02089	Putative glycosyltransferase EpsE	972	epsE_2
+3300009517-bin.31_COICDMBG_02090	hypothetical protein	1011	
+3300009517-bin.31_COICDMBG_02091	hypothetical protein	1089	
+3300009517-bin.31_COICDMBG_02092	putative glycosyltransferase EpsJ	999	epsJ_2
+3300009517-bin.31_COICDMBG_02093	Maltose O-acetyltransferase	525	maa
+3300009517-bin.31_COICDMBG_02094	dTDP-4-amino-4,6-dideoxy-D-glucose transaminase	1077	vioA_2
+3300009517-bin.31_COICDMBG_02095	hypothetical protein	1104	
+3300009517-bin.31_COICDMBG_02096	hypothetical protein	1224	
+3300009517-bin.31_COICDMBG_02097	hypothetical protein	1116	
+3300009517-bin.31_COICDMBG_02098	Peptidoglycan O-acetyltransferase	1461	patA_3
+3300009517-bin.31_COICDMBG_02099	hypothetical protein	879	
+3300009517-bin.31_COICDMBG_02100	Capsule biosynthesis protein CapA	1131	capA
+3300009517-bin.31_COICDMBG_02101	Serine acetyltransferase	558	cysE_1
+3300009517-bin.31_COICDMBG_02102	Asparagine synthetase [glutamine-hydrolyzing] 1	1893	asnB_2
+3300009517-bin.31_COICDMBG_02103	hypothetical protein	1020	
+3300009517-bin.31_COICDMBG_02104	GalNAc-alpha-(1->4)-GalNAc-alpha-(1->3)- diNAcBac-PP-undecaprenol alpha-1,4-N-acetyl-D-galactosaminyltransferase	1086	pglH
+3300009517-bin.31_COICDMBG_02105	UDP-glucose 4-epimerase	915	galE_3
+3300009517-bin.31_COICDMBG_02106	hypothetical protein	1137	
+3300009517-bin.31_COICDMBG_02107	GDP-L-fucose synthase	951	fcl
+3300009517-bin.31_COICDMBG_02108	GDP-mannose 4,6-dehydratase	1155	gmd
+3300009517-bin.31_COICDMBG_02109	hypothetical protein	1161	
+3300009517-bin.31_COICDMBG_02110	hypothetical protein	1137	
+3300009517-bin.31_COICDMBG_02111	hypothetical protein	1005	
+3300009517-bin.31_COICDMBG_02112	Undecaprenyl phosphate N,N'-diacetylbacillosamine 1-phosphate transferase	606	pglC
+3300009517-bin.31_COICDMBG_02113	hypothetical protein	1086	
+3300009517-bin.31_COICDMBG_02114	UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase	378	gumD
+3300009517-bin.31_COICDMBG_02115	Putative pyridoxal phosphate-dependent aminotransferase EpsN	1140	epsN
+3300009517-bin.31_COICDMBG_02116	UDP-N-acetyl-alpha-D-glucosamine C6 dehydratase	1947	pglF
+3300009517-bin.31_COICDMBG_02117	hypothetical protein	771	
+3300009517-bin.31_COICDMBG_02118	Tyrosine-protein kinase ptk	2394	ptk_1
+3300009517-bin.31_COICDMBG_02119	Tyrosine-protein phosphatase YwqE	738	ywqE
+3300009517-bin.31_COICDMBG_02120	Teichoic acid translocation permease protein TagG	870	tagG
+3300009517-bin.31_COICDMBG_02121	Teichoic acids export ATP-binding protein TagH	1260	tagH
+3300009517-bin.31_COICDMBG_02122	hypothetical protein	708	
+3300009517-bin.31_COICDMBG_02123	Putative acetyltransferase EpsM	651	epsM
+3300009517-bin.31_COICDMBG_02124	TDP-N-acetylfucosamine:lipid II N-acetylfucosaminyltransferase	1212	wecF
+3300009517-bin.31_COICDMBG_02125	GalNAc(5)-diNAcBac-PP-undecaprenol beta-1,3-glucosyltransferase	966	pglI_1
+3300009517-bin.31_COICDMBG_02126	GalNAc(5)-diNAcBac-PP-undecaprenol beta-1,3-glucosyltransferase	924	pglI_2
+3300009517-bin.31_COICDMBG_02127	hypothetical protein	1230	
+3300009517-bin.31_COICDMBG_02128	N,N'-diacetyllegionaminic acid synthase	1008	legI
+3300009517-bin.31_COICDMBG_02129	UDP-N,N'-diacetylbacillosamine 2-epimerase (hydrolyzing)	1161	
+3300009517-bin.31_COICDMBG_02130	CMP-N,N'-diacetyllegionaminic acid synthase	696	legF
+3300009517-bin.31_COICDMBG_02131	Asparagine synthetase [glutamine-hydrolyzing] 3	1695	asnO
+3300009517-bin.31_COICDMBG_02132	hypothetical protein	1407	
+3300009517-bin.31_COICDMBG_02133	Serine acetyltransferase	564	cysE_2
+3300009517-bin.31_COICDMBG_02134	Alpha-maltose-1-phosphate synthase	1140	glgM
+3300009517-bin.31_COICDMBG_02135	hypothetical protein	1542	
+3300009517-bin.31_COICDMBG_02136	Putative glycosyltransferase EpsH	972	epsH
+3300009517-bin.31_COICDMBG_02137	Glycosyltransferase Gtf1	1116	gtf1
+3300009517-bin.31_COICDMBG_02138	Putative glycosyltransferase EpsD	1074	epsD
+3300009517-bin.31_COICDMBG_02139	hypothetical protein	1344	
+3300009517-bin.31_COICDMBG_02140	GDP-mannose-dependent alpha-(1-6)-phosphatidylinositol monomannoside mannosyltransferase	1011	pimB
+3300009517-bin.31_COICDMBG_02141	UDP-N-acetylgalactosamine-undecaprenyl-phosphate N-acetylgalactosaminephosphotransferase	1389	wecA
+3300009517-bin.31_COICDMBG_02142	hypothetical protein	1131	
+3300009517-bin.31_COICDMBG_02143	hypothetical protein	1134	
+3300009517-bin.31_COICDMBG_02144	hypothetical protein	714	
+3300009517-bin.31_COICDMBG_02145	Lysozyme M1	846	acm
+3300009517-bin.31_COICDMBG_02146	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_02147	Lipopolysaccharide export system ATP-binding protein LptB	741	lptB
+3300009517-bin.31_COICDMBG_02148	Alkyl hydroperoxide reductase AhpD	351	ahpD
+3300009517-bin.31_COICDMBG_02149	Sec-independent protein translocase protein TatCy	819	tatC2
+3300009517-bin.31_COICDMBG_02150	Arabinose 5-phosphate isomerase KdsD	966	kdsD
+3300009517-bin.31_COICDMBG_02151	ATP-dependent DNA helicase RecQ	2196	recQ_1
+3300009517-bin.31_COICDMBG_02152	hypothetical protein	240	
+3300009517-bin.31_COICDMBG_02153	hypothetical protein	1062	
+3300009517-bin.31_COICDMBG_02154	Putative thiazole biosynthetic enzyme	1563	
+3300009517-bin.31_COICDMBG_02155	hypothetical protein	1050	
+3300009517-bin.31_COICDMBG_02156	putative RNA polymerase sigma factor FecI	528	fecI
+3300009517-bin.31_COICDMBG_02157	hypothetical protein	906	
+3300009517-bin.31_COICDMBG_02158	hypothetical protein	2283	
+3300009517-bin.31_COICDMBG_02159	Peptide methionine sulfoxide reductase MsrA/MsrB	1110	msrAB
+3300009517-bin.31_COICDMBG_02160	Isopentenyl-diphosphate Delta-isomerase	528	idi
+3300009517-bin.31_COICDMBG_02161	6-carboxy-5,6,7,8-tetrahydropterin synthase	411	queD
+3300009517-bin.31_COICDMBG_02162	Putative peroxiredoxin bcp	453	bcp_2
+3300009517-bin.31_COICDMBG_02163	Mannose-6-phosphate isomerase ManA	969	manA
+3300009517-bin.31_COICDMBG_02164	hypothetical protein	267	
+3300009517-bin.31_COICDMBG_02166	hypothetical protein	912	
+3300009517-bin.31_COICDMBG_02167	Aquaporin Z	705	aqpZ
+3300009517-bin.31_COICDMBG_02168	hypothetical protein	603	
+3300009517-bin.31_COICDMBG_02169	hypothetical protein	825	
+3300009517-bin.31_COICDMBG_02170	hypothetical protein	276	
+3300009517-bin.31_COICDMBG_02171	hypothetical protein	282	
+3300009517-bin.31_COICDMBG_02172	hypothetical protein	1857	
+3300009517-bin.31_COICDMBG_02173	hypothetical protein	717	
+3300009517-bin.31_COICDMBG_02174	Anaerobic magnesium-protoporphyrin IX monomethyl ester cyclase	2220	bchE
+3300009517-bin.31_COICDMBG_02175	Glutaconyl-CoA decarboxylase subunit gamma	486	gcdC
+3300009517-bin.31_COICDMBG_02176	Acetyl-/propionyl-coenzyme A carboxylase alpha chain	1461	accA1
+3300009517-bin.31_COICDMBG_02177	Propionyl-CoA carboxylase beta chain	1542	pccB
+3300009517-bin.31_COICDMBG_02178	hypothetical protein	423	
+3300009517-bin.31_COICDMBG_02179	Ribosomal protein S12 methylthiotransferase RimO	1308	rimO
+3300009517-bin.31_COICDMBG_02180	hypothetical protein	1509	
+3300009517-bin.31_COICDMBG_02181	hypothetical protein	966	
+3300009517-bin.31_COICDMBG_02182	Proline--tRNA ligase	1479	proS
+3300009517-bin.31_COICDMBG_02184	30S ribosomal protein S20	252	rpsT
+3300009517-bin.31_COICDMBG_02185	Chemotaxis protein CheY	390	cheY_2
+3300009517-bin.31_COICDMBG_02186	Phytochrome-like protein cph1	1713	cph1_1
+3300009517-bin.31_COICDMBG_02187	GTP-binding protein TypA/BipA	1797	typA
+3300009517-bin.31_COICDMBG_02188	hypothetical protein	2004	
+3300009517-bin.31_COICDMBG_02189	hypothetical protein	4521	
+3300009517-bin.31_COICDMBG_02190	hypothetical protein	837	
+3300009517-bin.31_COICDMBG_02191	putative ABC transporter ATP-binding protein YxlF	906	yxlF_3
+3300009517-bin.31_COICDMBG_02192	hypothetical protein	267	
+3300009517-bin.31_COICDMBG_02193	Outer membrane protein assembly factor BamA	1839	bamA_3
+3300009517-bin.31_COICDMBG_02194	hypothetical protein	1521	
+3300009517-bin.31_COICDMBG_02195	hypothetical protein	1059	
+3300009517-bin.31_COICDMBG_02196	hypothetical protein	396	
+3300009517-bin.31_COICDMBG_02197	hypothetical protein	540	
+3300009517-bin.31_COICDMBG_02198	hypothetical protein	390	
+3300009517-bin.31_COICDMBG_02199	Ferri-bacillibactin esterase BesA	816	besA
+3300009517-bin.31_COICDMBG_02200	hypothetical protein	207	
+3300009517-bin.31_COICDMBG_02201	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_02202	hypothetical protein	189	
+3300009517-bin.31_COICDMBG_02203	hypothetical protein	480	
+3300009517-bin.31_COICDMBG_02204	hypothetical protein	216	
+3300009517-bin.31_COICDMBG_02205	UvrABC system protein B	1989	uvrB
+3300009517-bin.31_COICDMBG_02206	hypothetical protein	297	
+3300009517-bin.31_COICDMBG_02207	hypothetical protein	231	
+3300009517-bin.31_COICDMBG_02208	Ribosomal RNA large subunit methyltransferase F	957	rlmF
+3300009517-bin.31_COICDMBG_02209	Thiamine pyrophosphokinase	663	thiN
+3300009517-bin.31_COICDMBG_02210	hypothetical protein	819	
+3300009517-bin.31_COICDMBG_02211	TonB-dependent receptor SusC	2373	susC_6
+3300009517-bin.31_COICDMBG_02212	hypothetical protein	678	
+3300009517-bin.31_COICDMBG_02213	Isocitrate dehydrogenase [NADP]	2223	icd
+3300009517-bin.31_COICDMBG_02214	50S ribosomal protein L19	396	rplS
+3300009517-bin.31_COICDMBG_02215	tRNA (guanine-N(1)-)-methyltransferase	675	trmD
+3300009517-bin.31_COICDMBG_02216	Ubiquinone biosynthesis O-methyltransferase	801	ubiG_3
+3300009517-bin.31_COICDMBG_02217	hypothetical protein	339	
+3300009517-bin.31_COICDMBG_02218	putative peptidyl-prolyl cis-trans isomerase	933	ppiB_3
+3300009517-bin.31_COICDMBG_02219	hypothetical protein	315	
+3300009517-bin.31_COICDMBG_02220	putative chaperone CsaA	342	csaA
+3300009517-bin.31_COICDMBG_02221	hypothetical protein	378	
+3300009517-bin.31_COICDMBG_02222	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI	1758	yheI
+3300009517-bin.31_COICDMBG_02223	Leucine dehydrogenase	1107	ldh
+3300009517-bin.31_COICDMBG_02224	Transcription antitermination protein NusB	906	nusB
+3300009517-bin.31_COICDMBG_02225	Sec translocon accessory complex subunit YajC	276	yajC
+3300009517-bin.31_COICDMBG_02226	hypothetical protein	576	
+3300009517-bin.31_COICDMBG_02227	Peptidase T	1275	pepT
+3300009517-bin.31_COICDMBG_02228	hypothetical protein	468	
+3300009517-bin.31_COICDMBG_02229	Pyruvate dehydrogenase E1 component subunit beta	2379	pdhB
+3300009517-bin.31_COICDMBG_02230	hypothetical protein	2850	
+3300009517-bin.31_COICDMBG_02231	Cytokinin riboside 5'-monophosphate phosphoribohydrolase	726	log
+3300009517-bin.31_COICDMBG_02232	Putative ribosomal N-acetyltransferase YdaF	558	ydaF
+3300009517-bin.31_COICDMBG_02233	UvrABC system protein A	2856	uvrA_2
+3300009517-bin.31_COICDMBG_02234	hypothetical protein	522	
+3300009517-bin.31_COICDMBG_02235	hypothetical protein	582	
+3300009517-bin.31_COICDMBG_02236	hypothetical protein	216	
+3300009517-bin.31_COICDMBG_02237	hypothetical protein	642	
+3300009517-bin.31_COICDMBG_02238	hypothetical protein	1041	
+3300009517-bin.31_COICDMBG_02239	hypothetical protein	711	
+3300009517-bin.31_COICDMBG_02240	hypothetical protein	489	
+3300009517-bin.31_COICDMBG_02241	hypothetical protein	384	
+3300009517-bin.31_COICDMBG_02242	Putative peroxiredoxin bcp	594	bcp_3
+3300009517-bin.31_COICDMBG_02243	Global nitrogen regulator	678	ntcA_2
+3300009517-bin.31_COICDMBG_02244	Acyl-CoA dehydrogenase, short-chain specific	1137	bcd
+3300009517-bin.31_COICDMBG_02245	Anhydro-N-acetylmuramic acid kinase	1068	anmK
+3300009517-bin.31_COICDMBG_02246	hypothetical protein	717	
+3300009517-bin.31_COICDMBG_02247	hypothetical protein	2049	
+3300009517-bin.31_COICDMBG_02248	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	1629	pdhC_2
+3300009517-bin.31_COICDMBG_02249	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha	1002	acoA
+3300009517-bin.31_COICDMBG_02250	Cytidine deaminase	483	cdd
+3300009517-bin.31_COICDMBG_02251	hypothetical protein	1206	
+3300009517-bin.31_COICDMBG_02252	hypothetical protein	3876	
+3300009517-bin.31_COICDMBG_02253	Hercynine oxygenase	1743	egtB
+3300009517-bin.31_COICDMBG_02254	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase	1284	murF
+3300009517-bin.31_COICDMBG_02255	GTPase Obg	1035	obg
+3300009517-bin.31_COICDMBG_02256	hypothetical protein	1224	
+3300009517-bin.31_COICDMBG_02257	Adenylate kinase	573	adk
+3300009517-bin.31_COICDMBG_02258	Hypoxanthine phosphoribosyltransferase	531	hpt
+3300009517-bin.31_COICDMBG_02259	hypothetical protein	540	
+3300009517-bin.31_COICDMBG_02260	N5-carboxyaminoimidazole ribonucleotide synthase	1164	purK
+3300009517-bin.31_COICDMBG_02261	hypothetical protein	333	
+3300009517-bin.31_COICDMBG_02262	N5-carboxyaminoimidazole ribonucleotide mutase	486	purE
+3300009517-bin.31_COICDMBG_02263	Oligopeptidase A	2055	prlC
+3300009517-bin.31_COICDMBG_02264	hypothetical protein	1116	
+3300009517-bin.31_COICDMBG_02265	hypothetical protein	504	
+3300009517-bin.31_COICDMBG_02266	hypothetical protein	714	
+3300009517-bin.31_COICDMBG_02267	hypothetical protein	441	
+3300009517-bin.31_COICDMBG_02268	hypothetical protein	453	
+3300009517-bin.31_COICDMBG_02269	hypothetical protein	816	
+3300009517-bin.31_COICDMBG_02270	hypothetical protein	4104	
+3300009517-bin.31_COICDMBG_02271	hypothetical protein	3375	
+3300009517-bin.31_COICDMBG_02272	Glycine dehydrogenase (decarboxylating)	2844	gcvP
+3300009517-bin.31_COICDMBG_02273	hypothetical protein	384	
+3300009517-bin.31_COICDMBG_02274	3-oxoacyl-[acyl-carrier-protein] synthase 3	1059	fabH_3
+3300009517-bin.31_COICDMBG_02275	hypothetical protein	348	
+3300009517-bin.31_COICDMBG_02276	hypothetical protein	396	
+3300009517-bin.31_COICDMBG_02277	hypothetical protein	528	
+3300009517-bin.31_COICDMBG_02278	Hyaluronan synthase	849	hyaD
+3300009517-bin.31_COICDMBG_02279	putative phospholipid ABC transporter permease protein MlaE	744	mlaE_1
+3300009517-bin.31_COICDMBG_02280	putative ribonucleotide transport ATP-binding protein mkl	765	mkl
+3300009517-bin.31_COICDMBG_02281	hypothetical protein	3438	
+3300009517-bin.31_COICDMBG_02282	Alginate biosynthesis protein AlgA	1062	algA
+3300009517-bin.31_COICDMBG_02283	Protein SprT	603	sprT
+3300009517-bin.31_COICDMBG_02284	Glucose 1-dehydrogenase	678	
+3300009517-bin.31_COICDMBG_02285	NAD-specific glutamate dehydrogenase	1230	gluD
+3300009517-bin.31_COICDMBG_02286	Protein TolQ	705	tolQ_1
+3300009517-bin.31_COICDMBG_02287	hypothetical protein	393	
+3300009517-bin.31_COICDMBG_02288	hypothetical protein	786	
+3300009517-bin.31_COICDMBG_02289	Folylpolyglutamate synthase	1221	fpgS
+3300009517-bin.31_COICDMBG_02291	Tyrosine recombinase XerD	1242	xerD_4
+3300009517-bin.31_COICDMBG_02292	Cobalt-zinc-cadmium resistance protein CzcA	4332	czcA_2
+3300009517-bin.31_COICDMBG_02293	Nickel and cobalt resistance protein CnrB	1251	cnrB_2
+3300009517-bin.31_COICDMBG_02294	hypothetical protein	618	
+3300009517-bin.31_COICDMBG_02295	Zinc-transporting ATPase	1983	ziaA
+3300009517-bin.31_COICDMBG_02296	hypothetical protein	357	
+3300009517-bin.31_COICDMBG_02297	hypothetical protein	870	
+3300009517-bin.31_COICDMBG_02298	Copper resistance protein A	2223	copA_3
+3300009517-bin.31_COICDMBG_02299	hypothetical protein	267	
+3300009517-bin.31_COICDMBG_02300	HTH-type transcriptional activator RhaR	564	rhaR_3
+3300009517-bin.31_COICDMBG_02301	Copper-exporting P-type ATPase	2523	copA_4
+3300009517-bin.31_COICDMBG_02302	Cobalt-zinc-cadmium resistance protein CzcA	3039	czcA_3
+3300009517-bin.31_COICDMBG_02303	hypothetical protein	954	
+3300009517-bin.31_COICDMBG_02304	hypothetical protein	1242	
+3300009517-bin.31_COICDMBG_02305	hypothetical protein	441	
+3300009517-bin.31_COICDMBG_02306	Swarming motility regulation sensor protein RssA	1266	rssA
+3300009517-bin.31_COICDMBG_02307	Response regulator ArlR	681	arlR
+3300009517-bin.31_COICDMBG_02308	hypothetical protein	738	
+3300009517-bin.31_COICDMBG_02309	hypothetical protein	126	
+3300009517-bin.31_COICDMBG_02310	hypothetical protein	129	
+3300009517-bin.31_COICDMBG_02311	hypothetical protein	1299	
+3300009517-bin.31_COICDMBG_02312	hypothetical protein	642	
+3300009517-bin.31_COICDMBG_02313	hypothetical protein	270	
+3300009517-bin.31_COICDMBG_02314	hypothetical protein	1251	
+3300009517-bin.31_COICDMBG_02315	hypothetical protein	126	
+3300009517-bin.31_COICDMBG_02316	hypothetical protein	672	
+3300009517-bin.31_COICDMBG_02317	hypothetical protein	957	
+3300009517-bin.31_COICDMBG_02318	hypothetical protein	234	
+3300009517-bin.31_COICDMBG_02319	TonB-dependent receptor SusC	3024	susC_7
+3300009517-bin.31_COICDMBG_02320	SusD-like protein	1374	
+3300009517-bin.31_COICDMBG_02321	hypothetical protein	2544	
+3300009517-bin.31_COICDMBG_02322	hypothetical protein	270	
+3300009517-bin.31_COICDMBG_02323	hypothetical protein	1500	
+3300009517-bin.31_COICDMBG_02324	Regulatory protein PchR	897	pchR_2
+3300009517-bin.31_COICDMBG_02325	hypothetical protein	837	
+3300009517-bin.31_COICDMBG_02326	hypothetical protein	717	
+3300009517-bin.31_COICDMBG_02327	hypothetical protein	876	
+3300009517-bin.31_COICDMBG_02328	hypothetical protein	849	
+3300009517-bin.31_COICDMBG_02329	hypothetical protein	339	
+3300009517-bin.31_COICDMBG_02330	hypothetical protein	864	
+3300009517-bin.31_COICDMBG_02331	hypothetical protein	624	
+3300009517-bin.31_COICDMBG_02332	hypothetical protein	621	
+3300009517-bin.31_COICDMBG_02333	hypothetical protein	729	
+3300009517-bin.31_COICDMBG_02334	hypothetical protein	1047	
+3300009517-bin.31_COICDMBG_02335	hypothetical protein	1248	
+3300009517-bin.31_COICDMBG_02336	hypothetical protein	960	
+3300009517-bin.31_COICDMBG_02337	hypothetical protein	831	
+3300009517-bin.31_COICDMBG_02338	hypothetical protein	2538	
+3300009517-bin.31_COICDMBG_02339	hypothetical protein	1146	
+3300009517-bin.31_COICDMBG_02340	hypothetical protein	1032	
+3300009517-bin.31_COICDMBG_02341	Nuclease	927	nucA_1
+3300009517-bin.31_COICDMBG_02342	hypothetical protein	96	
+3300009517-bin.31_COICDMBG_02343	hypothetical protein	549	
+3300009517-bin.31_COICDMBG_02344	hypothetical protein	180	
+3300009517-bin.31_COICDMBG_02345	hypothetical protein	303	
+3300009517-bin.31_COICDMBG_02346	hypothetical protein	117	
+3300009517-bin.31_COICDMBG_02347	hypothetical protein	222	
+3300009517-bin.31_COICDMBG_02348	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_02349	hypothetical protein	756	
+3300009517-bin.31_COICDMBG_02350	hypothetical protein	204	
+3300009517-bin.31_COICDMBG_02351	hypothetical protein	336	
+3300009517-bin.31_COICDMBG_02352	hypothetical protein	471	
+3300009517-bin.31_COICDMBG_02353	hypothetical protein	267	
+3300009517-bin.31_COICDMBG_02354	Lipoprotein-releasing system transmembrane protein LolE	1233	lolE_2
+3300009517-bin.31_COICDMBG_02355	hypothetical protein	1218	
+3300009517-bin.31_COICDMBG_02356	hypothetical protein	402	
+3300009517-bin.31_COICDMBG_02357	hypothetical protein	498	
+3300009517-bin.31_COICDMBG_02358	Ubiquinone biosynthesis O-methyltransferase	702	ubiG_4
+3300009517-bin.31_COICDMBG_02359	hypothetical protein	1068	
+3300009517-bin.31_COICDMBG_02360	hypothetical protein	405	
+3300009517-bin.31_COICDMBG_02361	7-carboxy-7-deazaguanine synthase	633	queE_2
+3300009517-bin.31_COICDMBG_02362	Lipopolysaccharide assembly protein B	1659	lapB_4
+3300009517-bin.31_COICDMBG_02363	Phosphate-binding protein PstS	924	pstS
+3300009517-bin.31_COICDMBG_02364	hypothetical protein	792	
+3300009517-bin.31_COICDMBG_02365	hypothetical protein	558	
+3300009517-bin.31_COICDMBG_02366	hypothetical protein	639	
+3300009517-bin.31_COICDMBG_02367	Protein TolQ	822	tolQ_2
+3300009517-bin.31_COICDMBG_02368	hypothetical protein	1533	
+3300009517-bin.31_COICDMBG_02369	hypothetical protein	369	
+3300009517-bin.31_COICDMBG_02370	hypothetical protein	360	
+3300009517-bin.31_COICDMBG_02371	Kynurenine 3-monooxygenase	1350	kmo_2
+3300009517-bin.31_COICDMBG_02372	Acyl-homoserine lactone acylase QuiP	2388	quiP
+3300009517-bin.31_COICDMBG_02373	hypothetical protein	402	
+3300009517-bin.31_COICDMBG_02374	hypothetical protein	486	
+3300009517-bin.31_COICDMBG_02375	N(1)-aminopropylagmatine ureohydrolase	1089	
+3300009517-bin.31_COICDMBG_02376	Kynureninase	1287	kynU
+3300009517-bin.31_COICDMBG_02377	S-adenosylmethionine:tRNA ribosyltransferase-isomerase	1050	queA
+3300009517-bin.31_COICDMBG_02378	hypothetical protein	126	
+3300009517-bin.31_COICDMBG_02379	hypothetical protein	1503	
+3300009517-bin.31_COICDMBG_02380	Sensor histidine kinase BtsS	2880	btsS
+3300009517-bin.31_COICDMBG_02381	Transcriptional regulatory protein BtsR	741	btsR_2
+3300009517-bin.31_COICDMBG_02382	3-phosphoshikimate 1-carboxyvinyltransferase	1251	aroA
+3300009517-bin.31_COICDMBG_02383	putative protein YpjD	327	ypjD
+3300009517-bin.31_COICDMBG_02384	hypothetical protein	2001	
+3300009517-bin.31_COICDMBG_02385	hypothetical protein	1908	
+3300009517-bin.31_COICDMBG_02386	D-aminoacyl-tRNA deacylase	453	dtd
+3300009517-bin.31_COICDMBG_02387	hypothetical protein	612	
+3300009517-bin.31_COICDMBG_02388	Small ribosomal subunit biogenesis GTPase RsgA	978	rsgA
+3300009517-bin.31_COICDMBG_02389	hypothetical protein	525	
+3300009517-bin.31_COICDMBG_02390	Phospho-2-dehydro-3-deoxyheptonate aldolase	1083	aroF
+3300009517-bin.31_COICDMBG_02391	putative ABC transporter ATP-binding protein YxlF	900	yxlF_4
+3300009517-bin.31_COICDMBG_02392	hypothetical protein	750	
+3300009517-bin.31_COICDMBG_02393	hypothetical protein	1089	
+3300009517-bin.31_COICDMBG_02394	5,10-methylenetetrahydrofolate reductase	957	metF
+3300009517-bin.31_COICDMBG_02395	Methionine synthase	2676	metH_1
+3300009517-bin.31_COICDMBG_02396	Methionine synthase	987	metH_2
+3300009517-bin.31_COICDMBG_02397	S-adenosylmethionine synthase	1251	metK
+3300009517-bin.31_COICDMBG_02398	hypothetical protein	1359	
+3300009517-bin.31_COICDMBG_02399	hypothetical protein	2733	
+3300009517-bin.31_COICDMBG_02400	hypothetical protein	837	
+3300009517-bin.31_COICDMBG_02401	hypothetical protein	900	
+3300009517-bin.31_COICDMBG_02402	hypothetical protein	789	
+3300009517-bin.31_COICDMBG_02403	Deoxyadenosine/deoxycytidine kinase	615	dck
+3300009517-bin.31_COICDMBG_02404	hypothetical protein	591	
+3300009517-bin.31_COICDMBG_02405	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta	855	accD
+3300009517-bin.31_COICDMBG_02406	Fructose-bisphosphate aldolase class 2	1068	fbaA
+3300009517-bin.31_COICDMBG_02407	Translocation and assembly module subunit TamA	2547	tamA
+3300009517-bin.31_COICDMBG_02408	tRNA (guanosine(18)-2'-O)-methyltransferase	729	trmH_2
+3300009517-bin.31_COICDMBG_02409	hypothetical protein	705	
+3300009517-bin.31_COICDMBG_02410	Demethylmenaquinone methyltransferase	732	menG_2
+3300009517-bin.31_COICDMBG_02411	Dihydrofolate reductase	489	dfrA
+3300009517-bin.31_COICDMBG_02412	hypothetical protein	339	
+3300009517-bin.31_COICDMBG_02413	1,4-alpha-glucan branching enzyme GlgB	297	glgB_2
+3300009517-bin.31_COICDMBG_02414	hypothetical protein	954	
+3300009517-bin.31_COICDMBG_02415	Thymidylate synthase 2	825	thyA2
+3300009517-bin.31_COICDMBG_02416	hypothetical protein	618	
+3300009517-bin.31_COICDMBG_02417	Electron transfer flavoprotein subunit alpha	969	etfA
+3300009517-bin.31_COICDMBG_02418	Electron transfer flavoprotein subunit beta	747	etfB
+3300009517-bin.31_COICDMBG_02419	2-oxoisovalerate dehydrogenase subunit beta	978	bfmBAB_3
+3300009517-bin.31_COICDMBG_02420	TonB-dependent receptor SusC	2484	susC_8
+3300009517-bin.31_COICDMBG_02421	DNA-3-methyladenine glycosylase	597	alkA
+3300009517-bin.31_COICDMBG_02422	K(+)-stimulated pyrophosphate-energized sodium pump	2517	hppA
+3300009517-bin.31_COICDMBG_02423	Macrolide export ATP-binding/permease protein MacB	1257	macB_2
+3300009517-bin.31_COICDMBG_02424	Bifunctional purine biosynthesis protein PurH	1548	purH
+3300009517-bin.31_COICDMBG_02425	Rod shape-determining protein MreB	1029	mreB
+3300009517-bin.31_COICDMBG_02426	Cell shape-determining protein MreC	825	mreC
+3300009517-bin.31_COICDMBG_02427	hypothetical protein	507	
+3300009517-bin.31_COICDMBG_02428	Peptidoglycan D,D-transpeptidase MrdA	1935	mrdA
+3300009517-bin.31_COICDMBG_02429	Peptidoglycan glycosyltransferase MrdB	1263	mrdB
+3300009517-bin.31_COICDMBG_02430	Nuclease	798	nucA_2
+3300009517-bin.31_COICDMBG_02431	hypothetical protein	513	
+3300009517-bin.31_COICDMBG_02432	Tail-specific protease	2175	prc_2
+3300009517-bin.31_COICDMBG_02433	5'-nucleotidase SurE	828	surE
+3300009517-bin.31_COICDMBG_02434	Phosphoserine phosphatase 1	510	pspA
+3300009517-bin.31_COICDMBG_02435	Lipid-A-disaccharide synthase	1113	lpxB
+3300009517-bin.31_COICDMBG_02436	Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase	657	mepS
+3300009517-bin.31_COICDMBG_02437	ComE operon protein 3	2031	comEC
+3300009517-bin.31_COICDMBG_02438	Disulfide bond reductase DsbH	468	dsbH
+3300009517-bin.31_COICDMBG_02439	Dipeptide and tripeptide permease A	1659	dtpA
+3300009517-bin.31_COICDMBG_02440	Di-/tripeptide transporter	1716	dtpT
+3300009517-bin.31_COICDMBG_02441	Dipeptidyl aminopeptidase 4	2196	dap4
+3300009517-bin.31_COICDMBG_02442	3-hydroxy-3-methylglutaryl-coenzyme A reductase	1317	mvaA
+3300009517-bin.31_COICDMBG_02443	hypothetical protein	915	
+3300009517-bin.31_COICDMBG_02444	Foldase protein PrsA 1	2103	prsA1
+3300009517-bin.31_COICDMBG_02445	hypothetical protein	1260	
+3300009517-bin.31_COICDMBG_02446	hypothetical protein	195	
+3300009517-bin.31_COICDMBG_02447	Lipopolysaccharide export system protein LptC	549	lptC
+3300009517-bin.31_COICDMBG_02448	hypothetical protein	1278	
+3300009517-bin.31_COICDMBG_02449	hypothetical protein	1221	
+3300009517-bin.31_COICDMBG_02450	Type III pantothenate kinase	750	coaX
+3300009517-bin.31_COICDMBG_02452	Copper resistance protein A	2229	copA_5
+3300009517-bin.31_COICDMBG_02453	Copper-exporting P-type ATPase	1254	copA_6
+3300009517-bin.31_COICDMBG_02454	hypothetical protein	1284	
+3300009517-bin.31_COICDMBG_02455	Protein LacX, plasmid	852	lacX
+3300009517-bin.31_COICDMBG_02456	SsrA-binding protein	453	smpB
+3300009517-bin.31_COICDMBG_02457	Adenosine monophosphate-protein transferase and cysteine protease IbpA	1089	ibpA
+3300009517-bin.31_COICDMBG_02458	hypothetical protein	261	
+3300009517-bin.31_COICDMBG_02459	Protein-L-isoaspartate O-methyltransferase	642	pcm
+3300009517-bin.31_COICDMBG_02460	Myo-inositol 2-dehydrogenase	969	iolG
+3300009517-bin.31_COICDMBG_02461	Modification methylase HaeIII	1047	haeIIIM
+3300009517-bin.31_COICDMBG_02462	hypothetical protein	849	
+3300009517-bin.31_COICDMBG_02463	putative 3-hydroxybutyryl-CoA dehydrogenase	888	mmgB
+3300009517-bin.31_COICDMBG_02464	hypothetical protein	1227	
+3300009517-bin.31_COICDMBG_02465	hypothetical protein	1017	
+3300009517-bin.31_COICDMBG_02466	Pyridoxal phosphate homeostasis protein	663	
+3300009517-bin.31_COICDMBG_02467	Putative bifunctional exonuclease/endonuclease protein	1245	
+3300009517-bin.31_COICDMBG_02468	Cyclic nucleotide-gated potassium channel	837	
+3300009517-bin.31_COICDMBG_02469	tRNA dimethylallyltransferase	921	miaA
+3300009517-bin.31_COICDMBG_02470	hypothetical protein	648	
+3300009517-bin.31_COICDMBG_02471	hypothetical protein	618	
+3300009517-bin.31_COICDMBG_02472	hypothetical protein	738	
+3300009517-bin.31_COICDMBG_02473	Transcriptional regulatory protein OmpR	702	ompR
+3300009517-bin.31_COICDMBG_02474	Sensor protein kinase WalK	1578	walK_3
+3300009517-bin.31_COICDMBG_02475	Dephospho-CoA kinase	585	coaE
+3300009517-bin.31_COICDMBG_02476	putative glycosyltransferase EpsJ	1005	epsJ_3
+3300009517-bin.31_COICDMBG_02477	hypothetical protein	2259	
+3300009517-bin.31_COICDMBG_02478	Enoyl-[acyl-carrier-protein] reductase [NADH]	1185	fabV
+3300009517-bin.31_COICDMBG_02479	DNA repair protein RecN	1653	recN
+3300009517-bin.31_COICDMBG_02480	hypothetical protein	888	
+3300009517-bin.31_COICDMBG_02481	Coenzyme A biosynthesis bifunctional protein CoaBC	1212	coaBC
+3300009517-bin.31_COICDMBG_02482	hypothetical protein	321	
+3300009517-bin.31_COICDMBG_02483	Outer membrane protein assembly factor BamD	801	bamD
+3300009517-bin.31_COICDMBG_02484	4-hydroxy-tetrahydrodipicolinate synthase	885	dapA
+3300009517-bin.31_COICDMBG_02485	hypothetical protein	519	
+3300009517-bin.31_COICDMBG_02486	Mannosylglucosyl-3-phosphoglycerate phosphatase	780	mggB
+3300009517-bin.31_COICDMBG_02487	Trifunctional nucleotide phosphoesterase protein YfkN	915	yfkN
+3300009517-bin.31_COICDMBG_02488	hypothetical protein	684	
+3300009517-bin.31_COICDMBG_02489	hypothetical protein	711	
+3300009517-bin.31_COICDMBG_02490	hypothetical protein	756	
+3300009517-bin.31_COICDMBG_02491	DNA ligase	2010	ligA
+3300009517-bin.31_COICDMBG_02492	hypothetical protein	513	
+3300009517-bin.31_COICDMBG_02493	50S ribosomal protein L9	444	rplI
+3300009517-bin.31_COICDMBG_02494	30S ribosomal protein S18	297	rpsR
+3300009517-bin.31_COICDMBG_02495	30S ribosomal protein S6	387	rpsF
+3300009517-bin.31_COICDMBG_02496	Transcriptional regulatory protein NatR	696	natR
+3300009517-bin.31_COICDMBG_02497	Primosomal protein N'	2454	priA
+3300009517-bin.31_COICDMBG_02498	hypothetical protein	423	
+3300009517-bin.31_COICDMBG_02499	hypothetical protein	414	
+3300009517-bin.31_COICDMBG_02500	hypothetical protein	945	
+3300009517-bin.31_COICDMBG_02501	Nicotinate-nucleotide pyrophosphorylase [carboxylating]	858	nadC
+3300009517-bin.31_COICDMBG_02502	Sensor histidine kinase ResE	1053	resE
+3300009517-bin.31_COICDMBG_02503	Dihydroorotate dehydrogenase (quinone)	897	pyrD
+3300009517-bin.31_COICDMBG_02504	hypothetical protein	708	
+3300009517-bin.31_COICDMBG_02505	hypothetical protein	609	
+3300009517-bin.31_COICDMBG_02506	Hydroxymethylglutaryl-CoA lyase YngG	864	yngG
+3300009517-bin.31_COICDMBG_02507	Inosine-5'-monophosphate dehydrogenase	1473	guaB_2
+3300009517-bin.31_COICDMBG_02508	Putative cation/proton antiporter YbaL	2235	ybaL
+3300009517-bin.31_COICDMBG_02509	Adenylosuccinate lyase	1347	purB
+3300009517-bin.31_COICDMBG_02510	putative metal-dependent hydrolase YcfH	654	ycfH
+3300009517-bin.31_COICDMBG_02511	hypothetical protein	600	
+3300009517-bin.31_COICDMBG_02512	Inner membrane transport protein YajR	1221	yajR
+3300009517-bin.31_COICDMBG_02513	Methicillin resistance regulatory protein MecI	360	mecI
+3300009517-bin.31_COICDMBG_02514	Regulatory protein BlaR1	1767	blaR1
+3300009517-bin.31_COICDMBG_02516	D-alanyl-D-alanine dipeptidase	681	vanXB
+3300009517-bin.31_COICDMBG_02517	Small-conductance mechanosensitive channel	900	mscS_2
+3300009517-bin.31_COICDMBG_02518	hypothetical protein	618	
+3300009517-bin.31_COICDMBG_02519	hypothetical protein	807	
+3300009517-bin.31_COICDMBG_02520	hypothetical protein	216	
+3300009517-bin.31_COICDMBG_02521	hypothetical protein	1185	
+3300009517-bin.31_COICDMBG_02522	hypothetical protein	393	
+3300009517-bin.31_COICDMBG_02523	Chaperone protein ClpB 1	2604	clpB1
+3300009517-bin.31_COICDMBG_02524	hypothetical protein	567	
+3300009517-bin.31_COICDMBG_02525	hypothetical protein	198	
+3300009517-bin.31_COICDMBG_02526	HTH-type transcriptional regulator CdhR	981	cdhR
+3300009517-bin.31_COICDMBG_02527	hypothetical protein	423	
+3300009517-bin.31_COICDMBG_02528	hypothetical protein	384	
+3300009517-bin.31_COICDMBG_02529	hypothetical protein	438	
+3300009517-bin.31_COICDMBG_02530	hypothetical protein	405	
+3300009517-bin.31_COICDMBG_02531	hypothetical protein	492	
+3300009517-bin.31_COICDMBG_02532	hypothetical protein	381	
+3300009517-bin.31_COICDMBG_02533	Aminopeptidase YwaD	1227	ywaD
+3300009517-bin.31_COICDMBG_02534	hypothetical protein	564	
+3300009517-bin.31_COICDMBG_02535	hypothetical protein	1596	
+3300009517-bin.31_COICDMBG_02536	L-fucose-proton symporter	1659	fucP
+3300009517-bin.31_COICDMBG_02537	Glucan 1,4-alpha-glucosidase SusB	2100	susB
+3300009517-bin.31_COICDMBG_02538	hypothetical protein	1203	
+3300009517-bin.31_COICDMBG_02539	Penicillin-binding protein 4*	1245	pbpE_2
+3300009517-bin.31_COICDMBG_02540	hypothetical protein	510	
+3300009517-bin.31_COICDMBG_02541	hypothetical protein	2028	
+3300009517-bin.31_COICDMBG_02542	hypothetical protein	372	
+3300009517-bin.31_COICDMBG_02543	3-oxoacyl-[acyl-carrier-protein] reductase FabG	747	fabG
+3300009517-bin.31_COICDMBG_02544	ECF RNA polymerase sigma-E factor	552	rpoE_3
+3300009517-bin.31_COICDMBG_02545	hypothetical protein	273	
+3300009517-bin.31_COICDMBG_02546	hypothetical protein	387	
+3300009517-bin.31_COICDMBG_02547	hypothetical protein	702	
+3300009517-bin.31_COICDMBG_02548	Cytochrome c551 peroxidase	1035	ccp
+3300009517-bin.31_COICDMBG_02549	hypothetical protein	339	
+3300009517-bin.31_COICDMBG_02550	hypothetical protein	549	
+3300009517-bin.31_COICDMBG_02551	hypothetical protein	549	
+3300009517-bin.31_COICDMBG_02552	hypothetical protein	534	
+3300009517-bin.31_COICDMBG_02553	hypothetical protein	519	
+3300009517-bin.31_COICDMBG_02554	Phosphoenolpyruvate carboxylase	2577	ppc
+3300009517-bin.31_COICDMBG_02555	Regulatory protein AsnC	507	asnC_2
+3300009517-bin.31_COICDMBG_02556	hypothetical protein	1146	
+3300009517-bin.31_COICDMBG_02557	1-acyl-sn-glycerol-3-phosphate acyltransferase	552	plsC_2
+3300009517-bin.31_COICDMBG_02558	Polyamine aminopropyltransferase	663	speE
+3300009517-bin.31_COICDMBG_02559	3-deoxy-manno-octulosonate cytidylyltransferase	729	kpsU
+3300009517-bin.31_COICDMBG_02560	hypothetical protein	807	
+3300009517-bin.31_COICDMBG_02561	ATP-dependent RecD-like DNA helicase	1422	recD2_2
+3300009517-bin.31_COICDMBG_02562	hypothetical protein	813	
+3300009517-bin.31_COICDMBG_02563	Ribosomal RNA small subunit methyltransferase D	549	rsmD
+3300009517-bin.31_COICDMBG_02564	Propane 2-monooxygenase, reductase component	669	prmB
+3300009517-bin.31_COICDMBG_02565	hypothetical protein	297	
+3300009517-bin.31_COICDMBG_02566	DNA polymerase III subunit tau	1083	dnaX_2
+3300009517-bin.31_COICDMBG_02567	hypothetical protein	525	
+3300009517-bin.31_COICDMBG_02568	Exopolyphosphatase 2	891	ppx2
+3300009517-bin.31_COICDMBG_02569	Polyphosphate kinase	2142	ppk
+3300009517-bin.31_COICDMBG_02570	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase	486	gpmA
+3300009517-bin.31_COICDMBG_02571	hypothetical protein	147	
+3300009517-bin.31_COICDMBG_02572	hypothetical protein	594	
+3300009517-bin.31_COICDMBG_02573	hypothetical protein	99	
+3300009517-bin.31_COICDMBG_02574	hypothetical protein	138	
+3300009517-bin.31_COICDMBG_02575	CRISPR-associated endonuclease Cas9	4584	cas9
+3300009517-bin.31_COICDMBG_02576	putative ABC transporter ATP-binding protein YbiT	1620	ybiT_2
+3300009517-bin.31_COICDMBG_02577	hypothetical protein	663	
+3300009517-bin.31_COICDMBG_02578	hypothetical protein	348	
+3300009517-bin.31_COICDMBG_02579	hypothetical protein	378	
+3300009517-bin.31_COICDMBG_02580	hypothetical protein	270	
+3300009517-bin.31_COICDMBG_02581	hypothetical protein	156	
+3300009517-bin.31_COICDMBG_02582	hypothetical protein	459	
+3300009517-bin.31_COICDMBG_02583	hypothetical protein	957	
+3300009517-bin.31_COICDMBG_02584	Phytochrome-like protein cph1	2202	cph1_2
+3300009517-bin.31_COICDMBG_02585	Response regulator rcp1	447	rcp1
+3300009517-bin.31_COICDMBG_02586	HTH-type transcriptional activator RhaR	561	rhaR_4
+3300009517-bin.31_COICDMBG_02587	hypothetical protein	732	
+3300009517-bin.31_COICDMBG_02588	Arginine transport ATP-binding protein ArtM	744	artM
+3300009517-bin.31_COICDMBG_02589	putative phospholipid ABC transporter permease protein MlaE	804	mlaE_2
+3300009517-bin.31_COICDMBG_02590	Outer membrane protein assembly factor BamA	2271	bamA_4
+3300009517-bin.31_COICDMBG_02591	hypothetical protein	5010	
+3300009517-bin.31_COICDMBG_02592	Putative transport protein YhhT	1113	yhhT_2
+3300009517-bin.31_COICDMBG_02593	hypothetical protein	237	
+3300009517-bin.31_COICDMBG_02594	DNA protection during starvation protein 2	474	dps2
+3300009517-bin.31_COICDMBG_02595	hypothetical protein	639	
+3300009517-bin.31_COICDMBG_02596	Orotidine 5'-phosphate decarboxylase	819	pyrF
+3300009517-bin.31_COICDMBG_02597	Vitamin B12-binding protein	801	btuF
+3300009517-bin.31_COICDMBG_02598	hypothetical protein	708	
+3300009517-bin.31_COICDMBG_02599	Fused isobutyryl-CoA mutase	3459	icmF
+3300009517-bin.31_COICDMBG_02600	hypothetical protein	651	
+3300009517-bin.31_COICDMBG_02601	hypothetical protein	429	
+3300009517-bin.31_COICDMBG_02602	hypothetical protein	1053	
+3300009517-bin.31_COICDMBG_02603	hypothetical protein	333	
+3300009517-bin.31_COICDMBG_02604	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_02605	Signal transduction histidine-protein kinase/phosphatase DegS	1926	degS_3
+3300009517-bin.31_COICDMBG_02606	Transcriptional regulatory protein LiaR	627	liaR
+3300009517-bin.31_COICDMBG_02607	hypothetical protein	750	
+3300009517-bin.31_COICDMBG_02608	Fe(3+) dicitrate transport protein FecA	2436	fecA
+3300009517-bin.31_COICDMBG_02609	hypothetical protein	1365	
+3300009517-bin.31_COICDMBG_02610	Iron-regulated protein A	1134	irpA
+3300009517-bin.31_COICDMBG_02611	hypothetical protein	1218	
+3300009517-bin.31_COICDMBG_02612	hypothetical protein	138	
+3300009517-bin.31_COICDMBG_02613	hypothetical protein	519	
+3300009517-bin.31_COICDMBG_02614	Putative pyridoxal phosphate-dependent acyltransferase	1257	
+3300009517-bin.31_COICDMBG_02615	Autoinducer 2 sensor kinase/phosphatase LuxQ	2379	luxQ_4
+3300009517-bin.31_COICDMBG_02616	dITP/XTP pyrophosphatase	591	
+3300009517-bin.31_COICDMBG_02617	ATP-dependent RNA helicase CshA	1857	cshA
+3300009517-bin.31_COICDMBG_02618	hypothetical protein	789	
+3300009517-bin.31_COICDMBG_02619	tRNA (guanosine(18)-2'-O)-methyltransferase	669	trmH_3
+3300009517-bin.31_COICDMBG_02620	hypothetical protein	327	
+3300009517-bin.31_COICDMBG_02621	hypothetical protein	699	
+3300009517-bin.31_COICDMBG_02622	hypothetical protein	183	
+3300009517-bin.31_COICDMBG_02623	Energy-dependent translational throttle protein EttA	1695	ettA_2
+3300009517-bin.31_COICDMBG_02624	Autoinducer 2 sensor kinase/phosphatase LuxQ	2217	luxQ_5
+3300009517-bin.31_COICDMBG_02625	ATP-dependent RNA helicase RhlE	1254	rhlE_2
+3300009517-bin.31_COICDMBG_02626	Formimidoylglutamase	1056	hutG_2
+3300009517-bin.31_COICDMBG_02627	hypothetical protein	885	
+3300009517-bin.31_COICDMBG_02628	Imidazolonepropionase	1236	hutI
+3300009517-bin.31_COICDMBG_02629	Cobalt/magnesium transport protein CorA	1071	corA
+3300009517-bin.31_COICDMBG_02630	Na(+)/H(+) antiporter NhaA	1188	nhaA
+3300009517-bin.31_COICDMBG_02631	Outer membrane porin F	1941	oprF_4
+3300009517-bin.31_COICDMBG_02632	hypothetical protein	912	
+3300009517-bin.31_COICDMBG_02633	hypothetical protein	672	
+3300009517-bin.31_COICDMBG_02634	hypothetical protein	1323	
+3300009517-bin.31_COICDMBG_02635	hypothetical protein	408	
+3300009517-bin.31_COICDMBG_02636	Transposon Tn10 TetD protein	918	tetD
+3300009517-bin.31_COICDMBG_02637	hypothetical protein	213	
+3300009517-bin.31_COICDMBG_02638	Alkaline phosphatase PafA	1614	pafA
+3300009517-bin.31_COICDMBG_02639	Outer membrane lipoprotein Omp16	1878	
+3300009517-bin.31_COICDMBG_02640	hypothetical protein	966	
+3300009517-bin.31_COICDMBG_02641	hypothetical protein	6174	
+3300009517-bin.31_COICDMBG_02642	hypothetical protein	93	
+3300009517-bin.31_COICDMBG_02643	Nitronate monooxygenase	945	
+3300009517-bin.31_COICDMBG_02644	Subtilisin NAT	1611	aprN
+3300009517-bin.31_COICDMBG_02645	tRNA-specific 2-thiouridylase MnmA	1188	mnmA
+3300009517-bin.31_COICDMBG_02646	hypothetical protein	708	
+3300009517-bin.31_COICDMBG_02647	Cell surface glycolipoprotein MPB83	945	
+3300009517-bin.31_COICDMBG_02648	hypothetical protein	225	
+3300009517-bin.31_COICDMBG_02649	Membrane protein insertase YidC 2	1896	yidC2
+3300009517-bin.31_COICDMBG_02650	CTP synthase	1614	pyrG
+3300009517-bin.31_COICDMBG_02651	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_02652	hypothetical protein	732	
+3300009517-bin.31_COICDMBG_02653	hypothetical protein	291	
+3300009517-bin.31_COICDMBG_02654	hypothetical protein	405	
+3300009517-bin.31_COICDMBG_02655	hypothetical protein	2031	
+3300009517-bin.31_COICDMBG_02656	GMP synthase [glutamine-hydrolyzing]	1530	guaA
+3300009517-bin.31_COICDMBG_02657	ATP-dependent RecD-like DNA helicase	558	recD2_3
+3300009517-bin.31_COICDMBG_02658	ATP-dependent DNA helicase RecQ	1899	recQ_2
+3300009517-bin.31_COICDMBG_02659	Methionyl-tRNA formyltransferase	948	fmt
+3300009517-bin.31_COICDMBG_02660	DNA-binding protein HU-beta	273	hupB
+3300009517-bin.31_COICDMBG_02661	hypothetical protein	561	
+3300009517-bin.31_COICDMBG_02662	Aminodeoxychorismate lyase	840	pabC
+3300009517-bin.31_COICDMBG_02663	hypothetical protein	393	
+3300009517-bin.31_COICDMBG_02665	hypothetical protein	186	
+3300009517-bin.31_COICDMBG_02666	hypothetical protein	6507	
+3300009517-bin.31_COICDMBG_02667	Histidine--tRNA ligase	1359	hisS
+3300009517-bin.31_COICDMBG_02668	Macrolide export ATP-binding/permease protein MacB	1245	macB_3
+3300009517-bin.31_COICDMBG_02669	Release factor glutamine methyltransferase	900	prmC
+3300009517-bin.31_COICDMBG_02670	hypothetical protein	498	
+3300009517-bin.31_COICDMBG_02671	Riboflavin biosynthesis protein RibD	987	ribD
+3300009517-bin.31_COICDMBG_02672	D-ribitol-5-phosphate phosphatase	609	
+3300009517-bin.31_COICDMBG_02673	IMPACT family member YigZ	603	yigZ
+3300009517-bin.31_COICDMBG_02674	Acyl-CoA thioester hydrolase YbgC	402	ybgC
+3300009517-bin.31_COICDMBG_02675	Chromosomal replication initiator protein DnaA	1428	dnaA
+3300009517-bin.31_COICDMBG_02676	Low molecular weight protein-tyrosine-phosphatase YfkJ	468	yfkJ
+3300009517-bin.31_COICDMBG_02677	Ribosomal RNA small subunit methyltransferase I	714	rsmI_2
+3300009517-bin.31_COICDMBG_02678	hypothetical protein	636	
+3300009517-bin.31_COICDMBG_02679	hypothetical protein	918	
+3300009517-bin.31_COICDMBG_02680	Endolytic murein transglycosylase	1035	mltG
+3300009517-bin.31_COICDMBG_02681	Spermidine N(1)-acetyltransferase	534	speG_2
+3300009517-bin.31_COICDMBG_02682	Diaminopimelate epimerase	783	dapF
+3300009517-bin.31_COICDMBG_02683	Periplasmic pH-dependent serine endoprotease DegQ	1386	degQ
+3300009517-bin.31_COICDMBG_02684	Glyceraldehyde-3-phosphate dehydrogenase-like protein	1449	gap2
+3300009517-bin.31_COICDMBG_02685	hypothetical protein	375	
+3300009517-bin.31_COICDMBG_02686	Aconitate hydratase A	2265	acn
+3300009517-bin.31_COICDMBG_02687	O-acetyltransferase OatA	1122	oatA
+3300009517-bin.31_COICDMBG_02688	hypothetical protein	732	
+3300009517-bin.31_COICDMBG_02689	hypothetical protein	840	
+3300009517-bin.31_COICDMBG_02690	hypothetical protein	843	
+3300009517-bin.31_COICDMBG_02691	hypothetical protein	687	
+3300009517-bin.31_COICDMBG_02692	hypothetical protein	1800	
+3300009517-bin.31_COICDMBG_02693	hypothetical protein	645	
+3300009517-bin.31_COICDMBG_02694	hypothetical protein	477	
+3300009517-bin.31_COICDMBG_02695	hypothetical protein	870	
+3300009517-bin.31_COICDMBG_02696	Fumarate hydratase class II	1386	fumC
+3300009517-bin.31_COICDMBG_02697	hypothetical protein	168	
+3300009517-bin.31_COICDMBG_02698	hypothetical protein	2439	
+3300009517-bin.31_COICDMBG_02699	putative protein YfgD	339	yfgD_2
+3300009517-bin.31_COICDMBG_02700	hypothetical protein	951	
+3300009517-bin.31_COICDMBG_02701	2-succinylbenzoate--CoA ligase	1047	menE
+3300009517-bin.31_COICDMBG_02702	hypothetical protein	426	
+3300009517-bin.31_COICDMBG_02703	Aminopeptidase N	1611	pepN_2
+3300009517-bin.31_COICDMBG_02704	Ribosomal large subunit pseudouridine synthase A	1647	rluA
+3300009517-bin.31_COICDMBG_02705	hypothetical protein	1302	
+3300009517-bin.31_COICDMBG_02706	Mechanosensitive channel MscK	810	mscK_3
+3300009517-bin.31_COICDMBG_02707	putative propionyl-CoA carboxylase beta chain 5	1629	accD5
+3300009517-bin.31_COICDMBG_02708	hypothetical protein	645	
+3300009517-bin.31_COICDMBG_02709	Low-affinity inorganic phosphate transporter 1	1332	pitA
+3300009517-bin.31_COICDMBG_02710	hypothetical protein	1224	
+3300009517-bin.31_COICDMBG_02711	hypothetical protein	762	
+3300009517-bin.31_COICDMBG_02712	hypothetical protein	1050	
+3300009517-bin.31_COICDMBG_02713	L-Ala-D/L-Glu epimerase	999	
+3300009517-bin.31_COICDMBG_02714	Cyclopentanol dehydrogenase	804	cpnA
+3300009517-bin.31_COICDMBG_02715	Transaldolase	657	tal
+3300009517-bin.31_COICDMBG_02716	Thiol-disulfide oxidoreductase ResA	1407	resA_5
+3300009517-bin.31_COICDMBG_02717	HTH-type transcriptional regulator MmpR5	489	mmpR5
+3300009517-bin.31_COICDMBG_02718	Efflux pump periplasmic linker BepF	1113	bepF_2
+3300009517-bin.31_COICDMBG_02719	Efflux pump membrane transporter BepE	3132	bepE_1
+3300009517-bin.31_COICDMBG_02720	Outer membrane protein OprM	1395	oprM_2
+3300009517-bin.31_COICDMBG_02721	hypothetical protein	687	
+3300009517-bin.31_COICDMBG_02722	tRNA threonylcarbamoyladenosine dehydratase	717	tcdA
+3300009517-bin.31_COICDMBG_02723	Protein CbbY	660	cbbY
+3300009517-bin.31_COICDMBG_02724	Deoxyribodipyrimidine photo-lyase	1287	phrA
+3300009517-bin.31_COICDMBG_02725	2-(S)-hydroxypropyl-CoM dehydrogenase	699	xecE
+3300009517-bin.31_COICDMBG_02726	hypothetical protein	477	
+3300009517-bin.31_COICDMBG_02727	hypothetical protein	855	
+3300009517-bin.31_COICDMBG_02728	Sodium/glucose cotransporter	1719	sglT_1
+3300009517-bin.31_COICDMBG_02729	Mycothiol S-conjugate amidase	2499	mca
+3300009517-bin.31_COICDMBG_02730	hypothetical protein	378	
+3300009517-bin.31_COICDMBG_02731	hypothetical protein	360	
+3300009517-bin.31_COICDMBG_02732	Small-conductance mechanosensitive channel	531	mscS_3
+3300009517-bin.31_COICDMBG_02733	Maf-like protein YhdE	585	yhdE
+3300009517-bin.31_COICDMBG_02734	1,4-dihydroxy-2-naphthoate octaprenyltransferase	942	menA_2
+3300009517-bin.31_COICDMBG_02735	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC	504	kdsC
+3300009517-bin.31_COICDMBG_02736	hypothetical protein	762	
+3300009517-bin.31_COICDMBG_02737	Aminopeptidase N	2073	pepN_3
+3300009517-bin.31_COICDMBG_02738	hypothetical protein	906	
+3300009517-bin.31_COICDMBG_02739	hypothetical protein	1500	
+3300009517-bin.31_COICDMBG_02740	hypothetical protein	834	
+3300009517-bin.31_COICDMBG_02741	hypothetical protein	186	
+3300009517-bin.31_COICDMBG_02742	hypothetical protein	264	
+3300009517-bin.31_COICDMBG_02743	hypothetical protein	228	
+3300009517-bin.31_COICDMBG_02744	hypothetical protein	2790	
+3300009517-bin.31_COICDMBG_02745	dTDP-glucose 4,6-dehydratase	1047	rfbB
+3300009517-bin.31_COICDMBG_02746	UDP-N-acetyl-D-glucosamine 6-dehydrogenase	1278	wbpA
+3300009517-bin.31_COICDMBG_02747	UDP-glucose 6-dehydrogenase TuaD	1392	tuaD
+3300009517-bin.31_COICDMBG_02748	UDP-N-acetylglucosamine 4-epimerase	978	wbgU
+3300009517-bin.31_COICDMBG_02749	Tyrosine-protein kinase ptk	2469	ptk_2
+3300009517-bin.31_COICDMBG_02750	hypothetical protein	750	
+3300009517-bin.31_COICDMBG_02751	Recombination protein RecR	699	recR
+3300009517-bin.31_COICDMBG_02752	Sodium/glucose cotransporter	1536	sglT_2
+3300009517-bin.31_COICDMBG_02753	hypothetical protein	366	
+3300009517-bin.31_COICDMBG_02754	hypothetical protein	624	
+3300009517-bin.31_COICDMBG_02755	hypothetical protein	936	
+3300009517-bin.31_COICDMBG_02756	hypothetical protein	114	
+3300009517-bin.31_COICDMBG_02757	Arginine deiminase	915	arcA
+3300009517-bin.31_COICDMBG_02758	hypothetical protein	477	
+3300009517-bin.31_COICDMBG_02759	hypothetical protein	1065	
+3300009517-bin.31_COICDMBG_02760	hypothetical protein	1617	
+3300009517-bin.31_COICDMBG_02761	hypothetical protein	798	
+3300009517-bin.31_COICDMBG_02762	hypothetical protein	1965	
+3300009517-bin.31_COICDMBG_02763	hypothetical protein	2370	
+3300009517-bin.31_COICDMBG_02764	hypothetical protein	1287	
+3300009517-bin.31_COICDMBG_02765	putative glycosyltransferase	933	
+3300009517-bin.31_COICDMBG_02766	Citrate synthase 1	1284	gltA2
+3300009517-bin.31_COICDMBG_02767	hypothetical protein	408	
+3300009517-bin.31_COICDMBG_02768	Succinate--CoA ligase [ADP-forming] subunit beta	1194	sucC
+3300009517-bin.31_COICDMBG_02769	Diaminopimelate decarboxylase	1206	lysA
+3300009517-bin.31_COICDMBG_02770	hypothetical protein	291	
+3300009517-bin.31_COICDMBG_02771	hypothetical protein	678	
+3300009517-bin.31_COICDMBG_02772	hypothetical protein	153	
+3300009517-bin.31_COICDMBG_02773	Tyrosine recombinase XerD	1044	xerD_5
+3300009517-bin.31_COICDMBG_02774	hypothetical protein	945	
+3300009517-bin.31_COICDMBG_02775	Hydroxypyruvate reductase	957	
+3300009517-bin.31_COICDMBG_02776	hypothetical protein	399	
+3300009517-bin.31_COICDMBG_02777	hypothetical protein	339	
+3300009517-bin.31_COICDMBG_02778	hypothetical protein	405	
+3300009517-bin.31_COICDMBG_02779	hypothetical protein	459	
+3300009517-bin.31_COICDMBG_02780	Metalloprotease LoiP	798	loiP
+3300009517-bin.31_COICDMBG_02781	hypothetical protein	1794	
+3300009517-bin.31_COICDMBG_02782	Exodeoxyribonuclease	762	exoA
+3300009517-bin.31_COICDMBG_02783	putative lipoprotein YiaD	966	yiaD_3
+3300009517-bin.31_COICDMBG_02784	Outer membrane protein OprM	1434	oprM_3
+3300009517-bin.31_COICDMBG_02785	Efflux pump membrane transporter BepE	3174	bepE_2
+3300009517-bin.31_COICDMBG_02786	Multidrug/solvent efflux pump periplasmic linker protein MepA	1083	mepA
+3300009517-bin.31_COICDMBG_02787	hypothetical protein	381	
+3300009517-bin.31_COICDMBG_02788	hypothetical protein	2391	
+3300009517-bin.31_COICDMBG_02789	hypothetical protein	93	
+3300009517-bin.31_COICDMBG_02790	Proline dehydrogenase 2	1173	putB
+3300009517-bin.31_COICDMBG_02791	3-dehydroquinate synthase	1068	aroB
+3300009517-bin.31_COICDMBG_02792	hypothetical protein	180	
+3300009517-bin.31_COICDMBG_02793	Biosynthetic arginine decarboxylase	1404	speA
+3300009517-bin.31_COICDMBG_02794	Deoxyhypusine synthase-like protein	975	
+3300009517-bin.31_COICDMBG_02795	hypothetical protein	423	
+3300009517-bin.31_COICDMBG_02796	hypothetical protein	1029	
+3300009517-bin.31_COICDMBG_02797	Pyridoxine/pyridoxamine 5'-phosphate oxidase	645	pdxH
+3300009517-bin.31_COICDMBG_02798	Ribonuclease Z	912	rnz
+3300009517-bin.31_COICDMBG_02799	hypothetical protein	333	
+3300009517-bin.31_COICDMBG_02800	hypothetical protein	345	
+3300009517-bin.31_COICDMBG_02801	Endonuclease MutS2	537	mutS2_2
+3300009517-bin.31_COICDMBG_02802	hypothetical protein	198	
+3300009517-bin.31_COICDMBG_02803	hypothetical protein	468	
+3300009517-bin.31_COICDMBG_02804	Ornithine aminotransferase	1245	rocD
+3300009517-bin.31_COICDMBG_02805	hypothetical protein	435	
+3300009517-bin.31_COICDMBG_02806	hypothetical protein	540	
+3300009517-bin.31_COICDMBG_02808	hypothetical protein	198	
+3300009517-bin.31_COICDMBG_02809	hypothetical protein	210	
+3300009517-bin.31_COICDMBG_02810	hypothetical protein	453	
+3300009517-bin.31_COICDMBG_02811	hypothetical protein	1020	
+3300009517-bin.31_COICDMBG_02812	hypothetical protein	477	
+3300009517-bin.31_COICDMBG_02813	hypothetical protein	876	
