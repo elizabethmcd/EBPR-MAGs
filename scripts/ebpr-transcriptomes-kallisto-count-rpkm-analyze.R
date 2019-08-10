@@ -19,8 +19,8 @@ write_delim(counttable, "raw-data/trans-mapping/ebpr-kallisto-raw-counts.tsv", d
 
 # merge counts and annotations
 
-countsFile = read.csv("raw-data/trans-mapping/ebpr-raw-counts-names.tsv", header=FALSE, sep="\t")
-annotFile = read.csv("raw-data/annotations/ebpr-kofamAnnotations.txt", header=FALSE, sep="\t")
+countsFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/trans-mapping/ebpr-raw-counts-names.tsv", header=FALSE, sep="\t")
+annotFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/annotations/2019-07-29-KO-redone/ebpr-kofamkoala-annots-sig-mod-nodups-ko-list.txt", header=FALSE, sep="\t")
 colnames(countsFile) <- c("Bin", "Locus_Tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6")
 colnames(annotFile) <- c("Locus_Tag", "Annotation")
 rawTable <- left_join(countsFile, annotFile)
@@ -57,12 +57,12 @@ colnames(countTotals) <- c("Bin", "Total_Raw_Counts")
 countTotals[order(countTotals$Total_Raw_Counts),]
 
 # save files
-write.table(countsTable, "raw-data/tbasco-tables/2019-07-08-full-tbasco-input-table.tsv", sep=";", row.names=FALSE, quote=FALSE)
-write.table(highCovg, "raw-data/tbasco-tables/2019-07-08-high-covg-tbasco-input-table.tsv", sep=";", row.names=FALSE, quote=FALSE)
+write.table(countsTable, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/tbasco-tables/2019-08-10-full-tbasco-input-table-updated-annotations.tsv", sep=";", row.names=FALSE, quote=FALSE)
+write.table(highCovg, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/tbasco-tables/2019-08-10-high-covg-tbasco-input-table-updated-annotations.tsv", sep=";", row.names=FALSE, quote=FALSE)
 
 # RPKM normalization
 # merge with Prokka annotations to normalize
-prokka <- read.delim("raw-data/annotations/ebpr-prokka-annotations.txt", sep="\t", header=FALSE)
+prokka <- read.delim("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/annotations/ebpr-prokka-annotations.txt", sep="\t", header=FALSE)
 colnames(prokka) <- c("Locus_Tag", "prokka_annotation", "size_bp", "accession")
 counts_all_annots <- left_join(countsTable, prokka)
 counts_annots_high_covg <- left_join(highCovg, prokka)
@@ -111,4 +111,4 @@ colnames(tpm_kos) <- c("Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "S
 tpm_kos <- tpm_kos[, c(8,1:6,9,7)]
 
 # export TPM normalized dataframe w/ KO annotations
-write.table(tpm_kos, "raw-data/tbasco-tables/2019-07-08-high-covg-tpm-normalized.tsv", sep=";", row.names=FALSE, quote=FALSE)
+write.table(tpm_kos, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/tbasco-tables/2019-08-10-high-covg-tpm-normalized-fixed-annotations.tsv", sep=";", row.names=FALSE, quote=FALSE)
