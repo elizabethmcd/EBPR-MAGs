@@ -13,6 +13,7 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
 - [OPERA-MS](https://github.com/CSB5/OPERA-MS)
 - [Anvi'o](http://merenlab.org/software/anvio/)
+- [metabolisHMM](https://github.com/elizabethmcd/metabolisHMM)
 - [GTDBK-tk](https://github.com/Ecogenomics/GTDBTk)
 - [FastTree](http://www.microbesonline.org/fasttree/)
 - [RaxML](https://sco.h-its.org/exelixis/software.html)
@@ -21,6 +22,8 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [KofamKOALA](https://www.genome.jp/tools/kofamkoala/)
 - [antiSMASH](https://antismash.secondarymetabolites.org/#!/start)
 - [kallisto](https://pachterlab.github.io/kallisto/)
+- [PHANOTATE](https://github.com/deprekate/PHANOTATE)
+- [multiPhATE](https://github.com/carolzhou/multiPhATE)
 
 ### Filter Raw Metagenomic Sequences 
 
@@ -450,3 +453,14 @@ First create a concatenated index of all predicted ORFs from all genomes with `k
 #### Parse Annotations and Output Files
 
 To create a master file of annotations (Prokka for example), use the `genbank-annotation-parser.py`. The R script `ebpr-transcriptomes-kallisto-analyze.R` provides steps for combining mapping files with KEGG annotations, and parsing the results kallisto mapping files to create a master raw counts table.
+
+### Analyzing Phage Genomes
+
+We know that phage has an impact in these bioreactors, but haven't really studied them in detail, due to mostly not having high quality phage genomes. Using the OPERA-MS hybrid assembly of the PacBio + Illumina samples sequenced for 2013-05-23, and then binned with MetaBat, I was able to pull out bins that were identified as "root" with CheckM, and are on either 5 contigs or less (2 of them are on a single and 2 contigs, respectively) and range from 200-300 kb, which is about the expected size for phage genomes. There are a couple different methods to identify and annotate phage sequences and predict their host relationships bioinformatically. 
+
+- virSorter to predict phage sequences
+- PHANNOTATE to identify phage ORFs
+- multiPhAte to call functional annotations on the ORFs
+- VRCA to compare TNF of phage/genomes to associate with host
+
+Can then use the assembled genomes, annotations, and predicted relationships with more resolved sequenced samples to draw better connections
