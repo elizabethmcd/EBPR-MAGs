@@ -115,6 +115,3 @@ sort(Model_Module_List_All[["Model_Comparison_Matrix"]][15,])
 # Write out normalized table to explore downstream
 normalized <- RNAseq.data[["table"]]
 write_delim(normalized, "~/Desktop/normalized-tbasco-table.tsv", delim="\t")
-normalized_df <- normalized[,c[1,9]]
-
-
