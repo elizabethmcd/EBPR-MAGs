@@ -6,7 +6,7 @@ library(dplyr)
 library(ggplot2)
 
 # kallisto files
-dir <- "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/kallisto_results"
+dir <- "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/kallisto_results"
 samples <- read.table(file.path(dir, "samples.txt"), header=TRUE)
 files <- file.path(dir, samples$experiment, "abundance.h5")
 names(files) <- paste0("sample", 1:6)
@@ -15,12 +15,12 @@ counts <- as.data.frame(txi.kallisto)
 finalcounts <- rownames_to_column(counts, var="ID")
 counttable <- finalcounts[, c(1,8:13)]
 colnames(counttable) <- c("Locus_Tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6")
-write_delim(counttable, "raw-data/trans-mapping/ebpr-kallisto-raw-counts.tsv", delim="\t")
+write_delim(counttable, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/ebpr-kallisto-raw-counts.tsv", delim="\t")
 
 # merge counts and annotations
 
-countsFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/trans-mapping/ebpr-raw-counts-names.tsv", header=FALSE, sep="\t")
-annotFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/annotations/2019-07-29-KO-redone/ebpr-kofamkoala-annots-sig-mod-nodups-ko-list.txt", header=FALSE, sep="\t")
+countsFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/ebpr-raw-counts-names.tsv", header=FALSE, sep="\t")
+annotFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/annotations/2019-07-29-KO-redone/ebpr-kofamkoala-annots-sig-mod-nodups-ko-list.txt", header=FALSE, sep="\t")
 colnames(countsFile) <- c("Bin", "Locus_Tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6")
 colnames(annotFile) <- c("Locus_Tag", "Annotation")
 rawTable <- left_join(countsFile, annotFile)
@@ -112,3 +112,34 @@ tpm_kos <- tpm_kos[, c(8,1:6,9,7)]
 
 # export TPM normalized dataframe w/ KO annotations
 write.table(tpm_kos, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/raw-data/tbasco-tables/2019-08-10-high-covg-tpm-normalized-fixed-annotations.tsv", sep=";", row.names=FALSE, quote=FALSE)
+
+
+##################################
+# Get TPM normalization from kallisto files directly
+# Merge with bin names
+# Average total expression across 6 samples per genome
+
+tax = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/stats/ebpr-mags-phyla-classf-stats.txt", sep="\t", header=FALSE)
+colnames(tax) = c("Genome", "Group")
+tpm = finalcounts[1:7]
+write_delim(tpm, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/ebpr-kallisto-tpm-normalized-counts.tsv", delim="\t")
+tpm_names = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/2020-02-19-tpm-norm-names.tsv", sep="\t" )
+colnames(tpm_names) = c("Genome", "Locus_Tag", "sample1", "sample2", "sample3", "sample4", "sample5", "sample6")
+counts = tpm_names[-2]
+countSums <- aggregate(counts[2:7], list(counts$Genome), sum)
+countAvg <- cbind.data.frame(countSums$Group.1, (rowSums(countSums[2:7]) / 6))
+colnames(countAvg) = c("Genome", "AvgExp")
+countNames = left_join(tax, countAvg)
+# relative expression plot
+relexpplot = ggplot(countNames, aes(x=reorder(Genome,-AvgExp), y=AvgExp, fill=Group)) + geom_col() + labs(x="Genome", y="Avrage Expression Across Time-Series") + theme_classic() + scale_fill_brewer(palette="Paired") 
+relexpplot
+ggsave(filename="/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/figs/avg-rel-exp-all-bins.png", plot=relexpplot, width=40, height=20, units=c("cm"))
+
+# looking at total raw counts across all 6 samples
+raw = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/ebpr-raw-counts-names.tsv", header=FALSE, sep="\t")
+colnames(raw) = c("Genome", "Locus_Tag", "sample1", "sample2", "sample3", "sample4", "sample5", "sample6")
+raw_counts = raw[-2]
+rawSums = aggregate(raw_counts[2:7], list(raw_counts$Genome), sum)
+allSums = cbind.data.frame(rawSums$Group.1, (rowSums(rawSums[2:7])))
+colnames(allSums) = c("Genome", "Total_Counts")
+allSums_names= left_join(tax, allSums)

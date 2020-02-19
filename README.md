@@ -11,7 +11,6 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [Prodigal](https://github.com/hyattpd/Prodigal)
 - [ANI Calculator](http://enve-omics.ce.gatech.edu/ani/) 
 - [SPAdes](http://cab.spbu.ru/files/release3.12.0/manual.html)
-- [OPERA-MS](https://github.com/CSB5/OPERA-MS)
 - [Anvi'o](http://merenlab.org/software/anvio/)
 - [metabolisHMM](https://github.com/elizabethmcd/metabolisHMM)
 - [GTDBK-tk](https://github.com/Ecogenomics/GTDBTk)
@@ -24,6 +23,11 @@ This series of workflows demonstrate how to extract, refine, and utilize metagen
 - [kallisto](https://pachterlab.github.io/kallisto/)
 - [PHANOTATE](https://github.com/deprekate/PHANOTATE)
 - [multiPhATE](https://github.com/carolzhou/multiPhATE)
+- [OPERA-MS](https://github.com/CSB5/OPERA-MS)
+- [Canu](https://canu.readthedocs.io/en/latest/)
+- [Racon](https://github.com/lbcb-sci/racon)
+- [Quiver](https://github.com/PacificBiosciences/GenomicConsensus)
+- [Pilon](http://software.broadinstitute.org/software/pilon/)
 
 ### Filter Raw Metagenomic Sequences 
 
@@ -197,39 +201,6 @@ To run the assembly, we need to use one of the high memory nodes at CHTC, which 
 ```
 
 Then run the `spades-assembly.sub` submission script, which will run the assembly on a high memory node. Even on a high memory node, this should take some time. Additionally, with this dataset we might have to test with metaSPAdes, although other EBPR people have gotten decent results co-assembling with normal SPAdes. **Note:** This takes about a week to run on a high memory node at CHTC. 
-
-### Hybrid Assembly of Illumina short reads and PacBio long reads
-
-We have both Illumina sequencing (~10-13 Gb) and PacBio long reads for the 2013-05-23 sample date. I never really tried anything with the PacBio reads and I don't think anybody else in the lab did either. The software OPERA-MS was recently released for hybrid assembly of short + long reads for metagenomes, and is suppposedly better than IDBA-hybrid and SPAdes, and I dont' think metaSPAdes has hybrid assembly options yet. First, interleaved files have to be split up into R1 and R2 read files, which can be done with BBtools `reformat.sh`, with usage: 
-
-```
-Usage:  reformat.sh in=<file> out1=<outfile> out2=<outfile2>
-```
-
-In combination with the long reads, OPERA-MS can be run as: 
-
-```
-perl OPERA-MS.pl; 
-    --short-read1 2013-05-23-EBPR.R1.fastq; 
-    --short-read2 2013-05-23-EBPR.R2.fastq; 
-    --long-read 2013-05-23-PACBIO-qced.fastq; 
-    --out-dir RESULTS
-```
-
-A test run on one of the VMs with > 16 GB RAM finished this job in less than 24 hours with the following assembly statistics: 
-
-```
-[Thu Aug  1 16:07:55 2019]	Assembly stats
-Number of contigs: 255720
-Assembly size: 334183580 bp
-Max contig size: 603481 bp
-Contig(s) longer than 1Mbp: 0
-Contig(s) longer than 500kbp: 1
-Contig(s) longer than 100kbp: 218
-Contig N50: 3445 bp
-```
-
-The hybrid assembly can then be used for binning purposes, repeating the mapping and binning steps as described above, except for this won't be differential coverage based binning since this will only involved mapping of the 2013-05-23 short read metagenome to this assembly, and comparing the resulting bins to the single assembly from 2013-05-23 that was informed from differential coverage binning. This could also be used to perform manual binning with Anvi'o instead since it's 1 metagenome vs 1 assembly. 
 
 ### Check Assembly Quality 
 
@@ -464,3 +435,102 @@ We know that phage has an impact in these bioreactors, but haven't really studie
 - VRCA to compare TNF of phage/genomes to associate with host
 
 Can then use the assembled genomes, annotations, and predicted relationships with more resolved sequenced samples to draw better connections
+
+## Incorporating Long PacBio Reads
+
+All workflows described above entail assembling short read Illlumina shotgun data into consensus bins, which are usually fragmented into lots of contigs and don't include conserved/repetative regions such as ribosomal subunits (sometimes, some of my HQ ones do). This can be alleviated by using long read sequencing technlogies such as PacBio/Oxford Nanopore. We previously sequenced one of the samples with Illumina shotgun sequencing also with Pacbio sequencing, specifically the May 28th 2013 sample. I previously tried scaffolding some of the bins recovered from this sample specifically after depreplication with the PacBio reads with very little success, and the tools for doing this are weird and poorly documented. Here, I attempt two approaches: long read assembly only  (with some Illumina polishing for error correction), hybrid assembly, and post-assembly correction and polishing. Binning will be performed by taking the differential coverage from the all three May 2013 samples, the 13th, 23rd, and 28th.  
+
+### Hybrid Assembly of Illumina short reads and PacBio long reads
+
+The PacBio RS II reads have a high error rate ~20%, compared to the new HiFi reads with low error rate, and should be corrected with the Illumina data before any assembly. Error correction and polishing can be done on the long reads with and without the Illumina data after the assembly as well. 
+
+The software OPERA-MS was recently released for hybrid assembly of short + long reads for metagenomes, and is suppposedly better than IDBA-hybrid and SPAdes, and I dont' think metaSPAdes has hybrid assembly options yet. First, interleaved files have to be split up into R1 and R2 read files, which can be done with BBtools `reformat.sh`, with usage: 
+
+```
+Usage:  reformat.sh in=<file> out1=<outfile> out2=<outfile2>
+```
+
+In combination with the long reads, OPERA-MS can be run as: 
+
+```
+perl OPERA-MS.pl; 
+    --short-read1 2013-05-23-EBPR.R1.fastq; 
+    --short-read2 2013-05-23-EBPR.R2.fastq; 
+    --long-read 2013-05-23-PACBIO-qced.fastq; 
+    --out-dir RESULTS
+```
+
+A test run on one of the VMs with > 16 GB RAM finished this job in less than 24 hours with the following assembly statistics: 
+
+```
+[Thu Aug  1 16:07:55 2019]	Assembly stats
+Number of contigs: 255720
+Assembly size: 334183580 bp
+Max contig size: 603481 bp
+Contig(s) longer than 1Mbp: 0
+Contig(s) longer than 500kbp: 1
+Contig(s) longer than 100kbp: 218
+Contig N50: 3445 bp
+```
+
+The hybrid assembly can then be used for binning purposes, repeating the mapping and binning steps as described above. There are a couple of ways this could be approached. Sometimes people will only have long reads for a couple of samples, use those for the assembly, and then have many more samples only with short reads. Then they will map all the samples with short reads to the hybrid long-read approach assembly to get differential coverage, and bin based off of that. As a preliminary test I only mapped the corresponding illumina reads to the assembly, but could try all the samples to see how binning improves. 
+
+### Long Read Assembly and Polishing with Short Reads
+
+The established methods of genome/metagenome assembly have been: short read assembly only, long read assembly only, or hybrid assembly of the two. Something I've learned recently is sort of a combination of the latter two, where the long reads are assembled, and the bases are polished or error corrected with the corresponding short read data to create a high-quality assembly. This involves several steps, mostly with intermediate polishing. 
+
+First assemble the long Pacbio data with `canu`. Install with: 
+
+```
+git clone https://github.com/marbl/canu.git
+cd canu/src
+make -j <number of threads>
+```
+
+The basic canu run setup is `canu -p <assembly-prefix> -d <assembly-directory> genomeSize=<number> pacbio-raw <fastq/fasta file>`. There are some suggested modificiations for assembling a metagenome, where the genomeSize should be set to around 5Mb, and playing with the error rates and increasing memory. Don't run canu on "quality filtered" reads, the first step of canu will specifically correct/quality filter the PacBio reads/bases specific to the technology, whereas other QC programs are specific to short read programs. 
+
+```
+corOutCoverage=10000 corMhapSensitivity=high corMinCoverage=0 redMemory=32 oeaMemory=32 batMemory=200
+```
+
+After the assembly, there will need to be some polishing on the raw, uncorrected raw long read assembly. For PacBio data, Quiver is suggested, which is produced specifically by PacBio. Racon has also been mentioned, and can support polishing with Illumina data. Additionally the Canu documentation recommends if you have Illumina data that you can polish with Pilon. Some resources suggest doing both polishing approaches, such as polishing the Canu long read assembly only with the long reads first with Racon, and then polishing with short read data using Pilon, such as this [ONT article](https://github.com/nanoporetech/ont-assembly-polish). This docker container is specific for nanopore reads, and I haven't yet found a similar pipeline for PacBio + Illumina reads assembly/polishing. The general steps are: 
+
+1. Canu assembly
+2. Polish long-read contigs with Racon
+3. Map Illumina reads onto assembly
+4. Polish contigs with short read data using Pilon
+
+*Important notes*: Important note #1: There is some discrepancy (in emails and previous lab notes) in whether the pacbio data came from the May 23rd or the 28th sample date, for which we have both illumina and pacbio data for, so probably want to map/polish with both just to be certain. Although in the 5/28/2019 IMG collection for this sample, all the Pacbio and Illumina stuff is there, but not everybody is certain. Important note #2: It's not entirely clear from the IMG site was is Pacbio raw reads/assemblies vs Illumina reads/assemblies for this sample, and it's confusing when downloading things. Make sure when downloading raw Illumina vs Pacbio reads, the pacbio ones will say pbio in the name, whereas the Illumina raw reads file is really large. Additionally the assembly contains multiple pacbio runs (???) together, and isn't the raw data. The raw data is split into 5 individual fasta files, which canu can assemble together with wildcard `*.fasta`.  
+
+Example command: 
+
+```
+/home/emcdaniel/Ext-Inst/canu/Linux-amd64/bin/./canu -p EBPRpac -d EBPR_long genomeSize=5m corOutCoverage=10000 corMhapSensitivity=high corMinCoverage=0 redMemory=32 oeaMemory=32 batMemory=50 -pacbio-raw *.fasta
+```
+
+Putting the `canu` commands in my bin interfered with the native perl I had installed probably through anaconda, so had to run from within the directory. So be it. Top part of the intial report: 
+
+```
+-- In sequence store './EBPRpac.seqStore':
+--   Found 1743135 reads.
+--   Found 3853006791 bases (770.6 times coverage).
+--
+--    G=3853006791                       sum of  ||               length     num
+--    NG         length     index       lengths  ||                range    seqs
+--    ----- ------------ --------- ------------  ||  ------------------- -------
+--    00010         3675     77331    385303969  ||       1000-1361       146635|---------------------
+--    00020         2978    195845    770602413  ||       1362-1723       305202|-------------------------------------------
+--    00030         2657    333382   1155904482  ||       1724-2085       449283|---------------------------------------------------------------
+--    00040         2435    485109   1541202810  ||       2086-2447       366954|----------------------------------------------------
+--    00050         2256    649617   1926505405  ||       2448-2809       217259|-------------------------------
+--    00060         2098    826741   2311804375  ||       2810-3171       111946|----------------
+--    00070         1946   1017374   2697104798  ||       3172-3533        55227|--------
+--    00080         1781   1224025   3082406235  ||       3534-3895        28802|-----
+--    00090         1565   1453605   3467706422  ||       3896-4257        17196|---
+--    00100         1000   1743134   3853006791  ||       4258-4619        11206|--
+--    001.000x             1743135   3853006791  ||       4620-4981         7924|--
+--                                               ||       4982-5343         5871|-
+--                                               ||       5344-5705         4394|-
+```
+
+Showing that most sequences fall within the length of 1300-2500, which seems to be decent. 

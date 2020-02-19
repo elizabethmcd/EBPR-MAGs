@@ -1,0 +1,20 @@
+#################################
+# glbrc_megahit_coassembly.sub
+# Elizabeth McDaniel
+
+# Run coassembly on EBPR metagenomes 
+# For running on GBLRC cluster
+#################################
+
+request_cpus = 20
+request_memory = 500GB
+
+executable = /home/GLBRCORG/emcdaniel/EBPR/coassembly/run-megahit-coassembly.sh
+arguments = $(groupName)
+
+environment = "groupName=$(groupName)"
+output = /home/GLBRCORG/emcdaniel/EBPR/coassembly/coassembly_$(groupName).out
+error = /home/GLBRCORG/emcdaniel/EBPR/coassembly/coassembly_$(groupName).error
+log = /home/GLBRCORG/emcdaniel/EBPR/coassembly/coassembly_$(groupName).log
+
+queue groupName from /home/GLBRCORG/emcdaniel/EBPR/coassembly/group_list.tsv
