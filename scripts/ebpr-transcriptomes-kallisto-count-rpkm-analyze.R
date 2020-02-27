@@ -13,17 +13,18 @@ names(files) <- paste0("sample", 1:6)
 txi.kallisto <- tximport(files, type="kallisto", txOut = TRUE)
 counts <- as.data.frame(txi.kallisto)
 finalcounts <- rownames_to_column(counts, var="ID")
-counttable <- finalcounts[, c(1,8:13)]
+counttable <- finalcounts[, c(1:7)]
 colnames(counttable) <- c("Locus_Tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6")
-write_delim(counttable, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/ebpr-kallisto-raw-counts.tsv", delim="\t")
+write_delim(counttable, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/ebpr-kallisto-tpm-counts-norm.tsv", delim="\t")
 
 # merge counts and annotations
 
-countsFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/ebpr-raw-counts-names.tsv", header=FALSE, sep="\t")
+countsFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/2020-02-21-normalized-tmp-names.tsv", header=FALSE, sep="\t")
 annotFile = read.csv("/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/annotations/2019-07-29-KO-redone/ebpr-kofamkoala-annots-sig-mod-nodups-ko-list.txt", header=FALSE, sep="\t")
 colnames(countsFile) <- c("Bin", "Locus_Tag", "Sample1", "Sample2", "Sample3", "Sample4", "Sample5", "Sample6")
 colnames(annotFile) <- c("Locus_Tag", "Annotation")
-rawTable <- left_join(countsFile, annotFile)
+tpmTable = left_join(annotFile, countsFile)
+write_delim(tpmTable, "/Users/emcdaniel/Desktop/McMahon-Lab/EBPR-Projects/EBPR-MAGs/results/transcriptomics/trans-mapping/2020-02-21-tpm-normalized-counts-annots.tsv", delim="\t")
 countsTable <- rawTable[,c(2:8,9,1)]
 
 # check to see merged correctly 
@@ -143,3 +144,4 @@ rawSums = aggregate(raw_counts[2:7], list(raw_counts$Genome), sum)
 allSums = cbind.data.frame(rawSums$Group.1, (rowSums(rawSums[2:7])))
 colnames(allSums) = c("Genome", "Total_Counts")
 allSums_names= left_join(tax, allSums)
+write_csv(allSums_names, "~/Desktop/counts_results.csv", quote=FALSE)
