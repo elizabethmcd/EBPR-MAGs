@@ -13,13 +13,13 @@ OUTDIR=/home/GLBRCORG/emcdaniel/EBPR/coassembly/metagenomes/finalBins/depthResul
 
 # Reference length
 
-python $EXDIR/countBases.py $REF > $OUTDIR/$REFBASE.len
+python $EXDIR/countBases.py $REF > $OUTDIR/$DEPTHBASE.len
 
 # Metagenomes reads file
 
-awk '{s++}END{print FILENAME,s/4}' $META >> $OUTDIR/$METABASE-reads.txt
+awk '{s++}END{print FILENAME,s/4}' $META >> $OUTDIR/$DEPTHBASE-reads.txt
 
 # stats file
 
-python $EXDIR/calc-mapping-stats.py $OUTDIR/$REFBASE.len $OUTDIR/$METABASE-reads.txt $DEPTH $OUTDIR/$DEPTHBASE.coverage.txt
+python $EXDIR/calc-mapping-stats.py $OUTDIR/$DEPTHBASE.len $OUTDIR/$DEPTHBASE-reads.txt $DEPTH $OUTDIR/$DEPTHBASE.coverage.txt
 
