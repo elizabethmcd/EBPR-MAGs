@@ -1,0 +1,17 @@
+"","bin_code","completeness","redundancy","size_Mbp","gtdb_taxonomy","ncbi_taxonomy","n_contigs"
+"1","CYT1",99.11,0.6,4.85,"p__Bacteroidota;c__Bacteroidia;o__Cytophagales;f__Spirosomaceae;g__Leadbetterella","p_Bacteroidetes ;c_Cytophagia;o_Cytophagales;f_Cytophagaceae",21
+"2","RUN1",100,0,7.52,"p__Bacteroidota;c__Bacteroidia;o__Cytophagales;f__Spirosomaceae;g__Runella;s__","p_Bacteroidetes;c_Cytophagia;o_Cytophagales;f_Cytophagaceae;g_Runella",62
+"3","COMA1",99.84,0.06,4.42,"p__Proteobacteria;c__Gammaproteobacteria;o__Betaproteobacteriales;f__Burkholderiaceae;g__;s__","p_Proteobacteria;c_Betaproteobacteria;o_Burkholderiales;f_Comamonadaceae",33
+"4","TET1",98.95,0.55,3.66,"p__Actinobacteriota;c__Actinobacteria;o__Actinomycetales;f__Dermatophilaceae;g__Tetrasphaera_A","p_Actinobacteria;c_Actinobacteria;o_Micrococcales;f_Intrasporangiaceae;g_Tetrasphaera",57
+"5","FLAV1",99.29,0.35,3.09,"p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__Flavobacterium","p_Bacteroidetes;c_Flavobacteriia;o_Flavobacteriales;f_Flavobacteriaceae",20
+"6","BURK1",99.61,2.83,6.44,"p__Proteobacteria;c__Gammaproteobacteria;o__Betaproteobacteriales;f__Burkholderiaceae;g__Rubrivivax;","p_Proteobacteriac_Betaproteobacteria;o_Burkholderiales ",77
+"7","RHODO2",97.52,2.08,4.34,"p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__UBA6273","p_Proteobacteria;c_Alphaproteobacteria;o_Rhodobacterales;f_Rhodobacteraceae",82
+"8","RHODO1",98.43,0.32,2.98,"p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__UBA6273","p_Proteobacteria;c_Alphaproteobacteria;o_Rhodobacterales;f_Rhodobacteraceae",6
+"9","CAPIA",100,0.5,4.34,"p__Proteobacteria;c__Gammaproteobacteria;o__Betaproteobacteriales;f__Rhodocyclaceae;g__Accumulibacter","p_Proteobacteria;c_Betaproteobacteria;o_;f_Rhodocyclyacaeae;g_Accumulibacter;s_Candidatus Accumulibacter phosphatis clade IA",33
+"10","CAPIIA",99.84,0.24,4.76,"p__Proteobacteria;c__Gammaproteobacteria;o__Betaproteobacteriales;f__Rhodocyclaceae;g__Accumulibacter","p_Proteobacteria;c_Betaproteobacteria;o_;f_Rhodocyclyacaeae;g_Accumulibacter;s_Candidatus Accumulibacter phosphatis clade IIA",67
+"11","TET2",99.45,1.91,4.2,"p__Actinobacteriota;c__Actinobacteria;o__Actinomycetales;f__Dermatophilaceae;g__Tetrasphaera_A","p_Actinobacteria;c_Actinobacteria;o_Micrococcales;f_Intrasporangiaceae;g_Tetrasphaera",66
+"12","COMA2",99.95,1.04,3.88,"p__Proteobacteria;c__Gammaproteobacteria;o__Betaproteobacteriales;f__Burkholderiaceae","p_Proteobacteria;c_Betaproteobacteria;o_Burkholderiales;f_Comamonadaceae",37
+"13","BACT1",99.52,0,3.9,"p__Bacteroidota;c__Bacteroidia;o__NS11-12g;f__UKL13-3","p_Bacteroidetes",63
+"14","PSEDUO1",99.95,0.89,3.64,"p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Pseudoxanthomonas_A","p_Proteobacteria;c_Gammaproteobacteria;o_Xanthomonadales;f_Xanthomonadaceae;g_Pseudoxanthomonas",30
+"15","OBS1",97.44,0.57,5.17,"p__Cyanobacteriota;c__Vampirovibrionia;o__Obscuribacterales;f__Obscuribacteraceae","p_Candidatus Melainabacteria; c_; o_Candidatus Obscuribacterales; f_; g_Candidatus Obscuribacter; s_Candidatus Obscuribacter phosphatis",21
+"16","CHIT1",98.03,0,4.15,"p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Chitinophagaceae;g__;s__","p_Bacteroidetes;c_Chitinophagia;o_Chitinophagales ;f_Chitinophagaceae",9
