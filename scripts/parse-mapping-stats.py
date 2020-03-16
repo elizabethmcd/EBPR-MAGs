@@ -1,4 +1,4 @@
-#! /usr/bin/python 
+#! /home/GLBRCORG/emcdaniel/anaconda3/bin/python3
 
 import os, re, sys
 import pandas as pd
@@ -12,10 +12,10 @@ if __name__ == "__main__":
         exit()
 
     # Arguments
-    depthfile = sys.argv[3]
+    filename = sys.argv[3]
     covFileHeader = "filename\tref\tmeta\tmetareads\tbaseCovSum\tcoveredBases\ttotalBases\tAvgCov\n"
     regCovLine = "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n"
-    ref, meta = os.path.basename(depthfile).split("-vs-")
+    ref, meta = os.path.basename(filename).split("-vs-")
     meta = meta.split(".")[0]
 
     # Genome size
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     for line in refLengths:
         if re.search(ref, line):
             refLength = int(line.split()[1])
-    
+
     # Metagenomic reads
     metaReadsfile = open(sys.argv[2], "r")
     metareads = int()
@@ -33,14 +33,14 @@ if __name__ == "__main__":
             metareads = int(line.split(" ")[1].rstrip())
             break
     metaReadsfile.close()
-    
+
     # File empty if no reads recruited, otherwise not empty
     outname = sys.argv[4]
     if os.stat(filename).st_size ==0:
         if os.path.exists(outname):
-            with open(outname, "a") as outfile: 
+            with open(outname, "a") as outfile:
                 outfile.write(regCovLine.format(filename, ref, meta, metareads, "0", "0", refLength, "NA"))
-        else: 
+        else:
             with open(outname, "a") as outfile:
                 outfile.write(covFileHeader)
                 outfile.write(regCovLine.format(filename, ref, meta, metareads, "0", "0", refLength, "NA"))
@@ -50,7 +50,7 @@ if __name__ == "__main__":
         if os.path.exists(outname):
             with open(outname, "a") as outfile:
                 outfile.write(regCovLine.format(filename, ref, meta, metareads, depth_df[covCol].sum(), depth_df[covCol].count(), refLength, depth_df[covCol].sum() / float(refLength)))
-        else: 
-            with open(outname, "a") as outfile: 
+        else:
+            with open(outname, "a") as outfile:
                 outfile.write(covFileHeader)
                 outfile.write(regCovLine.format(filename, ref, meta, metareads, depth_df[covCol].sum(), depth_df[covCol].count(), refLength, depth_df[covCol].sum() / float(refLength)))
