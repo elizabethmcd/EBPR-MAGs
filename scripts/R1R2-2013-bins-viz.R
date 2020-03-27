@@ -53,6 +53,7 @@ highActivity = left_join(activity, names)
 
 # plots of abundance and qual
 highABPlot = highAbundance %>% ggplot(aes(x=reorder(Bin, -X5.28.13), y=X5.28.13, fill=Highest_Classf)) + geom_col() + labs(x="Genome", y="% Relative Abundance") + theme_classic() + scale_fill_brewer(palette="Paired") + theme(legend.position="none", axis.text.x= element_text(angle=85, hjust=1))
+highABPlot
 highQualPlot = highAbundance %>% ggplot(aes(x=comp, y=contam, color=Highest_Classf)) + geom_point(size=4) + scale_color_brewer(palette="Paired") + theme_classic()
 
 # analyze TPM expression by anaerobic/aerobic cycles
@@ -63,8 +64,14 @@ anaerobic = highActivity %>% ggplot(aes(x=reorder(Bin, -Anaerobic), y=Anaerobic,
 aerobic = highActivity %>% ggplot(aes(x=reorder(Bin, -Aerobic), y=Aerobic, fill=Highest_Classf)) + geom_col() + theme_classic() + theme(legend.position="none", axis.text.x= element_text(angle=85, hjust=1), axis.title.x = element_blank(), axis.title.y=element_blank()) + scale_fill_brewer(palette="Paired")
 
 p1 =  (anaerobic + aerobic)
-p1
+
+# plot of anaerobic and aerobic together in paired bar plot
+cycles = highActivity %>% select(Bin, Anaerobic, Aerobic)
+write.csv(cycles, "~/Desktop/R1R2-trans-cycles.csv", quote = FALSE, row.names = FALSE)
+cyclesM = read.csv("~/Desktop/cycles-melted.csv")
+p2 <- ggplot(cyclesM, aes(x=reorder(Bin, -counts), y=counts, fill=cycle)) + geom_bar(stat = "identity", position="dodge") + theme_classic() + theme(axis.text.x= element_text(angle=85, hjust=1))
 
 ggsave(plot = highABPlot, filename="~/Desktop/R1R2-relative-abundance.png", units=c('cm'), width=15, height=10)
 ggsave(plot = highQualPlot, filename="~/Desktop/R1R2-qual.png", units=c('cm'), width=10, height=5)
 ggsave(plot = p1, filename="~/Desktop/R1R2-an-aer-expression.png", units=c('cm'), width=15, height=10)
+ggsave(plot = p2, filename="~/Desktop/R1R2-an-aer-expression.png", units=c('cm'), width=15, height=10)
