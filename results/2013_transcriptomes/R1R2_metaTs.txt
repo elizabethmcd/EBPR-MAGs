@@ -1,0 +1,6 @@
+B_15_Anaerobic.qced.fixed.nonrRNA.R1.fastq	B_15_Anaerobic.qced.fixed.nonrRNA.R2.fastq	B_15_Anaerobic
+D_52min_Anaerobic.qced.fixed.nonrRNA.R1.fastq	D_52min_Anaerobic.qced.fixed.nonrRNA.R2.fastq	D_52min_Anaerobic
+F_92min_Anaerobic.qced.fixed.nonrRNA.R1.fastq	F_92min_Anaerobic.qced.fixed.nonrRNA.R2.fastq	F_92min_Anaerobic
+H_11min_Aerobic.qced.fixed.nonrRNA.R1.fastq	H_11min_Aerobic.qced.fixed.nonrRNA.R2.fastq	H_11min_Aerobic
+J_51min_Aerobic.qced.fixed.nonrRNA.R1.fastq	J_51min_Aerobic.qced.fixed.nonrRNA.R2.fastq	J_51min_Aerobic
+N_134min_Aerobic.qced.fixed.nonrRNA.R1.fastq	N_134min_Aerobic.qced.fixed.nonrRNA.R2.fastq	N_134min_Aerobic

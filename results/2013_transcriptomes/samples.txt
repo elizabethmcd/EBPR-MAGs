@@ -1,0 +1,7 @@
+experiment	SRA
+B_15min_Anaerobic   SRR5248415
+D_52min_Anaerobic   SRR5248431
+F_92min_Anaerobic   SRX2554572
+H_11min_Aerobic     SRX2554570
+J_51min_Aerobic     SRX2554578
+N_134min_Aerobic    SRR5248463

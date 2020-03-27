@@ -23,4 +23,3 @@ awk '{s++}END{print FILENAME,s/4}' $META >> $OUTDIR/$DEPTHBASE-reads.txt
 # stats file
 
 $PYTHONPATH $EXDIR/calc-mapping-stats.py $OUTDIR/$DEPTHBASE.len $OUTDIR/$DEPTHBASE-reads.txt $DEPTH $OUTDIR/$DEPTHBASE.coverage.txt
-

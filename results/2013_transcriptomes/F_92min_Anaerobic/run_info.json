@@ -1,0 +1,13 @@
+{
+	"n_targets": 244721,
+	"n_bootstraps": 0,
+	"n_processed": 112297085,
+	"n_pseudoaligned": 30057894,
+	"n_unique": 29605712,
+	"p_pseudoaligned": 26.8,
+	"p_unique": 26.4,
+	"kallisto_version": "0.46.0",
+	"index_version": 10,
+	"start_time": "Wed Mar 25 17:34:15 2020",
+	"call": "kallisto quant -i R1R2-bins-index -o F_92min_Anaerobic F_92min_Anaerobic.qced.fixed.nonrRNA.R1.fastq F_92min_Anaerobic.qced.fixed.nonrRNA.R2.fastq"
+}
