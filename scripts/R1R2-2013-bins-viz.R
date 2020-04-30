@@ -86,4 +86,6 @@ cycles = allCounts %>% select(Bin, Anaerobic, Aerobic)
 write.csv(cycles, "results/2013_transcriptomes/results/R1R2-anaerobic-aerobic-sums-expression.csv", quote=FALSE, row.names = FALSE)
 cycles_m <- read.csv("results/2013_transcriptomes/results/R1R2-anaerobic-aerobic-sums-expression-melted.csv")
 
-ggplot(cycles_m, aes(x=reorder(Bin, -expression), y=expression, fill=phase)) + geom_col( width=0.7, position="dodge") + scale_y_log10(limits=c(1,1e6), expand=c(0,0), breaks = scales::log_breaks(n=7) ) + theme_classic() + theme(axis.text.x= element_text(angle=85, hjust=1), aspect.ratio=1/8)
+expression <- ggplot(cycles_m, aes(x=reorder(Bin, -expression), y=expression, fill=phase)) + geom_col( width=0.7, position="dodge") + scale_fill_manual(values=c("#B3B3B3", "#4D8C84")) + scale_y_log10(limits=c(1,1e6), expand=c(0,0), breaks = scales::log_breaks(n=7) ) + theme_classic() + theme(axis.text.x= element_text(angle=85, hjust=1), aspect.ratio=1/8)
+
+ggsave(plot=expression, file="figs/R3R4-2013MAGs-anaerobic-aerobic-expression.png", width=8, height=10, units=c("in"))
