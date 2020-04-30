@@ -1,3 +1,4 @@
+*.RProj
 *.RData
 results/annotations/2019-07-29-KO-redone/all-ebpr-prots.faa
 kallisto_results/
@@ -10,3 +11,4 @@ figs/
 .DS_Store
 EBPR-annotations/
 genomes/
+.Rproj.user

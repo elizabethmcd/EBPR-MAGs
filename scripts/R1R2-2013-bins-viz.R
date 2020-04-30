@@ -23,9 +23,10 @@ may2013 = abundance %>% select(Bin, Highest_Classf, X5.28.13)
 # abundance figures
 avgFig = abundance %>% ggplot(aes(x=reorder(Bin, -average), y=average, fill=Highest_Classf)) + geom_col() + labs(x="Genome", y="% Average Relative Abundance") + theme_classic() + scale_fill_brewer(palette="Paired")
 mayFig = may2013 %>% ggplot(aes(x=reorder(Bin, -X5.28.13), y=X5.28.13, fill=Highest_Classf)) + geom_col() + labs(x="Genome", y="% Relative Abundance") + theme_classic() + scale_fill_brewer(palette="Paired")
+mayFig
 
 # TPM transcriptional results added
-counts = read.csv('results/2013_transcriptomes/2013_R1R2_ebpr_normalized_TPM_counts_kallisto.csv')
+counts = read.csv('results/2013_transcriptomes/results/2013_R1R2_ebpr_normalized_TPM_counts_kallisto.csv')
 # get average of counts
 sumCounts = aggregate(counts[3:8], list(counts$Bin), sum)
 sumCounts$Avg = rowMeans(sumCounts[,-1])
@@ -38,7 +39,7 @@ countsFig = avgCounts %>% ggplot(aes(x=reorder(Bin, -Avg), y=Avg, fill=Highest_C
 countsFig
 
 # calc raw counts
-raw = read.csv('results/2013_transcriptomes/2013_R1R2_ebpr_raw_counts_kallisto.csv')
+raw = read.csv('results/2013_transcriptomes/results/2013_R1R2_ebpr_raw_counts_kallisto.csv')
 sumRaw = aggregate(raw[3:8], list(counts$Bin), sum)  
 sumRaw$total = rowSums(sumRaw[2:7])
 colnames(sumRaw)[1] = c("Bin")
@@ -75,3 +76,14 @@ ggsave(plot = highABPlot, filename="~/Desktop/R1R2-relative-abundance.png", unit
 ggsave(plot = highQualPlot, filename="~/Desktop/R1R2-qual.png", units=c('cm'), width=10, height=5)
 ggsave(plot = p1, filename="~/Desktop/R1R2-an-aer-expression.png", units=c('cm'), width=15, height=10)
 ggsave(plot = p2, filename="~/Desktop/R1R2-an-aer-expression.png", units=c('cm'), width=15, height=10)
+
+# plot of aerobic vs anaerobic expression of all bins regardless of total mapped reads
+allCounts = sumCounts
+allCounts$Anaerobic = (allCounts$B_15min_Anaerobic + allCounts$D_52min_Anaerobic + allCounts$F_92min_Anaerobic) / 3
+allCounts$Aerobic = (allCounts$H_11min_Aerobic + allCounts$J_51min_Aerobic + allCounts$N_134min_Aerobic) / 3
+cycles = allCounts %>% select(Bin, Anaerobic, Aerobic)
+
+write.csv(cycles, "results/2013_transcriptomes/results/R1R2-anaerobic-aerobic-sums-expression.csv", quote=FALSE, row.names = FALSE)
+cycles_m <- read.csv("results/2013_transcriptomes/results/R1R2-anaerobic-aerobic-sums-expression-melted.csv")
+
+ggplot(cycles_m, aes(x=reorder(Bin, -expression), y=expression, fill=phase)) + geom_col( width=0.7, position="dodge") + scale_y_log10(limits=c(1,1e6), expand=c(0,0), breaks = scales::log_breaks(n=7) ) + theme_classic() + theme(axis.text.x= element_text(angle=85, hjust=1), aspect.ratio=1/8)
