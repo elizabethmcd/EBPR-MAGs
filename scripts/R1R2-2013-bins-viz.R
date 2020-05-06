@@ -62,6 +62,7 @@ highActivity$Anaerobic = (highActivity$B_15min_Anaerobic + highActivity$D_52min_
 highActivity$Aerobic = (highActivity$H_11min_Aerobic + highActivity$J_51min_Aerobic + highActivity$N_134min_Aerobic) / 3
 
 anaerobic = highActivity %>% ggplot(aes(x=reorder(Bin, -Anaerobic), y=Anaerobic, fill=Highest_Classf)) + geom_col() + theme_classic() + theme(legend.position="none", axis.text.x= element_text(angle=85, hjust=1), axis.title.x = element_blank(), axis.title.y=element_blank()) + scale_fill_brewer(palette="Paired")
+
 aerobic = highActivity %>% ggplot(aes(x=reorder(Bin, -Aerobic), y=Aerobic, fill=Highest_Classf)) + geom_col() + theme_classic() + theme(legend.position="none", axis.text.x= element_text(angle=85, hjust=1), axis.title.x = element_blank(), axis.title.y=element_blank()) + scale_fill_brewer(palette="Paired")
 
 p1 =  (anaerobic + aerobic)
@@ -83,9 +84,11 @@ allCounts$Anaerobic = (allCounts$B_15min_Anaerobic + allCounts$D_52min_Anaerobic
 allCounts$Aerobic = (allCounts$H_11min_Aerobic + allCounts$J_51min_Aerobic + allCounts$N_134min_Aerobic) / 3
 cycles = allCounts %>% select(Bin, Anaerobic, Aerobic)
 
+binOrder = readLines("results/2013_taxonomy/r1r2-bins-grouped.txt")
+
 write.csv(cycles, "results/2013_transcriptomes/results/R1R2-anaerobic-aerobic-sums-expression.csv", quote=FALSE, row.names = FALSE)
 cycles_m <- read.csv("results/2013_transcriptomes/results/R1R2-anaerobic-aerobic-sums-expression-melted.csv")
 
-expression <- ggplot(cycles_m, aes(x=reorder(Bin, -expression), y=expression, fill=phase)) + geom_col( width=0.7, position="dodge") + scale_fill_manual(values=c("#B3B3B3", "#4D8C84")) + scale_y_log10(limits=c(1,1e6), expand=c(0,0), breaks = scales::log_breaks(n=7) ) + theme_classic() + theme(axis.text.x= element_text(angle=85, hjust=1), aspect.ratio=1/8)
+expression <- ggplot(cycles_m, aes(x=reorder(Bin, -expression), y=expression, fill=phase)) + geom_col( width=0.7, position="dodge") + scale_fill_manual(values=c("#B3B3B3", "#4D8C84")) + scale_y_log10(limits=c(1,1e6), expand=c(0,0), breaks = scales::log_breaks(n=7) ) + scale_x_discrete(limits = binOrder) + theme_classic() + theme(axis.text.x= element_text(angle=85, hjust=1), aspect.ratio=1/8)
 
 ggsave(plot=expression, file="figs/R3R4-2013MAGs-anaerobic-aerobic-expression.png", width=8, height=10, units=c("in"))
