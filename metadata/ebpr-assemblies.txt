@@ -1,0 +1,5 @@
+/home/GLBRCORG/emcdaniel/EBPR/coassembly/assemblies/all_assembs/3300009517_contigs.fasta
+/home/GLBRCORG/emcdaniel/EBPR/coassembly/assemblies/all_assembs/3300026286_contigs.fasta
+/home/GLBRCORG/emcdaniel/EBPR/coassembly/assemblies/all_assembs/3300026302_contigs.fasta
+/home/GLBRCORG/emcdaniel/EBPR/coassembly/assemblies/all_assembs/megahit_contigs.fasta
+/home/GLBRCORG/emcdaniel/EBPR/coassembly/assemblies/all_assembs/spades_contigs.fasta

@@ -1,0 +1,3 @@
+/home/GLBRCORG/emcdaniel/EBPR/coassembly/metagenomes/cleaned_fastqs/2013-05-13-EBPR.qced.fastq
+/home/GLBRCORG/emcdaniel/EBPR/coassembly/metagenomes/cleaned_fastqs/2013-05-23-EBPR.qced.fastq
+/home/GLBRCORG/emcdaniel/EBPR/coassembly/metagenomes/cleaned_fastqs/2013-05-28-EBPR.qced.fastq
