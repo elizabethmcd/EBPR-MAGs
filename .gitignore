@@ -1,3 +1,6 @@
+results/all_ts/
+results/2013_binning/annotations/
+results/assemblies/
 *.RProj
 *.RData
 results/annotations/2019-07-29-KO-redone/all-ebpr-prots.faa
