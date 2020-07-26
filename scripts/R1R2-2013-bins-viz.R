@@ -92,3 +92,15 @@ cycles_m <- read.csv("results/2013_transcriptomes/results/R1R2-anaerobic-aerobic
 expression <- ggplot(cycles_m, aes(x=reorder(Bin, -expression), y=expression, fill=phase)) + geom_col( width=0.7, position="dodge") + scale_fill_manual(values=c("#B3B3B3", "#4D8C84")) + scale_y_log10(limits=c(1,1e6), expand=c(0,0), breaks = scales::log_breaks(n=7) ) + scale_x_discrete(limits = binOrder) + theme_classic() + theme(axis.text.x= element_text(angle=85, hjust=1), aspect.ratio=1/8)
 
 ggsave(plot=expression, file="figs/R3R4-2013MAGs-anaerobic-aerobic-expression.png", width=8, height=10, units=c("in"))
+
+# Final EBPR table 
+
+ebpr_mapping <- read.csv("results/2013_R1R2_finalBins_stats_mapping_classfs.csv") %>% select(-Highest_Classf)
+ebpr_stats <- read.csv("results/2013_binning/R1R2-May2013-final-rep-species-bins-stats-table.csv") %>% select(Bin, rRNA, tRNA, X5S, X16S, X23S)
+
+colnames(ebpr_mapping) <- c("Bin", "Code", "Classification", "Completeness", "Contamination", "Size_Mbp", "Contigs", "GC", "abund-2013-5-13", "abund-2013-5-23", "abund-2013-5-28")
+colnames(ebpr_stats) <- c("Bin", "rRNA", "tRNA", "rRNA_5S", "rRNA_16S", "rRNA_23S")
+ebpr_table <- left_join(ebpr_mapping, ebpr_stats)
+ebpr_table$Size_Mbp <- ebpr_table$Size_Mbp / 1000000
+
+write.csv(ebpr_table, "results/R1R2-EBPR-MAGs-table.csv", quote=FALSE, row.names = FALSE)
