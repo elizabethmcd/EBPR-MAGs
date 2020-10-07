@@ -105,6 +105,17 @@ bin_order <- c('AUS1',
                'PSEUDO1',
                'PSEUDO2')
 
+# All traits
+traits_table <- traits_modf %>% 
+  select(Code, hao, nirB, nirD, nirK, narGZ, nosZ, nosD, nifD, nifH, nifK, pstABCS, phoU, ppk1, pit, phbA, phbB, phbC, phaZ, soxA, soxA, soxB, soxC, soxD, soxX, soxY, soxZ)
+
+traits.melted <- melt(traits_table, id.vars="Code") %>% mutate(Code=factor(Code), Code=factor(Code, levels=c(bin_order)))
+
+all_traits_plot <- traits.melted %>% ggplot(aes(x=Code, y=fct_rev(variable), fill=value)) + geom_tile(color="black", size=0.5, aes(width=1, height=1)) + coord_fixed() + theme(axis.text.x.bottom = element_text(angle=80, hjust=0.95, face="bold"), axis.text.y.left = element_text(face="italic"), axis.ticks.y=element_blank())
+all_traits_plot
+
+ggsave("figs/all-traits-heatmap-PNS_PHA.pdf", all_traits_plot, width=25, height=10, units=c("cm"))
+
 # Nitrogen
 nitrogen.melted <- melt(nitrogen, id.vars="Code") %>% 
   mutate(Code=factor(Code), Code=factor(Code, levels=c(bin_order)))
