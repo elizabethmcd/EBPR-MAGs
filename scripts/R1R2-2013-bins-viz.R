@@ -1,5 +1,8 @@
 library(tidyverse)
 library(patchwork)
+library(formattable)
+library(htmltools)
+library(webshot)
 
 mapping = read_delim('results/2013_mapping/R1R2-abundance.txt', delim="\t", col_names=FALSE)
 stats = read_delim('results/2013_binning/R1R2-May2013-final-rep-species-bins-stats-table.csv', delim=',')
@@ -104,3 +107,29 @@ ebpr_table <- left_join(ebpr_mapping, ebpr_stats)
 ebpr_table$Size_Mbp <- ebpr_table$Size_Mbp / 1000000
 
 write.csv(ebpr_table, "results/R1R2-EBPR-MAGs-table.csv", quote=FALSE, row.names = FALSE)
+
+#######################################################
+# table for EBPR MAGs stats
+
+ebpr_metadata <- ebpr_table %>% 
+  select(Code, Classification, Completeness, Contamination, Size_Mbp, GC, Contigs, tRNA, rRNA, rRNA_5S, rRNA_16S, rRNA_23S, `abund-2013-5-13`, `abund-2013-5-23`, `abund-2013-5-28`)
+
+ebpr_metadata$Size_Mbp <- round(ebpr_metadata$Size_Mbp, digits=2)
+ebpr_metadata[,13:15] <- round(ebpr_metadata[,13:15], digits=2)
+colnames(ebpr_metadata) <- c("Genome", "GTDB-tk Classification", "Completeness", "Redundancy", "Size (Mbp)", "GC Content", "Contigs", "tRNAs", "rRNAs", "5S rRNA", "16S rRNA", "23S rRNA", "2013-05-13 Abundance", "2013-05-23 Abundance", "2013-05-28 Abundance")
+
+metadata_table <- formattable(ebpr_metadata, align = c("l", "l", rep("r", NCOL(ebpr_metadata) - 2)))
+
+export_formattable <- function(f, file, width = "100%", height = NULL, 
+                               background = "white", delay = 0.2)
+{
+  w <- as.htmlwidget(f, width = width, height = height)
+  path <- html_print(w, background = background, viewer = NULL)
+  url <- paste0("file:///", gsub("\\\\", "/", normalizePath(path)))
+  webshot(url,
+          file = file,
+          selector = ".formattable_widget",
+          delay = delay)
+}
+
+export_formattable(metadata_table, "figs/ebpr-metadata-table.pdf")
