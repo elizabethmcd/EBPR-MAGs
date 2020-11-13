@@ -1,0 +1,34 @@
+["rgb(63,90,168)", "rgb(253,165,71)", "rgb(110,49,172)", "rgb(243,212,38)", "rgb(205,31,206)", "rgb(85,69,10)", "rgb(144,169,244)", "rgb(132,36,17)", "rgb(255,168,255)", "rgb(247,96,21)", "rgb(114,18,255)", "rgb(235,206,203)", "rgb(133,22,87)", "rgb(246,141,146)", "rgb(147,128,115)"]
+["#3f5aa8", "#fda547", "#6e31ac", "#f3d426", "#cd1fce", "#55450a", "#90a9f4", "#842411", "#ffa8ff", "#f76015", "#7212ff", "#ebcecb", "#851657", "#f68d92", "#938073"]
+
+#3f5aa8 blue    BIOSYNTHESIS SECONDARY METABOLITES  
+#fda547 light orange    ABC TRANSPORTERS
+#6e31ac purple  COFACTOR/VITAMIN METB
+#f3d426 yellow  ATP SYNTHESIS
+#cd1fce dark pink   AMINO ACID BIOSYNTHESIS
+#55450a brown   METHANE METABOLISM
+#90a9f4 light blue  TRANSPORTERS
+#842411 red brown   POLYSACCHARIDE METABOLISM
+#ffa8ff light pink  LIPID METABOLISM
+#f76015 dark orange CENTRAL CARBON METABOLISM
+#7212ff violet  NITROGEN METABOLISM
+#ebcecb mauve   SECRETION PATHWAYS
+#851657 red purple  SULFUR METABOLISM
+#f68d92 medium pink FATTY ACID METABOLISM
+#938073 greyish OTHER
+
+rgb(63,90,168) 
+rgb(253,165,71)
+rgb(110,49,172)
+rgb(243,212,38)
+rgb(205,31,206)
+rgb(85,69,10)
+rgb(144,169,244)
+rgb(132,36,17)
+rgb(255,168,255)
+rgb(247,96,21)
+rgb(114,18,255)
+rgb(235,206,203)
+rgb(133,22,87)
+rgb(246,141,146)
+rgb(147,128,115)
