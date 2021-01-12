@@ -75,6 +75,7 @@ cycles = highActivity %>% select(Bin, Anaerobic, Aerobic)
 write.csv(cycles, "~/Desktop/R1R2-trans-cycles.csv", quote = FALSE, row.names = FALSE)
 cyclesM = read.csv("~/Desktop/cycles-melted.csv")
 p2 <- ggplot(cyclesM, aes(x=reorder(Bin, -counts), y=counts, fill=cycle)) + geom_bar(stat = "identity", position="dodge") + theme_classic() + theme(axis.text.x= element_text(angle=85, hjust=1))
+p2
 
 ggsave(plot = highABPlot, filename="~/Desktop/R1R2-relative-abundance.png", units=c('cm'), width=15, height=10)
 ggsave(plot = highQualPlot, filename="~/Desktop/R1R2-qual.png", units=c('cm'), width=10, height=5)
@@ -111,12 +112,17 @@ write.csv(ebpr_table, "results/R1R2-EBPR-MAGs-table.csv", quote=FALSE, row.names
 #######################################################
 # table for EBPR MAGs stats
 
-ebpr_metadata <- ebpr_table %>% 
-  select(Code, Classification, Completeness, Contamination, Size_Mbp, GC, Contigs, tRNA, rRNA, rRNA_5S, rRNA_16S, rRNA_23S, `abund-2013-5-13`, `abund-2013-5-23`, `abund-2013-5-28`)
+ebpr_modf_table <- read.csv("results/R1R2-EBPR-MAGs-table.csv")
+
+
+ebpr_metadata <- ebpr_modf_table %>% 
+  select(Code, Classification, Completeness, Contamination, Size_Mbp, GC, Contigs, tRNA, rRNA, rRNA_5S, rRNA_16S, rRNA_23S, abund.2013.5.13, abund.2013.5.23, abund.2013.5.28, total_raw_transcriptional_reads_mapped)
 
 ebpr_metadata$Size_Mbp <- round(ebpr_metadata$Size_Mbp, digits=2)
 ebpr_metadata[,13:15] <- round(ebpr_metadata[,13:15], digits=2)
-colnames(ebpr_metadata) <- c("Genome", "GTDB-tk Classification", "Completeness", "Redundancy", "Size (Mbp)", "GC Content", "Contigs", "tRNAs", "rRNAs", "5S rRNA", "16S rRNA", "23S rRNA", "2013-05-13 Abundance", "2013-05-23 Abundance", "2013-05-28 Abundance")
+ebpr_metadata[,16] <- round(ebpr_metadata[,16], digits=0)
+ebpr_metadata[,16] <- format(ebpr_metadata[,16], 1e6, big.mark=",", scientific=FALSE)
+colnames(ebpr_metadata) <- c("Genome", "GTDB-tk Classification", "Completeness", "Redundancy", "Size (Mbp)", "GC Content", "Contigs", "Total tRNAs", "Total rRNAs", "5S rRNA", "16S rRNA", "23S rRNA", "2013-05-13 Abundance", "2013-05-23 Abundance", "2013-05-28 Abundance", "Total Transcriptional Reads Mapped")
 
 metadata_table <- formattable(ebpr_metadata, align = c("l", "l", rep("r", NCOL(ebpr_metadata) - 2)))
 
