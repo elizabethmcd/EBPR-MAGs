@@ -132,3 +132,12 @@ amino_top_15_totals <- amino_info %>%
   group_by(Code) %>% 
   count() %>% 
   arrange(n)
+
+amino_top_15_descriptions <- amino_info %>% 
+  filter(Code %in% top_15) %>% 
+  group_by(Code) %>% 
+  arrange(Code, pathway)
+
+amino_top_15_totals
+
+write.csv(amino_top_15_descriptions, "results/2013_binning/annotations/manual_annotations/top15_amino_descriptions.csv", quote=FALSE, row.names = FALSE)
