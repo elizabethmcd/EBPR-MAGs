@@ -120,9 +120,10 @@ ggsave("figs/all-traits-heatmap-PNS_PHA.pdf", all_traits_plot, width=25, height=
 nitrogen.melted <- melt(nitrogen, id.vars="Code") %>% 
   mutate(Code=factor(Code), Code=factor(Code, levels=c(bin_order)))
 
-nitrogen_plot <- nitrogen.melted %>% ggplot(aes(x=variable, y=fct_rev(Code), fill=value)) + geom_tile(color='black', size=0.5, aes(width=1,height=1)) + coord_fixed() + scale_fill_gradient(low="white", high="blue3") + theme(panel.grid=element_blank(), panel.border=element_blank(), plot.margin=unit(c(0,0,0,0), "cm")) + scale_x_discrete(position="top", expand=c(0,0)) + theme(axis.text.x.top=element_text(angle=85, hjust=0, face="italic"), axis.ticks.x=element_blank()) + labs(x=NULL, y=NULL) +  scale_y_discrete(expand=c(0,0))
+nitrogen_plot <- nitrogen.melted %>% ggplot(aes(x=fct_rev(Code), y=variable, fill=value)) + geom_tile(color='black', size=0.5, aes(width=1,height=1)) + coord_fixed() + scale_fill_gradient(low="white", high="blue3") + theme(panel.grid=element_blank(), panel.border=element_blank(), plot.margin=unit(c(0,0,0,0), "cm")) + scale_x_discrete(position="top", expand=c(0,0)) + theme(axis.text.x.top=element_text(angle=85, hjust=0, face="italic"), axis.ticks.x=element_blank()) + labs(x=NULL, y=NULL) +  scale_y_discrete(expand=c(0,0))
 
 nitrogen_clean <- nitrogen_plot + theme(legend.position="none")
+nitrogen_clean
 
 # Sulfur
 sulfur.melted <- melt(sulfur, id.vars="Code") %>% 
