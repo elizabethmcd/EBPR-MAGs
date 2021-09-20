@@ -1,3 +1,5 @@
+NCBI_genomeBatch_upload/
+R1R2_refMAGs/
 results/
 *.tar.gz
 results/2013_taxonomy/
