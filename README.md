@@ -1,3 +1,7 @@
-# Extracting Metagenome-Assembled Genomes from EBPR Enrichment Reactor Time-Series
+# Genome-Resolved Metagenomics and Metatranscriptomics Analysis of an EBPR Lab-Scale Enrichment Bioreactor Time-series
 
 This series of workflows demonstrate how to extract, refine, and utilize metagenome assembled genomes (MAGs) from a metagenomic time-series of EBPR reactors. Most of the workflow was constructed to be run on a high-throughput computing system, specifically HT-Condor systems such as [CHTC at UW-Madison](http://chtc.cs.wisc.edu/) and the WEI cluster. These steps describe the filtering, assembly, refinement, classification, and annotation steps of using metagenome assembled genomes, and using them for a metatranscriptomics analysis.
+
+These scripts and workflows are generally applicable to genome-resolved metagenomics and metatranscriptomics analyses and several of my projects, but were originally performed for the publication: 
+
+**TbasCO: Trait-based Comparative ‘Omics Identifies Ecosystem-Level and Niche-Differentiating Adaptations of an Engineered Microbiome.** McDaniel E.A.#, van Steenbrugge J.J.M.#, Noguera D.R., McMahon K.D., Raaijmakers J.M., Medema M.H., Oyserman B.O. bioRxiv. Dec. 2021. DOI: 10.1101/2021.12.04.471239 [preprint](https://www.biorxiv.org/content/10.1101/2021.12.04.471239v1)
